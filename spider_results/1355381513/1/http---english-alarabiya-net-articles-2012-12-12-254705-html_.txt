@@ -1,0 +1,694 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Egyptian Copt Alber Saber jailed for blasphemy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="verify-v1" content="OJbZqscTQQL+PZhvrfKx9n8GjkUM8P021DmvhDoqL28=" />
+<meta name="y_key" content="8192c7fa220bbaae" />
+<meta name="Title" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta name="DC.Title" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta name="DC.Subject" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta name="description" content="An Egyptian Copt arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world was sentenced on Wednesday to three years in prison, a court source said
+
+ Computer science graduate Alber Saber, 27, was arrested at his Cairo home on Sept. 13 after neighbours accused him of uploading sections of the film “Innocence of Muslims” and making another movie mocking all religions." />
+<meta name="DC.Description" content="An Egyptian Copt arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world was sentenced on Wednesday to three years in prison, a court source said
+
+ Computer science graduate Alber Saber, 27, was arrested at his Cairo home on Sept. 13 after neighbours accused him of uploading sections of the film “Innocence of Muslims” and making another movie mocking all religions." />
+<meta property="og:title" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta property="og:description" content="An Egyptian Copt arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world was sentenced on Wednesday to three years in prison, a court source said
+
+ Computer science graduate Alber Saber, 27, was arrested at his Cairo home on Sept. 13 after neighbours accused him of uploading sections of the film “Innocence of Muslims” and making another movie mocking all religions." />
+<meta name="ts" content="1355312627" />
+<meta property="og:image" content="http://images.alarabiya.net/66/6d/640x392_28468_254705.jpg" /> 
+<meta name="author" content="0" />
+<meta name="headline" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta name="heading" content="Egyptian Copt Alber Saber jailed for blasphemy" />
+<meta name="keywords" content="Egyptian,Copt,Alber,Saber,was,arrested,on,suspicion,of,posting,online,an,anti-Islam,film,that,ignited,Muslim,protests,around,the,world.,(Reuters),jailed,for,blasphemy" />
+<link rel="alternate" type="application/rss+xml" title="Alarabiya.net English | Front Page" href="/rss/en_default.xml" />
+<link rel="alternate" type="application/rss+xml" title="English Middle East" href="/rss/en_meast.xml" />
+<link rel="alternate" type="application/rss+xml" title="English International" href="/rss/en_intr.xml" />
+<link rel="alternate" type="application/rss+xml" title="English Variety" href="/rss/en_var.xml" />
+<link rel="alternate" type="application/rss+xml" title="English Business and Technology" href="/rss/en_business_tech.xml" />
+<link rel="alternate" type="application/rss+xml" title="English Society and Culture" href="/rss/en_society_culture.xml" />
+<link rel="alternate" type="application/rss+xml" title="Editors Choice English" href="/rss/editors_picks_en.xml" />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/stylesheet.css?_104' />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/jquery.lightbox-0.5.css?_104' />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/aa_light_window.css?_104' />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/article.css?_104' />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/extras.css?_104' />
+<link type='text/css' rel='stylesheet' href='/assets/en/css/video-detail.css?_104' />
+<script type='text/javascript' src='/assets/en/js/jquery-1.7.1.min.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/jquery-ui-1.8.2.custom.min.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/jquery.showcase.js?_104' ></script>
+<script>
+jQuery.JSvars = {
+		HOST_FORGIEN_URL : 'http://english.alarabiya.net/'
+			};
+</script><script type='text/javascript' src='/assets/en/js/jquery.tools.min.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/jquery.swfobject.1-1-1.min.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/adv.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/ads.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/compatibility.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/jquery.lightbox-0.5.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/modules/home/js/pagetype.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/bookmarks.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/MasterTemplateInnerPage.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/comments.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/misc_web.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/swfobject2.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/flv_player.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/aa_lightwindow.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/PopBoxV2.js?_104' ></script>
+<script type='text/javascript' src='/assets/en/js/jquery.equalheights.js?_104' ></script>
+<script>
+	function getNonNullValue(objVal) {
+		if(objVal===undefined)
+			return "";
+		else
+			return objVal;
+	}
+	var PageOptions ={lang:"", contentType:"", contentCateg:"", contentSection:"", webRootPath:"", articleId:""};
+	PageOptions.lang = getNonNullValue('en');
+	PageOptions.contentType = getNonNullValue('Detail');
+	PageOptions.contentCateg = getNonNullValue('article_en');
+	PageOptions.contentSection = getNonNullValue('article_en');
+	PageOptions.webRootPath = getNonNullValue('/');
+	PageOptions.systemTime = new Date("December 12, 2012 14:45:45");
+</script>
+
+
+<script language="JavaScript" type="text/javascript">
+	ord=Math.random()*10000000000000000;
+</script>
+
+
+
+</head>
+<body class="contents_en_default en article_en ">
+
+<!-- Tag for Activity Group: AA Eng Website, Activity Name: AA English Landing Page, Activity ID: 859203 -->
+<!-- Expected URL: http://english.alarabiya.net/ -->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+var b = Math.random(); 
+document.write('<iframe src="http://fls.doubleclick.net/activityi;src=3258157;type=aaeng006;cat=aaeng586;ord=b;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://fls.doubleclick.net/activityi;src=3258157;type=aaeng006;cat=aaeng586;ord=b;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+
+
+
+<div class="site-container" id="site-container">
+    
+	<div id="header-container">
+	<div id="header-advt">
+		
+    <div class="header-add" id="header-add">
+        <script language="javascript" type="text/javascript">writeadv("http://ad.doubleclick.net/adj/AlArabiyaNetEnglish/en_otherPages;pos=top;dcopt=ist;tile=1;sz=728x90;ord="+ord+"?")</script><noscript><a href="http://ad.doubleclick.net/jump/AlArabiyaNetEnglish/en_otherPages;pos=top;dcopt=ist;tile=1;sz=728x90;ord="+ord+"?" target="_blank"><img src="http://ad.doubleclick.net/ad/AlArabiyaNetEnglish/en_otherPages;pos=top;dcopt=ist;tile=1;sz=728x90;ord="+ord+"?" width="728" height="90" border="0" alt="" /></a></noscript>    </div>
+
+
+	</div>
+	<div id="header-networklogo"><a href="/"><img src="/assets/en/images/header-networklogo.png"  alt="Alarabiya.net English" title="" /></a></div>
+	<div id="header-mainlogo">
+		<span class="date">
+			<script>
+				days = new Array('SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY');
+				months = new Array("January", "February", "March", "April ", "May", "June ", "July", "August", "September ", "October", "November ", "December");
+				date = new Date();
+				dateStr = days[date.getDay()]+", "+date.getDate()+" "+months[date.getMonth()]+" "+date.getFullYear();
+				document.write(dateStr);
+			</script>
+					</span>
+		<a href="/"><img src="/assets/en/images/al-arabiya-logo.png"  alt="Alarabiya.net English" title="" /></a>
+		<span class="languages">
+			<a href="http://www.alarabiya.net/fa_default.html" class="fr"></a>
+			<a href="http://www.alarabiya.net/ur_default.html" class="ur"></a>
+			<a href="http://www.alarabiya.net/" class="ar"></a>
+		</span>
+		<span class="social-media">
+			<a href="http://www.facebook.com/pages/Alarabiyanet/114884335231354" class="facebook" target="_blank"></a>
+			<a href="http://twitter.com/AlArabiya_Eng" class="twitter" target="_blank"></a>
+		</span>
+	</div>
+    <div id="header-nav">
+      <ul>
+        <li><a href="/" class="tab1">Front Page</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_meast&type=articles&source=section" class="tab2">Middle East</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_intr&type=articles&source=section" class="tab3">International</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_analysis&type=articles&source=category" class="tab4">Analysis</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_business_tech&type=articles&source=section" class="tab5">Business &amp; Technology</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_features&type=articles&source=category" class="tab6">Features</a></li>
+                <li><a href="/index/contents/en_archive?lang=en&name=en_var&type=articles&source=section" class="tab8">Variety</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_sports&type=articles&source=category" class="tab9">Sports</a></li>
+        <li><a href="/index/videos/webtv_en" class="tab10">Web TV</a></li>
+              </ul>
+    </div>
+	
+</div>
+<div id="breakingNewsBanner" style="display: none;">
+	<p class="title">Breaking News<span> »</span></p>
+	<p class="ticker" id="breakingNews"></p>
+</div>	
+<script type='text/javascript' src='/assets/en/js/brnews.js' ></script>
+	<script>
+	PageOptions.articleId = getNonNullValue('254705');
+	PageOptions.lang = getNonNullValue('en');
+	PageOptions.contentType = getNonNullValue('Articles');
+	PageOptions.contentCateg = getNonNullValue('en_highlights');
+	PageOptions.contentSection = getNonNullValue('');
+	PageOptions.webRootPath = getNonNullValue('/');
+</script>
+<script src="/assets/common/js/systemTime.js"></script>
+
+
+<div id="body-container">
+	<div id="body-left-col">
+		<div class="panel article">
+
+
+			<div class="inside-breadnav-container">
+    <a href="/">Home</a>
+</div>
+
+
+<div class="inside-lastupdate-container">
+	<span>Last Updated: Wed Dec 12, 2012 14:43 pm (KSA) 11:43 am (GMT)</span>
+</div>
+
+<h1>Egyptian Copt Alber Saber jailed for blasphemy</h1>
+<p class="article-date"> Wednesday, 12 December 2012 </p>
+
+
+
+
+			<div class="inside-articleimg-container">
+
+				
+									<img id="article_img" src="http://images.alarabiya.net/66/6d/640x392_28468_254705.jpg" alt="Egyptian Copt Alber Saber was arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world. (Reuters)" title="Egyptian Copt Alber Saber was arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world. (Reuters)" class="news-section-img" width="640 " height="392" />
+				
+				
+					                <div id="ArticleCaption">
+	                    <div id="ArticleCaption-inner">
+							<div class="img-caption-facebook-container"> 
+								<span>Egyptian Copt Alber Saber was arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world. (Reuters)</span>
+							</div>
+	                    </div>                    
+	                </div>
+
+
+				<div class="sharing-widget">
+					<script type="text/javascript">
+						var addthis_options = 'favorites, facebook, myspace, google, delicious, digg, twitter, more';
+						var addthis_brand = "Al Arabiya.Net";
+					</script>
+ <script type="text/javascript">
+  (function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "https://apis.google.com/js/plusone.js";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+<div class="right-sdie-export-links2">
+	<a target="_blank" href="javascript:void(0)" onclick="sendArticleLink('254705')" class="fushi-email2"></a>
+	<a target="_blank"  href="/save_print.php?print=1&lang=en&cont_id=254705" class="fushi-print2"></a>
+	<a target="_blank" href="/save_pdf.php?cont_id=254705" class="fushi-PDF2"></a>
+</div>
+
+<div class="share-count-container" >
+    
+	   	<div class="fb-twitter-container">
+       	<div class="tweetBTN">
+			<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            <iframe frameborder="0" scrolling="no" allowtransparency="true" src="http://platform0.twitter.com/widgets/tweet_button.html?_=1308556250267&amp;count=horizontal&amp;id=twitter_tweet_button_0&amp;lang=en&amp;original_referer=http%3A%2F%2Fenglish.alarabiya.net%2Farticles%2F2012%2F12%2F12%2F254705.html&amp;text=Egyptian Copt Alber Saber jailed for blasphemy&amp;url=http://english.alarabiya.net/articles/2012/12/12/254705.html" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px;" title="Twitter For Websites: Tweet Button"></iframe>
+		</div>
+       	
+        <div class="facebookBTN">
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fenglish.alarabiya.net%2Farticles%2F2012%2F12%2F12%2F254705.html&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+		</div>
+
+        <div class="facebookBTN3">
+			<g:plusone size="medium" annotation="inline" width="120"></g:plusone>
+		</div>
+		
+        <div class="facebookBTN2">
+             <a href="http://pinterest.com/pin/create/button/?url=http://english.alarabiya.net/&amp;media=http://english.alarabiya.net/&amp;description=http://english.alarabiya.net/" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+           
+            
+                
+            
+                    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+                    <script type="IN/Share" data-counter="right"></script>
+        
+                    
+            
+            <a target="_blank" id="digg" class="bookmarkdig" href="javascript:void(0);" onclick="return addthis_sendto('digg');"></a>      
+        
+		 </div>  
+        
+        <div class="clearFloat"></div>
+	</div>
+</div>
+
+
+
+				</div>                
+
+
+			</div>
+            
+            
+            
+			<div class="byline">
+				<div class="vertical-box"></div>
+				<p>By <span class="reporter-names">Reuters</span>
+                    <br />
+                    <span class="source-names"> Cairo</span></p>
+			</div>
+            
+            
+            
+			<div class="main_body">
+
+				<p>An Egyptian Copt arrested on suspicion of posting online an anti-Islam film that ignited Muslim protests around the world was sentenced on Wednesday to three years in prison, a court source said<br />
+<br />
+ Computer science graduate Alber Saber, 27, was arrested at his Cairo home on Sept. 13 after neighbours accused him of uploading sections of the film “Innocence of Muslims” and making another movie mocking all religions.</p>
+
+
+											
+						<div class="paragTitle">
+								</div>
+
+						<div class="contentParagraph">
+		
+
+														<p class="with-margin">Saber can appeal the ruling issued by a Cairo court after paying bail of 1,000 Egyptian pounds ($160).<br />
+<br />
+The case has raised concerns over freedom of expression under Islamist President Mohamed Mursi, who came to power in free elections earlier this year after the popular uprising in 2011 that toppled autocrat Hosni Mubarak.<br />
+<br />
+Human right groups including Amnesty International have called for Saber’s release.<br />
+<br />
+Prosecutors accused Saber of running Facebook pages calling for atheism, insulting Islam and Christianity and questioning religious beliefs.<br />
+<br />
+The anti-Islam film, made in California, portrayed the Prophet Mohammad as a womanizer, thug and child molester. Crowds stormed U.S. embassies around the Arab world in protest at it. In Libya, the U.S. ambassador was killed by Islamist militants.<br />
+<br />
+Many Christian Copts have been concerned about the political rise of Islamists since Mubarak's fall and fret about any action that could stoke tensions with their Muslim compatriots.  ($1 = 6.1510 Egyptian pounds)</p>
+
+						</div>
+					
+				
+
+			</div>
+            
+                    
+			<div class="article-footer">
+				<div class="sharing-widget">
+					 <script type="text/javascript">
+  (function() {
+    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+    po.src = "https://apis.google.com/js/plusone.js";
+    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+  
+  <div class="clear"></div>
+<div class="share-count-container" >
+
+
+	   	<div class="fb-twitter-container">
+       	<div class="tweetBTN">
+			<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+            <iframe frameborder="0" scrolling="no" allowtransparency="true" src="http://platform0.twitter.com/widgets/tweet_button.html?_=1308556250267&amp;count=horizontal&amp;id=twitter_tweet_button_0&amp;lang=en&amp;original_referer=http%3A%2F%2Fenglish.alarabiya.net%2Farticles%2F2012%2F12%2F12%2F254705.html&amp;text=Egyptian Copt Alber Saber jailed for blasphemy&amp;url=http://english.alarabiya.net/articles/2012/12/12/254705.html" class="twitter-share-button twitter-count-horizontal" style="width: 110px; height: 20px;" title="Twitter For Websites: Tweet Button"></iframe>
+		</div>
+       	
+        <div class="facebookBTN">
+			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fenglish.alarabiya.net%2Farticles%2F2012%2F12%2F12%2F254705.html&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+		</div>
+
+        <div class="facebookBTN3">
+			<g:plusone size="medium" annotation="inline" width="120"></g:plusone>
+		</div>
+		
+        <div class="facebookBTN2">
+            <a href="http://pinterest.com/pin/create/button/?url=http://english.alarabiya.net/&amp;media=http://english.alarabiya.net/&amp;description=http://english.alarabiya.net/" class="pin-it-button" count-layout="horizontal"><img border="0" src="http://assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+           
+            
+                
+            
+                    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+                    <script type="IN/Share" data-counter="right"></script>
+        
+                    
+            
+            <a target="_blank" id="digg" class="bookmarkdig" href="javascript:void(0);" onclick="return addthis_sendto('digg');"></a>      
+        
+		 </div>  
+        
+        <div class="clearFloat"></div>
+	</div>
+</div>
+
+
+
+				</div>
+				<div class="facebook">
+					<iframe class="frame-fb" src="http://www.facebook.com/plugins/like.php?href=http://english.alarabiya.net/articles/2012/12/12/254705.html&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=recommend&amp;colorscheme=light&amp;height=80"
+							scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+				</div>
+			</div>
+		</div>		
+        		
+			
+		
+
+					<div class="panel more-videos">
+				<a class="section-head">Related Articles<span> »</span></a>
+				<ul class="thumbnails">
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/10/01/241267.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Boko Haram chief issues threat over anti-Islam film in video" src="http://images.alarabiya.net/fb/b7/144x108_83863_241267.jpg" />
+                                                  		
+                            
+								
+								Boko Haram chief issues threat over anti-Islam film in ...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/10/01/241308.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Russia slaps national ban on U.S. anti-Islam film" src="http://images.alarabiya.net/80/0a/144x108_44954_241308.jpg" />
+                                                  		
+                            
+								
+								Russia slaps national ban on U.S. anti-Islam film...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/10/13/243547.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Qaeda chief urges more protests at anti-Islam film" src="http://images.alarabiya.net/56/6d/144x108_34186_243547.jpg" />
+                                                  		
+                            
+								
+								Qaeda chief urges more protests at anti-Islam film...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/10/15/243860.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Thousands of Muslims rally outside Google HQ in London over anti-Islam film: report" src="http://images.alarabiya.net/33/37/144x108_57824_243860.jpg" />
+                                                  		
+                            
+								
+								Thousands of Muslims rally outside Google HQ in London ...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/11/01/247079.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Money market curbs to challenge Islamic banks in Oman" src="http://images.alarabiya.net/96/69/144x108_2371_247079.jpg" />
+                                                  		
+                            
+								
+								Money market curbs to challenge Islamic banks in Oman...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/11/08/248313.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Locked up: Anti-Islam filmmaker handed one year prison sentence" src="http://images.alarabiya.net/31/1c/144x108_13469_248313.jpg" />
+                                                  		
+                            
+								
+								Locked up: Anti-Islam filmmaker handed one year prison ...							</a>
+						</li>
+					                    
+                    	
+                    
+						   
+                        
+						
+                        
+                        <li class="opinion-related">
+							<a href="/articles/2012/11/28/252354.html">
+                            
+                            		
+						
+											<img width="144" height="108" alt="Eight sentenced to death over anti-Islam film" src="http://images.alarabiya.net/d8/8a/144x108_20492_252354.jpg" />
+                                                  		
+                            
+								
+								Eight sentenced to death over anti-Islam film...							</a>
+						</li>
+									</ul>
+			</div>
+			<script>
+				$('ul.thumbnails li').equalHeights();
+			</script>
+		
+	
+
+
+		<div class="panel comments comments_list">
+
+            <h4 class="section-head" >Comments<span> »</span></h4>
+			<div class="comment-box">
+				                    <!-- 3rd box start -->
+                    <div class="box-container comment-box-container-text-header" id="Div1">
+                        <div class="box-header">
+                        </div>
+                        <div class="box-body">
+                            <div id="commentsContainer" class="white-box-body comment-special-box">
+                                <div id="commentsPage_1">
+                                	
+                                </div>
+                            </div>
+                            
+                            <a id="commentPagerControl" href="javaScript:ShowComments(1);" class="show-all-comments"></a>
+                            <a id="commentMorePagerControl" href="javaScript:ShowComments(2);" class="show-more-comments"></a>
+                            <div id="commentsLoaderStat" class="commentsLoaderStat" style="display: none"></div>
+                            
+                        </div>
+                    </div>
+                    <!-- 3rd box end -->
+			</div>
+		</div>
+		<div class="panel comments">
+
+            <h4 class="section-head" >Post Your Comment<span> »</span></h4>
+            <div class="comments-post">
+				                    <div class="box-container comment-box-container-header" id="Div2">
+                        <div class="box-header"></div>
+                        
+                        <div class="box-body">
+                            <div class="white-box-body no-padding-bottom">
+                                <div id="commentsLoader" class="commentsLoader"><img src="/assets/en/images/loading.gif"  width="220" height="19" alt="" title="" /></div>                        
+                                
+                                <div id="commentsFormContainer" class="upper-section no-border">
+                        
+
+                                </div>
+                                <!--[if IE 6]>
+                                <div class="c"></div>
+                                <![endif]-->
+                            </div>
+
+ 						                           
+                        </div>
+                    </div>
+					<script>add_comment();</script>
+            </div>
+
+		</div>
+
+
+
+		
+<script>
+	jQuery('.contentMultimedia a').lightBox({
+		maxHeight: $(window).height()-200,
+		maxWidth: $(window).width()-200
+	});
+</script>
+
+
+		<img src="/track_content_views.php?cont_id=254705" alt="" border="0" width="0" height="0" />
+
+
+
+
+	</div>
+
+
+	<div id="body-right-col">
+		<script>
+
+	function doSearch()
+	{
+		
+		  g_search_str = document.getElementById('searchinput').value; 
+		  if(g_search_str=='')
+			alert('Please specify search keyword');
+		 else
+		  	window.location.href = "/index/searchengine/search_en?q=" + escape(g_search_str);
+	}
+
+</script>
+
+
+<div class="panel searchBox">  
+          <form id="g_custom_search" name="g_custom_search" method="get" action="/index/searchengine/search_en">
+            <input type="text" name="q" id="searchinput" value="" />
+            <a class="searchBtn" href="javascript:void(0)" onclick="doSearch()">Search</a>
+          </form>
+</div>
+        	<div class="advt">
+			<script language="javascript" type="text/javascript">writeadv("http://ad.doubleclick.net/adj/AlArabiyaNetEnglish/en_otherPages;pos=right;tile=2;sz=300x250;ord="+ord+"?")</script><noscript><a href="http://ad.doubleclick.net/jump/AlArabiyaNetEnglish/en_otherPages;pos=right;tile=2;sz=300x250;ord="+ord+"?" target="_blank"><img src="http://ad.doubleclick.net/ad/AlArabiyaNetEnglish/en_otherPages;pos=right;tile=2;sz=300x250;ord="+ord+"?" width="300" height="250" border="0" alt="" /></a></noscript>
+            </div>
+
+
+        	<div class="panel">
+            	<a href="#" class="section-head">Social Media<span> &raquo;</span></a>
+                <div class="social-media">
+                	<a target="_blank" href="http://www.facebook.com/pages/Alarabiyanet/114884335231354" class="facebook">Facebook</a>
+                    <a target="_blank" href="http://www.youtube.com/alarabiya" class="youtube">You Tube</a>
+                	<a target="_blank" href="http://twitter.com/AlArabiya_Eng" class="twitter">Twitter</a>
+                	<a target="_blank" href="/index/static/rss_en" class="rss">RSS</a>
+				</div>
+               <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FAlarabiyanet%2F114884335231354&amp;width=280&amp;colorscheme=light&amp;connections=8&amp;stream=false&amp;header=true&amp;height=295" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:280px; height:295px;" allowTransparency="true"></iframe>
+               
+               
+               <div id="twitter-activity-feed" class="twitter-block" style="padding-top:9px">
+	<div class="twtr-widget twtr-widget-profile" id="twtr-widget-1"></div>
+</div>
+<script>
+loadjscssfile("/assets/en/css/twitter_widget.css", "css");
+$('#twtr-widget-1').load('/twitter/english/index.php', function() {
+ 
+});
+</script>
+
+	 
+        	</div>
+
+	</div>
+	<div style="clear:both" />
+</div>
+
+
+ 
+	<div id="footer-container">
+  <ul>
+    <li class="footer-img"></li>
+    <li>
+      <ul>
+        <li><strong>Al Arabiya News</strong></li>
+      	<li><a href="/">Front Page</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_meast&type=articles&source=section">Middle East</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_intr&type=articles&source=section">International</a></li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>&nbsp;</li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_analysis&type=articles&source=category">Analysis</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_business_tech&type=articles&source=section">Business &amp; Technology</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_features&type=articles&source=category">Features</a></li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li>&nbsp;</li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_var&type=articles&source=section">Variety</a></li>
+        <li><a href="/index/contents/en_archive?lang=en&name=en_sports&type=articles&source=category">Sports</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <ul>
+        <li><strong>Web Services</strong></li>
+        <li><a href="/jawal_en">Al Arabiya Mobile</a></li>
+        <li><a href="/index/static/rss_en">RSS</a></li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><strong>AL ARABIYA NETWORK</strong></li>
+        <li><a href="/index/static/about_en">About us</a></li>
+        <li><a href="/index/static/contactus_en">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</div>
+		<script type='text/javascript' src='/assets/en/js/stats/stats.js?_104' ></script>
+<script type='text/javascript' src='https://apis.google.com/js/plusone.js?_104' ></script>
+
+
+	
+	
+
+</body>
+</html>
+
+
+
+
+

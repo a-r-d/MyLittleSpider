@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '42671881494741570',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'privacy'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "privacy"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @06:47PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/12/2347227/facebook-changes-privacy-policies-scraps-user-voting" rel="nofollow">Facebook Changes Privacy Policies, Scraps User Voting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 12, @11:08AM</td>
+			<td><a href="//tech.slashdot.org/story/12/12/12/168202/zero-day-hole-in-samsung-smart-tvs-could-have-tv-watching-you" rel="nofollow">Zero Day Hole In Samsung Smart TVs Could Have TV Watching You</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @10:53AM</td>
+			<td><a href="//slashdot.org/submission/2396207/zero-day-hole-in-samsung-smart-tvs-could-have-tv-watching-you" rel="nofollow">Zero Day Hole in Samsung Smart TVs Could Have TV Watching You</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday December 11, @10:01AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/11/151218/uk-government-to-revise-snooping-bill" rel="nofollow">UK Government To Revise Snooping Bill</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 11, @09:01AM</td>
+			<td><a href="//slashdot.org/submission/2394020/uk-government-to-revise-snooping-bill" rel="nofollow">UK Government To Revise Snooping Bill</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday December 10, @02:26PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/07/0454240/maker-of-hackable-hotel-locks-finally-agrees-to-pay-for-bug-fix" rel="nofollow">Maker of Hackable Hotel Locks Finally Agrees To Pay For Bug Fix</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday December 09, @08:33PM</td>
+			<td><a href="//news.slashdot.org/story/12/12/09/1910228/ubuntu-community-manager-rmss-post-seems-a-bit-childish-to-me" rel="nofollow">Ubuntu Community Manager: RMS's Post Seems a Bit Childish To Me</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 09, @02:51PM</td>
+			<td><a href="//slashdot.org/submission/2391217/salesforcecom-it-took-a-cloud-to-re-elect-obama" rel="nofollow">Salesforce.com: It Took a Cloud to Re-Elect Obama</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday December 09, @01:55PM</td>
+			<td><a href="//slashdot.org/submission/2391193/ubuntu-community-manager-rmss-post-seems-a-bit-childish-to-me" rel="nofollow">Ubuntu Community Manager: RMS's post seems a bit childish to me</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 07, @10:43PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/08/0343239/some-uk-councils-barred-from-using-govt-vehicle-database" rel="nofollow">Some UK Councils Barred From Using Gov't Vehicle Database</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 07, @07:59PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/08/0059251/black-boxes-in-cars-raise-privacy-concerns" rel="nofollow">Black Boxes In Cars Raise Privacy Concerns</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 07, @06:10PM</td>
+			<td><a href="//linux.slashdot.org/story/12/12/07/1527225/rms-speaks-out-against-ubuntu" rel="nofollow">RMS Speaks Out Against Ubuntu</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 07, @06:05PM</td>
+			<td><a href="//slashdot.org/submission/2389485/black-boxes-in-cars-raise-privacy-concerns" rel="nofollow">Black boxes in cars raise privacy concerns</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 07, @08:21AM</td>
+			<td><a href="//tech.slashdot.org/story/12/12/06/2237219/advertising-may-soon-follow-you-from-one-device-to-the-next" rel="nofollow">Advertising May Soon Follow You From One Device To the Next</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 06, @11:27PM</td>
+			<td><a href="//slashdot.org/submission/2387959/maker-of-hackable-hotel-locks-finally-agrees-to-pay-for-bug-fix" rel="nofollow">Maker Of Hackable Hotel Locks Finally Agrees To Pay For Bug Fix</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 06, @01:15PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/06/1815255/facebook-says-eu-right-to-be-forgotten-would-harm-privacy" rel="nofollow">Facebook Says EU 'Right To Be Forgotten' Would Harm Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 06, @12:27PM</td>
+			<td><a href="//slashdot.org/submission/2387537/facebook-says-eu-right-to-be-forgotten-would-harm-privacy" rel="nofollow">Facebook Says EU 'Right To Be Forgotten' Would Harm Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 06, @08:31AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/06/1331248/dotcom-drags-nz-spook-agency-into-court" rel="nofollow">Dotcom Drags NZ Spook Agency Into Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 05, @08:22PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/06/0122207/eu-resists-us-lobbying-as-privacy-war-looms" rel="nofollow">EU Resists US Lobbying As Privacy War Looms</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 05, @08:51AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/05/0115214/itu-approves-deep-packet-inspection" rel="nofollow">ITU Approves Deep Packet Inspection</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 05, @08:32AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/05/1332218/verizon-patents-eavesdropping-using-your-tv-for-ad-targeting" rel="nofollow">Verizon Patents Eavesdropping Using Your TV For Ad Targeting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 05, @08:07AM</td>
+			<td><a href="//slashdot.org/submission/2385349/eu-resists-us-lobbying-as-privacy-war-looms" rel="nofollow">EU Resists US Lobbying As Privacy War Looms</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 04, @01:15PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/02/1440201/senate-committee-approves-stricter-email-privacy" rel="nofollow">Senate Committee Approves Stricter Email Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday December 04, @10:55AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/04/1555215/facebook-users-voting-on-privacy-instagram-other-issues" rel="nofollow">Facebook Users Voting On Privacy, Instagram, Other Issues</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday December 03, @09:04AM</td>
+			<td><a href="//science.slashdot.org/story/12/12/03/144245/who-owns-your-health-data" rel="nofollow">Who Owns Your Health Data?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday December 03, @08:06AM</td>
+			<td><a href="//slashdot.org/submission/2381311/who-owns-your-health-data" rel="nofollow">Who owns your health data?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday December 02, @03:05PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/02/205245/julian-assange-online-totalitarianism-is-near-entire-nations-are-intercepted" rel="nofollow">Julian Assange: "Online Totalitarianism Is Near, Entire Nations Are Intercepted"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 02, @10:06AM</td>
+			<td><a href="//slashdot.org/submission/2379671/julian-assange-online-totalitarianism-is-near-entire-nations-are-intercepted" rel="nofollow">Julian Assange: "Online Totalitarianism is Near, Entire Nations are Intercepted"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 30, @07:37PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/30/1521208/raided-for-running-a-tor-exit-node" rel="nofollow">Raided For Running a Tor Exit Node</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 30, @04:08PM</td>
+			<td><a href="//slashdot.org/submission/2378153/senate-committee-approves-stricter-email-privacy" rel="nofollow">Senate Committee Approves Stricter Email Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 30, @12:27PM</td>
+			<td><a href="//slashdot.org/submission/2377991/fbi-dads-misadventures-wspyware-exposed-school-principals-child-porn" rel="nofollow">FBI Dad's Misadventures W/Spyware Exposed School Principal's Child Porn </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 29, @09:04AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/28/2318245/bluetooth-used-to-track-traffic-times" rel="nofollow">Bluetooth Used To Track Traffic Times</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 29, @08:36AM</td>
+			<td><a href="//mobile.slashdot.org/story/12/11/27/2145209/dual-interface-mobile-devices-to-address-byod-issue" rel="nofollow">Dual Interface Mobile Devices To Address BYOD Issue</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 29, @08:20AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/28/0126200/amazon-and-google-barred-from-uk-government-cloud" rel="nofollow">Amazon and Google Barred From UK Government Cloud</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 27, @09:56AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/27/1456228/hotel-keycard-lock-hack-gets-real-in-texas" rel="nofollow">Hotel Keycard Lock Hack Gets Real In Texas</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 27, @09:39AM</td>
+			<td><a href="//slashdot.org/submission/2372087/keycard-locks-hacked-to-burglarize-hotel-rooms" rel="nofollow">Keycard Locks Hacked To Burglarize Hotel Rooms</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 27, @08:43AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/27/1343254/nyc-police-gathering-cellphone-logs" rel="nofollow">NYC Police Gathering Cellphone Logs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 26, @05:50PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/26/1726213/supreme-court-blocks-illinois-law-against-recording-police" rel="nofollow">Supreme Court Blocks Illinois Law Against Recording Police</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 25, @08:52PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/26/0151259/confidential-police-documents-found-in-confetti-at-macys-parade" rel="nofollow">Confidential Police Documents Found In Confetti At Macy's Parade</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday November 24, @07:26AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/23/2312205/anonymous-file-sharing-darknet-ruled-illegal-by-german-court" rel="nofollow">"Anonymous" File-Sharing Darknet Ruled Illegal By German Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 23, @11:13AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/23/1613249/judge-issues-temporary-order-blocking-expulsion-for-refusing-to-wear-rfid-tag" rel="nofollow">Judge Issues Temporary Order Blocking Expulsion For Refusing To Wear RFID Tag</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 22, @04:51PM</td>
+			<td><a href="//politics.slashdot.org/story/12/11/22/2151211/saudi-arabia-implements-electronic-tracking-system-for-women" rel="nofollow">Saudi Arabia Implements Electronic Tracking System For Women</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 22, @12:24PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/22/0348238/uk-to-use-risk-profiling-software-to-screen-all-airline-passengers-and-cargo" rel="nofollow">UK To Use "Risk-Profiling Software" To Screen All Airline Passengers and Cargo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 22, @12:06PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/22/176218/facebook-to-eliminate-voting-on-privacy-changes" rel="nofollow">Facebook To Eliminate Voting On Privacy Changes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 21, @08:12PM</td>
+			<td><a href="//science.slashdot.org/story/12/11/21/0433233/student-refusing-rfid-badge-now-fights-expulsion-order" rel="nofollow">Student Refusing RFID Badge Now Fights Expulsion Order</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 21, @05:11PM</td>
+			<td><a href="//slashdot.org/submission/2363517/uk-to-use-risk-profiling-software-to-screen-all-airline-passengers-and-cargo" rel="nofollow">UK to use "Risk-Profiling Software" to Screen all Airline Passengers and Cargo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 21, @12:08PM</td>
+			<td><a href="//slashdot.org/submission/2363259/outrage-in-india-over-arrests-for-facebook-posts" rel="nofollow">Outrage in India over arrests for Facebook posts</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 20, @04:13PM</td>
+			<td><a href="//slashdot.org/submission/2361767/that-was-fast-leahy-scuttles-his-warrantless-e-mail-surveillance-bill" rel="nofollow">That was fast, Leahy scuttles his warrantless e-mail surveillance bill</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 20, @03:31PM</td>
+			<td><a href="//slashdot.org/submission/2361733/student-expelled-for-refusing-location-tracking-rfid-badge" rel="nofollow">Student Expelled for Refusing Location Tracking RFID Badge</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 20, @09:07AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/20/1331255/senate-bill-rewrite-lets-feds-read-your-e-mail-without-warrants" rel="nofollow">Senate Bill Rewrite Lets Feds Read Your E-mail Without Warrants</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 20, @08:15AM</td>
+			<td><a href="//slashdot.org/submission/2361311/facebook-condemns-european-data-protection-fines" rel="nofollow">Facebook condemns European data protection fines</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 20, @08:13AM</td>
+			<td><a href="//slashdot.org/submission/2361305/why-big-data-could-sink-europes-right-to-be-forgotten" rel="nofollow">Why big data could sink Europe's "right to be forgotten"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 20, @08:07AM</td>
+			<td><a href="//slashdot.org/submission/2361301/senate-bill-rewrite-lets-feds-read-your-e-mail-without-warrants" rel="nofollow">Senate bill rewrite lets Feds read your e-mail without warrants</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 19, @10:12PM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/11/20/0312215/one-musicians-demand-from-pandora-mandatory-analytics" rel="nofollow">One Musician's Demand From Pandora: Mandatory Analytics</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 19, @11:36AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/19/1636254/how-rapidshare-plans-to-avoid-megauploads-fate" rel="nofollow">How RapidShare Plans To Avoid MegaUpload's Fate</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 19, @08:12AM</td>
+			<td><a href="//slashdot.org/submission/2359483/how-rapidshare-plans-to-avoid-megauploads-fate" rel="nofollow">How RapidShare Plans To Avoid MegaUpload's Fate </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 18, @08:22AM</td>
+			<td><a href="//slashdot.org/submission/2358035/salt-lake-city-police-plan-compulsory-headcam-use" rel="nofollow">Salt Lake City Police Plan Compulsory Headcam Use</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 16, @02:11PM</td>
+			<td><a href="//idle.slashdot.org/story/12/11/16/1849212/hostess-to-close-no-more-twinkies" rel="nofollow">Hostess To Close; No More Twinkies</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 15, @04:13PM</td>
+			<td><a href="//science.slashdot.org/story/12/11/15/1513227/nasa-to-encrypt-all-of-its-laptops" rel="nofollow">NASA To Encrypt All of Its Laptops</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 14, @12:05PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/11/14/017217/french-company-building-a-mobile-internet-just-for-things" rel="nofollow">French Company Building a Mobile Internet Just For Things</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 13, @04:24PM</td>
+			<td><a href="//slashdot.org/submission/2351591/google-says-government-surveillance-growing" rel="nofollow">Google says government surveillance growing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 13, @01:14PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/13/1726246/petraeus-case-illustrates-fbi-authority-to-read-email" rel="nofollow">Petraeus Case Illustrates FBI Authority To Read Email</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 13, @09:06AM</td>
+			<td><a href="//it.slashdot.org/story/12/11/11/0021220/nike-fuelband-possibly-a-big-security-hole-for-your-life" rel="nofollow">Nike+ FuelBand: Possibly a Big Security Hole For Your Life</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 12, @11:21PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/12/0343216/homeland-security-mining-social-media-for-signs-of-bio-attacks" rel="nofollow">Homeland Security Mining Social Media For Signs of Bio Attacks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 12, @07:37AM</td>
+			<td><a href="//it.slashdot.org/story/12/11/12/1237237/meet-the-lawyer-suing-anyone-who-uses-ssl" rel="nofollow">Meet the Lawyer Suing Anyone Who Uses SSL</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday November 11, @11:47PM</td>
+			<td><a href="//slashdot.org/submission/2349127/meet-the-lawyer-suing-anyone-who-uses-ssl" rel="nofollow">Meet The Lawyer Suing Anyone Who Uses SSL</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 09, @10:41PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/10/0341251/amazon-to-launch-sydney-data-center" rel="nofollow">Amazon To Launch Sydney Data Center</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 09, @01:06AM</td>
+			<td><a href="//slashdot.org/submission/2345807/google-patents-guilt-by-association" rel="nofollow">Google Patents Guilt-By-Association</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 08, @09:01AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/07/2250240/google-chrome-introduces-do-not-track" rel="nofollow">Google Chrome Introduces Do Not Track</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 08, @03:20AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/07/233237/eff-sues-to-block-new-internet-sex-offender-law" rel="nofollow">EFF Sues to Block New Internet Sex-Offender Law</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 07, @05:57PM</td>
+			<td><a href="//slashdot.org/submission/2343385/california-sex-offenders-get-support-from-the-eff" rel="nofollow">California Sex Offenders get Support from the EFF</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 06, @04:49PM</td>
+			<td><a href="//slashdot.org/submission/2341379/a-trail-of-clicks-culminating-in-conflict" rel="nofollow">A Trail of Clicks, Culminating in Conflict</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 06, @02:13PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/06/0333221/skype-hands-teenagers-information-to-private-firm" rel="nofollow">Skype Hands Teenager's Information To Private Firm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 06, @01:47PM</td>
+			<td><a href="//slashdot.org/submission/2341245/the-privacy-illusion" rel="nofollow">The Privacy Illusion</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 06, @11:32AM</td>
+			<td><a href="//politics.slashdot.org/story/12/11/06/1632253/pull-lever-dont-snap-shutter-it-may-be-illegal-to-post-your-ballot" rel="nofollow">Pull Lever, Don't Snap Shutter: It May Be Illegal To Post Your Ballot</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 06, @03:19AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/11/05/235258/some-smart-meters-broadcast-readings-in-the-clear" rel="nofollow">Some Smart Meters Broadcast Readings in the Clear</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 05, @05:51PM</td>
+			<td><a href="//slashdot.org/submission/2339493/skype-hands-teenagers-information-to-private-firm" rel="nofollow">Skype Hand's Teenager's Information To Private Firm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 05, @01:14PM</td>
+			<td><a href="//slashdot.org/submission/2339285/how-to-cover-your-tracks-online" rel="nofollow">How To Cover Your Tracks Online </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 04, @01:06PM</td>
+			<td><a href="//politics.slashdot.org/story/12/11/04/1312259/new-jersey-residents-displaced-by-storm-can-vote-by-email" rel="nofollow">New Jersey Residents Displaced By Storm Can Vote By Email</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 02, @04:38AM</td>
+			<td><a href="//slashdot.org/submission/2335011/more-than-25-of-android-apps-know-too-much-about-you" rel="nofollow">More Than 25% Of Android Apps Know Too Much About You</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 01, @04:05PM</td>
+			<td><a href="//politics.slashdot.org/story/12/11/01/215226/presidential-campaigns-leak-supporters-info-to-tracking-firms" rel="nofollow">Presidential Campaigns Leak Supporters' Info To Tracking Firms</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 01, @03:24PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/01/2024215/seattles-creepy-cameraman-pushes-public-surveillance-buttons" rel="nofollow">Seattle's Creepy Cameraman Pushes Public Surveillance Buttons</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 01, @03:20PM</td>
+			<td><a href="//slashdot.org/submission/2334063/presidential-campaigns-leaking-supporters-identities-to-online-tracking-firms" rel="nofollow">Presidential campaigns leaking supporters' identities to online tracking firms?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 01, @12:17PM</td>
+			<td><a href="//slashdot.org/submission/2333939/creepy-cameraman-pushes-public-surveillance-limits" rel="nofollow">Creepy Cameraman Pushes Public Surveillance Limits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 31, @09:25PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/01/0225245/judge-to-newspaper---reveal-name-of-commenter" rel="nofollow">Judge To Newspaper - Reveal Name of Commenter</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 31, @09:08PM</td>
+			<td><a href="//slashdot.org/submission/2332499/judge-to-newspaper---reveal-name-of-commenter" rel="nofollow">Judge to Newspaper - Reveal Name of Commenter</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 31, @09:47AM</td>
+			<td><a href="//slashdot.org/submission/2332043/google-loses-australia-gangland-defamation-lawsuit" rel="nofollow">Google loses Australia 'gangland' defamation lawsuit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 31, @07:28AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/31/1228210/california-ag-gives-app-developers-30-days-to-post-privacy-notice" rel="nofollow">California AG Gives App Developers 30 Days To Post Privacy Notice</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 30, @09:15PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/31/0215215/supreme-court-hearing-case-on-drug-sniffing-dog-fishing-expeditions" rel="nofollow">Supreme Court Hearing Case On Drug-Sniffing Dog "Fishing Expeditions"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 29, @01:25PM</td>
+			<td><a href="//slashdot.org/submission/2328401/facebook-tries-cloaking-probe-into-data-leak-involving-1-million-accounts" rel="nofollow">Facebook tries cloaking probe into data leak involving 1 million accounts</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 28, @04:07PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/28/217225/journalist-arrested-in-greece-for-publishing-list-of-possible-tax-evaders" rel="nofollow">Journalist Arrested In Greece For Publishing List of Possible Tax-Evaders</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 28, @10:37AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/28/1537213/millions-of-ssns-lifted-from-south-carolina-database" rel="nofollow">Millions of SSNs Lifted From South Carolina Database</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 28, @07:04AM</td>
+			<td><a href="//tech.slashdot.org/story/12/10/28/124252/to-google-friends-or-not-to-google-that-is-the-question" rel="nofollow">To Google Friends Or Not To Google, That Is the Question</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 28, @03:01AM</td>
+			<td><a href="//slashdot.org/submission/2326245/millions-of-ssns-lifted-from-south-carolina-database" rel="nofollow">Millions of SSNs lifted from South Carolina database</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 27, @05:52PM</td>
+			<td><a href="//slashdot.org/submission/2326015/to-google-friends-or-not-to-google-that-is-the-question" rel="nofollow">To Google Friends or Not to Google, That is the Question</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 27, @01:34PM</td>
+			<td><a href="//linux.slashdot.org/story/12/10/27/1619250/rare-photos-gnu-crashing-a-windows-8-launch-event" rel="nofollow">Rare Photos: Gnu Crashing a Windows 8 Launch Event</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 27, @12:43PM</td>
+			<td><a href="//slashdot.org/submission/2325893/got-a-criminal-record-see-you-on-apple-maps" rel="nofollow">Got a Criminal Record? See You on Apple Maps!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 27, @12:56AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/27/0556223/yahoo-will-ignore-ie-10s-do-not-track" rel="nofollow">Yahoo Will Ignore IE 10's "Do Not Track"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 25, @01:02PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/25/182249/anonymous-wikileaks-like-project-tyler-to-launch-in-december" rel="nofollow">Anonymous' WikiLeaks-Like Project Tyler To Launch In December</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 25, @07:58AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/24/2235211/analytics-company-settles-charges-for-user-tracking" rel="nofollow">Analytics Company Settles Charges For User Tracking</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 25, @07:41AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/25/1241206/uk-govt-official-advises-using-fake-details-on-social-networks" rel="nofollow">UK Gov't Official Advises Using Fake Details On Social Networks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 23, @10:18PM</td>
+			<td><a href="//news.slashdot.org/story/12/10/23/2038220/the-greatest-battle-of-the-personal-computing-revolution-lies-ahead" rel="nofollow">The Greatest Battle of the Personal Computing Revolution Lies Ahead</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 22, @06:48AM</td>
+			<td><a href="//it.slashdot.org/story/12/10/20/1935258/zimmermanns-silent-circle-now-live" rel="nofollow">Zimmermann's Silent Circle Now Live</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 21, @05:10PM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/21/229259/pols-blur-line-between-data-mining-cyberstalking" rel="nofollow">Pols Blur Line Between Data Mining, Cyberstalking</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 21, @11:33AM</td>
+			<td><a href="//slashdot.org/submission/2316603/pols-blur-line-between-data-mining-cyberstalking" rel="nofollow">Pols Blur Line Between Data Mining, Cyberstalking</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 20, @01:29PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/20/1829246/judge-rules-defense-can-use-trayvon-martin-tweets" rel="nofollow">Judge Rules Defense Can Use Trayvon Martin Tweets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 20, @11:41AM</td>
+			<td><a href="//slashdot.org/submission/2316027/judge-rules-defense-can-use-trayvon-martin-tweets" rel="nofollow">Judge Rules Defense Can Use Trayvon Martin Tweets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 20, @11:22AM</td>
+			<td><a href="//slashdot.org/submission/2316009/zimmermans-silentcircle-now-live" rel="nofollow">Zimmerman's SilentCircle now live</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 20, @12:45AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/20/0545252/poor-ssl-implementations-leave-many-android-apps-vulnerable" rel="nofollow">Poor SSL Implementations Leave Many Android Apps Vulnerable</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 19, @11:33AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/19/1633256/eben-moglen-talks-about-free-software-in-the-second-of-two-video-interviews" rel="nofollow">Eben Moglen Talks About Free Software in the Second of Two Video Interviews</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 18, @07:43PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/19/0043249/privacy-advocates-oppose-aussie-data-breach-laws" rel="nofollow">Privacy Advocates Oppose Aussie Data Breach Laws</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 18, @06:53PM</td>
+			<td><a href="//slashdot.org/submission/2313261/privacy-advocates-oppose-aussie-data-breach-laws" rel="nofollow">Privacy advocates oppose Aussie data breach laws</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 18, @01:27PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/18/1759218/eben-moglen-explains-freedom-and-free-software-in-two-video-interviews" rel="nofollow">Eben Moglen Explains Freedom and Free Software in Two Video Interviews </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 18, @11:56AM</td>
+			<td><a href="//apple.slashdot.org/story/12/10/18/1656234/user-tracking-back-on-ios-6" rel="nofollow">User Tracking Back On iOS 6</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 18, @11:37AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/18/1637216/paypal-slips-no-class-action-clause-into-policy-update" rel="nofollow">Paypal Slips 'No Class Action' Clause Into Policy Update</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 18, @10:54AM</td>
+			<td><a href="//slashdot.org/submission/2312923/deanonymizing-you-i-know-who-you-are-after-1-click-online-or-a-mobile-call" rel="nofollow">Deanonymizing You: I know who you are after 1 click online or a mobile call</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 17, @11:39PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/18/0257210/verizon-draws-fire-for-monitoring-app-usage-browsing-habits" rel="nofollow">Verizon Draws Fire For Monitoring App Usage, Browsing Habits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 17, @07:25PM</td>
+			<td><a href="//slashdot.org/submission/2311251/verizon-draws-fire-for-monitoring-app-usage-browsing-habits" rel="nofollow">Verizon draws fire for monitoring app usage, browsing habits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 17, @06:14PM</td>
+			<td><a href="//slashdot.org/submission/2311279/paypal-joins-the-no-class-action-lawsuit-bandwagon-in-privacy-statement-changes" rel="nofollow">Paypal joins the no class action lawsuit bandwagon in privacy statement changes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 17, @07:32AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/17/1232205/the-pirate-bay-starts-using-virtualized-servers" rel="nofollow">The Pirate Bay Starts Using Virtualized Servers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 17, @07:15AM</td>
+			<td><a href="//slashdot.org/submission/2310707/pirate-bay-moves-to-the-cloud-becomes-raid-proof" rel="nofollow">Pirate Bay Moves to The Cloud, Becomes Raid-Proof</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 16, @11:22AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/15/2337229/eu-authorities-to-demand-reversal-of-google-privacy-policy" rel="nofollow">EU Authorities To Demand Reversal of Google Privacy Policy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 16, @10:19AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/16/1519220/texas-schools-using-electronic-chips-to-track-students-parents-in-uproar" rel="nofollow">Texas Schools Using Electronic Chips To Track Students; Parents In Uproar</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 15, @11:20PM</td>
+			<td><a href="//slashdot.org/submission/2307753/teen-suicide-tormenter-outed-by-anonymous" rel="nofollow">Teen Suicide Tormenter Outed By Anonymous</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 15, @11:51AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/15/1651216/the-uae-claims-to-hold-the-worlds-largest-biometric-database" rel="nofollow">The UAE Claims To Hold the Worlds Largest Biometric Database</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 15, @07:13AM</td>
+			<td><a href="//slashdot.org/submission/2306841/the-uae-claims-to-hold-the-worlds-largest-biometric-database" rel="nofollow">The UAE claims to hold the worlds largest biometric database</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 15, @06:52AM</td>
+			<td><a href="//slashdot.org/submission/2306793/eu-authorities-to-demand-reversal-of-google-privacy-policy" rel="nofollow">EU Authorities To Demand Reversal Of Google Privacy Policy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 14, @01:30PM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/14/1830213/how-facebook-can-out-your-most-personal-secrets" rel="nofollow">How Facebook Can Out Your Most Personal Secrets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 14, @01:22PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/14/1822250/proposed-posting-of-clients-list-in-prostitution-case-raises-privacy-concerns" rel="nofollow">Proposed Posting of Clients List In Prostitution Case Raises Privacy Concerns</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 14, @09:22AM</td>
+			<td><a href="//slashdot.org/submission/2305261/wall-street-journal-describes-how-facebooks-outs-your-most-personal-secrets" rel="nofollow">Wall Street Journal describes how Facebooks Outs your Most Personal Secrets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 13, @04:30AM</td>
+			<td><a href="//slashdot.org/submission/2304445/stallman-on-unity-canonical-will-have-to-hand-over-users-data-to-governments" rel="nofollow">Stallman on Unity: Canonical will have to hand over users' data to governments</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 12, @05:03PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/12/223208/seattle-police-want-more-drones-even-while-two-sit-unused" rel="nofollow">Seattle Police Want More Drones, Even While Two Sit Unused</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 12, @10:29AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/12/1448247/interviews-ask-free-software-legal-giant-eben-moglen" rel="nofollow">Interviews: Ask Free Software Legal Giant Eben Moglen</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 12, @07:27AM</td>
+			<td><a href="//slashdot.org/submission/2303401/seattle-police-want-more-drones-even-while-two-sit-unused" rel="nofollow">Seattle police want more drones, even while two sit unused</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 12, @07:08AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/11/131237/facebook-confirms-data-breach" rel="nofollow">Facebook Confirms Data Breach</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 11, @11:11AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/11/1611200/prince-of-sealand-dies-at-91" rel="nofollow">Prince of Sealand Dies At 91</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 11, @07:15AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/10/10/1410250/fsf-certifies-first-device-in-respects-your-freedom-program" rel="nofollow">FSF Certifies First Device in "Respects Your Freedom" Program</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 11, @01:40AM</td>
+			<td><a href="//slashdot.org/submission/2300721/facebook-confirms-data-breach" rel="nofollow">Facebook Confirms Data Breach</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 10, @09:30PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/11/0230258/australian-government-censors-draft-snooping-laws" rel="nofollow">Australian Government Censors Draft Snooping Laws</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 10, @02:48PM</td>
+			<td><a href="//slashdot.org/submission/2300109/us-supreme-court-says-wiretapping-immunity-will-stand" rel="nofollow">US Supreme Court Says Wiretapping Immunity Will Stand</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 10, @10:42AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/10/1542235/expenditure-report-reveals-germany-monitors-skype-google-mail-facebook-chat" rel="nofollow">Expenditure Report Reveals Germany Monitors Skype, Google Mail, Facebook Chat</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 10, @04:10AM</td>
+			<td><a href="//slashdot.org/submission/2299159/russian-entrepreneur-exploits-apathy-over-privacy" rel="nofollow">Russian Entrepreneur Exploits Apathy Over Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 09, @09:07AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/09/147246/can-google-base-ads-on-e-mails-sent-to-gmail-accounts" rel="nofollow">Can Google Base Ads On E-mails Sent To Gmail Accounts?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 09, @07:46AM</td>
+			<td><a href="//slashdot.org/submission/2297721/can-google-base-ads-on-e-mails-sent-to-gmail-accounts" rel="nofollow">Can Google base ads on e-mails sent to Gmail accounts?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 08, @09:29PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/09/0229215/flaws-allow-every-3g-device-to-be-tracked" rel="nofollow">Flaws Allow Every 3G Device To Be Tracked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 08, @07:48PM</td>
+			<td><a href="//slashdot.org/submission/2296373/flaws-allow-every-3g-device-to-be-tracked" rel="nofollow">Flaws allow every 3G device to be tracked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 07, @07:33PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/08/0033233/uk-man-arrested-for-offensive-joke-posted-on-facebook" rel="nofollow"> UK Man Arrested For Offensive Joke Posted On Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 06, @11:00AM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/06/1334240/hiring-smokers-banned-in-south-florida-city" rel="nofollow">Hiring Smokers Banned In South Florida City</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 05, @06:16AM</td>
+			<td><a href="//tech.slashdot.org/story/12/10/05/0012204/ftc-releases-google-privacy-audit-blacks-out-the-details" rel="nofollow">FTC Releases Google Privacy Audit, Blacks Out the Details</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 04, @04:18PM</td>
+			<td><a href="//slashdot.org/submission/2290989/ftc-releases-google-privacy-audit-blacks-out-the-details" rel="nofollow">FTC Releases Google Privacy Audit, Blacks Out The Details</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @09:29AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/04/1429236/facebook-privacy-boosted-as-private-message-leak-is-dismissed" rel="nofollow">Facebook Privacy Boosted As Private Message 'Leak' Is Dismissed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 04, @09:10AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/04/1410227/uk-virtual-id-card-scheme-set-for-launch" rel="nofollow">UK 'Virtual ID Card' Scheme Set For Launch</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @07:12AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/03/1224226/report-slams-dhs-fusion-centers-no-terrorists-nabbed-civil-rights-violated" rel="nofollow">Report Slams DHS Fusion Centers: No Terrorists Nabbed, Civil Rights Violated</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 04, @07:05AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/03/2127222/starting-next-year-brazil-wants-to-track-all-cars-electronically" rel="nofollow">Starting Next Year, Brazil Wants To Track All Cars Electronically</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @04:15AM</td>
+			<td><a href="//slashdot.org/submission/2290001/facebook-privacy-boosted-as-private-message-leak-is-dismissed" rel="nofollow">Facebook Privacy Boosted As Private Message 'Leak' Is Dismissed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 03, @10:22PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/04/0322256/advertisers-blast-microsoft-over-ie-default-privacy-settings" rel="nofollow">Advertisers Blast Microsoft Over IE Default Privacy Settings</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 03, @10:05PM</td>
+			<td><a href="//slashdot.org/submission/2289309/msfts-gotta-fight-for-your-right-to-privacy" rel="nofollow">(MSFT's Gotta) Fight For Your Right (To Privacy)</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 03, @02:05PM</td>
+			<td><a href="//slashdot.org/submission/2289033/mpaa-chief-admits-sopa-and-pipa-are-dead-theyre-not-coming-back" rel="nofollow">MPAA chief admits: SOPA and PIPA "are dead, they're not coming back."</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 02, @10:52AM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/02/1552240/scientists-want-to-keep-their-research-work-out-of-court" rel="nofollow">Scientists Want To Keep Their Research Work Out of Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 02, @09:26AM</td>
+			<td><a href="//slashdot.org/submission/2286957/scientists-ask-for-legal-safeguards-to-keep-their-work-out-of-court" rel="nofollow">Scientists ask for legal safeguards to keep their work out of court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 02, @07:39AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/01/1613237/supreme-court-wont-hear-body-scanner-appeal" rel="nofollow">Supreme Court Won't Hear Body-Scanner Appeal</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 30, @11:50AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/30/1650216/eu-privacy-watchdog-to-icann-law-enforcement-whois-demands-unlawful" rel="nofollow">EU Privacy Watchdog To ICANN: Law Enforcement WHOIS Demands "Unlawful"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 30, @09:35AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/30/1435231/think-tanks-website-rejects-browser-do-not-track-requests" rel="nofollow">Think Tank's Website Rejects Browser Do-Not-Track Requests</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 30, @08:51AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/30/1351225/uk-ministers-private-communications-subject-to-freedom-of-information-act" rel="nofollow">UK Ministers' Private Communications Subject To Freedom of Information Act</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 30, @08:21AM</td>
+			<td><a href="//tech.slashdot.org/story/12/09/30/1321210/placeraider-builds-a-model-of-your-world-with-smartphone-photos" rel="nofollow">PlaceRaider Builds a Model of Your World With Smartphone Photos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 28, @06:49PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/28/0223246/asic-seeks-power-to-read-your-emails" rel="nofollow">ASIC Seeks Power To Read Your Emails</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 28, @06:29PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/28/2329225/illinois-prof-calls-for-a-federal-law-to-safeguard-digital-afterlives" rel="nofollow">Illinois Prof Calls for a Federal Law To Safeguard Digital Afterlives</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 28, @09:11AM</td>
+			<td><a href="//slashdot.org/submission/2281891/canonical-adds-kill-switch-after-ubuntu-privacy-row" rel="nofollow">Canonical Adds Kill Switch After Ubuntu Privacy Row</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 28, @06:02AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/28/0251214/electronic-surveillance-by-us-law-enforcement-agencies-rising-steeply" rel="nofollow">Electronic Surveillance By US Law Enforcement Agencies Rising Steeply</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 27, @08:01PM</td>
+			<td><a href="//slashdot.org/submission/2280629/calif-employers-cant-ask-for-your-facebook-password" rel="nofollow">Calif. Employers Can't Ask For Your Facebook Password</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 26, @10:08PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/27/038241/can-foursquare-data-predict-where-you-live" rel="nofollow">Can Foursquare Data Predict Where You Live?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 26, @10:05PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/27/035231/facebook-denies-leak-of-users-private-messages" rel="nofollow">Facebook Denies Leak of Users' Private Messages</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 26, @03:14PM</td>
+			<td><a href="//slashdot.org/submission/2278631/foursquare-data-can-predict-where-you-live" rel="nofollow">Foursquare data can predict where you live? </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 26, @11:13AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/26/1452257/scenetap-patents-using-cameras-to-determine-bar-goers-weight-height-gender" rel="nofollow">SceneTap Patents Using Cameras To Determine Bar Goers' Weight, Height, Gender</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 26, @10:13AM</td>
+			<td><a href="//slashdot.org/submission/2278401/facebook-denies-leak-of-users-private-messages" rel="nofollow">Facebook denies leak of users' private messages</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 26, @07:25AM</td>
+			<td><a href="//it.slashdot.org/story/12/09/26/1225243/ftc-and-pc-rental-companies-settle-in-spying-on-users-case" rel="nofollow">FTC And PC Rental Companies Settle In Spying On Users Case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 25, @07:57PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/26/0057230/creeping-government-surveillance-now-without-warrants" rel="nofollow">Creeping Government Surveillance Now Without Warrants</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 25, @02:35PM</td>
+			<td><a href="//slashdot.org/submission/2276611/dystopic-patent-facial-recog-cams-to-tell-you-bar-goers-weight-height-income" rel="nofollow">Dystopic Patent: Facial Recog Cams To Tell You Bar Goers' Weight, Height, Income</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 25, @11:44AM</td>
+			<td><a href="//slashdot.org/submission/2276435/government-internet-censorship-is-increasing" rel="nofollow">Government Internet Censorship Is Increasing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 25, @07:33AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/25/1233244/canadian-minister-mined-data-to-target-email-to-gay-voters" rel="nofollow">Canadian Minister Mined Data To Target Email To Gay Voters</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 25, @07:20AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/25/0259239/schneier-we-dont-need-sha-3" rel="nofollow">Schneier: We Don't Need SHA-3</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 24, @09:46AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/24/1446220/shuttleworth-trust-us-were-trying-to-make-shopping-better" rel="nofollow">Shuttleworth: Trust Us, We're Trying to Make Shopping Better</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 23, @09:40PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/24/0240220/nz-to-investigate-illegally-intercepted-data-in-dotcom-case" rel="nofollow">NZ To Investigate Illegally Intercepted Data In Dotcom Case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 23, @09:19AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/23/1334258/advertisers-never-intended-to-honor-dnt" rel="nofollow">Advertisers Never Intended To Honor DNT</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 23, @04:05AM</td>
+			<td><a href="//slashdot.org/submission/2272345/advertisers-never-intended-to-honor-dnt" rel="nofollow">Advertisers never intended to honor DNT</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 22, @07:27PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/23/0027219/w3c-group-proposed-to-safeguard-user-agent-state-privacy" rel="nofollow">W3C Group Proposed To Safeguard User Agent State Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 22, @06:02PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/22/231259/australian-smart-meter-data-shared-far-and-wide" rel="nofollow">Australian Smart Meter Data Shared Far and Wide</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 22, @09:19AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/22/1419211/federal-judge-says-no-right-to-secret-ballot-oks-barcoded-ballots" rel="nofollow">Federal Judge Says No Right To Secret Ballot, OKs Barcoded Ballots</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 22, @08:19AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/22/1319216/ubuntu-will-now-have-amazon-ads-pre-installed" rel="nofollow">Ubuntu Will Now Have Amazon Ads Pre-Installed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 22, @05:16AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/21/1853245/facebook-disables-face-recognition-in-eu" rel="nofollow">Facebook Disables Face Recognition In EU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 21, @06:11PM</td>
+			<td><a href="//it.slashdot.org/story/12/09/21/2311239/hotmail-no-longer-accepts-long-passwords-shortens-them-for-you" rel="nofollow">Hotmail No Longer Accepts Long Passwords, Shortens Them For You</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 21, @05:07PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/21/2123201/facebook-wants-you-to-snitch-on-friends-not-using-their-real-name" rel="nofollow">Facebook Wants You To Snitch On Friends Not Using Their Real Name</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 21, @04:37PM</td>
+			<td><a href="//slashdot.org/submission/2270789/evidence-for-another-sony-rootkit" rel="nofollow">Evidence for another Sony Rootkit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 20, @05:07PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/20/227235/the-case-for-targeted-ads" rel="nofollow">The Case For Targeted Ads</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 20, @09:08AM</td>
+			<td><a href="//slashdot.org/submission/2268449/pro-targeting-guest-column-on-cnet" rel="nofollow">Pro-targeting guest column on CNet</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 19, @10:52PM</td>
+			<td><a href="//apple.slashdot.org/story/12/09/19/2211203/apples-secret-plan-to-join-iphones-with-airport-security" rel="nofollow">Apple's Secret Plan To Join iPhones With Airport Security</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 19, @10:35PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/20/0335225/nestles-gps-tracking-candy-campaign" rel="nofollow">Nestle's GPS Tracking Candy Campaign</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 19, @08:49AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/19/1349233/tsa-spending-245-million-on-second-generation-body-scanners" rel="nofollow">TSA Spending $245 Million On "Second Generation" Body Scanners</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 19, @08:15AM</td>
+			<td><a href="//slashdot.org/submission/2266503/tsa-spending-245-million-on-second-generation-nude-o-scope-body-scanners" rel="nofollow">TSA Spending $245 Million on "Second Generation" Nude-O-Scope Body Scanners</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 18, @08:39AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/18/1232223/judge-preserves-privacy-of-climate-scientists-emails" rel="nofollow">Judge Preserves Privacy of Climate Scientist's Emails</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

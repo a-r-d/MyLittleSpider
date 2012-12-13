@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '88642850296741414',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'graphics'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "graphics"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @12:55PM</td>
+			<td><a href="//apple.slashdot.org/submission/2396351/vector-vengeance-british-claim-they-can-kill-the-pixel-within-five-years" rel="nofollow">Vector vengeance: British claim they can kill the pixel within five years</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 07, @08:19PM</td>
+			<td><a href="//ask.slashdot.org/story/12/12/08/0119222/ask-slashdot-best-laptop-with-decent-linux-graphics-support" rel="nofollow">Ask Slashdot: Best Laptop With Decent Linux Graphics Support?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 06, @05:36AM</td>
+			<td><a href="//apple.slashdot.org/submission/2386973/ask-slashdot-best-laptop-with-decent-linux-graphics-support" rel="nofollow">Ask Slashdot: Best Laptop With Decent Linux Graphics Support?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday December 04, @10:40AM</td>
+			<td><a href="//games.slashdot.org/story/12/12/04/1540255/but-can-it-run-crysis-3" rel="nofollow">But Can It Run Crysis 3?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday December 01, @06:51PM</td>
+			<td><a href="//linux.slashdot.org/story/12/12/01/2351222/why-kde-plasma-makes-sense-for-linux-gaming" rel="nofollow">Why KDE Plasma Makes Sense For Linux Gaming</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday December 01, @01:47PM</td>
+			<td><a href="//developers.slashdot.org/story/12/12/01/1847244/how-does-a-single-line-of-basic-make-an-intricate-maze" rel="nofollow">How Does a Single Line of BASIC Make an Intricate Maze?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 30, @07:06PM</td>
+			<td><a href="//apple.slashdot.org/story/12/11/30/2010203/ask-slashdot-good-linux-desktop-environment-for-hi-defretina-displays" rel="nofollow">Ask Slashdot: Good Linux Desktop Environment For Hi-Def/Retina Displays?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 13, @01:25PM</td>
+			<td><a href="//developers.slashdot.org/story/12/11/13/1825214/ask-slashdot-how-to-catch-photoshop-plagiarism" rel="nofollow">Ask Slashdot: How To Catch Photoshop Plagiarism?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 13, @01:01PM</td>
+			<td><a href="//news.slashdot.org/story/12/11/13/0119235/the-shumway-open-swf-runtime-project" rel="nofollow">The Shumway Open SWF Runtime Project</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 12, @08:04PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/11/13/014241/nvidia-and-amd-launch-new-high-end-workstation-virtualization-and-hpc-gpus" rel="nofollow">NVIDIA and AMD Launch New High-End Workstation, Virtualization, and HPC GPUs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 12, @07:34PM</td>
+			<td><a href="//tech.slashdot.org/story/12/11/13/0034219/microsoft-makes-direct-x-111-a-windows-8-exclusive" rel="nofollow">Microsoft Makes Direct X 11.1 a Windows 8 Exclusive</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday November 11, @09:01PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/11/12/021203/ivan-sutherland-wins-kyoto-prize" rel="nofollow">Ivan Sutherland Wins Kyoto Prize</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 11, @07:29PM</td>
+			<td><a href="//apple.slashdot.org/submission/2348909/ivan-sutherland-wins-kyoto-prize" rel="nofollow">Ivan Sutherland wins Kyoto Prize</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday November 10, @12:40AM</td>
+			<td><a href="//tech.slashdot.org/story/12/11/10/0540251/gnome-38-to-scrap-fallback-mode" rel="nofollow">GNOME 3.8 To Scrap Fallback Mode</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 04, @03:34PM</td>
+			<td><a href="//apple.slashdot.org/submission/2337611/how-to-get-started-in-linux-graphics-programming" rel="nofollow">How to Get Started in Linux Graphics Programming</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 31, @04:57PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/10/31/2032237/linus-torvalds-advocates-for-2560x1600-standard-laptop-displays" rel="nofollow">Linus Torvalds Advocates For 2560x1600 Standard Laptop Displays</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 31, @09:51AM</td>
+			<td><a href="//tech.slashdot.org/story/12/10/31/1434212/rasterman-on-the-impending-release-of-enlightenment-17" rel="nofollow">Rasterman On The Impending Release of Enlightenment 17</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 26, @12:08AM</td>
+			<td><a href="//games.slashdot.org/story/12/10/25/2339223/a-proposal-to-fix-the-full-screen-x11-window-mess" rel="nofollow">A Proposal To Fix the Full-Screen X11 Window Mess</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 18, @12:08PM</td>
+			<td><a href="//tech.slashdot.org/story/12/10/18/1521219/trans-atlantic-8kuhdtv-streaming-with-ultragrid-and-commodity-pcs" rel="nofollow">Trans-Atlantic 8K/UHDTV Streaming With UltraGrid and Commodity PCs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 15, @08:02PM</td>
+			<td><a href="//tech.slashdot.org/story/12/10/16/012254/will-eu-regulations-effectively-ban-high-end-video-cards" rel="nofollow">Will EU Regulations Effectively Ban High-End Video Cards?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 15, @02:52PM</td>
+			<td><a href="//apple.slashdot.org/submission/2307391/will-eu-regulations-effectively-ban-high-end-video-cards" rel="nofollow">Will EU Regulations Effectively Ban High-End Video Cards?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 08, @08:39PM</td>
+			<td><a href="//linux.slashdot.org/story/12/10/09/0139221/mesa-90-released-with-open-source-opengl-31-drivers" rel="nofollow">Mesa 9.0 Released With Open Source OpenGL 3.1 Drivers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 30, @08:21AM</td>
+			<td><a href="//tech.slashdot.org/story/12/09/30/1321210/placeraider-builds-a-model-of-your-world-with-smartphone-photos" rel="nofollow">PlaceRaider Builds a Model of Your World With Smartphone Photos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 30, @07:42AM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/09/29/2033253/blender-debuts-fourth-open-source-movie-tears-of-steel" rel="nofollow">Blender Debuts Fourth Open Source Movie: Tears of Steel</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 27, @09:20AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/09/27/1420230/amd-trinity-apus-stack-up-well-to-intels-core-3" rel="nofollow">AMD Trinity APUs Stack Up Well To Intel's Core 3</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 26, @01:26PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/09/26/1826219/windows-8-has-scaling-issues-on-high-ppi-displays" rel="nofollow">Windows 8 Has Scaling Issues On High-PPI Displays</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 21, @05:15PM</td>
+			<td><a href="//developers.slashdot.org/story/12/09/21/2117206/torque3d-engine-goes-open-source" rel="nofollow">Torque3D Engine Goes Open-Source</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 20, @07:45AM</td>
+			<td><a href="//linux.slashdot.org/story/12/09/20/1245240/stubborn-intel-graphics-bug-haunts-ubuntu-1204" rel="nofollow">Stubborn Intel Graphics Bug Haunts Ubuntu 12.04</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday September 17, @01:21PM</td>
+			<td><a href="//linux.slashdot.org/story/12/09/15/1551223/x11-window-system-turns-25-years-old" rel="nofollow">X11 Window System Turns 25 Years Old</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 14, @05:27PM</td>
+			<td><a href="//science.slashdot.org/story/12/09/14/1834239/smooth-high-definition-video-of-curiositys-landing-on-mars" rel="nofollow">Smooth, High Definition Video of Curiosity's Landing On Mars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 13, @11:06AM</td>
+			<td><a href="//tech.slashdot.org/story/12/09/13/166203/ubuntu-nvidia-graphics-driver-windows-competitive-but-only-with-kde" rel="nofollow">Ubuntu  NVIDIA Graphics Driver: Windows Competitive, But Only With KDE </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 12, @12:28PM</td>
+			<td><a href="//apple.slashdot.org/submission/2255025/worlds-first-colour-moving-pictures-discovered" rel="nofollow">World's first colour moving pictures discovered</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 12, @10:16AM</td>
+			<td><a href="//developers.slashdot.org/story/12/09/12/1516217/mesa-finally-an-opengl-implementation-on-intel-hardware" rel="nofollow">Mesa Finally An OpenGL Implementation (On Intel Hardware)</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 12, @09:48AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/09/12/1448239/augmented-hdr-vision-for-welders-and-others" rel="nofollow">Augmented HDR Vision For Welders (And Others)</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 11, @01:04AM</td>
+			<td><a href="//apple.slashdot.org/submission/2251949/converting-rss-feeds-to-a-dynamic-3d-scene-in-120-lines-of-code" rel="nofollow">Converting RSS feeds to a dynamic 3D scene in 120 lines of code</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 01, @08:25AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/09/01/1325210/4k-uhdtv-hardware-on-display-in-berlin-and-on-sale-in-korea" rel="nofollow">4K UHDTV Hardware On Display in Berlin, And On Sale In Korea</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 01, @05:28AM</td>
+			<td><a href="//apple.slashdot.org/submission/2237377/computer-simulated-knitting" rel="nofollow">Computer Simulated Knitting </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 23, @04:51PM</td>
+			<td><a href="//games.slashdot.org/story/12/08/23/2151214/cpus-do-affect-gaming-performance-after-all" rel="nofollow">CPUs Do Affect Gaming Performance, After All</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday August 23, @12:52PM</td>
+			<td><a href="//apple.slashdot.org/story/12/08/23/1752216/os-x-108-vs-ubuntu-on-apple-hardware-benchmarked" rel="nofollow">OS X 10.8 vs. Ubuntu On Apple Hardware, Benchmarked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday August 14, @03:49PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/08/12/2145205/color-printing-reaches-its-ultimate-resolution" rel="nofollow">Color Printing Reaches Its Ultimate Resolution</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 14, @06:49AM</td>
+			<td><a href="//apple.slashdot.org/submission/2209783/handy-potter---make-things-by-waving-your-hands-in-the-air" rel="nofollow">Handy-Potter - Make Things By Waving Your Hands In The Air </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 12, @12:02PM</td>
+			<td><a href="//apple.slashdot.org/submission/2206509/how-to-breed-a-face---pareidoloop" rel="nofollow">How To Breed A Face - Pareidoloop</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday August 11, @02:42PM</td>
+			<td><a href="//tech.slashdot.org/story/12/08/11/1942233/pixar-demos-newly-open-sourced-opensubdiv-graphics-tech" rel="nofollow">Pixar Demos Newly Open-Sourced OpenSubdiv Graphics Tech</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday August 10, @07:51PM</td>
+			<td><a href="//tech.slashdot.org/story/12/08/11/0051250/you-cant-bypass-the-ui-formerly-known-as-metro-on-windows-8" rel="nofollow">You Can't Bypass the UI Formerly Known As Metro On Windows 8</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 10, @05:45PM</td>
+			<td><a href="//linux.slashdot.org/story/12/08/10/2245219/ubuntu-delays-wayland-plans-system-compositor" rel="nofollow">Ubuntu Delays Wayland Plans, System Compositor</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday August 03, @05:21PM</td>
+			<td><a href="//games.slashdot.org/story/12/08/03/2221218/48-games-entered-into-the-liberated-pixel-cup" rel="nofollow">48 Games Entered Into the Liberated Pixel Cup</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 30, @04:33PM</td>
+			<td><a href="//apple.slashdot.org/submission/2186267/hardware-accelerated-video-transcoding-under-the-microscope" rel="nofollow">Hardware-accelerated video transcoding under the microscope</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday July 14, @06:35AM</td>
+			<td><a href="//news.slashdot.org/story/12/07/14/0029212/why-is-wikipedia-so-ugly" rel="nofollow">Why Is Wikipedia So Ugly?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 10, @08:40AM</td>
+			<td><a href="//linux.slashdot.org/story/12/07/10/1340204/ubuntu-still-aims-for-wayland-in-quantal-quetzal" rel="nofollow">Ubuntu Still Aims For Wayland in Quantal Quetzal</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 05, @07:40AM</td>
+			<td><a href="//games.slashdot.org/story/12/07/04/1351237/liberated-pixel-cup-art-entries-closed-code-competition-begins" rel="nofollow">Liberated Pixel Cup: Art Entries Closed; Code Competition Begins</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 30, @06:00AM</td>
+			<td><a href="//news.slashdot.org/story/12/06/29/2355219/a-program-learns-oriental-ink-painting" rel="nofollow">A Program Learns Oriental Ink Painting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 29, @01:24PM</td>
+			<td><a href="//apple.slashdot.org/submission/2136693/a-program-learns-oriental-ink-painting" rel="nofollow">A Program Learns Oriental Ink Painting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 23, @09:48PM</td>
+			<td><a href="//linux.slashdot.org/story/12/06/24/0248208/nvidia-engineer-asks-how-the-company-can-improve-linux-support" rel="nofollow">Nvidia Engineer Asks How the Company Can Improve Linux Support</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 22, @10:37AM</td>
+			<td><a href="//linux.slashdot.org/story/12/06/22/1537233/xbmc-developers-criticize-amds-linux-driver" rel="nofollow">XBMC Developers Criticize AMD's Linux Driver</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 20, @07:37AM</td>
+			<td><a href="//linux.slashdot.org/story/12/06/20/1237257/nvidia-responds-to-linus-torvalds" rel="nofollow">NVIDIA Responds To Linus Torvalds</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday June 19, @07:28AM</td>
+			<td><a href="//games.slashdot.org/story/12/06/18/1748206/unity-4-adds-linux-support" rel="nofollow">Unity 4 Adds Linux Support</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 18, @05:54AM</td>
+			<td><a href="//linux.slashdot.org/story/12/06/17/1415250/torvalds-slams-nvidias-linux-support" rel="nofollow">Torvalds Slams NVIDIA's Linux Support</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday June 17, @10:51AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/06/17/1551212/powervr-to-make-mobile-graphics-gpu-compute-a-three-way-race-again" rel="nofollow">PowerVR To Make Mobile Graphics, GPU Compute a Three-Way Race Again</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 16, @11:04PM</td>
+			<td><a href="//games.slashdot.org/story/12/06/17/044234/leaked-document-hints-at-augmented-reality-glasses-for-future-xbox" rel="nofollow">Leaked Document Hints At Augmented Reality Glasses For Future Xbox</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 14 2012, @01:28PM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/14/1827259/windows-8-pre-rtm-metro-ui-leaked" rel="nofollow">Windows 8 Pre RTM Metro UI Leaked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday June 10 2012, @07:55AM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/10/1255216/x11-77-released-brings-multi-touch-input" rel="nofollow">X11 7.7 Released, Brings Multi-Touch Input </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 08 2012, @11:50PM</td>
+			<td><a href="//news.slashdot.org/story/12/06/09/0450207/new-modeling-algorithms-bring-more-detail-to-google-earths-3-d-world" rel="nofollow">New Modeling Algorithms Bring More Detail to Google Earth's 3-D World</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 07 2012, @11:53AM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/07/1653206/amdati-video-drivers-unsafe-at-any-speed" rel="nofollow">AMD/ATI Video Drivers: Unsafe At Any Speed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday June 05 2012, @07:55AM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/05/1255222/mozillas-open-source-project-shumway-to-translate-swf-to-html5" rel="nofollow">Mozilla's Open Source Project Shumway To Translate SWF To HTML5</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 04 2012, @11:12PM</td>
+			<td><a href="//games.slashdot.org/story/12/06/02/0451227/liberated-pixel-cup-art-contest-launches" rel="nofollow">Liberated Pixel Cup Art Contest Launches</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday June 03 2012, @10:41AM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/03/1541215/despite-game-related-glitches-amd-discontinues-monthly-driver-updates" rel="nofollow">Despite Game-Related Glitches, AMD Discontinues Monthly Driver Updates</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 24 2012, @11:17PM</td>
+			<td><a href="//mobile.slashdot.org/story/12/05/25/0417257/facebook-releases-instagram-clone-two-months-after-acquisition" rel="nofollow">Facebook Releases Instagram Clone, Two Months After Acquisition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday May 15 2012, @10:12AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/15/1433211/photographers-youre-being-replaced-by-software" rel="nofollow">Photographers, You're Being Replaced By Software</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 15 2012, @08:53AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/15/1353202/modeling-people-and-places-with-internet-photo-collections" rel="nofollow">Modeling People and Places With Internet Photo Collections</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 14 2012, @08:43PM</td>
+			<td><a href="//apple.slashdot.org/submission/2067109/modeling-people-and-places-with-internet-photo-collections" rel="nofollow">Modeling People and Places with Internet Photo Collections</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 08 2012, @12:38PM</td>
+			<td><a href="//apple.slashdot.org/submission/2057745/the-wretched-state-of-gpu-transcoding" rel="nofollow">The wretched state of GPU transcoding</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 03 2012, @06:06PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/05/03/236209/nvidia-geforce-gtx-690-benchmarked" rel="nofollow">NVIDIA GeForce GTX 690 Benchmarked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 03 2012, @09:12AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/03/1412224/gimp-28-finally-released" rel="nofollow">Gimp 2.8 Finally Released</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 30 2012, @04:52AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/04/29/2045207/nvidia-unveils-dual-gpu-powered-geforce-gtx-690" rel="nofollow">NVIDIA Unveils Dual-GPU Powered GeForce GTX 690</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 26 2012, @02:10PM</td>
+			<td><a href="//tech.slashdot.org/story/12/04/26/1910232/trimble-to-acquire-google-sketchup" rel="nofollow">Trimble To Acquire Google SketchUp</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 26 2012, @12:38PM</td>
+			<td><a href="//tech.slashdot.org/story/12/04/26/1738206/mozilla-considers-h264-after-webm-fails-to-gain-traction" rel="nofollow">Mozilla Considers H264 After WebM Fails To Gain Traction</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday April 21 2012, @07:03PM</td>
+			<td><a href="//news.slashdot.org/story/12/04/22/003217/elephants-dream-director-readies-blender-animated-tube" rel="nofollow">Elephants Dream Director Readies Blender-Animated Tube</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 17 2012, @01:31PM</td>
+			<td><a href="//news.slashdot.org/story/12/04/17/1826215/gimp-core-mostly-ported-to-gegl" rel="nofollow">GIMP Core Mostly Ported to GEGL</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 15 2012, @05:46PM</td>
+			<td><a href="//tech.slashdot.org/story/12/04/15/2246257/amd-launches-partnership-with-cad-developer-ptc" rel="nofollow">AMD Launches Partnership With CAD Developer PTC</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 13 2012, @06:59PM</td>
+			<td><a href="//linux.slashdot.org/story/12/04/13/2359234/open-source-nvidia-driver-goes-stable-on-linux" rel="nofollow">Open-Source NVIDIA Driver Goes Stable On Linux</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 12 2012, @11:33AM</td>
+			<td><a href="//apple.slashdot.org/submission/2019757/a-kinect-dancing-musical-sculpture" rel="nofollow">A Kinect Dancing Musical Sculpture </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 10 2012, @11:05AM</td>
+			<td><a href="//apple.slashdot.org/submission/2016001/webgl-3d-graphs-on-google" rel="nofollow">WebGL 3D Graphs on Google </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 10 2012, @03:44AM</td>
+			<td><a href="//apple.slashdot.org/submission/2015407/us-government-licenses-unreal-game-engine-to-train-fbi-agents-and-army-medics" rel="nofollow">US government licenses Unreal game engine to train FBI agents and army medics</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 09 2012, @09:14PM</td>
+			<td><a href="//developers.slashdot.org/story/12/04/10/0214218/demoscene-64k-intros-at-revision-demoparty" rel="nofollow">Demoscene: 64k Intros At Revision Demoparty</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 08 2012, @09:22PM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/04/09/0222223/how-james-cameron-pumped-volume-into-titanic" rel="nofollow">How James Cameron Pumped Volume Into Titanic</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 05 2012, @07:48PM</td>
+			<td><a href="//tech.slashdot.org/story/12/04/06/0048212/animated-presentations-using-svg" rel="nofollow">Animated Presentations Using SVG</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 01 2012, @07:34AM</td>
+			<td><a href="//tech.slashdot.org/story/12/03/30/1940235/tegra-4-likely-to-include-kepler-dna" rel="nofollow">Tegra 4 Likely To Include Kepler DNA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 30 2012, @09:25AM</td>
+			<td><a href="//apple.slashdot.org/submission/2001543/tegra-4-likely-to-include-kepler-dna" rel="nofollow">Tegra 4 likely to include Kepler DNA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday March 25 2012, @10:34PM</td>
+			<td><a href="//tech.slashdot.org/story/12/03/26/0334214/magician-marco-tempest-talks-open-sorcery" rel="nofollow">Magician Marco Tempest Talks 'Open Sorcery'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday March 24 2012, @12:44PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/03/24/1744241/windows-8-and-screen-resolution-wxga-still-most-popular" rel="nofollow">Windows 8 and Screen Resolution: WXGA Still Most Popular</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 22 2012, @11:41AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/03/22/1641203/nvidias-fermi-architecture-debuts-nouveau-driver-already-working" rel="nofollow">Nvidia's Fermi Architecture Debuts; Nouveau Driver Already Working</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday March 22 2012, @08:32AM</td>
+			<td><a href="//apple.slashdot.org/submission/1990275/nvidia-unveils-ultra-efficient-kepler-gpu" rel="nofollow">Nvidia Unveils Ultra-Efficient Kepler GPU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 15 2012, @08:22AM</td>
+			<td><a href="//news.slashdot.org/story/12/03/15/1218240/berkeley-html5-timeline-tool-can-show-a-day-or-the-lifetime-of-the-universe" rel="nofollow">Berkeley HTML5 Timeline Tool Can Show a Day, Or the Lifetime of the Universe</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday March 13 2012, @12:46AM</td>
+			<td><a href="//science.slashdot.org/story/12/03/12/199244/algorithm-brings-speedier-safer-ct-scans" rel="nofollow">Algorithm Brings Speedier, Safer CT Scans</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 08 2012, @10:56AM</td>
+			<td><a href="//apple.slashdot.org/submission/1972043/ms-research-invent-almost-still-photos" rel="nofollow">MS Research Invent "Almost" Still Photos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday March 07 2012, @11:21AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/03/07/1621248/early-ivy-bridge-benchmark-graphics-performance-greatly-improved" rel="nofollow">Early Ivy Bridge Benchmark: Graphics Performance Greatly Improved</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday March 02 2012, @10:21PM</td>
+			<td><a href="//tech.slashdot.org/story/12/03/03/0321205/a-taxonomy-of-visualization-techniques" rel="nofollow">A Taxonomy of Visualization Techniques</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 02 2012, @09:45PM</td>
+			<td><a href="//games.slashdot.org/story/12/03/03/0245256/with-8-cards-wolfenstein-ray-traced-77x-faster" rel="nofollow">With 8 Cards, Wolfenstein Ray Traced 7.7x Faster</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday February 11 2012, @03:35PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/02/11/2035226/tms9918a-retro-video-chip-reimplemented-in-fpga-with-vga-out" rel="nofollow">TMS9918A Retro Video Chip Reimplemented In FPGA, With VGA Out</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 07 2012, @11:45AM</td>
+			<td><a href="//linux.slashdot.org/story/12/02/07/1645255/nouveau-open-source-nvidia-driver-achieves-opencl-support" rel="nofollow">Nouveau Open-Source NVIDIA Driver Achieves OpenCL Support</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 31 2012, @05:56AM</td>
+			<td><a href="//apple.slashdot.org/submission/1926193/intel-stealthily-slides-into-workstation-graphics" rel="nofollow">Intel stealthily slides into workstation graphics </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday January 30 2012, @10:04PM</td>
+			<td><a href="//apple.slashdot.org/submission/1925685/kinect-russian-roulette-created-as-art-project" rel="nofollow">Kinect Russian Roulette created as art project</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 24 2012, @10:39AM</td>
+			<td><a href="//ask.slashdot.org/story/12/01/24/1539211/ask-slashdot-tips-on-2d-to-stereo-3d-conversion" rel="nofollow">Ask Slashdot: Tips On 2D To Stereo 3D Conversion?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday January 21 2012, @11:03AM</td>
+			<td><a href="//apple.slashdot.org/submission/1916876/ray-tracer-in-javascript" rel="nofollow">Ray Tracer in JavaScript</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday January 21 2012, @04:35AM</td>
+			<td><a href="//linux.slashdot.org/story/12/01/21/0935248/coming-soon-an-open-source-reverse-engineered-mali-gpu-driver" rel="nofollow">Coming Soon: An Open-Source, Reverse-Engineered Mali GPU Driver</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday January 16 2012, @08:22PM</td>
+			<td><a href="//developers.slashdot.org/story/12/01/17/0122206/google-ports-box2d-demo-to-dart" rel="nofollow">Google Ports Box2D Demo To Dart</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday January 16 2012, @08:01AM</td>
+			<td><a href="//apple.slashdot.org/submission/1911076/dart-does-physics---just-to-prove-it-can" rel="nofollow">Dart Does Physics - Just To Prove It Can!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday January 13 2012, @04:50AM</td>
+			<td><a href="//it.slashdot.org/story/12/01/13/044216/researchers-tool-maps-malware-in-elegant-3d-model" rel="nofollow">Researcher's Tool Maps Malware In Elegant 3D Model</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday January 02 2012, @10:55PM</td>
+			<td><a href="//developers.slashdot.org/story/12/01/02/2358240/the-semantic-line-interface" rel="nofollow">The Semantic Line Interface</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday December 31 2011, @12:27PM</td>
+			<td><a href="//developers.slashdot.org/story/11/12/31/1726251/vision-and-sound-from-the-ideally-bare-numeric-impression-gizmo" rel="nofollow">Vision and Sound From the Ideally Bare Numeric Impression giZmo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 22 2011, @10:59AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/12/22/1559255/amd-radeon-hd-7970-launched-fastest-gpu-tested" rel="nofollow">AMD Radeon HD 7970 Launched, Fastest GPU Tested</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 15 2011, @04:06AM</td>
+			<td><a href="//apple.slashdot.org/submission/1881132/blender-261-released" rel="nofollow">Blender 2.61 Released</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 13 2011, @12:14PM</td>
+			<td><a href="//apple.slashdot.org/submission/1879254/googles-angle-brings-opengl-to-windows" rel="nofollow">Google's Angle brings OpenGL to Windows</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday December 10 2011, @09:30PM</td>
+			<td><a href="//apple.slashdot.org/submission/1876456/the-condescending-ui" rel="nofollow">The Condescending UI</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 08 2011, @12:20PM</td>
+			<td><a href="//apple.slashdot.org/submission/1874444/microsoft-drops-vml-in-ie10---urges-use-standards" rel="nofollow">Microsoft Drops VML in IE10 - urges use standards!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday December 06 2011, @09:09AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/12/05/2110228/digital-face-swapping-getting-cheaper" rel="nofollow">Digital Face-Swapping Getting Cheaper</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 01 2011, @12:52PM</td>
+			<td><a href="//news.slashdot.org/story/11/12/01/1752210/how-photoshopped-is-that-picture" rel="nofollow">How Photoshopped Is That Picture?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 30 2011, @11:56AM</td>
+			<td><a href="//tech.slashdot.org/story/11/11/30/1656216/nvidia-launches-geforce-gtx-560-ti-448-core-gpu" rel="nofollow">NVIDIA Launches GeForce GTX 560 Ti 448-Core GPU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 29 2011, @12:09PM</td>
+			<td><a href="//tech.slashdot.org/story/11/11/29/0413257/a-3d-display-you-can-touch" rel="nofollow">A 3D Display You Can Touch</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 28 2011, @10:08AM</td>
+			<td><a href="//apple.slashdot.org/submission/1863692/a-3d-display-you-can-touch" rel="nofollow">A 3D display you can touch</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 27 2011, @10:17AM</td>
+			<td><a href="//apple.slashdot.org/submission/1862744/open-source-software-reveals-the-young-da-vinci" rel="nofollow">Open Source Software Reveals The Young Da Vinci</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday November 26 2011, @02:33AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/11/26/0732238/qt-5-will-be-available-for-raspberry-pi" rel="nofollow">QT 5 Will Be Available For Raspberry Pi</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 24 2011, @03:25PM</td>
+			<td><a href="//apple.slashdot.org/story/11/11/24/2025218/the-sketchbook-of-susan-kare" rel="nofollow">The Sketchbook of Susan Kare</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 18 2011, @06:27PM</td>
+			<td><a href="//tech.slashdot.org/story/11/11/18/175213/google-upgrades-webp-to-challenge-png-image-format" rel="nofollow">Google Upgrades WebP To Challenge PNG Image Format</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 16 2011, @03:35PM</td>
+			<td><a href="//tech.slashdot.org/story/11/11/16/2035250/intel-and-dreamworks-working-on-rendering-animation-in-real-time" rel="nofollow">Intel and DreamWorks Working On Rendering Animation In Real-Time</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 15 2011, @04:13AM</td>
+			<td><a href="//apple.slashdot.org/submission/1849268/can-intel-and-dreamworks-render-animation-in-real" rel="nofollow">Can Intel and DreamWorks render animation in real </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 10 2011, @10:13AM</td>
+			<td><a href="//mobile.slashdot.org/story/11/11/10/1513247/arm-claims-ps3-like-graphics-on-upcoming-mobile-gpu" rel="nofollow">ARM Claims PS3-Like Graphics On Upcoming Mobile GPU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 09 2011, @09:57AM</td>
+			<td><a href="//apple.slashdot.org/submission/1843392/open-source-volume-rendering" rel="nofollow">Open Source Volume Rendering </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 07 2011, @09:31PM</td>
+			<td><a href="//linux.slashdot.org/story/11/11/08/0231232/experimental-virtual-graphics-port-support-for-linux" rel="nofollow">Experimental Virtual Graphics Port Support For Linux</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday November 06 2011, @04:38PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/11/06/2137257/mixed-reality-3d-volumetric-projector" rel="nofollow">Mixed-Reality 3D Volumetric Projector</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 06 2011, @12:44PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/11/06/1743257/gnome-shell-no-longer-requires-gpu-acceleration" rel="nofollow">GNOME Shell No Longer Requires GPU Acceleration</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 02 2011, @07:25AM</td>
+			<td><a href="//apple.slashdot.org/submission/1836250/a-flashlight-onto-a-virtual-world" rel="nofollow">A "flashlight" onto a virtual world</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 24 2011, @02:40AM</td>
+			<td><a href="//tech.slashdot.org/story/11/10/24/0513215/rendering-synthetic-objects-into-old-photographs" rel="nofollow">Rendering Synthetic Objects Into Old Photographs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 23 2011, @07:47AM</td>
+			<td><a href="//apple.slashdot.org/submission/1826478/holodesk---almost-star-trek" rel="nofollow">HoloDesk - almost Star Trek </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 20 2011, @02:03PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/10/20/193245/open-source-cpus-coming-to-a-club-near-you" rel="nofollow">Open Source CPUs Coming To a Club Near You?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 20 2011, @08:45AM</td>
+			<td><a href="//apple.slashdot.org/submission/1823768/mapsgl-makes-ie-look-like-last-years-browser" rel="nofollow">MapsGL makes IE look like last years browser </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 16 2011, @10:07AM</td>
+			<td><a href="//tech.slashdot.org/story/11/10/16/157205/nvidia-launches-3d-vision-2" rel="nofollow">NVIDIA Launches 3D Vision 2</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 14 2011, @06:46AM</td>
+			<td><a href="//linux.slashdot.org/story/11/10/13/2057213/amd-ports-open-source-linux-gpu-driver-to-windows" rel="nofollow">AMD Ports Open-Source Linux GPU Driver To Windows</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 11 2011, @09:08AM</td>
+			<td><a href="//tech.slashdot.org/story/11/10/11/148216/adobe-demos-photo-unblurring-at-max-2011" rel="nofollow">Adobe Demos Photo Unblurring At MAX 2011</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 09 2011, @12:35AM</td>
+			<td><a href="//apple.slashdot.org/submission/1811852/re-defining-photo-manipulation" rel="nofollow">Re-Defining Photo Manipulation</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 29 2011, @04:22AM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/28/1651223/zotac-releases-geforce-gt-520-with-classic-pci-connector" rel="nofollow">Zotac Releases GeForce GT 520 With Classic PCI Connector</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 22 2011, @07:27AM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/20/209206/spectrophotometer-analysis-of-crayons" rel="nofollow">Spectrophotometer Analysis of Crayons</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 20 2011, @07:40AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/09/20/1240210/28-way-radeon-gpu-comparison-under-linux" rel="nofollow">28-Way Radeon GPU Comparison Under Linux</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 18 2011, @11:37AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/09/18/141232/the-letter-that-started-amds-open-source-strategy" rel="nofollow">The Letter That Started AMD's Open-Source Strategy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 15 2011, @12:14PM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/15/1714237/wolfenstein-ray-traced-and-anti-aliased-at-1080p" rel="nofollow">Wolfenstein Ray Traced and Anti-Aliased, At 1080p</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 10 2011, @12:43AM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/10/0543231/inside-netflixs-webkit-based-ui-for-tv-devices" rel="nofollow">Inside Netflix's WebKit-Based UI For TV Devices</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 09 2011, @07:39PM</td>
+			<td><a href="//apple.slashdot.org/story/11/09/10/0039235/adobe-brings-flash-free-flash-to-ios-devices" rel="nofollow">Adobe Brings Flash-Free Flash To iOS Devices</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 06 2011, @05:24PM</td>
+			<td><a href="//apple.slashdot.org/submission/1779656/inkscape-0482-released" rel="nofollow">Inkscape 0.48.2 Released!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 02 2011, @11:31PM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/03/0431213/newly-digitized-film-shows-ed-catmulls-3d-graphics-from-1972" rel="nofollow">Newly Digitized Film Shows Ed Catmull's 3D Graphics From 1972</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 02 2011, @11:18PM</td>
+			<td><a href="//apple.slashdot.org/submission/1776456/fascinating-1972-film-uses-3d-graphics" rel="nofollow">Fascinating 1972 film uses 3D graphics</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday August 28 2011, @02:03PM</td>
+			<td><a href="//games.slashdot.org/story/11/08/28/192257/google-is-grooming-chrome-as-a-game-platform" rel="nofollow">Google Is Grooming Chrome As a Game Platform</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday August 27 2011, @08:49AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/08/27/1349233/linux-support-fades-for-3dfx-voodoo-rage-128-via" rel="nofollow">Linux Support Fades For 3Dfx Voodoo, Rage 128, VIA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 26 2011, @08:54PM</td>
+			<td><a href="//tech.slashdot.org/story/11/08/27/0154245/xorg-server-111-released" rel="nofollow">X.Org Server 1.11 Released</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 24 2011, @01:18PM</td>
+			<td><a href="//apple.slashdot.org/submission/1767110/adaptable-gimp-builtin-searchable-macros-by-users" rel="nofollow">Adaptable GIMP: builtin searchable macros by users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 23 2011, @08:55AM</td>
+			<td><a href="//tech.slashdot.org/story/11/08/23/1355225/the-gimp-now-has-a-working-single-window-mode" rel="nofollow">The GIMP Now Has a Working Single-Window Mode</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday August 20 2011, @06:42PM</td>
+			<td><a href="//apple.slashdot.org/submission/1763008/an-accidental-free-software-accelerated-3d-gpu" rel="nofollow">An accidental Free Software Accelerated 3D GPU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday August 11 2011, @07:46AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/08/11/1246210/portable-super-high-resolution-3-d-imaging" rel="nofollow">Portable, Super-high-resolution 3-D Imaging</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday August 09 2011, @12:48PM</td>
+			<td><a href="//tech.slashdot.org/story/11/08/09/1748232/arm-sees-mobile-as-the-future-gaming-platform-of-choice" rel="nofollow">ARM Sees Mobile As the Future Gaming Platform of Choice</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 08 2011, @06:18PM</td>
+			<td><a href="//apple.slashdot.org/story/11/08/08/2318216/external-thunderbolt-graphics-card-on-its-way" rel="nofollow">External Thunderbolt Graphics Card On Its Way</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 08 2011, @03:27PM</td>
+			<td><a href="//apple.slashdot.org/submission/1750368/khronos-releases-opengl-42-specification" rel="nofollow">Khronos releases OpenGL 4.2 specification</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday August 07 2011, @08:25AM</td>
+			<td><a href="//tech.slashdot.org/story/11/08/07/1325209/kde-plans-to-support-wayland-in-2012" rel="nofollow">KDE Plans To Support Wayland In 2012</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 01 2011, @07:47PM</td>
+			<td><a href="//apple.slashdot.org/submission/1743722/making-graphics-in-games-100000-times-better" rel="nofollow">Making Graphics in Games "100,000 Times Better"?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday July 24 2011, @06:10PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/07/24/2310205/intel-details-handling-anti-aliasing-on-cpus" rel="nofollow">Intel Details Handling Anti-Aliasing On CPUs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 19 2011, @02:18PM</td>
+			<td><a href="//it.slashdot.org/story/11/07/19/177243/qt-for-the-console" rel="nofollow">Qt For the Console</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 15 2011, @09:13PM</td>
+			<td><a href="//developers.slashdot.org/story/11/07/15/2324212/visual-hash-turns-text-or-data-into-abstract-art" rel="nofollow">Visual Hash Turns Text Or Data Into Abstract Art</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 15 2011, @02:47PM</td>
+			<td><a href="//apple.slashdot.org/submission/1720390/visual-hash-turns-text-or-data-into-abstract-art" rel="nofollow">Visual Hash Turns Text Or Data Into Abstract Art</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 14 2011, @11:07PM</td>
+			<td><a href="//linux.slashdot.org/story/11/07/15/047213/open-radeon-3d-driver-runs-at-6070-of-proprietary-driver-speed" rel="nofollow">Open Radeon 3D Driver Runs At 60~70% of Proprietary Driver Speed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 12 2011, @01:55PM</td>
+			<td><a href="//tech.slashdot.org/story/11/07/12/1855250/interview-with-the-editors-of-libre-graphics-magazine" rel="nofollow">Interview With the Editors of Libre Graphics Magazine</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 12 2011, @01:49PM</td>
+			<td><a href="//tech.slashdot.org/story/11/07/12/1849258/amd-releases-fastest-mobile-gpu" rel="nofollow">AMD Releases Fastest Mobile GPU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday July 11 2011, @11:20PM</td>
+			<td><a href="//tech.slashdot.org/story/11/07/12/0420211/gpu-powered-planetarium-renders-64mp-projection" rel="nofollow">GPU-Powered Planetarium Renders 64MP Projection</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 07 2011, @10:56AM</td>
+			<td><a href="//tech.slashdot.org/story/11/07/07/1556203/htc-to-buy-s3-graphics-from-via" rel="nofollow">HTC To Buy S3 Graphics From VIA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 05 2011, @10:05AM</td>
+			<td><a href="//news.slashdot.org/story/11/07/05/155240/first-webcl-demos-arrive-from-nokia-and-amd" rel="nofollow">First WebCL Demos Arrive From Nokia and AMD</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 01 2011, @09:47PM</td>
+			<td><a href="//apple.slashdot.org/submission/1690658/does-ge-think-were-stupid" rel="nofollow">Does GE Think We're Stupid?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 01 2011, @08:09PM</td>
+			<td><a href="//linux.slashdot.org/story/11/07/02/018249/linaro-1106-release-brings-unity-3d-port-to-arm" rel="nofollow">Linaro 11.06 Release Brings Unity 3D Port To ARM</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 22 2011, @04:05AM</td>
+			<td><a href="//apple.slashdot.org/submission/1666488/japanese-pop-idol-shocks-fans---she-isnt-real" rel="nofollow">Japanese Pop Idol Shocks Fans - She Isnt Real</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 16 2011, @11:29PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/06/17/0427253/amd-fusion-system-architecture-detailed" rel="nofollow">AMD Fusion System Architecture Detailed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 11 2011, @04:05PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/06/11/215221/netflixs-new-web-interface-gets-thumbs-down-from-users" rel="nofollow">Netflix's New Web Interface Gets Thumbs Down From Users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 08 2011, @10:45AM</td>
+			<td><a href="//tech.slashdot.org/story/11/06/08/1545233/cloud-based-ray-traced-games-on-intel-tablets" rel="nofollow">Cloud-Based, Ray-Traced Games On Intel Tablets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 06 2011, @10:51PM</td>
+			<td><a href="//developers.slashdot.org/story/11/06/07/0348254/gpld-driver-and-linux-support-for-new-h264-capture-card" rel="nofollow">GPL'd Driver and Linux Support For New H.264 Capture Card</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday June 05 2011, @03:29PM</td>
+			<td><a href="//it.slashdot.org/story/11/06/05/2028256/cheap-gpus-rendering-strong-passwords-useless" rel="nofollow">Cheap GPUs Rendering Strong Passwords Useless</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 03 2011, @02:12PM</td>
+			<td><a href="//apple.slashdot.org/submission/1627636/what-makes-a-photograph-memorable" rel="nofollow">What Makes a Photograph Memorable?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 02 2011, @12:40PM</td>
+			<td><a href="//games.slashdot.org/story/11/06/02/0416219/gnome-shell-hurts-gaming-performance" rel="nofollow">GNOME Shell Hurts Gaming Performance</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 30 2011, @01:45AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/05/30/0645213/nvidia-announces-geforce-gtx-560m-and-gt-520mx-mobile-gpus" rel="nofollow">NVIDIA Announces GeForce GTX 560M and GT 520MX Mobile GPUs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday May 27 2011, @05:15PM</td>
+			<td><a href="//linux.slashdot.org/story/11/05/27/2046213/meego-being-ported-to-wayland" rel="nofollow">MeeGo Being Ported To Wayland</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 25 2011, @09:18AM</td>
+			<td><a href="//idle.slashdot.org/story/11/05/25/1418211/best-optical-illusion-of-the-year-contest" rel="nofollow">Best Optical Illusion of the Year Contest</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday May 24 2011, @06:55PM</td>
+			<td><a href="//games.slashdot.org/story/11/05/24/2355239/upscaling-retro-8-bit-pixel-art-to-vector-graphics" rel="nofollow">Upscaling Retro 8-Bit Pixel Art To Vector Graphics</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 24 2011, @06:26PM</td>
+			<td><a href="//tech.slashdot.org/story/11/05/24/2326250/mozilla-rejects-webp-image-format-google-adds-it" rel="nofollow">Mozilla Rejects WebP Image Format, Google Adds It</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday May 22 2011, @01:20PM</td>
+			<td><a href="//tech.slashdot.org/story/11/05/22/1820200/3d-aerial-photos-for-the-common-man" rel="nofollow">3D Aerial Photos For the Common Man</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 19 2011, @12:22PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/05/19/1722230/inside-nvidias-massive-hardware-emulation-lab" rel="nofollow">Inside NVIDIA's Massive Hardware Emulation Lab</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday May 10 2011, @02:01PM</td>
+			<td><a href="//tech.slashdot.org/story/11/05/10/191259/webgl-poses-new-security-problems" rel="nofollow">WebGL Poses New Security Problems</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 29 2011, @12:34AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/04/29/0534212/nvidia-and-amd-hug-it-out-sli-coming-to-amd-mobos" rel="nofollow">Nvidia and AMD Hug It Out, SLI Coming To AMD Mobos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 24 2011, @06:37PM</td>
+			<td><a href="//tech.slashdot.org/story/11/04/24/2337218/the-art-of-the-animated-gif" rel="nofollow">The Art of the Animated GIF</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 24 2011, @03:53PM</td>
+			<td><a href="//apple.slashdot.org/submission/1540954/the-art-of-the-animated-gif" rel="nofollow">The Art of the Animated GIF</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 20 2011, @01:03PM</td>
+			<td><a href="//idle.slashdot.org/story/11/04/20/182259/vegan-website-uses-altered-pics-of-meat-dishes" rel="nofollow">Vegan Website Uses Altered Pics of Meat Dishes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 19 2011, @01:18AM</td>
+			<td><a href="//apple.slashdot.org/submission/1533012/google-data-viz-winners-right-stuff-or-fluff" rel="nofollow">Google Data Viz Winners: Right Stuff or Fluff?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 14 2011, @06:03PM</td>
+			<td><a href="//news.slashdot.org/story/11/04/14/233225/blender-257-released-and-its-easy-to-use" rel="nofollow">Blender 2.57 Released &mdash; and It's Easy To Use!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 08 2011, @10:43PM</td>
+			<td><a href="//news.slashdot.org/story/11/04/09/021209/photosynth-gets-a-little-competition" rel="nofollow">Photosynth Gets a Little Competition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 08 2011, @08:25PM</td>
+			<td><a href="//apple.slashdot.org/submission/1523986/photosynth-gets-a-little-competition" rel="nofollow">Photosynth gets a little competition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 08 2011, @01:08AM</td>
+			<td><a href="//science.slashdot.org/story/11/04/07/1725256/using-prime-numbers-to-generate-backgrounds" rel="nofollow">Using Prime Numbers to Generate Backgrounds</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 03 2011, @03:07PM</td>
+			<td><a href="//tech.slashdot.org/story/11/04/03/207229/a-multitasking-gui-circa-1982" rel="nofollow">A Multitasking GUI, Circa 1982</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

@@ -4,6 +4,14 @@
 #   Aaron Decker - me@a-r-d.me
 #   MIT License
 #
+#####################################################
+#
+#   To Do:
+#       1. Parametize opts.
+#       2. Provide support for unicode when writing files.
+#       3. Multi-Threading.
+#
+#####################################################
 import urllib
 import urllib2
 import socket
@@ -20,6 +28,7 @@ SAVE_PAGES = True
 SAVE_PAGE_DIR = "spider_results"
 SCAN_TIME = str(int(time.time())) # want like- 1355284655
 BASE_DIR = os.path.join(SAVE_PAGE_DIR, SCAN_TIME)
+STATS_FILES = BASE_DIR
 
 if SAVE_PAGES:
     d = os.path.join(os.getcwd(), BASE_DIR)
@@ -29,7 +38,7 @@ if SAVE_PAGES:
 VERBOSITY = 2 ### 0, 1, 2, 3
 """
 Verbosity explained:
-    0 = no printing.
+    0 = no printing, except for exceptions
     1 = only important messages counts, ext.
     2 = frequent updates on the control flow of program.
     3 = prints out very many updates.
@@ -216,6 +225,24 @@ def single_harvest(url):
         print "Harvesting failed from: %s, %s" % (url,e)
         return []
 
+#record scanned link:
+def record_scanned_link(url):
+    try:
+        f = open(os.path.join(STATS_FILES, "visited_links.txt"), 'a')
+        f.write("%s\n" % url)
+        f.close()
+    except Exception, e:
+        print "Failed to write url to file %s / %s" % (url, e)
+        
+def record_harvested_links(url_list):
+    try:
+        f = open(os.path.join(STATS_FILES, "all_harvested_links.txt"), 'a')
+        for url in url_list:
+            f.write("%s\n" % url)
+        f.close()
+    except Exception, e:
+        print "Failed to write url to file %s / %s" % (url, e)
+
 #passed single full URL
 def harvest_links_no_depth(url):
     t1 = time.time()
@@ -224,7 +251,10 @@ def harvest_links_no_depth(url):
     diff = str(t2 - t1)
     if VERBOSITY > 1:
         print "Time on the call: %s seconds" % diff
-    return res #a list of links
+    #remove dupes:
+    link_set = set(res)
+    link_list = list(link_set)
+    return link_list #a list of links
         
 def harvest_links_recursively(seed_list, depth):
     global ALL_SCANNED_LINKS
@@ -243,6 +273,8 @@ def harvest_links_recursively(seed_list, depth):
                 links = []
                 links = harvest_links_no_depth(s)
                 ALL_SCANNED_LINKS.append(s)
+                record_scanned_link(s)# write the visited link to this file
+                record_harvested_links(links)# write all the links to this file
                 if VERBOSITY > 2:
                     print "Number Links from the harvest- depth=0 ", len(links)
                 if links != None:
@@ -260,9 +292,10 @@ def harvest_links_recursively(seed_list, depth):
             for link in NEXT_LINK_SET:
                 if link not in ALL_SCANNED_LINKS:
                     links = harvest_links_no_depth(link)
+                    record_scanned_link(link)# write the visited link to this file
+                    record_harvested_links(temp_link_set)# write all the links to this file
                     ALL_SCANNED_LINKS.append(link) # make absolutely sure we do nothing twice.
                     temp_link_set.extend(links)
-                    
             # clear the old list, 
             if VERBOSITY > 0:
                 print "Last list size: ", len(NEXT_LINK_SET)

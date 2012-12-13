@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '124937750195400118',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'porn'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "porn"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 04, @08:13AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/03/031215/iran-suspends-programmers-death-sentence" rel="nofollow">Iran Suspends Programmer's Death Sentence</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 30, @12:27PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2377991/fbi-dads-misadventures-wspyware-exposed-school-principals-child-porn" rel="nofollow">FBI Dad's Misadventures W/Spyware Exposed School Principal's Child Porn </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday November 17, @11:42AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/17/1642226/david-cameron-orders-new-curbs-on-internet-porn" rel="nofollow">David Cameron 'Orders New Curbs On Internet Porn'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 02, @05:23PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/02/1242217/1500000-fine-for-sharing-10-movies-on-bittorrent" rel="nofollow">$1,500,000 Fine For Sharing 10 Movies On BitTorrent</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 09, @10:22AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/09/1314232/rick-falkvinge-on-child-porn-and-freedom-of-the-press" rel="nofollow">Rick Falkvinge On Child Porn and Freedom Of the Press</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 08, @03:13AM</td>
+			<td><a href="//mobile.slashdot.org/submission/2248225/rick-falkvinge-on-child-porn-and-freedom-of-press" rel="nofollow">Rick Falkvinge on child porn and freedom of press</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 07, @07:42AM</td>
+			<td><a href="//yro.slashdot.org/story/12/08/03/0024204/patent-and-copyright-wars-gone-wild" rel="nofollow">Patent and Copyright Wars Gone Wild</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 20, @06:20PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/20/2320245/in-advance-of-ramadan-indonesian-govt-starts-massive-censorship-push" rel="nofollow">In Advance of Ramadan, Indonesian Gov't Starts Massive Censorship Push</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 29, @04:24PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2136795/man-plagued-by-porn-induced-headaches" rel="nofollow">Man Plagued by Porn-Induced Headaches</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday June 19, @07:32AM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/18/1734248/six-arrested-over-japanese-android-porn-virus" rel="nofollow">Six Arrested Over Japanese Android Porn Virus</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday May 25 2012, @01:05PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2085013/are-porn-and-games-basically-the-same-thing" rel="nofollow">Are Porn and Games Basically the Same Thing?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 09 2012, @07:41PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2059869/iconic-piracy-suit-against-google-dismissed-despite-25000-bounty" rel="nofollow">Iconic Piracy Suit Against Google Dismissed, Despite $25,000 Bounty</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 07 2012, @06:06PM</td>
+			<td><a href="//ask.slashdot.org/story/12/05/07/1859235/ask-slashdot-whats-a-good-tool-to-detect-corrupted-files" rel="nofollow">Ask Slashdot: What's a Good Tool To Detect Corrupted Files?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 03 2012, @10:28AM</td>
+			<td><a href="//mobile.slashdot.org/submission/2051293/religious-sites-riskier-than-porn-sites" rel="nofollow">Religious sites riskier than porn sites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 01 2012, @09:59AM</td>
+			<td><a href="//politics.slashdot.org/story/12/05/01/1459245/german-authorities-find-al-qaeda-plans-disguised-in-porn" rel="nofollow">German Authorities Find Al Qaeda Plans Disguised In Porn </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 20 2012, @06:17AM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/19/1237226/sun-advice-columnist-advised-mps-on-uk-porn-block-plans" rel="nofollow">Sun Advice Columnist Advised MPs On UK Porn-Block Plans</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 19 2012, @03:48AM</td>
+			<td><a href="//mobile.slashdot.org/submission/2029839/sun-advice-columnist-advised-mps-on-uk-porn-block-plans" rel="nofollow">Sun advice columnist advised MPs on UK porn-block plans </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 18 2012, @09:56AM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/18/1456236/british-mps-propose-censoring-internet-by-default" rel="nofollow">British MPs Propose Censoring Internet By Default</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 18 2012, @07:45AM</td>
+			<td><a href="//mobile.slashdot.org/submission/2028365/british-mps-propose-censoring-internet-by-default" rel="nofollow">British MPs Propose Censoring Internet By Default</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 08 2012, @08:53AM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/05/1937226/egypt-banned-porn-but-how-much-of-the-internet-is-that" rel="nofollow">Egypt Banned Porn, But How Much of the Internet Is That?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 06 2012, @03:59PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2011317/just-how-big-are-porn-websites" rel="nofollow">Just how big are porn websites? </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 06 2012, @02:19AM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/06/0212210/uk-bill-again-demands-web-pornography-ban" rel="nofollow">UK Bill Again Demands Web Pornography Ban</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 04 2012, @12:39PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2007923/just-how-big-are-porn-sites" rel="nofollow">Just how big are porn sites?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 01 2012, @08:01PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/02/011248/federal-judge-rules-p2p-users-arent-in-a-conspiracy" rel="nofollow">Federal Judge Rules P2P Users Aren't In a Conspiracy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 01 2012, @07:47PM</td>
+			<td><a href="//mobile.slashdot.org/submission/2003733/federal-judge-rules-p2p-users-arent-in-a-conspiracy" rel="nofollow">Federal Judge Rules P2P users aren't in a Conspiracy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday March 12 2012, @01:09PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1976681/digital-playground-porn-site-hacked-user-details-stolen" rel="nofollow">Digital Playground porn site hacked, user details stolen</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday March 12 2012, @08:43AM</td>
+			<td><a href="//yro.slashdot.org/story/12/03/07/1757248/man-barred-from-being-alone-with-daughter-after-informing-police-of-porn-on-pc" rel="nofollow">Man Barred From Being Alone With Daughter After Informing Police of Porn On PC</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday February 24 2012, @06:57PM</td>
+			<td><a href="//mobile.slashdot.org/story/12/02/24/2357256/rim-trying-to-woo-customers-with-porn-gambling-apps" rel="nofollow">RIM Trying To Woo Customers With Porn, Gambling Apps?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 23 2012, @12:14PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1955113/10-fascinating-facts-about-internet-porn" rel="nofollow">10 fascinating facts about Internet porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday February 12 2012, @07:59PM</td>
+			<td><a href="//yro.slashdot.org/story/12/02/13/0059212/reddit-no-more-suggestive-content-featuring-minors" rel="nofollow">Reddit: No More Suggestive Content Featuring Minors</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 09 2012, @06:29PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/02/09/2213228/engelbarts-keyboard-available-for-touchscreens" rel="nofollow">Engelbart's Keyboard Available For Touchscreens</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 07 2012, @12:01AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1933119/you-cant-copyright-porn" rel="nofollow">You Can't Copyright Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 24 2012, @10:09AM</td>
+			<td><a href="//yro.slashdot.org/story/12/01/22/0354253/web-developer-sentenced-to-death-in-iran" rel="nofollow">Web Developer Sentenced To Death In Iran</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 21 2011, @04:21AM</td>
+			<td><a href="//ask.slashdot.org/story/11/12/21/0157218/ask-slashdot-what-do-you-like-to-read" rel="nofollow">Ask Slashdot: What Do You Like To Read?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 14 2011, @11:57AM</td>
+			<td><a href="//hardware.slashdot.org/story/11/12/13/1340216/mits-new-camera-can-take-1-trillion-frames-per-second" rel="nofollow">MIT's New Camera  Can Take 1 Trillion Frames Per Second</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 23 2011, @01:53AM</td>
+			<td><a href="//news.slashdot.org/story/11/11/23/0359219/anne-mccaffrey-passes-away-at-85" rel="nofollow">Anne McCaffrey Passes Away At 85</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday November 18 2011, @06:38PM</td>
+			<td><a href="//yro.slashdot.org/story/11/11/18/2337257/two-porn-companies-take-icann-and-xxx-registrar-to-court" rel="nofollow">Two Porn Companies Take ICANN and .xxx Registrar To Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 14 2011, @02:29AM</td>
+			<td><a href="//news.slashdot.org/story/11/11/13/2155257/schools-buy-xxx-domains-in-trademark-panic" rel="nofollow">Schools Buy .xxx Domains In Trademark Panic</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 09 2011, @09:57AM</td>
+			<td><a href="//news.slashdot.org/story/11/11/09/1457246/icann-begins-land-rush-for-xxx-web-domains" rel="nofollow">ICANN Begins "Land Rush" For .XXX Web Domains</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 09 2011, @09:34AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1843372/icann-begins-land-rush-for-xxx-web-domains" rel="nofollow">ICANN Begins "Land Rush" for .XXX Web Domains</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 25 2011, @09:54AM</td>
+			<td><a href="//tech.slashdot.org/story/11/10/24/2129202/manufacturing-dreams" rel="nofollow">Manufacturing Dreams</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 22 2011, @08:25AM</td>
+			<td><a href="//yro.slashdot.org/story/11/10/22/1325238/anonymous-hackers-take-down-child-porn-websites" rel="nofollow">Anonymous Hackers Take Down Child Porn Websites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 20 2011, @07:55AM</td>
+			<td><a href="//yro.slashdot.org/story/11/10/20/1255238/smh-outs-copyright-violation-hunters-as-porn-pushing-brothers" rel="nofollow">SMH Outs Copyright-Violation Hunters As Porn-Pushing Brothers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 14 2011, @07:55PM</td>
+			<td><a href="//yro.slashdot.org/story/11/10/15/0055242/us-bishop-charged-for-not-reporting-priests-child-porn-to-police" rel="nofollow">US Bishop Charged For Not Reporting Priest's Child Porn To Police</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 11 2011, @07:43AM</td>
+			<td><a href="//yro.slashdot.org/story/11/10/11/1243243/uk-isps-to-begin-censorship-of-porn-websites" rel="nofollow">UK ISPs To Begin Censorship of Porn Websites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 20 2011, @06:56AM</td>
+			<td><a href="//idle.slashdot.org/story/11/09/19/164202/peta-to-launch-pornography-website" rel="nofollow">PETA To Launch Pornography Website</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday September 05 2011, @03:14PM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/05/2014224/porn-industry-outsiders-fear-shakedown-in-xxx-tld" rel="nofollow">Porn-Industry Outsiders Fear 'Shakedown' In .XXX TLD</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 05 2011, @03:06PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1778498/industry-outsiders-fear-shakedown-in-xxx-tlds" rel="nofollow">Industry outsiders fear 'shakedown' in .XXX TLDs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 02 2011, @05:59PM</td>
+			<td><a href="//tech.slashdot.org/story/11/09/02/1944217/mining-browsing-history-with-google-cookie-data" rel="nofollow">Mining Browsing History With Google Cookie Data</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday August 27 2011, @01:47AM</td>
+			<td><a href="//tech.slashdot.org/story/11/08/27/0647235/celebrities-flock-to-reserve-xxx-domains" rel="nofollow">Celebrities Flock To Reserve .xxx Domains</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 16 2011, @01:46PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1758104/anti-piracy-lawyers-accuse-blind-man-of-downloadin" rel="nofollow">Anti-Piracy Lawyers Accuse Blind Man of Downloadin</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday July 09 2011, @06:51PM</td>
+			<td><a href="//yro.slashdot.org/story/11/07/09/2351220/5-concerns-about-australias-new-net-filter" rel="nofollow">5 Concerns About Australia's New Net Filter</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 04 2011, @11:32AM</td>
+			<td><a href="//yro.slashdot.org/story/11/07/04/1632231/in-australia-censorship-vs-dns-and-porn-as-network-driver" rel="nofollow">In Australia, Censorship vs. DNS, and Porn As Network Driver</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 22 2011, @12:39PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/06/22/163215/practical-smell-o-vision-system-being-developed" rel="nofollow">Practical "Smell-o-Vision" System Being Developed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 10 2011, @08:40AM</td>
+			<td><a href="//yro.slashdot.org/story/11/06/10/1327210/uk-government-seeking-to-expand-scope-of-voluntary-website-blocking" rel="nofollow">UK Government Seeking To Expand Scope of 'Voluntary' Website Blocking</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 02 2011, @12:47PM</td>
+			<td><a href="//idle.slashdot.org/story/11/06/01/1456205/aclu-pushes-to-permit-prison-porn" rel="nofollow">ACLU Pushes To Permit Prison Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 30 2011, @08:21AM</td>
+			<td><a href="//search.slashdot.org/story/11/05/29/1934242/what-internet-searches-reveal-about-human-desire" rel="nofollow">What Internet Searches Reveal About Human Desire</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday May 28 2011, @08:27AM</td>
+			<td><a href="//games.slashdot.org/story/11/05/28/1327242/nintendo-pulls-dead-or-alive-over-porn-fears-in-eu" rel="nofollow">Nintendo Pulls Dead Or Alive Over Porn Fears In EU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday May 27 2011, @05:34PM</td>
+			<td><a href="//yro.slashdot.org/story/11/05/27/148243/anti-porn-facebook-page-is-deleted-then-restored" rel="nofollow">Anti-Porn Facebook Page is Deleted, Then Restored</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday May 27 2011, @03:24PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1613106/nintendo-pulls-dead-or-alive-over-porn-fears-in-eu" rel="nofollow">Nintendo pulls Dead or Alive over porn fears in EU</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 15 2011, @10:05AM</td>
+			<td><a href="//yro.slashdot.org/story/11/05/15/0254250/amazon-removes-yaoi-manga-titles-from-kindle-store" rel="nofollow">Amazon Removes Yaoi Manga Titles From  Kindle Store</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday May 14 2011, @02:15PM</td>
+			<td><a href="//politics.slashdot.org/story/11/05/14/0028243/porn-reportedly-found-at-bin-laden-compound" rel="nofollow">Porn Reportedly Found At Bin Laden Compound</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 03 2011, @04:47PM</td>
+			<td><a href="//yro.slashdot.org/story/11/05/03/1824238/motherlode-of-data-seized-at-bin-laden-compound" rel="nofollow">'Motherlode' of Data Seized At Bin Laden Compound</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday April 16 2011, @09:53AM</td>
+			<td><a href="//tech.slashdot.org/story/11/04/16/1333236/xxx-goes-live-in-the-root-servers" rel="nofollow">XXX Goes Live In the Root Servers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 01 2011, @04:23PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/04/01/140213/toshiba-develops-3-d-monocle" rel="nofollow">Toshiba Develops 3-D Monocle</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 01 2011, @03:08PM</td>
+			<td><a href="//news.slashdot.org/story/11/04/01/1315219/vatican-to-digitize-prohibited-archives" rel="nofollow">Vatican To Digitize Prohibited Archives</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday March 26 2011, @06:19AM</td>
+			<td><a href="//yro.slashdot.org/story/11/03/25/2227214/india-to-ban-xxx-domain" rel="nofollow">India To Ban .xxx Domain</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 18 2011, @05:32PM</td>
+			<td><a href="//tech.slashdot.org/story/11/03/18/2232253/icann-approves-xxx" rel="nofollow">ICANN Approves .XXX</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday February 28 2011, @03:49PM</td>
+			<td><a href="//news.slashdot.org/story/11/02/28/159200/what-would-you-do-with-openorg" rel="nofollow">What Would You Do With Open.org?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday February 03 2011, @05:28PM</td>
+			<td><a href="//yro.slashdot.org/story/11/02/03/2216235/free-internet-porn-is-legal-says-california-appeals-court" rel="nofollow">Free Internet Porn Is Legal, Says California Appeals Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday January 31 2011, @07:15AM</td>
+			<td><a href="//idle.slashdot.org/story/11/01/31/1215251/france-launches-first-3d-porn-channel" rel="nofollow">France Launches First 3D Porn Channel</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday January 30 2011, @02:24PM</td>
+			<td><a href="//tech.slashdot.org/story/11/01/30/0522235/uk-research-aims-for-100x-speedup-in-fiber-based-broadband" rel="nofollow">UK Research Aims For 100x Speedup In Fiber-Based Broadband</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday January 20 2011, @12:03AM</td>
+			<td><a href="//apple.slashdot.org/story/11/01/19/181240/the-ipad-will-get-playboy-in-march" rel="nofollow">The iPad Will Get Playboy In March</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday January 17 2011, @08:21AM</td>
+			<td><a href="//yro.slashdot.org/story/11/01/17/0114220/ec-tests-show-windows-vista-is-above-average-at-blocking-content" rel="nofollow">EC Tests Show Windows Vista Is Above Average &mdash; At Blocking Content</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday December 19 2010, @09:48AM</td>
+			<td><a href="//yro.slashdot.org/story/10/12/19/1448242/uk-govt-wants-to-block-internet-porn-by-default" rel="nofollow">UK Gov't Wants To Block Internet Porn By Default</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 19 2010, @09:28AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1422502/uk-to-block-all-internet-porn" rel="nofollow">UK to block all internet porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 17 2010, @12:14PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1421300/judge-ends-massive-porn-lawsuit" rel="nofollow">Judge Ends Massive Porn Lawsuit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 09 2010, @02:57PM</td>
+			<td><a href="//yro.slashdot.org/story/10/12/09/1927201/porn-site-gave-federal-agents-free-rein" rel="nofollow">Porn Site Gave Federal Agents Free Rein</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 29 2010, @10:45AM</td>
+			<td><a href="//ask.slashdot.org/story/10/11/28/239210/what-to-load-on-a-4-year-olds-netbook" rel="nofollow">What To Load On a 4-Year-Old's Netbook?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 25 2010, @08:43AM</td>
+			<td><a href="//yro.slashdot.org/story/10/11/24/2350227/british-mp-calls-for-pornography-opt-in" rel="nofollow">British MP Calls For Pornography 'Opt-In'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 18 2010, @12:21PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1393498/porn-detection-stick" rel="nofollow">Porn Detection Stick</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 11 2010, @02:37PM</td>
+			<td><a href="//hardware.slashdot.org/story/10/11/11/1558253/microsoft-patents-foot-computing" rel="nofollow">Microsoft Patents Foot Computing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 10 2010, @12:43PM</td>
+			<td><a href="//it.slashdot.org/story/10/11/10/1417214/search-engine-optimization-poisoning-way-up-in-10" rel="nofollow">Search Engine Optimization Poisoning Way Up In '10</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday November 06 2010, @11:06PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1382212/and-now-porn-maker-sues-7098-alleged-pirates" rel="nofollow">And Now Porn Maker Sues 7,098 Alleged Pirates</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 25 2010, @08:42PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1369578/free-culture-porn-campaign-aims-for-sexual-freedom" rel="nofollow">Free culture porn campaign aims for sexual freedom</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 20 2010, @09:40AM</td>
+			<td><a href="//idle.slashdot.org/story/10/10/20/1410215/australian-visitors-must-declare-illegal-porn-to-customs-officers" rel="nofollow">Australian Visitors Must Declare Illegal Porn To Customs Officers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday August 28 2010, @06:09AM</td>
+			<td><a href="//hardware.slashdot.org/story/10/08/26/2233251/how-to-index-and-search-a-video-by-emotion" rel="nofollow">How To Index and Search a Video By Emotion</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 19 2010, @11:10PM</td>
+			<td><a href="//yro.slashdot.org/story/10/08/20/0410205/riaa-wants-net-neutrality-to-include-filtering" rel="nofollow">RIAA Wants 'Net Neutrality' To Include Filtering</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 16 2010, @03:15PM</td>
+			<td><a href="//news.slashdot.org/story/10/08/16/1937231/first-3-d-imax-porn-movie-made-in-hong-kong" rel="nofollow">First 3-D IMAX Porn Movie Made In Hong Kong</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 16 2010, @06:08AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1308984/first-3-d-porn-movie-and-its-from-hong-kong" rel="nofollow">First 3-D Porn Movie and it's from Hong Kong</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 06 2010, @08:46AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1301444/kiddie-porn-as-a-weapon" rel="nofollow">Kiddie porn as a weapon</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 01 2010, @01:16AM</td>
+			<td><a href="//hardware.slashdot.org/story/10/07/31/2040226/microsoft-tech-can-deblur-images-automatically" rel="nofollow">Microsoft Tech Can Deblur Images Automatically</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 29 2010, @07:25AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1294844/iphone--iporn" rel="nofollow">iPhone = iPorn?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday July 25 2010, @10:14AM</td>
+			<td><a href="//politics.slashdot.org/story/10/07/25/1454255/porn-sites-still-exposed-in-china" rel="nofollow">Porn Sites Still Exposed In China</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday July 25 2010, @07:50AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1291242/porn-sites-still-exposed-in-china" rel="nofollow">Porn sites still exposed in China</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday July 21 2010, @11:58AM</td>
+			<td><a href="//idle.slashdot.org/story/10/07/21/1540224/playboy-launches-safe-for-work-website" rel="nofollow">Playboy Launches Safe For Work Website</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 19 2010, @05:11PM</td>
+			<td><a href="//tech.slashdot.org/story/10/07/19/1858237/the-hell-known-as-internet-screening-services" rel="nofollow">The Hell Known As Internet Screening Services</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 08 2010, @09:58PM</td>
+			<td><a href="//yro.slashdot.org/story/10/07/09/0258224/australia-waters-down-delays-internet-filter-policy" rel="nofollow">Australia Waters Down, Delays Internet Filter Policy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 30 2010, @01:15PM</td>
+			<td><a href="//yro.slashdot.org/story/10/06/28/1248253/scotus-nominee-kagan-on-free-speech-issues" rel="nofollow">SCOTUS Nominee Kagan On Free Speech Issues</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 30 2010, @12:04PM</td>
+			<td><a href="//it.slashdot.org/story/10/06/30/1618216/regular-domains-have-more-malware-than-porn-sites" rel="nofollow">Regular Domains Have More Malware Than Porn Sites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 29 2010, @01:46AM</td>
+			<td><a href="//news.slashdot.org/story/10/06/28/1932245/porn-industry-ready-to-drop-flash" rel="nofollow">Porn Industry Ready To Drop Flash</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 28 2010, @03:12PM</td>
+			<td><a href="//tech.slashdot.org/story/10/06/27/151241/icann-approves-xxx-suffix-for-porn-websites" rel="nofollow">ICANN Approves .xxx Suffix For Porn Websites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 24 2010, @07:49PM</td>
+			<td><a href="//tech.slashdot.org/story/10/06/24/206209/icann-likely-finally-to-approve-xxx-for-porn-sites" rel="nofollow">ICANN Likely Finally To Approve .xxx For Porn Sites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday June 12 2010, @06:27PM</td>
+			<td><a href="//it.slashdot.org/story/10/06/12/1712223/porn-sites-more-infected-than-thought" rel="nofollow">Porn Sites More Infected Than Thought</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 11 2010, @10:22AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1258266/porn-sites-more-infected-than-thought" rel="nofollow">Porn sites more infected than thought</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday June 06 2010, @10:23AM</td>
+			<td><a href="//yro.slashdot.org/story/10/06/05/1740231/porn-sites-pop-up-in-china" rel="nofollow">Porn Sites Pop Up In China</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 05 2010, @11:59AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1253644/porn-sites-pop-up-in-china" rel="nofollow">Porn sites pop up in China</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 03 2010, @12:12PM</td>
+			<td><a href="//tech.slashdot.org/story/10/06/02/2317241/eu-to-monitor-all-internet-searches" rel="nofollow">EU To Monitor All Internet Searches</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 02 2010, @01:54AM</td>
+			<td><a href="//yro.slashdot.org/story/10/05/30/1357224/porn-ban-being-considered-in-south-africa" rel="nofollow">Porn Ban Being Considered In South Africa</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 02 2010, @01:45AM</td>
+			<td><a href="//yro.slashdot.org/story/10/05/30/1823223/german-publishers-want-censorship-talks-with-apple" rel="nofollow">German Publishers Want Censorship Talks With Apple</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 30 2010, @03:33AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1249138/porn-ban-being-considered-in-south-africa" rel="nofollow">Porn ban being considered in South Africa</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 27 2010, @02:30PM</td>
+			<td><a href="//yro.slashdot.org/story/10/05/27/1930248/japan-moves-toward-blocking-online-child-porn" rel="nofollow">Japan Moves Toward Blocking Online Child Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 27 2010, @01:58PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1247690/japan-moves-toward-blocking-online-child-porn" rel="nofollow">Japan moves toward blocking online child porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 20 2010, @12:28PM</td>
+			<td><a href="//yro.slashdot.org/story/10/05/20/1313213/australia-air-travelers-laptops-to-be-searched-for-porn" rel="nofollow">Australia Air Travelers' Laptops To Be Searched For Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 18 2010, @06:17AM</td>
+			<td><a href="//ask.slashdot.org/story/10/05/14/2355207/best-solutions-for-massive-home-hard-drive-storage" rel="nofollow">Best Solutions For Massive Home Hard Drive Storage?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 17 2010, @05:18PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1239600/us-supreme-court-upholds-indefinite-confinement" rel="nofollow">U.S. Supreme Court Upholds Indefinite Confinement</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday May 07 2010, @09:26AM</td>
+			<td><a href="//news.slashdot.org/story/10/05/07/0455238/wales-supports-purging-porn-from-wikipedia" rel="nofollow">Wales Supports Purging Porn From Wikipedia</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 05 2010, @03:48AM</td>
+			<td><a href="//politics.slashdot.org/story/10/05/04/1414201/state-senator-caught-looking-at-porn-on-senate-floor" rel="nofollow">State Senator Caught Looking At Porn On Senate Floor</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 23 2010, @12:27AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1221812/economy-tanked-while-government-surfed-porn" rel="nofollow">Economy tanked while government surfed porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 22 2010, @02:53PM</td>
+			<td><a href="//hardware.slashdot.org/story/10/04/22/1222221/android-ported-to-iphone" rel="nofollow">Android Ported To iPhone</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 22 2010, @01:32AM</td>
+			<td><a href="//apple.slashdot.org/story/10/04/21/1635206/steve-jobs-recommends-android-for-fans-of-porn" rel="nofollow">Steve Jobs Recommends Android For Fans of Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 21 2010, @03:02AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1220036/google-blocks-loli-group-as-child-pornography" rel="nofollow">Google blocks "Loli" group as Child Pornography</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 16 2010, @08:30AM</td>
+			<td><a href="//yro.slashdot.org/story/10/04/16/055210/porn-virus-blackmails-victims-over-copyright-violation" rel="nofollow">Porn Virus Blackmails Victims Over "Copyright Violation"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 15 2010, @12:31PM</td>
+			<td><a href="//games.slashdot.org/story/10/04/15/051213/maybe-the-aliens-are-addicted-to-computer-games" rel="nofollow">Maybe the Aliens Are Addicted To Computer Games</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 13 2010, @09:33AM</td>
+			<td><a href="//hardware.slashdot.org/story/10/04/13/1235232/the-1-terabyte-ssd-arrives" rel="nofollow">The 1 Terabyte SSD Arrives</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 12 2010, @11:44PM</td>
+			<td><a href="//news.slashdot.org/story/10/04/12/158232/woman-creates-3-d-erotic-book-for-the-blind" rel="nofollow">Woman Creates 3-D Erotic Book For the Blind</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 12 2010, @06:34AM</td>
+			<td><a href="//news.slashdot.org/story/10/04/11/018255/larry-sanger-tells-fbi-wikipedia-distributes-child-pornography" rel="nofollow">Larry Sanger Tells FBI Wikipedia Distributes "Child Pornography"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday March 31 2010, @07:55AM</td>
+			<td><a href="//games.slashdot.org/story/10/03/31/0546257/radeon-hd-5870-eyefinity-6-gaming-on-six-panels" rel="nofollow">Radeon HD 5870 Eyefinity 6 &mdash; Gaming On Six Panels</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 18 2010, @12:35PM</td>
+			<td><a href="//yro.slashdot.org/story/10/03/18/1735207/court-says-parents-can-block-pa-sexting-prosecutions" rel="nofollow">Court Says Parents Can Block PA "Sexting" Prosecutions</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 05 2010, @11:30PM</td>
+			<td><a href="//idle.slashdot.org/story/10/01/29/0222239/australia-bans-small-breasts-in-adult-films" rel="nofollow">Australia Bans Small Breasts In Adult Films</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday March 05 2010, @11:28PM</td>
+			<td><a href="//yro.slashdot.org/story/10/01/28/0112246/man-in-court-over-simpsons-porn" rel="nofollow">Man in Court Over Simpsons Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday March 04 2010, @05:35AM</td>
+			<td><a href="//idle.slashdot.org/story/10/03/02/162236/trade-your-bible-for-porn" rel="nofollow">Trade Your Bible For Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday February 17 2010, @05:17AM</td>
+			<td><a href="//yro.slashdot.org/story/10/02/16/2051217/next-flash-version-will-support-private-browsing" rel="nofollow">Next Flash Version Will Support Private Browsing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday February 10 2010, @05:10PM</td>
+			<td><a href="//tech.slashdot.org/story/10/02/10/1712200/googles-experimental-fiber-network" rel="nofollow">Google's Experimental Fiber Network</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday January 16 2010, @01:06PM</td>
+			<td><a href="//yro.slashdot.org/story/10/01/16/1718208/china-begins-monitoring-billions-of-text-messages" rel="nofollow">China Begins Monitoring Billions of Text Messages</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday January 14 2010, @01:09AM</td>
+			<td><a href="//hardware.slashdot.org/story/10/01/13/2130205/porn-industry-tiptoes-into-3d-video" rel="nofollow">Porn Industry Tiptoes Into 3D Video</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday January 13 2010, @03:45AM</td>
+			<td><a href="//mobile.slashdot.org/submission/1150100/china-rewards-online-porn-surfer" rel="nofollow">China rewards online porn surfer</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday January 12 2010, @08:41AM</td>
+			<td><a href="//yro.slashdot.org/story/10/01/11/1950206/airport-scanners-can-store-and-transmit-images" rel="nofollow">Airport Scanners Can Store and Transmit Images</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday January 01 2010, @10:23PM</td>
+			<td><a href="//mobile.slashdot.org/submission/1143240/china-arrests-thousands-in-internet-porn-crackdown" rel="nofollow">China Arrests Thousands in Internet Porn Crackdown</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 23 2009, @08:58AM</td>
+			<td><a href="//yro.slashdot.org/story/09/12/22/0233255/the-chinese-route-to-a-web-free-of-porn" rel="nofollow">The Chinese Route To a Web Free of Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 09 2009, @05:16PM</td>
+			<td><a href="//news.slashdot.org/story/09/12/09/1643237/each-american-consumed-34-gigabytes-per-day-in-08" rel="nofollow">Each American Consumed 34 Gigabytes Per Day In '08</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday December 07 2009, @01:30PM</td>
+			<td><a href="//tech.slashdot.org/story/09/12/07/1643259/google-visual-search-coming-soon-to-android" rel="nofollow">Google Visual Search Coming Soon to Android</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 02 2009, @01:49PM</td>
+			<td><a href="//books.slashdot.org/story/09/12/02/1436250/service-oriented-architecture-with-java" rel="nofollow">Service Oriented Architecture With Java</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 23 2009, @11:15AM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/11/23/147258/william-gibsons-neuromancer-staged-with-porn-star" rel="nofollow">William Gibson's Neuromancer Staged With Porn Star</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 18 2009, @09:50PM</td>
+			<td><a href="//search.slashdot.org/story/09/11/18/1342246/bing-gains-10-marketshare" rel="nofollow">Bing Gains 10% Marketshare</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 13 2009, @05:17PM</td>
+			<td><a href="//tech.slashdot.org/story/09/11/13/199249/nvidias-realityserver-to-offer-ubiquitous-3d-images" rel="nofollow">Nvidia's RealityServer to Offer Ubiquitous 3D Images</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 02 2009, @12:25AM</td>
+			<td><a href="//science.slashdot.org/story/09/11/01/2145208/computer-activities-for-those-with-speech-and-language-difficulties" rel="nofollow">Computer Activities for Those With Speech and Language Difficulties?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 20 2009, @08:08AM</td>
+			<td><a href="//science.slashdot.org/story/09/10/19/2357251/a-new-robotic-hand-that-can-feel" rel="nofollow">A New Robotic Hand That Can "Feel"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 14 2009, @03:00PM</td>
+			<td><a href="//hardware.slashdot.org/story/09/10/14/1739214/first-look-at-acers-3d-laptop" rel="nofollow">First Look At Acer's 3D Laptop</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 09 2009, @01:09PM</td>
+			<td><a href="//tech.slashdot.org/story/09/10/09/1539232/photosketch-image-manipulation-tool-taking-the-world-by-storm" rel="nofollow">PhotoSketch Image Manipulation Tool Taking the World by Storm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 16 2009, @01:14PM</td>
+			<td><a href="//tech.slashdot.org/story/09/09/16/1556218/on-body-circuits-create-new-sense-organ" rel="nofollow">On-Body Circuits Create New Sense Organ</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 31 2009, @06:56AM</td>
+			<td><a href="//slashdot.org/story/09/07/31/014234/bskyb-to-launch-3d-tv-service-in-2010" rel="nofollow">BSkyB To Launch 3D TV Service In 2010</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 17 2009, @09:27AM</td>
+			<td><a href="//ask.slashdot.org/story/09/07/16/2154238/choosing-better-quality-jpeg-images-with-software" rel="nofollow">Choosing Better-Quality JPEG Images With Software?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 17 2009, @08:17AM</td>
+			<td><a href="//hardware.slashdot.org/story/09/07/16/2213224/worlds-first-3d-webcam-tested" rel="nofollow">World's First 3D Webcam Tested</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 09 2009, @10:54AM</td>
+			<td><a href="//tech.slashdot.org/story/09/07/09/1512259/software-converts-2d-images-to-3d" rel="nofollow">Software Converts 2D Images To 3D</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 18 2009, @02:38AM</td>
+			<td><a href="//ask.slashdot.org/story/09/06/17/2231247/getting-beyond-the-helldesk" rel="nofollow">Getting Beyond the Helldesk</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 16 2009, @12:16PM</td>
+			<td><a href="//yro.slashdot.org/story/09/06/15/2245215/bing-gets-porn-domain-to-filter-explicit-content" rel="nofollow">Bing Gets Porn Domain To Filter Explicit Content</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday June 13 2009, @10:33AM</td>
+			<td><a href="//tech.slashdot.org/story/09/06/13/1319207/data-center-overload" rel="nofollow">Data Center Overload</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 02 2009, @06:02AM</td>
+			<td><a href="//games.slashdot.org/story/09/06/01/212249/microsoft-debuts-full-body-controller-less-gaming-at-e3" rel="nofollow">Microsoft Debuts Full-Body Controller-less Gaming At E3</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 01 2009, @07:22PM</td>
+			<td><a href="//tech.slashdot.org/story/09/06/01/1718241/microsoft-bing-search-launches-early-preview" rel="nofollow">Microsoft Bing Search Launches Early Preview</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 26 2009, @01:56PM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/05/26/1727240/polaroid-lovers-try-to-revive-its-instant-film" rel="nofollow">Polaroid Lovers Try To Revive Its Instant Film</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 20 2009, @03:02PM</td>
+			<td><a href="//tech.slashdot.org/story/09/05/20/150234/freshman-representative-opposes-tsa-porn" rel="nofollow">Freshman Representative Opposes "TSA Porn"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 27 2009, @10:08AM</td>
+			<td><a href="//ask.slashdot.org/story/09/04/25/0243253/what-did-you-do-first-with-linux" rel="nofollow">What Did You Do First With Linux?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 21 2009, @09:55AM</td>
+			<td><a href="//science.slashdot.org/story/09/04/19/1228235/stem-cell-treatment-to-cure-the-most-common-cause-of-blindness" rel="nofollow">Stem Cell Treatment To Cure the Most Common Cause of Blindness</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday March 29 2009, @08:07PM</td>
+			<td><a href="//science.slashdot.org/story/09/03/29/004201/hiv-transmission-captured-on-video" rel="nofollow">HIV Transmission Captured On Video</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday March 19 2009, @03:31PM</td>
+			<td><a href="//news.slashdot.org/story/09/03/19/1415243/jacket-lets-you-feel-the-movies" rel="nofollow">Jacket Lets You Feel the Movies</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday March 06 2009, @08:36PM</td>
+			<td><a href="//news.slashdot.org/story/09/03/06/2123219/is-salacious-content-driving-e-book-sales" rel="nofollow">Is Salacious Content Driving E-Book Sales?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 10 2009, @10:28AM</td>
+			<td><a href="//tech.slashdot.org/story/09/01/08/1447241/nvidia-offers-3d-glasses-for-the-masses" rel="nofollow">NVIDIA Offers 3D Glasses For the Masses</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday February 09 2009, @01:55PM</td>
+			<td><a href="//ask.slashdot.org/story/09/02/09/1715219/how-to-when-you-have-to-encrypt-absolutely-everything" rel="nofollow">How To, When You Have To Encrypt Absolutely Everything?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday January 31 2009, @07:36PM</td>
+			<td><a href="//science.slashdot.org/story/09/01/31/0710235/nasa-offering-free-zero-gravity-flights" rel="nofollow">NASA Offering Free Zero Gravity Flights</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 27 2009, @10:51PM</td>
+			<td><a href="//hardware.slashdot.org/story/09/01/27/1622200/wds-monster-2tb-caviar-green-drive-preview-test" rel="nofollow">WD's Monster 2TB Caviar Green Drive, Preview Test</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday January 25 2009, @04:34PM</td>
+			<td><a href="//yro.slashdot.org/story/09/01/24/1938224/mozilla-labs-wants-to-monitor-volunteers-firefox-use" rel="nofollow">Mozilla Labs Wants To Monitor (Volunteers') Firefox Use</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 20 2009, @06:01AM</td>
+			<td><a href="//tech.slashdot.org/story/09/01/17/0517245/china-makes-arrests-to-stop-internet-porn" rel="nofollow">China Makes Arrests To Stop Internet Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 21 2008, @02:53PM</td>
+			<td><a href="//politics.slashdot.org/story/08/12/20/1843252/watergate-deep-throat-mark-felt-dead-at-95" rel="nofollow">Watergate "Deep Throat" Mark Felt Dead At 95</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 16 2008, @07:38AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/12/15/1614205/the-age-of-touch-computing" rel="nofollow">The Age of Touch Computing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday December 06 2008, @06:21AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/12/05/1513216/scientists-achieve-mental-body-swapping" rel="nofollow">Scientists Achieve Mental Body-Swapping</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 25 2008, @02:40PM</td>
+			<td><a href="//science.slashdot.org/story/08/11/24/2333236/should-we-clone-a-neanderthal" rel="nofollow">Should We Clone a Neanderthal?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday November 23 2008, @12:57AM</td>
+			<td><a href="//yro.slashdot.org/story/08/11/22/1646219/misdemeanor-plea-ends-norwich-pornography-case" rel="nofollow">Misdemeanor Plea Ends Norwich Pornography Case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 18 2008, @11:28AM</td>
+			<td><a href="//tech.slashdot.org/story/08/11/17/1737209/artist-wants-to-replace-lost-eyeball-with-webcam" rel="nofollow">Artist Wants to Replace Lost Eyeball With Webcam</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 28 2008, @01:39PM</td>
+			<td><a href="//news.slashdot.org/story/06/12/27/1838238/piracy-outstripping-legal-video-sales" rel="nofollow">Piracy Outstripping Legal Video Sales?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 10 2008, @04:49AM</td>
+			<td><a href="//ask.slashdot.org/story/08/10/09/1919214/tips-for-taking-your-laptop-into-and-out-of-the-us" rel="nofollow">Tips For Taking Your Laptop Into and Out of the US?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 06 2008, @06:47AM</td>
+			<td><a href="//it.slashdot.org/story/08/10/05/192258/encrypted-images-vulnerable-to-new-attack" rel="nofollow">Encrypted Images Vulnerable To New Attack</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 02 2008, @02:34PM</td>
+			<td><a href="//idle.slashdot.org/story/08/10/01/231247/man-uses-remote-logon-to-help-find-laptop-thief" rel="nofollow">Man Uses Remote Logon To Help Find Laptop Thief</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 22 2008, @12:19PM</td>
+			<td><a href="//tech.slashdot.org/story/08/09/22/1226222/comcast-discontinues-customers-usenet-service" rel="nofollow">Comcast Discontinues Customers' USENET Service</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 13 2008, @10:38AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/09/13/1358247/scientists-test-worlds-fastest-wireless-network" rel="nofollow">Scientists Test World's Fastest Wireless Network</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 07 2008, @11:40AM</td>
+			<td><a href="//tech.slashdot.org/story/08/09/07/0124242/why-is-the-internet-so-infuriatingly-slow" rel="nofollow">Why Is the Internet So Infuriatingly Slow?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 04 2008, @06:12PM</td>
+			<td><a href="//tech.slashdot.org/story/08/09/04/1751209/robots-are-nets-future-says-vint-cerf" rel="nofollow">Robots Are Net's Future, Says Vint Cerf</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 28 2008, @02:17PM</td>
+			<td><a href="//tech.slashdot.org/story/08/08/28/1730247/case-against-video-sharing-site-dismissed" rel="nofollow">Case Against Video-Sharing Site Dismissed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 22 2008, @02:22PM</td>
+			<td><a href="//tech.slashdot.org/story/08/08/22/1320206/microsoft-releases-photosynth" rel="nofollow">Microsoft Releases Photosynth</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday August 19 2008, @05:16PM</td>
+			<td><a href="//tech.slashdot.org/story/08/08/19/1541233/leaping-the-uncanny-valley" rel="nofollow">Leaping the Uncanny Valley</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 22 2008, @04:27AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/07/22/0241221/consumer-3d-television-moving-forward" rel="nofollow">Consumer 3D Television Moving Forward</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 11 2008, @12:09PM</td>
+			<td><a href="//hardware.slashdot.org/story/08/07/10/200209/seagate-announces-first-15tb-desktop-hard-drive" rel="nofollow">Seagate Announces First 1.5TB Desktop Hard Drive</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 11 2008, @12:18AM</td>
+			<td><a href="//tech.slashdot.org/story/08/07/10/1428221/google-lively-review" rel="nofollow">Google Lively Review</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 10 2008, @03:01PM</td>
+			<td><a href="//tech.slashdot.org/story/08/07/09/1210218/google-launches-lively-an-avatar-based-3d-world" rel="nofollow">Google Launches Lively, an Avatar Based 3D World</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday July 09 2008, @06:19AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/07/08/1622201/pioneer-promises-400gb-optical-discs" rel="nofollow">Pioneer Promises 400GB Optical Discs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 19 2008, @10:23AM</td>
+			<td><a href="//tech.slashdot.org/story/08/02/15/1939257/porn-king-says-google-should-block-porn-access" rel="nofollow">'Porn King' Says Google Should Block Porn Access</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 19 2008, @10:19AM</td>
+			<td><a href="//news.slashdot.org/story/07/01/11/213258/adult-film-industry-moving-to-hd-dvd" rel="nofollow">Adult Film Industry Moving To HD DVD</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 19 2008, @10:18AM</td>
+			<td><a href="//it.slashdot.org/story/08/06/18/2213232/man-fired-when-laptop-malware-downloaded-porn" rel="nofollow">Man Fired When Laptop Malware Downloaded Porn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday June 15 2008, @02:04PM</td>
+			<td><a href="//ask.slashdot.org/story/08/06/13/2154211/what-to-do-with-a-hundred-hard-drives" rel="nofollow">What To Do With a Hundred Hard Drives?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 11 2008, @05:14PM</td>
+			<td><a href="//news.slashdot.org/story/08/06/11/2056247/porn-found-on-la-obscenity-case-judges-website" rel="nofollow">Porn Found On L.A. Obscenity Case Judge's Website</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

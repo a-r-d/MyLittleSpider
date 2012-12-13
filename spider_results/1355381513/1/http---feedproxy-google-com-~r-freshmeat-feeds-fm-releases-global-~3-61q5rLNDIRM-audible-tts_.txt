@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Audible TTS – Freecode</title>
+    <link href="http://a.fsdn.com/fm/stylesheets/base_packaged.css?1351705000" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="http://a.fsdn.com/fm/stylesheets/ie.css?1351704987" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="http://freecode.com/?format=atom" rel="alternate" title="Freecode Releases" type="application/atom+xml" />
+    
+  <link href="http://freecode.com/projects.atom" rel="alternate" title="Freecode Projects" type="application/atom+xml" />
+  <link href="http://freecode.com/projects/audible-tts/releases.atom" rel="alternate" title="Freecode releases feed for Audible TTS" type="application/atom+xml" />
+  <link href="http://freecode.com/projects/audible-tts/comments.atom" rel="alternate" title="Freecode comments feed for Audible TTS" type="application/atom+xml" />
+  <meta property="og:title" content="Audible TTS"/>
+  <meta property="og:description" content="A tool that reads text aloud from other apps, the clipboard, or text files."/>
+    <meta property="og:image" content="/screenshots/13/ab/13abe3e0bb39a9d481ee1e62b138f0f6_thumb.png?1352840041"/>
+  
+          <meta name="description" content="A tool that reads text aloud from other apps, the clipboard, or text files."/>
+      <meta name="keywords" content="Android, Audio, Text to speech">
+        <meta name="google-site-verification" content="LuyhdevGU_34uCpdk-MN6giihtzaQ50K89IEnf2GkQ0" />
+    <script language="JavaScript" type="text/javascript">
+      var immersion_adcode = '';
+      if (!window.FC) { window.FC = {}; }
+
+      FC.loadAd = function(id, src) {
+        var isImmersion = id.indexOf('immersion') >= 0;
+        if (immersion_adcode && !isImmersion) {
+          return;
+        }
+
+        document.write('<scr' + 'ipt type="text/javascript" src="' + src + '"><\/scr' + 'ipt>');
+      }
+
+      dfp_ord=Math.random()*10000000000000000;
+      dfp_tile = 1;
+
+      window.google_analytics_uacct = "UA-32013-4";
+
+      var _gaq = _gaq || [];
+
+      _gaq.push(
+          ['_setAccount', 'UA-32013-4'],
+          ['_trackPageview'],
+          ['t2._setAccount', 'UA-36126581-1'],
+          ['t2._trackPageview']
+      );
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    
+    <div id="page">
+      <div id="topnav">
+        <div class="topnav-container clearfix">
+          <div class="top-login">
+            <ul>
+              
+                <li><a href="https://freecode.com/session/new?return_to=%2Fprojects%2Faudible-tts%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529">Login</a></li>
+                <li><a href="https://freecode.com/users/new">Signup</a></li>
+                <li><a href="https://freecode.com/password_resets/new">Lost password?</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="container">
+        <div id="header" class="clearfix">
+          <div id="leaderboard">
+            <div class="banner1">
+                              <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p1_leader', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p1_leader;pg=%2Fprojects%2Faudible-tts%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529;logged_in=0;sz=728x90;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+                          </div>
+            <div class="logo">
+              <a href="/"><img alt="Freecode Logo" src="http://a.fsdn.com/fm/images/fm_logo.png?1351704987" /></a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="navbarblock">
+            <div class="navbar">
+              <span class="navleft"></span>
+              <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/tags">Browse Projects by Tag</a></li>
+                <li><a href="/projects/new">Submit new Project</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Help</a></li>
+                <li class="sites bubbleInfo"><a href="#" class="trigger">Sites</a>
+                  <div class="popup">
+                      <span class="p1"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_01.gif?1351704987" /></span>
+                      <span class="p2"></span>
+                      <div class="menuitems">
+                        <ul class="sites-sub">
+                          <li><a href="http://freecode.com">All</a></li>
+                          
+                            <li><a href="http://mac.freecode.com">Mac OS X</a></li>
+                          
+                            <li><a href="http://mobile.freecode.com">Mobile</a></li>
+                          
+                            <li><a href="http://unix.freecode.com">Unix</a></li>
+                          
+                        </ul>
+                      </div>
+                      <span class="p3"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_03.gif?1351704987" /></span>
+                  </div>
+                </li>
+              </ul>
+              <div class="top-search">
+                <form action="/search" id="navSearch" method="get">
+                  <input id="q" name="q" type="text" /><input type="submit" name="submit" value="Search" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        
+          <div class="crumbs"><a href="/projects">Projects</a> / <span>Audible TTS</span></div>
+    
+        <div class="clearfix">
+          
+
+
+
+<h1>
+  Audible TTS
+</h1>
+
+<div class="project-detail">
+  <p>Audible TTS reads text aloud from other apps, the clipboard, or from text files. It can get text from applications such as Feedme or K9-Mail, the clipboard (using Copy and Paste), or from files on the MicroSD card. It also reads each sentence using the proper language and voice in mixed texts, without having to select it manually. You must have installed a voice synthesizer (such as PICO or SVOX) and voices for the languages ​​to be used. It currently supports German, English, Spanish, French, Italian, Russian, Korean, Chinese, and Japanese.</p>
+
+  
+    <table id="project-tag-cloud">        <tr>
+          <th><span>Tags</span></th>
+          <td><a href="/tags/android" class="tagSize4" rel="tag">Android</a> <a href="/tags/audio" class="tagSize3" rel="tag">Audio</a> <a href="/tags/text-to-speech" class="tagSize1" rel="tag">Text to speech</a></td>
+        </tr>
+        <tr>
+          <th><span>Licenses</span></th>
+          <td><a href="/tags/gnu-general-public-license-v3" class="tagSize4" rel="tag">GPLv3</a></td>
+        </tr>
+        <tr>
+          <th><span>Operating Systems</span></th>
+          <td><a href="/tags/android-22-or-later" class="tagSize4" rel="tag">Android 2.2 or later</a></td>
+        </tr>
+        <tr>
+          <th><span>Implementation</span></th>
+          <td><a href="/tags/java" class="tagSize4" rel="tag">Java</a></td>
+        </tr>
+        <tr>
+          <th><span>Translations</span></th>
+          <td><a href="/tags/english" class="tagSize4" rel="tag">English</a> <a href="/tags/spanish" class="tagSize2" rel="tag">Spanish</a></td>
+        </tr>
+</table>
+  
+  
+  <div class="clearfix project-cta">
+    <div class="width50" id="more_info_download">
+      
+      
+    </div>
+    <div class="width50" id="social-sharing">
+      <div class="google-plus">
+        <div class="g-plusone" data-size="medium"></div>
+
+        <script type="text/javascript">
+          (function() {
+           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+           po.src = 'https://apis.google.com/js/plusone.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+           })();
+  </script>
+      </div>
+      <div class="twitter">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="Audible TTS 0.4.1" data-count="horizontal" data-via="freecode_com">Tweet</a>
+        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix">
+
+      <div class="recent-releases">
+        <h2>
+          <a href="http://freecode.com/projects/audible-tts/releases.atom" class="pushright padleft5" title="Release feed for this project"><img alt="RSS" src="http://a.fsdn.com/fm/images/rss.png?1351704987" /></a>
+          <ul class="recents-sub-navigation">
+            <li><a href="/projects/audible-tts/tags">Release tags</a></li>
+            <li><a href="/projects/audible-tts/releases">All releases</a></li>
+          </ul>Recent releases
+        </h2>
+
+        
+  <div class="release clearfix" id="release_350546">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/audible-tts/releases/350546">0.4.1</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;13 Dec 2012 05:20</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/audible-tts/tags/beta" rel="tag">Beta</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release  continues reading after rotation, fixes bugs, and adds minor changes.</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_350401">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/audible-tts/releases/350401">0.4.0</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;08 Dec 2012 03:47</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/audible-tts/tags/beta" rel="tag">Beta</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release improves rotation, fixes bug 31 (an error launching from some apps), asks to enable languages when &quot;detect&quot; is activated, does not detect disabled languages (even when loaded), and fixes minor bugs.  
+</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_350174">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/audible-tts/releases/350174">0.3.0</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;29 Nov 2012 00:14</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/audible-tts/tags/beta" rel="tag">Beta</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release adds  help, rotation, and minor changes.
+</p>
+      
+  </div>
+
+
+      </div>
+
+    <div class="recent-comments">
+      
+
+    </div>
+  </div>
+</div>
+
+<div class="sbblock">
+  <div class="sidebar first">
+    <div class="sidebar-content">
+      <h3>Links</h3>
+      <ul class="sub-navigation divide"><a name="downloads"></a>
+        <li class="url " title="AndroidPIT - androidpit.com"><a href="/urls/00bc1d88b53a81feef818cc714181b46" onclick="_gaq.push(['_trackEvent', 'Projects', 'AndroidPIT', 'Audible TTS']);">AndroidPIT</a></li>
+<li class="url " title="Direct Download - code.google.com"><a href="/urls/1fda6215698dbf065c546f81d9541b01" onclick="_gaq.push(['_trackEvent', 'Projects', 'Direct Download', 'Audible TTS']);">Direct Download</a></li>
+<li class="url " title="Google Play - play.google.com"><a href="/urls/2be64d2bf93e0631f5ef9cc4650fb09b" onclick="_gaq.push(['_trackEvent', 'Projects', 'Google Play', 'Audible TTS']);">Google Play</a></li>
+<li class="url " title="Soc.io - mall.soc.io"><a href="/urls/609746a04872915d37d1c6771b9d6bd4" onclick="_gaq.push(['_trackEvent', 'Projects', 'Soc.io', 'Audible TTS']);">Soc.io</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-content">
+        <div class="submitter clearfix">
+          <ul>
+            <li class="avatar"><a href="/users/flikxxi" class="avatar" title="flikxxi"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/16/7a/167a6818b14b3d383eae0c4f96eff4e2_small.jpg?1238102211" /></a></li>
+            <li><p><a href="/users/flikxxi" class="submitter">flikxxi</a><br />
+              <span>13 Nov 2012 20:05</span></p></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-screen">
+          
+            <a href="/screenshots/13/ab/13abe3e0bb39a9d481ee1e62b138f0f6_medium.png?1352840041" class="fancybox" rel="project-screenshots" title="Playing (Image 1 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/13/ab/13abe3e0bb39a9d481ee1e62b138f0f6_thumb.png?1352840041" /></a>
+          
+            <a href="/screenshots/a0/38/a038ec8319036bbfe46fcad45b022756_medium.png?1352840092" class="fancybox hidden" rel="project-screenshots" title="Sending content to Audible TTS (Image 2 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/a0/38/a038ec8319036bbfe46fcad45b022756_thumb.png?1352840092" /></a>
+          
+            <a href="/screenshots/38/bf/38bfca9a43461ffcbece422c738b9602_medium.png?1352840123" class="fancybox hidden" rel="project-screenshots" title="Some options (Image 3 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/38/bf/38bfca9a43461ffcbece422c738b9602_thumb.png?1352840123" /></a>
+          
+            <a href="/screenshots/e8/b8/e8b80571d711b5cf87224f9467d707ad_medium.png?1352840156" class="fancybox hidden" rel="project-screenshots" title="Ignore characters options (Image 4 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/e8/b8/e8b80571d711b5cf87224f9467d707ad_thumb.png?1352840156" /></a>
+          
+            <a href="/screenshots/4b/16/4b16a4b40ef53f1766a1c5037e389d09_medium.png?1352840191" class="fancybox hidden" rel="project-screenshots" title="More options (Image 5 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/4b/16/4b16a4b40ef53f1766a1c5037e389d09_thumb.png?1352840191" /></a>
+          
+            <a href="/screenshots/50/9c/509c9d70e9760daec9e0ca3810a0f836_medium.png?1352840232" class="fancybox hidden" rel="project-screenshots" title="Language  options (Image 6 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/50/9c/509c9d70e9760daec9e0ca3810a0f836_thumb.png?1352840232" /></a>
+          
+            <a href="/screenshots/57/42/57427657a8e405eb500604d6cf89f676_medium.png?1352840254" class="fancybox hidden" rel="project-screenshots" title="More language options (Image 7 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/57/42/57427657a8e405eb500604d6cf89f676_thumb.png?1352840254" /></a>
+          
+            <a href="/screenshots/d9/85/d9852e99031f42e51a36ee39cff29d94_medium.png?1352840276" class="fancybox hidden" rel="project-screenshots" title="Chinese country options (Image 8 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/d9/85/d9852e99031f42e51a36ee39cff29d94_thumb.png?1352840276" /></a>
+          
+            <a href="/screenshots/2e/c8/2ec89a53fe5a4dbf919ef762054c42b6_medium.png?1352840322" class="fancybox hidden" rel="project-screenshots" title="Resending content (Image 9 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/2e/c8/2ec89a53fe5a4dbf919ef762054c42b6_thumb.png?1352840322" /></a>
+          
+            <a href="/screenshots/c8/3f/c83f793a58babe60faccc592240e2854_medium.png?1354146128" class="fancybox hidden" rel="project-screenshots" title="Landscape (Image 10 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/c8/3f/c83f793a58babe60faccc592240e2854_thumb.png?1354146128" /></a>
+          
+            <a href="/screenshots/fe/fd/fefd4eb31d96d44c35caecd44dc0bc7e_medium.png?1354146158" class="fancybox hidden" rel="project-screenshots" title="Help 1 (Image 11 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/fe/fd/fefd4eb31d96d44c35caecd44dc0bc7e_thumb.png?1354146158" /></a>
+          
+            <a href="/screenshots/5f/d0/5fd03a72c04d256c46809eab1c256b83_medium.png?1354146179" class="fancybox hidden" rel="project-screenshots" title="Help 2 (Image 12 of 12)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/5f/d0/5fd03a72c04d256c46809eab1c256b83_thumb.png?1354146179" /></a>
+          
+        </div>
+
+      <ul class="sub-navigation split">
+        <li class="dependency"><a href="/projects/audible-tts/dependencies">Dependencies</a></li>
+          <li class="owner-change"><a href="/projects/audible-tts/owner_changes/new">Request ownership</a></li>
+        <li class="report-problem"><a href="/projects/audible-tts/tickets/new">Report problem</a></li>
+      </ul>
+
+      <ul class="sub-navigation split">
+        <li class="graphs"><a href="/projects/audible-tts/date_metrics">Graphs</a></li>
+        <li class="submit-comment"><a href="/projects/audible-tts/comments/new">Submit a comment</a></li>
+      </ul>
+
+      <div class="project-filter">
+        <div class="pfleft"><form method="post" action="/account/project_filters?project_id=84576" class="button-to"><div><input class="filter-project-84576" title="Ignore this project across the site" type="submit" value="ignore" /></div></form></div>
+        <div class="pfright"><form method="post" action="/account/subscriptions?subscription%5Bproject_id%5D=84576" class="button-to"><div><input class="subscribe-project-84576 " title="Receive notifications when this project is updated" type="submit" value="follow" /></div></form></div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-content">
+      <h3>Heartbeat</h3>
+      
+      <div class="sidebar-sparkline">
+        
+          <a href="/projects/audible-tts/date_metrics"><img src="//chart.googleapis.com/chart?chco=6090C0,008800&amp;chd=s:AAODFEYbJCBCDCBD9YSWLJHJI5WVTP,AAAAAAAAAABBAAAAFBBAAAAAEPHCAA&amp;cht=ls&amp;chs=200x30&amp;chxr=0,4,119|1,0,5" width="200" height="30" alt="Google Chart" /></a>
+        
+      </div>
+      
+      <dl class="heartbeat">
+        <dt>Popularity Score</dt>
+        <dd>60.36</dd>
+        <dt>Vitality Score</dt>
+        <dd>20.49</dd>
+        <dt>Subscriptions</dt>
+        <dd>0</dd>
+      </dl>
+      <div class="voting">
+        <div class="voting-total">
+          <span class="votingScore">Voting Score: 0</span>
+          <span class="votingCount">(0 votes)</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div class="banner-imu">
+    <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p6_imu', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p6_imu;pg=%2Fprojects%2Faudible-tts%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529;logged_in=0;sz=300x250,300x600;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+  </div>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="mashup">
+      <div class="mashup-container clearfix">
+        
+          
+          <div class="col-1">
+            <a href="/projects/palantir-server"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/screenshots/dc/76/dc7675066bc9ac4c913f01eabd241931_thumb.png?1350909304" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/palantir-server">Orthanc</a></h3>
+            <p>A lightweight, RESTful DICOM server.</p>
+          </div>
+          
+          <div class="col-2">
+            <a href="/projects/wordpress"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/screenshots/f8/2f/f82f1e77de7fd19b8a05ce80feaae29c_thumb.png?1340377055" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/wordpress">WordPress</a></h3>
+            <p>A standards-compliant Weblog/CMS.</p>
+          </div>
+          
+        
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-container">
+        <div class="twitter-icon floatright">
+          <a href="http://twitter.com/freecode_com"><img src="//twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow Freecode on Twitter"/></a>
+        </div>
+        <div class="footerLinks">
+          <a href="/about">About Freecode</a>
+          <a target="_blank" href="http://geeknetmedia.com/privacy-statement/">Privacy</a>
+          <a target="_blank" href="http://geeknetmedia.com/opt-out-choices">Cookies/Opt Out</a>
+          <a target="_blank" href="http://geeknetmedia.com/terms-of-use">Terms</a>
+          <a target="_blank" href="http://geeknetmedia.com/">Advertise</a>
+          <a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Contact Us</a>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2012 Freecode.
+          All Rights Reserved.
+          Freecode is a <a target="_blank" href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;p=irol-landing">DiceHoldings, Inc.</a> service.
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="http://a.fsdn.com/fm/javascripts/base_packaged.js?1351705001" type="text/javascript"></script>
+
+    
+    
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+      document.write(unescape("%3Cscript src='" +
+      (document.location.protocol == "https:" ? "https://sb" : "http://b") +
+      ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      COMSCORE.beacon({
+          c1:2,
+          c2:6035546,
+          c3:"",
+          c4:"",
+          c5:"",
+          c6:"",
+          c15:""
+      });
+    </script>
+
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2" />
+    </noscript>
+    <!-- End comScore Tag -->
+    <script type="text/javascript">document.write(unescape('%3Cscript type="text/javascript" src="'+document.location.protocol+'//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/0794.js"%3E%3C%2Fscript%3E'))</script>
+  </body>
+</html>

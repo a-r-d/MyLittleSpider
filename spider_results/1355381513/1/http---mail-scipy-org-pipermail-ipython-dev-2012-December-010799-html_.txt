@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [IPython-dev] Some excellent news for IPython: we've received stable funding from the Alfred P. Sloan Foundation.
+   </TITLE>
+   <LINK REL="Index" HREF="index.html" >
+   <LINK REL="made" HREF="mailto:ipython-dev%40scipy.org?Subject=%5BIPython-dev%5D%20Some%20excellent%20news%20for%20IPython%3A%20we%27ve%20received%0A%20stable%20funding%20from%20the%20Alfred%20P.%20Sloan%20Foundation.&In-Reply-To=">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="010798.html">
+   <LINK REL="Next"  HREF="010800.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[IPython-dev] Some excellent news for IPython: we've received stable funding from the Alfred P. Sloan Foundation.</H1>
+    <B>Fernando Perez</B> 
+    <A HREF="mailto:ipython-dev%40scipy.org?Subject=%5BIPython-dev%5D%20Some%20excellent%20news%20for%20IPython%3A%20we%27ve%20received%0A%20stable%20funding%20from%20the%20Alfred%20P.%20Sloan%20Foundation.&In-Reply-To="
+       TITLE="[IPython-dev] Some excellent news for IPython: we've received stable funding from the Alfred P. Sloan Foundation.">fperez.net@gmail....
+       </A><BR>
+    <I>Tue Dec 11 16:34:11 CST 2012</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="010798.html">[IPython-dev] nbconvert to posters
+</A></li>
+        <LI>Next message: <A HREF="010800.html">[IPython-dev] Some excellent news for IPython: we've received stable funding from the Alfred P. Sloan Foundation.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10799">[ date ]</a>
+              <a href="thread.html#10799">[ thread ]</a>
+              <a href="subject.html#10799">[ subject ]</a>
+              <a href="author.html#10799">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi all,
+
+we wanted to give you all some absolutely fantastic news regarding
+IPython that we just received...  This also partly explains my silence
+during much of this semester, as I was focused on looking for
+long-term funding for IPython.
+
+We are proud to announce that we've received funding from the Alfred
+P. Sloan foundation (<A HREF="http://sloan.org">http://sloan.org</A>) that will support IPython
+development for the next two years.  Thanks to this $1.15M grant,
+Brian Granger and I will be working roughly 3/4 of our time on
+IPython, Min Ragan-Kelley will be our lead project engineer, and Paul
+Ivanov and Thomas Kluyver will be working as postdocs on the project.
+Furthermore,  Matthew Brett and JB Poline of Nipy fame will be working
+part-time on the development of notebooks for applied statistics in
+collaboration with Jonathan Taylor from Stanford (these materials will
+be used by Jonathan in the teaching of his applied stats course, the
+STAT 191 course - <A HREF="http://www.stanford.edu/class/stats191">http://www.stanford.edu/class/stats191</A>).  While
+Brian is at Cal Poly San Luis Obispo,  the rest of our team will be
+located at Berkeley (with frequent visits to Stanford for the
+statistics work with Jonathan).
+
+This will also give us resources to support two annual all-hands
+development sprints at Berkeley where I hope all our core developers
+will be able to attend, as well as funding for cloud resources so that
+we can provide paid support for our CI hosting and nbviewer beyond
+what the free plans allow (and further services that may arise over
+time).
+
+We'd like to particularly thank Josh Greenberg, our program director
+at the Sloan foundation, for the phenomenal guidance and support he
+provided during the grant proposal preparation and detailed review
+process.
+
+Needless to say, we are extremely excited about these news.  We'll
+have more announcements to make over the next few weeks, but now I
+need to get a lot of administrative wheels in motion quickly, as the
+funding officially starts Jan 1, 2013!
+
+All the best,
+
+f
+</PRE>
+
+
+
+
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="010798.html">[IPython-dev] nbconvert to posters
+</A></li>
+	<LI>Next message: <A HREF="010800.html">[IPython-dev] Some excellent news for IPython: we've received stable funding from the Alfred P. Sloan Foundation.
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10799">[ date ]</a>
+              <a href="thread.html#10799">[ thread ]</a>
+              <a href="subject.html#10799">[ subject ]</a>
+              <a href="author.html#10799">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="http://mail.scipy.org/mailman/listinfo/ipython-dev">More information about the IPython-dev
+mailing list</a><br>
+</body></html>

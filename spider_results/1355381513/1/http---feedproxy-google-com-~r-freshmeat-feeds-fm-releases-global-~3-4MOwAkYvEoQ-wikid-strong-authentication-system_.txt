@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>WiKID Strong Authentication System – Freecode</title>
+    <link href="http://a.fsdn.com/fm/stylesheets/base_packaged.css?1351705002" media="screen" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    <link href="http://a.fsdn.com/fm/stylesheets/ie.css?1351704987" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="http://freecode.com/?format=atom" rel="alternate" title="Freecode Releases" type="application/atom+xml" />
+    
+  <link href="http://freecode.com/projects.atom" rel="alternate" title="Freecode Projects" type="application/atom+xml" />
+  <link href="http://freecode.com/projects/wikid-strong-authentication-system/releases.atom" rel="alternate" title="Freecode releases feed for WiKID Strong Authentication System" type="application/atom+xml" />
+  <link href="http://freecode.com/projects/wikid-strong-authentication-system/comments.atom" rel="alternate" title="Freecode comments feed for WiKID Strong Authentication System" type="application/atom+xml" />
+  <meta property="og:title" content="WiKID Strong Authentication System"/>
+  <meta property="og:description" content="A two-factor authentication system."/>
+    <meta property="og:image" content="/screenshots/8e/e4/8ee452ff6fb56a1fc98bdfc2bfe355b0_thumb.jpg?1237056292"/>
+  
+          <meta name="description" content="A two-factor authentication system."/>
+      <meta name="keywords" content="Security, Cryptography, Networking, two-factor authentication">
+        <meta name="google-site-verification" content="LuyhdevGU_34uCpdk-MN6giihtzaQ50K89IEnf2GkQ0" />
+    <script language="JavaScript" type="text/javascript">
+      var immersion_adcode = '';
+      if (!window.FC) { window.FC = {}; }
+
+      FC.loadAd = function(id, src) {
+        var isImmersion = id.indexOf('immersion') >= 0;
+        if (immersion_adcode && !isImmersion) {
+          return;
+        }
+
+        document.write('<scr' + 'ipt type="text/javascript" src="' + src + '"><\/scr' + 'ipt>');
+      }
+
+      dfp_ord=Math.random()*10000000000000000;
+      dfp_tile = 1;
+
+      window.google_analytics_uacct = "UA-32013-4";
+
+      var _gaq = _gaq || [];
+
+      _gaq.push(
+          ['_setAccount', 'UA-32013-4'],
+          ['_trackPageview'],
+          ['t2._setAccount', 'UA-36126581-1'],
+          ['t2._trackPageview']
+      );
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    
+    <div id="page">
+      <div id="topnav">
+        <div class="topnav-container clearfix">
+          <div class="top-login">
+            <ul>
+              
+                <li><a href="https://freecode.com/session/new?return_to=%2Fprojects%2Fwikid-strong-authentication-system%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529">Login</a></li>
+                <li><a href="https://freecode.com/users/new">Signup</a></li>
+                <li><a href="https://freecode.com/password_resets/new">Lost password?</a></li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="container">
+        <div id="header" class="clearfix">
+          <div id="leaderboard">
+            <div class="banner1">
+                              <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p1_leader', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p1_leader;pg=%2Fprojects%2Fwikid-strong-authentication-system%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529;logged_in=0;sz=728x90;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+                          </div>
+            <div class="logo">
+              <a href="/"><img alt="Freecode Logo" src="http://a.fsdn.com/fm/images/fm_logo.png?1351704987" /></a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="navbarblock">
+            <div class="navbar">
+              <span class="navleft"></span>
+              <ul class="navigation">
+                <li><a href="/">Home</a></li>
+                <li><a href="/articles">Articles</a></li>
+                <li><a href="/tags">Browse Projects by Tag</a></li>
+                <li><a href="/projects/new">Submit new Project</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Help</a></li>
+                <li class="sites bubbleInfo"><a href="#" class="trigger">Sites</a>
+                  <div class="popup">
+                      <span class="p1"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_01.gif?1351704987" /></span>
+                      <span class="p2"></span>
+                      <div class="menuitems">
+                        <ul class="sites-sub">
+                          <li><a href="http://freecode.com">All</a></li>
+                          
+                            <li><a href="http://mac.freecode.com">Mac OS X</a></li>
+                          
+                            <li><a href="http://mobile.freecode.com">Mobile</a></li>
+                          
+                            <li><a href="http://unix.freecode.com">Unix</a></li>
+                          
+                        </ul>
+                      </div>
+                      <span class="p3"><img alt="" src="http://a.fsdn.com/fm/images/fm_sites_menu_03.gif?1351704987" /></span>
+                  </div>
+                </li>
+              </ul>
+              <div class="top-search">
+                <form action="/search" id="navSearch" method="get">
+                  <input id="q" name="q" type="text" /><input type="submit" name="submit" value="Search" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    
+        
+          <div class="crumbs"><a href="/projects">Projects</a> / <span>WiKID Strong Authentication...</span></div>
+    
+        <div class="clearfix">
+          
+
+
+
+<h1>
+  WiKID Strong Authentication System
+</h1>
+
+<div class="project-detail">
+  <p>The WiKID Strong Authentication System is a highly scalable, secure two-factor authentication system. It is simple to implement and maintain, allows users to be validated automatically, requires no hardware tokens, has a simple API for application support (via Ruby, PHP, Java, COM, Python, etc.), supports multiple domains, and supports replication for fault tolerance and scalability. It also supports mutual /host and transaction authentication, wireless tokens only domains, locked tokens (to your PC), anti-keystroke logger keypad PIN entry, etc.
+</p>
+
+  
+    <table id="project-tag-cloud">        <tr>
+          <th><span>Tags</span></th>
+          <td><a href="/tags/security" class="tagSize4" rel="tag">Security</a> <a href="/tags/cryptography" class="tagSize1" rel="tag">Cryptography</a> <a href="/tags/networking" class="tagSize2" rel="tag">Networking</a> <a href="/tags/two-factor-authentication" class="tagSize1" rel="tag">two-factor authentication</a></td>
+        </tr>
+        <tr>
+          <th><span>Licenses</span></th>
+          <td><a href="/tags/gnu-general-public-license-gpl" class="tagSize4" rel="tag">GPL</a> <a href="/tags/otherproprietary-license" class="tagSize1" rel="tag">Other</a></td>
+        </tr>
+        <tr>
+          <th><span>Operating Systems</span></th>
+          <td><a href="/tags/os-independent" class="tagSize3" rel="tag">OS Independent</a> <a href="/tags/posix" class="tagSize4" rel="tag">POSIX</a> <a href="/tags/linux" class="tagSize4" rel="tag">Linux</a></td>
+        </tr>
+        <tr>
+          <th><span>Implementation</span></th>
+          <td><a href="/tags/java" class="tagSize4" rel="tag">Java</a> <a href="/tags/python" class="tagSize3" rel="tag">Python</a> <a href="/tags/php" class="tagSize3" rel="tag">PHP</a> <a href="/tags/ruby" class="tagSize1" rel="tag">Ruby</a> <a href="/tags/asp" class="tagSize1" rel="tag">ASP</a></td>
+        </tr>
+        <tr>
+          <th><span>Translations</span></th>
+          <td><a href="/tags/french" class="tagSize2" rel="tag">French</a> <a href="/tags/japanese" class="tagSize1" rel="tag">Japanese</a> <a href="/tags/german" class="tagSize2" rel="tag">German</a> <a href="/tags/italian" class="tagSize1" rel="tag">Italian</a> <a href="/tags/dutch" class="tagSize1" rel="tag">Dutch</a> <a href="/tags/spanish" class="tagSize2" rel="tag">Spanish</a> <a href="/tags/polish" class="tagSize1" rel="tag">Polish</a> <a href="/tags/swedish" class="tagSize1" rel="tag">Swedish</a> <a href="/tags/english" class="tagSize4" rel="tag">English</a> <a href="/tags/chinese-simplified" class="tagSize1" rel="tag">Chinese (Simplified)</a> <a href="/tags/indonesian" class="tagSize1" rel="tag">Indonesian</a> <a href="/tags/korean" class="tagSize1" rel="tag">Korean</a></td>
+        </tr>
+</table>
+  
+  
+  <div class="clearfix project-cta">
+    <div class="width50" id="more_info_download">
+      
+      
+        <div class="downloadlink">
+          <a href="/urls/a746abee67b91497744dd1506badc4e5" class="" onclick="_gaq.push(['_trackEvent', 'Projects', 'Download', 'WiKID Strong Authentication System']);" title="Download Enterprise Two-Factor Authentication at wikidsystems.com">Download</a>
+        </div>
+      
+    </div>
+    <div class="width50" id="social-sharing">
+      <div class="google-plus">
+        <div class="g-plusone" data-size="medium"></div>
+
+        <script type="text/javascript">
+          (function() {
+           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+           po.src = 'https://apis.google.com/js/plusone.js';
+           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+           })();
+  </script>
+      </div>
+      <div class="twitter">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-text="WiKID Strong Authentication System 3.5.0-b1392 Enterprised Edition" data-count="horizontal" data-via="freecode_com">Tweet</a>
+        <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix">
+      <div class="recent-announcements">
+        <h2>
+          <a href="http://freecode.com/projects/wikid-strong-authentication-system/announcements.atom" class="pushright padleft5" title="Announcements feed for this project"><img alt="RSS" src="http://a.fsdn.com/fm/images/rss.png?1351704987" /></a>
+          <ul class="admin-functions">
+            <li><a href="/projects/wikid-strong-authentication-system/announcements">All announcements</a></li>
+          </ul>Last announcement
+        </h2>
+        
+        <h3>
+  <a href="/projects/wikid-strong-authentication-system/announcements/1359-new-eguide-on-implementing-two-factor-authentication-in-your-network" title="New eGuide on implementing two-factor authentication in your network">New eGuide on implementing two-factor authentication in y...</a>
+  <span class="date">24 Oct 2012</span>
+</h3>
+<p>
+  <p>We've created an eGuide to adding two-factor authentication to your network. It includes examples using Cisco, Juniper and PAM and incorporates AD ...</p>
+</p>
+
+      </div>
+
+      <div class="recent-releases">
+        <h2>
+          <a href="http://freecode.com/projects/wikid-strong-authentication-system/releases.atom" class="pushright padleft5" title="Release feed for this project"><img alt="RSS" src="http://a.fsdn.com/fm/images/rss.png?1351704987" /></a>
+          <ul class="recents-sub-navigation">
+            <li><a href="/projects/wikid-strong-authentication-system/tags">Release tags</a></li>
+            <li><a href="/projects/wikid-strong-authentication-system/releases">All releases</a></li>
+          </ul>Recent releases
+        </h2>
+
+        
+  <div class="release clearfix" id="release_350544">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/wikid-strong-authentication-system/releases/350544">3.5.0-b1392 Enterprised Edition</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;13 Dec 2012 05:19</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/security" rel="tag">Security</a></li><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/two-factor-authentication" rel="tag">two-factor authentication</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release adds  a new API function: list users by domain.</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_349919">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/wikid-strong-authentication-system/releases/349919">3.1.23 Java Software Token client</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;19 Nov 2012 23:34</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> Signed with an updated JCE cert file.</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_349712">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/wikid-strong-authentication-system/releases/349712">3.5.0-b1373 WiKID Strong Authentication Server - Enterprise Edition</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;12 Nov 2012 23:02</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/security" rel="tag">Security</a></li><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/two-factor-authentication" rel="tag">two-factor authentication</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release fixes a minor typo and a radius configuration bug.
+</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_349567">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1351704987" /></li>
+        <li class="release"><a href="/projects/wikid-strong-authentication-system/releases/349567">3.1.22-locked</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1351704987" /></li>
+        <li class="rdate">&nbsp;07 Nov 2012 22:28</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1351704987" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/two-factor-authentication" rel="tag">two-factor authentication</a></li><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/information-security" rel="tag">Information Security</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release adds a preferences option to select a default domain to jump to the PIN entry. It adds a close button to the about dialog. It fixes the pre-registration option.</p>
+      
+  </div>
+
+
+  <div class="release clearfix" id="release_348818">
+    <div class="clearfix">
+      <ul class="release-badge">
+        <li class="before"><img alt="" src="http://a.fsdn.com/fm/images/rrelease-before.png?1338390970" /></li>
+        <li class="release"><a href="/projects/wikid-strong-authentication-system/releases/348818">3.5.0-b1359 WiKID Strong Authentication Server - Enterprise Edition</a></li>
+      </ul>
+      <ul class="rdate">
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-mid.png?1338390970" /></li>
+        <li class="rdate">&nbsp;10 Oct 2012 23:00</li>
+        <li><img alt="" src="http://a.fsdn.com/fm/images/rrelease-after.png?1338390970" /></li>
+      </ul>
+      
+      
+
+      <div class="meta clearfix">
+        <ul class="tagList"><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/security" rel="tag">Security</a></li><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/minor" rel="tag">Minor</a></li><li class="release-tags"><a href="/projects/wikid-strong-authentication-system/tags/two-factor-authentication" rel="tag">two-factor authentication</a></li></ul>
+      </div>
+    </div>
+
+      
+        <p class="truncate changes"><strong>Release Notes:</strong> This release adds a minor UI improvement to reduce confusion, removes unnecessary radius configuration options, and clarifies the Mutual HTTPS authentication/Registered URL functionality.  
+</p>
+      
+  </div>
+
+
+      </div>
+
+    <div class="recent-comments">
+      
+        <h2>
+          <a href="http://freecode.com/projects/wikid-strong-authentication-system/comments.atom" class="pushright  padleft5" title="Comments feed for this project"><img alt="RSS" src="http://a.fsdn.com/fm/images/rss.png?1351704987" /></a>
+          <ul class="comments-sub-navigation">
+            <li><a href="/projects/wikid-strong-authentication-system/comments">All comments</a></li>
+          </ul>Recent comments
+        </h2>
+
+        <div class="comment" id="comment_48861">
+  
+
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1351704987" />
+    <span class="date">10 Jul 2009 13:59</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1351704987" />   
+    <span class="author">
+      
+        <a href="/users/nowen" class="avatar" title="nowen" valign="bottom"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_tiny.gif?1237556078" /></a>
+      
+      <a href="/users/nowen">nowen</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1351704987" />
+    
+      <span class="vote clearfix"><img alt="Thumbs up" src="http://a.fsdn.com/fm/images/thumbsup-wht.png?1351704987" /></span>
+    
+  </div>
+  <div class="comment-content">
+    <p>Follow us on twitter: <a href="http://twitter.com/wikidsystems" rel="nofollow" target="_blank">twitter.com/wikidsystems</a></p>
+  </div>
+</div>
+<div class="comment" id="comment_48707">
+  
+
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1351704987" />
+    <span class="date">04 Jun 2009 15:11</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1351704987" />   
+    <span class="author">
+      
+        <a href="/users/nowen" class="avatar" title="nowen" valign="bottom"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_tiny.gif?1237556078" /></a>
+      
+      <a href="/users/nowen">nowen</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1351704987" />
+    
+      <span class="vote clearfix"><img alt="Thumbs up" src="http://a.fsdn.com/fm/images/thumbsup-wht.png?1351704987" /></span>
+    
+  </div>
+  <div class="comment-content">
+    <p>Latest two-factor tutorial:
+<br /><a href="http://www.howtoforge.net/two-factor-authentication-for-google-apps-for-your-domain-using-sso-saml-and-wikid-strong-authentication-server" rel="nofollow" target="_blank">www.howtoforge.net/two...</a>
+<br />Add two-factor authentication to Google Apps using WiKID.</p>
+  </div>
+</div>
+<div class="comment" id="comment_48291">
+  
+
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1351704987" />
+    <span class="date">25 Mar 2009 13:23</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1351704987" />   
+    <span class="author">
+      
+        <a href="/users/nowen" class="avatar" title="nowen" valign="bottom"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_tiny.gif?1237556078" /></a>
+      
+      <a href="/users/nowen">nowen</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1351704987" />
+    
+      <span class="vote clearfix"><img alt="Thumbs up" src="http://a.fsdn.com/fm/images/thumbsup-wht.png?1351704987" /></span>
+    
+  </div>
+  <div class="comment-content">
+    <p>Like the new FM design.  Cleaning up the links, etc.  </p>
+  </div>
+</div>
+<div class="comment" id="comment_46239">
+  
+
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1351704987" />
+    <span class="date">04 Apr 2008 10:00</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1351704987" />   
+    <span class="author">
+      
+        <a href="/users/nowen" class="avatar" title="nowen" valign="bottom"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_tiny.gif?1237556078" /></a>
+      
+      <a href="/users/nowen">nowen</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1351704987" />
+    
+      <span class="vote clearfix"><img alt="Thumbs up" src="http://a.fsdn.com/fm/images/thumbsup-wht.png?1351704987" /></span>
+    
+  </div>
+  <div class="comment-content">
+    <p>Using WiKID two-factor authentication with Google Apps</p>
+
+<p>We have recently published a tutorial on how to add two-factor authentication to Google Apps for your Domain (Premier edition) using WiKID and another open source project callend GHeimdall.  
+<br /> </p>
+
+<p><a href="http://www.howtoforge.com/two-factor-authentication-google-apps-gheimdall" rel="nofollow" target="_blank">www.howtoforge.com/two...</a> 
+<br /> </p>
+
+<p>Enjoy!</p>
+  </div>
+</div>
+<div class="comment" id="comment_45947">
+  
+
+  <div class="comment-badge clearfix">
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-before.png?1351704987" />
+    <span class="date">05 Feb 2008 13:28</span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-trans.png?1351704987" />   
+    <span class="author">
+      
+        <a href="/users/nowen" class="avatar" title="nowen" valign="bottom"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_tiny.gif?1237556078" /></a>
+      
+      <a href="/users/nowen">nowen</a></span>
+    <img alt="" src="http://a.fsdn.com/fm/images/rcomment-after.png?1351704987" />
+    
+      <span class="vote clearfix"><img alt="Thumbs up" src="http://a.fsdn.com/fm/images/thumbsup-wht.png?1351704987" /></span>
+    
+  </div>
+  <div class="comment-content">
+    <p>New installation tutorial published</p>
+
+<p>We have published completely new installation documentation on howtoforge.com:</p>
+
+<p> <a href="http://www.howtoforge.com/installing-wikid-strong-authentication-server-community-edition" rel="nofollow" target="_blank">www.howtoforge.com/ins...</a></p>
+
+<p>Enjoy!
+</p>
+  </div>
+</div>
+
+      
+
+    </div>
+  </div>
+</div>
+
+<div class="sbblock">
+  <div class="sidebar first">
+    <div class="sidebar-content">
+      <h3>Links</h3>
+      <ul class="sub-navigation divide"><a name="downloads"></a>
+        <li class="url " title="API/examples/Source code. Add two-factor auth to your apps - wikidsystems.com"><a href="/urls/323a06d51286f0bd2bc69e026d430d24" onclick="_gaq.push(['_trackEvent', 'Projects', 'API/examples/Source code. Add two-factor auth to your apps', 'WiKID Strong Authentication System']);">API/examples/So...</a></li>
+<li class="url " title="Community Two-factor Authentication Download - sourceforge.net"><a href="/urls/7be107d0b267565035675f3590ac7b39" onclick="_gaq.push(['_trackEvent', 'Projects', 'Community Two-factor Authentication Download', 'WiKID Strong Authentication System']);">Community Two-f...</a></li>
+<li class="url " title="Demo for the software token - wikidsystems.com"><a href="/urls/79704909512470e8155a6b1e50a4f2e8" onclick="_gaq.push(['_trackEvent', 'Projects', 'Demo for the software token', 'WiKID Strong Authentication System']);">Demo for the so...</a></li>
+<li class="url " title="Download Enterprise Two-Factor Authentication - wikidsystems.com"><a href="/urls/a746abee67b91497744dd1506badc4e5" onclick="_gaq.push(['_trackEvent', 'Projects', 'Download Enterprise Two-Factor Authentication', 'WiKID Strong Authentication System']);">Download Enterp...</a></li>
+<li class="url " title="Java/PC software token download - sourceforge.net"><a href="/urls/22a174065079a3ab7e83f0c5fe00b3c3" onclick="_gaq.push(['_trackEvent', 'Projects', 'Java/PC software token download', 'WiKID Strong Authentication System']);">Java/PC softwar...</a></li>
+<li class="url " title="Purchase - wikidsystems.com"><a href="/urls/d1a686fe82724a278b6c9834a0ae8bca" onclick="_gaq.push(['_trackEvent', 'Projects', 'Purchase', 'WiKID Strong Authentication System']);">Purchase</a></li>
+<li class="url " title="Two-factor auth HTML5 software token demo! (beta) - wikidsystems.com"><a href="/urls/ff4ae93ff940731115a761f3918d0458" onclick="_gaq.push(['_trackEvent', 'Projects', 'Two-factor auth HTML5 software token demo! (beta)', 'WiKID Strong Authentication System']);">Two-factor auth...</a></li>
+<li class="url " title="WiKID Software token for Android - market.android.com"><a href="/urls/cc7318594573acc4d7ff56b207f51be5" onclick="_gaq.push(['_trackEvent', 'Projects', 'WiKID Software token for Android', 'WiKID Strong Authentication System']);">WiKID Software ...</a></li>
+<li class="url " title="WiKID Software token for Blackberry - appworld.blackberry.com"><a href="/urls/b7eaa15f95965834439ef680515a47ed" onclick="_gaq.push(['_trackEvent', 'Projects', 'WiKID Software token for Blackberry', 'WiKID Strong Authentication System']);">WiKID Software ...</a></li>
+<li class="url " title="WiKID Software token for iPhone - itunes.apple.com"><a href="/urls/f97b341c47b8e9e22def2dcf347596dc" onclick="_gaq.push(['_trackEvent', 'Projects', 'WiKID Software token for iPhone', 'WiKID Strong Authentication System']);">WiKID Software ...</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-content">
+        <div class="submitter clearfix">
+          <ul>
+            <li class="avatar"><a href="/users/nowen" class="avatar" title="nowen"><img alt="Avatar" src="http://a.fsdn.com/fm/avatars/c8/05/c8051d9341097ca06786904eef1be220_small.gif?1237556078" /></a></li>
+            <li><p><a href="/users/nowen" class="submitter">nowen</a><br />
+              <span>25 Aug 2005 14:24</span></p></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-screen">
+          
+            <a href="/screenshots/8e/e4/8ee452ff6fb56a1fc98bdfc2bfe355b0_medium.jpg?1237056292" class="fancybox" rel="project-screenshots" title=" (Image 1 of 4)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/8e/e4/8ee452ff6fb56a1fc98bdfc2bfe355b0_thumb.jpg?1237056292" /></a>
+          
+            <a href="/screenshots/d6/9c/d69c8a86585cad6b358dbe3c97eb8f81_medium.png?1237056292" class="fancybox hidden" rel="project-screenshots" title=" (Image 2 of 4)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/d6/9c/d69c8a86585cad6b358dbe3c97eb8f81_thumb.png?1237056292" /></a>
+          
+            <a href="/screenshots/f1/b0/f1b0626becde5395d38e9f5683d214fe_medium.jpg?1237056293" class="fancybox hidden" rel="project-screenshots" title=" (Image 3 of 4)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/f1/b0/f1b0626becde5395d38e9f5683d214fe_thumb.jpg?1237056293" /></a>
+          
+            <a href="/screenshots/3d/6a/3d6ab614d703b9352aa74909285afd66_medium.jpg?1237056293" class="fancybox hidden" rel="project-screenshots" title=" (Image 4 of 4)"><img alt="Screenshot" class="screenshotsidebar" src="http://a.fsdn.com/fm/screenshots/3d/6a/3d6ab614d703b9352aa74909285afd66_thumb.jpg?1237056293" /></a>
+          
+        </div>
+
+      <ul class="sub-navigation split">
+        <li class="dependency"><a href="/projects/wikid-strong-authentication-system/dependencies">Dependencies</a></li>
+          <li class="owner-change"><a href="/projects/wikid-strong-authentication-system/owner_changes/new">Request ownership</a></li>
+        <li class="report-problem"><a href="/projects/wikid-strong-authentication-system/tickets/new">Report problem</a></li>
+      </ul>
+
+      <ul class="sub-navigation split">
+        <li class="graphs"><a href="/projects/wikid-strong-authentication-system/date_metrics">Graphs</a></li>
+        <li class="submit-comment"><a href="/projects/wikid-strong-authentication-system/comments/new">Submit a comment</a></li>
+      </ul>
+
+      <div class="project-filter">
+        <div class="pfleft"><form method="post" action="/account/project_filters?project_id=55916" class="button-to"><div><input class="filter-project-55916" title="Ignore this project across the site" type="submit" value="ignore" /></div></form></div>
+        <div class="pfright"><form method="post" action="/account/subscriptions?subscription%5Bproject_id%5D=55916" class="button-to"><div><input class="subscribe-project-55916 " title="Receive notifications when this project is updated" type="submit" value="follow" /></div></form></div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-content">
+      <h3>Heartbeat</h3>
+      
+      <div class="sidebar-sparkline">
+        
+          <a href="/projects/wikid-strong-authentication-system/date_metrics"><img src="//chart.googleapis.com/chart?chco=6090C0,008800&amp;chd=s:miHIGiiAgfbJJRmidedAHIGGGEEJqfhgAKHGFGGHFFFFEFEFFGFEDCCDIPAHMHJtlkEEDG9AAAAVATPFFFGEGDCCCCEDDCBDCD,KIAAAIBAABBBAAFDCABABAAAAAADCCAAAAAAAAABBBBAAAAAAAAACCBBABAABBADFFPIBBFAAAAFAHIEBAABEADAAACCBCBAAA&amp;cht=ls&amp;chs=200x30&amp;chxr=0,606,49|1,162,8" width="200" height="30" alt="Google Chart" /></a>
+        
+      </div>
+      
+      <dl class="heartbeat">
+        <dt>Popularity Score</dt>
+        <dd>1,464.85</dd>
+        <dt>Vitality Score</dt>
+        <dd>1,694.91</dd>
+        <dt>Subscriptions</dt>
+        <dd>101</dd>
+      </dl>
+      <div class="voting">
+        <div class="voting-total">
+          <span class="votingScore">Voting Score: 2</span>
+          <span class="votingCount">(3 votes)</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <div class="banner-imu">
+    <!-- DoubleClick Ad Tag -->
+<script language="JavaScript" type="text/javascript">
+  FC.loadAd('main_p6_imu', document.location.protocol+'//ad.doubleclick.net/adj/ostg.freshmeat/main_p6_imu;pg=%2Fprojects%2Fwikid-strong-authentication-system%3Futm_source%3Dfeedburner%26utm_medium%3Dfeed%26utm_campaign%3DFeed%253A%2Bfreshmeat%252Ffeeds%252Ffm-releases-global%2B%2528Freshmeat%253A%2BAll%2BSoftware%2529;logged_in=0;sz=300x250,300x600;tile='+dfp_tile+';ord='+dfp_ord+'?');
+   dfp_tile++;
+</script>
+<!-- End DoubleClick Ad Tag -->
+
+  </div>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="mashup">
+      <div class="mashup-container clearfix">
+        
+          
+          <div class="col-1">
+            <a href="/projects/palantir-server"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/screenshots/dc/76/dc7675066bc9ac4c913f01eabd241931_thumb.png?1350909304" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/palantir-server">Orthanc</a></h3>
+            <p>A lightweight, RESTful DICOM server.</p>
+          </div>
+          
+          <div class="col-2">
+            <a href="/projects/wordpress"><img alt="Screenshot" class="screenshotThumb" src="http://a.fsdn.com/fm/screenshots/f8/2f/f82f1e77de7fd19b8a05ce80feaae29c_thumb.png?1340377055" /></a>
+            <h2>Project Spotlight</h2>
+            <h3><a href="/projects/wordpress">WordPress</a></h3>
+            <p>A standards-compliant Weblog/CMS.</p>
+          </div>
+          
+        
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-container">
+        <div class="twitter-icon floatright">
+          <a href="http://twitter.com/freecode_com"><img src="//twitter-badges.s3.amazonaws.com/follow_us-b.png" alt="Follow Freecode on Twitter"/></a>
+        </div>
+        <div class="footerLinks">
+          <a href="/about">About Freecode</a>
+          <a target="_blank" href="http://geeknetmedia.com/privacy-statement/">Privacy</a>
+          <a target="_blank" href="http://geeknetmedia.com/opt-out-choices">Cookies/Opt Out</a>
+          <a target="_blank" href="http://geeknetmedia.com/terms-of-use">Terms</a>
+          <a target="_blank" href="http://geeknetmedia.com/">Advertise</a>
+          <a href="http://help.freecode.com/" onclick="window.open(this.href);return false;">Contact Us</a>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2012 Freecode.
+          All Rights Reserved.
+          Freecode is a <a target="_blank" href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&amp;p=irol-landing">DiceHoldings, Inc.</a> service.
+        </div>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script src="http://a.fsdn.com/fm/javascripts/base_packaged.js?1351705005" type="text/javascript"></script>
+
+    
+    
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+      document.write(unescape("%3Cscript src='" +
+      (document.location.protocol == "https:" ? "https://sb" : "http://b") +
+      ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      COMSCORE.beacon({
+          c1:2,
+          c2:6035546,
+          c3:"",
+          c4:"",
+          c5:"",
+          c6:"",
+          c15:""
+      });
+    </script>
+
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2" />
+    </noscript>
+    <!-- End comScore Tag -->
+    <script type="text/javascript">document.write(unescape('%3Cscript type="text/javascript" src="'+document.location.protocol+'//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/0794.js"%3E%3C%2Fscript%3E'))</script>
+  </body>
+</html>

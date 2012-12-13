@@ -1,0 +1,293 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>reddit gift exchanges, meetups, and more! - redditgifts</title>
+    <meta name="description" content="Get the best gift you&#39;ve ever gotten, give the best present you&#39;ve ever given, find reddit meetups in your city!"/>
+    <meta name="keywords" content="secret santa, gift exchange, reddit, presents, present photos, gift photos, reddit meetups"/>
+    <meta name="google-site-verification" content="-SK-7SvIq43hdbeJWaDwx37Uu5YZid2SoHg_Ylz_pgw" />
+    <!-- og:tags for grabbing thumbnails and site info, need to add og:title and og:description to each page -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="redditgifts" />
+    <meta property="fb:app_id" content="291585047533359" />
+    
+    
+       <meta property="og:url" content="http://redditgifts.com/" />
+       <meta property="og:image" content="https://d2npbuaakacvlz.cloudfront.net/images/mini_logo.gif" />
+    
+    <meta property="og:title" content="reddit gift exchanges, meetups, and more! - redditgifts" />
+    <meta property="og:description" content="Get the best gift you&#39;ve ever gotten, give the best present you&#39;ve ever given, find reddit meetups in your city!" />
+
+    
+    
+<link rel="stylesheet" href="https://d2npbuaakacvlz.cloudfront.net/CACHE/css/f8b3df575d05.css" type="text/css" />
+
+
+    <!--[if lt IE 8]><link rel="stylesheet" href="https://d2npbuaakacvlz.cloudfront.net/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <!--[if IE]>
+    	<style type="text/css">
+    	legend { position: absolute; top: -.2em; left: 1em; }
+    	</style>
+    <![endif]-->
+    
+  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="https://d2npbuaakacvlz.cloudfront.net/js/jquery-ui-1.9.0.custom.min.js"></script>
+    <script type="text/javascript" src="https://d2npbuaakacvlz.cloudfront.net/CACHE/js/8f73037ee442.js"></script>
+
+    
+    
+    
+<script>
+    
+</script>
+
+
+    <script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+    </script>
+
+    <script type='text/javascript'>
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/4005506/Site-Leaderboard', [728, 90], 'div-gpt-ad-1348609608629-0').addService(googletag.pubads());
+    googletag.defineSlot('/4005506/Site_300x250', [300, 250], 'div-gpt-ad-1348609608629-1').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    });
+    </script>
+
+    
+    
+</head>
+<body>
+	<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=291585047533359";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+	<!-------------- SITE HEADER -------------->
+	<div class="container headerContainer" style="padding-top: 2px;">
+        
+		
+
+
+        
+        <div class="span-24 last">
+        	<div class="span-9">
+        		<a href="http://redditgifts.com/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/xmas-logo.gif" width="302" height="90" alt="RedditGifts: an online gift exchange program for the reddit.com community"/></a>
+        		
+        	</div>
+            
+        	
+	        	<div class="span-15 last" style="text-align: right;">
+                    
+                    
+                    <div style="width: 728px; margin-left: 35px;">
+					<!-- Site-Header -->
+					<!-- Site-Leaderboard -->
+                    <div id='div-gpt-ad-1348609608629-0' style='width:728px; height:90px;'>
+                    <script type='text/javascript'>
+                    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1348609608629-0'); });
+                    </script>
+                    </div>
+                </div>
+                    
+				</div>
+			
+        </div>
+        <div class="span-12">
+        	<div class="menu" style="margin-top: 6px;">
+        	<div class="menuitem ">
+            	<div><a href="http://redditgifts.com/exchanges/">gift exchanges</a></div>
+            </div>
+            <div class="menuitem ">
+            	<div><a href="http://redditgifts.com/gallery/">gift gallery</a></div>
+            </div>
+            <div class="menuitem ">
+            	<div><a href="http://redditgifts.com/meetups/">meetups</a></div>
+            </div>
+            <div class="menuitem ">
+            	<div><a href="http://redditgifts.com/marketplace/">marketplace</a></div>
+            </div>
+            
+            	<div class="menuitem ">
+                	<div><a href="http://redditgifts.com/profiles/signup/">sign up</a></div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="span-12 last menusmall" style="text-align: right; margin-bottom: 0px;">
+
+                
+                    <div class="menuitem ">
+                        <a href="http://redditgifts.com/profiles/login/">log in</a>
+                    </div>
+                    <div style="margin-top: 5px; margin-left: 0px; margin-right: 0px; text-align: center; font-size: 10px; color: #CCC; line-height: 1em;">
+                        
+<a href="https://ssl.redditgifts.com/marketplace/cart/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/marketplace/tinycart_gray.gif" id="carticon" /></a><br /><a href="/marketplace/cart/" style="color: #CCC;">cart (<span id="carttotal">0</span>)</a>
+                    </div>
+                
+        </div>
+        
+	</div>
+	
+	
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=291585047533359";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="container pagerContainer" style="padding-top: 2px" id="rotatorcontainer">
+
+	    <div class="span-24 last round-left round-right" style="background-color: #2a507d; color: #FFFFFF; margin-top: 0px; margin-bottom: 0px;">
+	    	<div class="span-24 last">
+
+
+	    		<div class="round-left round-right" style="margin: 20px; background-color: #fff; color: #000; padding: 10px;">
+
+                    <div class="span-24" style="float: left; padding-left: 10px;">
+                        <div class="span-14" style="border: 2px solid #f2f2f2; padding: 6px;">
+                            <div><a href="/marketplace/" style="font: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 29px; color: #c80002; font-weight: bold; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #978438;">Introducing the redditgifts Marketplace!</a></div>
+                            <p style="margin-top: 4px; margin-bottom: 10px; line-height: 1.5em;">
+                                We're proud to announce the brand new <a href="/marketplace/" style="font-weight: bold; text-decoration: underline;">redditgifts marketplace</a>! We have products by some excellent <a href="/marketplace/merchants/" style="font-weight: bold; text-decoration: underline;">merchants</a> who have a ton of great products &mdash; including some featuring your <a href="/marketplace/reddit/" style="font-weight: bold; text-decoration: underline;">favorite alien</a>. There's also built-in integration for the exchanges to make shopping for your giftee a cinch.  <div style="font-weight: bold; font-size: 15px; text-align: center;"><a href="/marketplace/">Support redditgifts by using the marketplace this holiday season!</a></div></strong>
+                            </p>
+                            <div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/white-journal-notebook-series-lined/227/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/12/11/medium-5x8-white-journal-cyan-edge-3-1355269206.sF49CmjjRNC0XmQRJpOj" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/white-journal-notebook-series-lined/227/">Medium 5x8 White Journal • Cyan Edge - Lined Paper</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/miro/">Miro</a></div>
+</div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/global-tea-taster-pack/678/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/12/8/global-tea-taster-pack-19-1355008049.0qYVQHJxQGGR2Alv2brr" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/global-tea-taster-pack/678/">Global Tea Taster Pack</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/tealet/">Tealet</a></div>
+</div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/desktop-spectrometer-kit/535/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/11/27/smartphone-spectrometer-kit-3-1354042218.Tdv7Ta6mTW6ZN8rLARWt" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/desktop-spectrometer-kit/535/">Smartphone Spectrometer Kit</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/breadpig/">Breadpig</a></div>
+</div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/penguin-lovers-dictionary-page-art-print/547/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/11/27/penguin-lovers-dictionary-page-art-3-1354058901.HZa1uVZ3TNqkKzcQZfl4" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/penguin-lovers-dictionary-page-art-print/547/">The Penguin Lovers Dictionary Page Art Print</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/collageorama/">Collageorama</a></div>
+</div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/awesomesauce/312/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/11/26/awesomesauce-4-1353951554.wtaaCdk8S4ubuERRBrtV" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/awesomesauce/312/">Awesomesauce</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/breadpig/">Breadpig</a></div>
+</div>
+                                
+                                    
+<div class="f_product_small">
+    <a href="http://redditgifts.com/marketplace/product/love-bot-3000-dictionary-page-art-print/551/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/marketplace-listing-square/2012/11/27/love-bot-3000-dictionary-page-art-3-1354059278.3tifXbjRRhyKIKHQzgNB" width="200" height="200" /></a>
+    
+    <div class="title"><strong><a href="http://redditgifts.com/marketplace/product/love-bot-3000-dictionary-page-art-print/551/">The Love Bot 3000 Dictionary Page Art Print</a></strong><br />by <a href="http://redditgifts.com/marketplace/merchant/collageorama/">Collageorama</a></div>
+</div>
+                                
+                            </div>
+                        </div>
+    	    			<div class="span-8" style="border: 2px solid #f2f2f2; padding: 6px;">
+                            <div style="font: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 19px; color: #c80002; font-weight: bold;">Holiday greeting card exchange!</div>
+                            <p style="margin-bottom: 10px; line-height: 1.5em; margin-top: 4px;">
+                                <a href="/exchanges/holiday-greeting-cards/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/exchange_logos/holidaycard.png" style="float: left; margin-right: 20px" width="80" /></a> <p style="padding-top: 10px;"><a href="/exchanges/holiday-greeting-cards/">Sign up now</a> for our first annual <a href="/exchanges/holiday-greeting-cards/">reddit holiday greeting card exchange</a>!  This is a 0 credit exchange, meaning ANYONE can sign up.  Signups end on December 5th so go <a href="/exchanges/holiday-greeting-cards/">sign up now</a>!</p>
+                            </p>
+
+                            <div style="clear: left; padding-top: 10px; font: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 19px; color: #c80002; font-weight: bold;">reddit Secret Santa is the biggest yet!</div>
+                            <p style="margin-bottom: 10px; line-height: 1.5em; margin-top: 4px;">
+                                An amazing <strong>59,742</strong> people from <strong>125 countries</strong> signed up to take part in this year's reddit Secret Santa! We're excited to see what <a href="/gallery/secret-santa-2012/" style="font-weight: bold; text-decoration: underline;">fun and exciting gifts</a> come in, and are at the ready to start giving out <a href="/gallery/awards/" style="font-weight: bold; text-decoration: underline;">awards</a> to as many gifts as we can.
+                            </p>
+                            <a href="/gallery/secret-santa-2012/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/secret-santa-2012/SS_No_logo.jpg" width="400" /></a><br />
+                            <div style="text-align: right; margin-top: 0;" class="meta">Watercolor by <a href="http://www.reddit.com/r/youngluck">Dante Orpilla</a></div>
+                            <div style="text-align: center; margin-top: 10px;"></div>
+                            <p>
+                                Missed out on this year's Secret Santa? Keep an eye on <a href="http://www.reddit.com/r/secretsanta/" style="font-weight: bold; text-decoration: underline;">/r/SecretSanta</a> for more exchanges in the new year. 
+                            </p>
+                        </div>
+                    <div class="span-8" style="text-align:center; padding-top:10px;">
+                        <div>
+                            <div class="fb-like" data-href="http://www.facebook.com/redditgifts" data-send="false" data-layout="standard" data-width="300" data-show-faces="false"></div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div style="clear: left;"></div>
+
+			    </div>
+
+
+			</div>
+	    	<div class="span-24 last" style="text-align: center; padding: 0px 0px 10px 0px;">
+	    		<a href="/gallery/gift/received-my-first-packagebut-seems-there/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/10/i-received-my-first-packagebut-seems-there-are-3-more-on-their-way-d-1355173056.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/lovely-card-4/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-lovely-card-1355381152.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/take-it-slow-bro/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/take-it-slow-bro-1355381097.JPG" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/nice-little-box/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-nice-little-box-1355381085.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/im-stoked-my-cats-are-stoked-mission/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/im-stoked-my-cats-are-stoked-mission-accomplished-1355380852.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/now-youre-gifting-portals/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/now-youre-gifting-with-portals-1355380945.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/beer-77/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/beer-1355380707.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/received-gift-39/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/received-gift-1355380697.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/best-gift-couldve-asked/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/the-best-gift-i-couldve-asked-for-1355380307.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/wonderful-array-goodies/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-wonderful-array-of-goodies-1355380134.JPG" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/sweetest-gifts---sweetneo85/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/the-sweetest-gifts-from-sweetneo85-1355380507.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/first-secret-santa-experience--person/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/first-secret-santa-experience-this-person-nailed-the-gift-1355380401.JPG" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/my-first-secret-santa-and-it-was-amazing/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/my-first-secret-santa-and-it-was-amazing-1355380141.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/kong-doggy-toys/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/kong-doggy-toys-1355379857.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/beatles---abbey-road-lp-semi-precious-w/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/the-beatles-abbey-road-lp-semi-precious-gemstones-w-the-crystal-bible-1355379962.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/algebraic-reddit-card/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/algebraic-reddit-card-1355351258.JPG" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/hand-drawn-pictures-every-kind/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/hand-drawn-pictures-of-every-kind-1355378363.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/call-her-dwemer/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/i-call-her-the-dwemer-1355379659.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/skyrim-chiang-spider-man-firefly-star/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/skyrim-chiang-spider-man-firefly-star-wars-ghost-world-misprint-amazeballs-1355375861.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/little-french-city/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-little-french-city-1355379221.JPG" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/tokin-chef-drivin-mini/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/tokin-chef-drivin-a-mini-1355379229.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/signed-coheed-picture-and-candy/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/signed-coheed-picture-and-candy-1355378844.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/book-157/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-book-1355378779.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a><a href="/gallery/gift/super-awesome-coffee-mug/"><img src="https://d2npbuaakacvlz.cloudfront.net/images/uploaded/list-present/2012/12/12/a-super-awesome-coffee-mug-1355378545.jpg" style="margin: 4px 6px 4px 6px; width: 140px; height: 140px; border: 1px solid #3C8D0D;"></a>	
+	    	</div>
+	    </div>
+    </div>
+    
+
+    
+<div style="display:none"><div id="addtocart_container" class="addtocart_container">Adding to your cart.<br /><br /><br /><img src="https://d2npbuaakacvlz.cloudfront.net/images/marketplace/325.gif" width="100"/></div></div>
+	
+   	<div class="container footerContainer">    
+		<div class="span-24 last menu-footer">
+            <a href="http://redditgifts.com/blog/" >blog</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/about/" >about</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/info/" >contact us</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/faq/" >faq</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/info/helpers/" >helpers</a><span class="linksep"> |</span>
+            <a href="http://feeds.feedburner.com/redditgifts">gallery rss</a><span class="linksep"> |</span>
+            <a href="http://feeds.feedburner.com/RedditGiftsBlog">blog rss</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/profiles/" >people</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/privacy/" >privacy</a><span class="linksep"> |</span>
+            <a href="http://redditgifts.com/terms/" >terms of service</a><span class="linksep"> |</span>
+            <a href="http://www.twitter.com/redditgifts">twitter</a>
+        </div>
+	</div>
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11645097-1']);
+	  _gaq.push(['_setCustomVar', 1, 'VisitorType', 'Anonymous', 2]);
+	  _gaq.push(['_trackPageview']);
+	  _gaq.push(['_trackPageLoadTime']);
+  	  (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	  })();
+      
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript" src="https://s.skimresources.com/js/26605X854707.skimlinks.js"></script>
+</body>
+</html>

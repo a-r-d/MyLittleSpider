@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '109939231597725159',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'facebook'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "facebook"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @06:47PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/12/2347227/facebook-changes-privacy-policies-scraps-user-voting" rel="nofollow">Facebook Changes Privacy Policies, Scraps User Voting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 06, @07:12PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/07/0012205/sec-investigates-netflix-ceo-reed-hastings-over-facebook-posting" rel="nofollow">SEC Investigates Netflix CEO Reed Hastings Over Facebook Posting</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 06, @01:15PM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/06/1815255/facebook-says-eu-right-to-be-forgotten-would-harm-privacy" rel="nofollow">Facebook Says EU 'Right To Be Forgotten' Would Harm Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 06, @12:27PM</td>
+			<td><a href="//slashdot.org/submission/2387537/facebook-says-eu-right-to-be-forgotten-would-harm-privacy" rel="nofollow">Facebook Says EU 'Right To Be Forgotten' Would Harm Privacy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday December 04, @10:55AM</td>
+			<td><a href="//yro.slashdot.org/story/12/12/04/1555215/facebook-users-voting-on-privacy-instagram-other-issues" rel="nofollow">Facebook Users Voting On Privacy, Instagram, Other Issues</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 30, @10:16AM</td>
+			<td><a href="//slashdot.org/submission/2377895/facebook-and-zynga-cut-their-ties" rel="nofollow">Facebook and Zynga cut their ties</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 28, @08:13AM</td>
+			<td><a href="//slashdot.org/submission/2373941/why-facebook-is-stressing-you-out" rel="nofollow">Why Facebook Is Stressing You Out</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 22, @12:06PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/22/176218/facebook-to-eliminate-voting-on-privacy-changes" rel="nofollow">Facebook To Eliminate Voting On Privacy Changes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 21, @12:08PM</td>
+			<td><a href="//slashdot.org/submission/2363259/outrage-in-india-over-arrests-for-facebook-posts" rel="nofollow">Outrage in India over arrests for Facebook posts</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 20, @09:26AM</td>
+			<td><a href="//it.slashdot.org/story/12/11/19/2359205/facebook-switching-to-https-by-default" rel="nofollow">Facebook Switching To HTTPS By Default</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 20, @08:15AM</td>
+			<td><a href="//slashdot.org/submission/2361311/facebook-condemns-european-data-protection-fines" rel="nofollow">Facebook condemns European data protection fines</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 13, @07:50AM</td>
+			<td><a href="//slashdot.org/submission/2351201/mark-cuban-facebook-is-driving-away-brands---starting-with-mine" rel="nofollow">Mark Cuban: Facebook Is Driving Away Brands - Starting With Mine</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 12, @11:20PM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/12/0343216/homeland-security-mining-social-media-for-signs-of-bio-attacks" rel="nofollow">Homeland Security Mining Social Media For Signs of Bio Attacks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 12, @07:51AM</td>
+			<td><a href="//yro.slashdot.org/story/12/11/12/1251213/man-arrested-for-photo-of-burning-poppy-on-facebook" rel="nofollow">Man Arrested For Photo of Burning Poppy On Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 06, @12:20PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/11/06/1720212/should-a-teenage-entrepreneur-sell-out-to-facebook" rel="nofollow">Should a Teenage Entrepreneur Sell Out To Facebook?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 06, @10:31AM</td>
+			<td><a href="//slashdot.org/submission/2341035/should-a-successful-teenage-entrepreneur-sell-out-to-facebook" rel="nofollow">Should a successful teenage entrepreneur sell out to Facebook?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday November 03, @05:05PM</td>
+			<td><a href="//developers.slashdot.org/story/12/11/03/225211/facebooks-prism-soon-to-be-open-sourced-gives-hadoop-delay-tolerance" rel="nofollow">Facebook's Prism, Soon To Be Open Sourced, Gives Hadoop Delay Tolerance</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 01, @05:05PM</td>
+			<td><a href="//slashdot.org/submission/2334141/facebook-prism-pushes-beyond-hadoops-limits" rel="nofollow">Facebook Prism Pushes Beyond Hadoop's Limits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 29, @01:25PM</td>
+			<td><a href="//slashdot.org/submission/2328401/facebook-tries-cloaking-probe-into-data-leak-involving-1-million-accounts" rel="nofollow">Facebook tries cloaking probe into data leak involving 1 million accounts</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 26, @02:45PM</td>
+			<td><a href="//slashdot.org/submission/2324827/paul-ceglia-arrested-and-charged-with-fraud-over-facebook-ownership-claims" rel="nofollow">Paul Ceglia arrested and charged with fraud over Facebook ownership claims</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 25, @08:28AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/10/25/1328242/open-compute-hardware-adapted-for-colo-centers" rel="nofollow">Open Compute Hardware Adapted For Colo Centers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 24, @05:26PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/24/2226209/facebook-patents-pokes-per-minute-limits" rel="nofollow">Facebook Patents Pokes-Per-Minute Limits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 23, @11:58PM</td>
+			<td><a href="//slashdot.org/submission/2320689/facebook-patents-pokes-per-minute-limits" rel="nofollow">Facebook Patents Pokes-Per-Minute Limits</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 22, @06:47AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/20/2312223/facebook-wont-take-down-undercover-cop-page-in-australia" rel="nofollow">Facebook Won't Take Down Undercover Cop Page In Australia</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 20, @06:05PM</td>
+			<td><a href="//slashdot.org/submission/2316189/facebook-wont-take-down-undercover-cop-page-in-australia" rel="nofollow">Facebook Won't Take Down Undercover Cop Page in Australia</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 18, @08:14AM</td>
+			<td><a href="//developers.slashdot.org/story/12/10/18/1314208/googles-engineers-are-well-paid-not-just-well-fed" rel="nofollow">Google's Engineers Are Well Paid, Not Just Well Fed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 14, @01:30PM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/14/1830213/how-facebook-can-out-your-most-personal-secrets" rel="nofollow">How Facebook Can Out Your Most Personal Secrets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 14, @09:22AM</td>
+			<td><a href="//slashdot.org/submission/2305261/wall-street-journal-describes-how-facebooks-outs-your-most-personal-secrets" rel="nofollow">Wall Street Journal describes how Facebooks Outs your Most Personal Secrets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 12, @07:08AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/11/131237/facebook-confirms-data-breach" rel="nofollow">Facebook Confirms Data Breach</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 11, @12:40PM</td>
+			<td><a href="//politics.slashdot.org/story/12/10/11/1740240/why-do-so-many-liberals-like-mitt-romney-on-facebook" rel="nofollow">Why Do So Many Liberals "Like" Mitt Romney On Facebook?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 11, @01:40AM</td>
+			<td><a href="//slashdot.org/submission/2300721/facebook-confirms-data-breach" rel="nofollow">Facebook Confirms Data Breach</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 09, @12:57PM</td>
+			<td><a href="//slashdot.org/submission/2298097/facebook-tests-want-button-to-hoard-user-data-save-its-stock-price" rel="nofollow">Facebook tests Want button to hoard user data, save its stock price</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 07, @07:33PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/08/0033233/uk-man-arrested-for-offensive-joke-posted-on-facebook" rel="nofollow"> UK Man Arrested For Offensive Joke Posted On Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday October 06, @10:01AM</td>
+			<td><a href="//idle.slashdot.org/story/12/10/06/150259/your-facebook-likes-conveyed-as-simulated-hugs" rel="nofollow">Your Facebook Likes Conveyed As Simulated Hugs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday October 05, @06:03PM</td>
+			<td><a href="//developers.slashdot.org/story/12/10/05/233254/the-computer-science-behind-facebooks-1-billion-users" rel="nofollow">The Computer Science Behind Facebook's 1 Billion Users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 05, @12:10PM</td>
+			<td><a href="//slashdot.org/submission/2292499/the-computer-science-behind-facebooks-1-billion-users" rel="nofollow">The Computer Science Behind Facebook's 1 Billion Users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @09:29AM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/04/1429236/facebook-privacy-boosted-as-private-message-leak-is-dismissed" rel="nofollow">Facebook Privacy Boosted As Private Message 'Leak' Is Dismissed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 04, @08:28AM</td>
+			<td><a href="//news.slashdot.org/story/12/10/04/1328227/for-obama-jobs-and-zuckerberg-boring-is-productive" rel="nofollow">For Obama, Jobs, and Zuckerberg, Boring Is Productive</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @04:15AM</td>
+			<td><a href="//slashdot.org/submission/2290001/facebook-privacy-boosted-as-private-message-leak-is-dismissed" rel="nofollow">Facebook Privacy Boosted As Private Message 'Leak' Is Dismissed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 02, @03:24PM</td>
+			<td><a href="//slashdot.org/submission/2287333/why-are-we-so-rude-online" rel="nofollow">Why are we so rude online?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 02, @11:43AM</td>
+			<td><a href="//developers.slashdot.org/story/12/10/01/020205/how-noah-kagan-got-fired-from-facebook-and-lost-100-million" rel="nofollow">How Noah Kagan Got Fired From Facebook and Lost $100 Million</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 29, @08:32PM</td>
+			<td><a href="//slashdot.org/submission/2283517/the-day-leo-traynor-confronted-his-troll" rel="nofollow">The day Leo Traynor confronted his troll</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 28, @06:29PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/28/2329225/illinois-prof-calls-for-a-federal-law-to-safeguard-digital-afterlives" rel="nofollow">Illinois Prof Calls for a Federal Law To Safeguard Digital Afterlives</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 26, @10:05PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/27/035231/facebook-denies-leak-of-users-private-messages" rel="nofollow">Facebook Denies Leak of Users' Private Messages</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 26, @10:13AM</td>
+			<td><a href="//slashdot.org/submission/2278401/facebook-denies-leak-of-users-private-messages" rel="nofollow">Facebook denies leak of users' private messages</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 25, @11:49AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/25/1649223/man-arrested-in-greece-for-blasphemous-facebook-page" rel="nofollow">Man Arrested In Greece For "Blasphemous" Facebook Page</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday September 24, @02:15PM</td>
+			<td><a href="//slashdot.org/submission/2274509/facebook-france-showing-old-private-messages-on-some-users-timeline" rel="nofollow">Facebook France showing old private messages on some users' Timeline</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 24, @10:39AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/09/24/1539256/new-york-times-takes-aim-at-data-center" rel="nofollow">New York Times Takes Aim At Data Center</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 21, @05:07PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/21/2123201/facebook-wants-you-to-snitch-on-friends-not-using-their-real-name" rel="nofollow">Facebook Wants You To Snitch On Friends Not Using Their Real Name</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 21, @08:20AM</td>
+			<td><a href="//slashdot.org/submission/2270297/facebook-wants-you-to-grass-up-friends-not-using-their-real-name" rel="nofollow">Facebook wants YOU to grass-up friends not using their real name</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 20, @11:03AM</td>
+			<td><a href="//tech.slashdot.org/story/12/09/20/163225/salesforce-ceo-benioff-future-software-will-look-like-facebook" rel="nofollow">Salesforce CEO Benioff: Future Software Will Look Like Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 20, @09:42AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/20/1442205/can-a-court-order-you-to-delete-a-facebook-account" rel="nofollow">Can a Court Order You To Delete a Facebook Account?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 18, @08:45PM</td>
+			<td><a href="//slashdot.org/submission/2265295/can-a-court-order-you-to-delete-a-facebook-account" rel="nofollow">Can a court order you to delete a facebook account?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 16, @09:22PM</td>
+			<td><a href="//slashdot.org/submission/2261271/how-the-ghost-of-steve-jobs-haunts-chicago-teachers" rel="nofollow">How The Ghost of Steve Jobs Haunts Chicago Teachers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 13, @01:48PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/13/1839212/eolas-sues-again-this-time-facebook-disney-and-wal-mart" rel="nofollow">Eolas Sues Again: This Time, Facebook, Disney and Wal-Mart</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 13, @09:43AM</td>
+			<td><a href="//slashdot.org/submission/2256871/eolas-sues-again---this-time-facebook-disney-and-wal-mart" rel="nofollow">Eolas Sues Again - This Time, Facebook, Disney And Wal-Mart</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday September 12, @06:20PM</td>
+			<td><a href="//politics.slashdot.org/story/12/09/12/2320226/study-online-social-influence-has-the-strongest-effect-on-voting-behavior" rel="nofollow">Study: Online Social Influence Has the Strongest Effect On Voting Behavior </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 09, @09:17AM</td>
+			<td><a href="//news.slashdot.org/story/12/09/09/1417242/mark-cuban-blames-himself-for-losing-money-on-facebook-ipo" rel="nofollow">Mark Cuban Blames Himself For Losing Money On Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 09, @08:21AM</td>
+			<td><a href="//slashdot.org/submission/2249289/mark-cuban-blames-himself-for-losing-money-on-facebook-ipo" rel="nofollow">Mark Cuban blames himself for losing money on Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday September 07, @06:51PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/07/195218/fbi-launches-1-billion-nationwide-face-recognition-system" rel="nofollow">FBI Launches $1 Billion Nationwide Face Recognition System</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 06, @09:28AM</td>
+			<td><a href="//tech.slashdot.org/story/12/09/06/1428210/bring-on-the-decentralized-social-networking" rel="nofollow">Bring On the Decentralized Social Networking</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday August 31, @07:14PM</td>
+			<td><a href="//search.slashdot.org/story/12/09/01/0014245/data-mine-your-own-facebook-data-with-wolfram-alpha" rel="nofollow">Data-Mine Your Own Facebook Data With Wolfram Alpha</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 20, @06:45AM</td>
+			<td><a href="//yro.slashdot.org/story/12/08/20/1145234/judge-rejects-settlement-in-facebook-sponsored-stories-case" rel="nofollow">Judge Rejects Settlement In Facebook Sponsored Stories Case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 20, @02:00AM</td>
+			<td><a href="//slashdot.org/submission/2217835/facebook-topples-yahoo-to-become-second-most-popular-video-site" rel="nofollow">Facebook Topples Yahoo to Become Second Most Popular Video Site</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 20, @12:51AM</td>
+			<td><a href="//slashdot.org/submission/2217685/judge-rejects-settlement-in-facebook-sponsored-stories-case" rel="nofollow">Judge rejects settlement in Facebook Sponsored Stories case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday August 17, @09:02AM</td>
+			<td><a href="//slashdot.org/submission/2215245/wall-street-investors-considering-removal-of-zuckerberg-as-facebook-ceo" rel="nofollow">Wall Street Investors Considering Removal of Zuckerberg as Facebook CEO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday August 16, @05:29PM</td>
+			<td><a href="//yro.slashdot.org/story/12/08/16/2229233/ask-slashdot-how-to-best-setup-a-school-internet-filter" rel="nofollow">Ask Slashdot: How To Best Setup a School Internet Filter?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday August 14, @01:42PM</td>
+			<td><a href="//slashdot.org/submission/2210345/leaky-websites-leaving-trails-of-clues-to-fortune-500-executives" rel="nofollow">Leaky Websites Leaving Trails Of Clues To Fortune 500 Executives</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 13, @12:48PM</td>
+			<td><a href="//slashdot.org/submission/2208399/outcry-over-facebooks-child-friendly-gambling-app" rel="nofollow">Outcry over Facebook's 'Child-Friendly' Gambling App</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 12, @07:54PM</td>
+			<td><a href="//news.slashdot.org/story/12/08/13/0054228/facebook-faces-high-level-staff-exodus" rel="nofollow">Facebook Faces High-Level Staff Exodus</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday August 12, @07:47PM</td>
+			<td><a href="//slashdot.org/submission/2206685/facebook-faces-high-level-staff-exodus" rel="nofollow">Facebook faces high-level staff exodus</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 09, @04:34PM</td>
+			<td><a href="//tech.slashdot.org/story/12/07/29/1627203/facebook-abstainers-could-be-labeled-suspicious" rel="nofollow">Facebook Abstainers Could Be Labeled Suspicious</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday August 09, @07:39AM</td>
+			<td><a href="//yro.slashdot.org/story/12/08/09/1239225/facebook-facial-recognition-under-scrutiny-in-norway" rel="nofollow">Facebook Facial Recognition Under Scrutiny In Norway</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 08, @07:31AM</td>
+			<td><a href="//news.slashdot.org/story/12/08/08/1231257/forbes-likens-instagram-purchase-to-myspace-deal" rel="nofollow">Forbes Likens Instagram Purchase To Myspace Deal</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday August 08, @04:53AM</td>
+			<td><a href="//slashdot.org/submission/2200075/facebook-facial-recognition-under-scrutiny-in-norway" rel="nofollow">Facebook facial recognition under scrutiny in Norway</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 08, @01:21AM</td>
+			<td><a href="//slashdot.org/submission/2199549/forbes-likens-instagram-purchase-to-myspace-deal" rel="nofollow">Forbes Likens Instagram Purchase to Myspace Deal</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday August 05, @09:21PM</td>
+			<td><a href="//yro.slashdot.org/story/12/08/06/0221216/australian-agency-rules-facebook-pages-responsible-for-comments" rel="nofollow">Australian Agency Rules Facebook Pages Responsible For Comments</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 05, @02:44PM</td>
+			<td><a href="//tech.slashdot.org/story/12/08/05/1944223/former-facebook-employee-questions-the-social-media-life" rel="nofollow">Former Facebook Employee Questions the Social Media Life</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday August 05, @02:19PM</td>
+			<td><a href="//slashdot.org/submission/2195085/refugee-from-facebook-questions-the-social-media-life" rel="nofollow">Refugee from Facebook questions the social media life</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 02, @08:05AM</td>
+			<td><a href="//news.slashdot.org/story/12/08/02/135214/the-cost-to-promote-a-facebook-post-200-to-500" rel="nofollow">The Cost To 'Promote' a Facebook Post: $200 To $500</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday August 01, @04:55PM</td>
+			<td><a href="//news.slashdot.org/story/12/08/01/2155230/swiss-bank-threatens-to-sue-nasdaq-over-facebook-ipo" rel="nofollow">Swiss Bank Threatens to Sue NASDAQ Over Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 01, @04:53PM</td>
+			<td><a href="//slashdot.org/submission/2190027/the-cost-to-promote-a-facebook-post-200-to-500" rel="nofollow">The Cost To 'Promote' A Facebook Post: $200 to $500</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday August 01, @11:29AM</td>
+			<td><a href="//slashdot.org/submission/2189779/facebook-shares-carbon-footprint-data-for-first-time-ever" rel="nofollow">Facebook Shares Carbon Footprint Data For First Time Ever</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 01, @09:15AM</td>
+			<td><a href="//slashdot.org/submission/2189623/facebook-mobile-use-grows-to-20-as-pressure-mounts-to-monetise-apps" rel="nofollow">Facebook Mobile Use Grows to 20% As Pressure Mounts to Monetise Apps</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday August 01, @01:31AM</td>
+			<td><a href="//slashdot.org/story/12/07/30/2017255/company-claims-80-of-facebook-ad-clicks-are-from-bots" rel="nofollow">Company Claims 80% of Facebook Ad Clicks Are From Bots</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday July 30, @05:17PM</td>
+			<td><a href="//slashdot.org/submission/2186311/facebook-triples-lobbying-budget-from-last-year" rel="nofollow">Facebook triples lobbying budget from last year</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday July 28, @03:41PM</td>
+			<td><a href="//slashdot.org/submission/2183727/facebook-abstainers-could-be-labeled-suspicious" rel="nofollow">Facebook Abstainers could be labeled Suspicious </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 26, @09:18PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/27/0218239/web-giants-form-us-internet-lobby-group" rel="nofollow">Web Giants Form US Internet Lobby Group</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 26, @04:10PM</td>
+			<td><a href="//slashdot.org/submission/2180673/zynga-ceo-cashed-out-for-200m-before-stock-implosion" rel="nofollow">Zynga CEO cashed out for $200M before stock IMPLOSION </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 26, @08:28AM</td>
+			<td><a href="//slashdot.org/submission/2180181/facebook-q2-earnings-call-what-to-expect" rel="nofollow">Facebook Q2 Earnings Call: What to Expect</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 26, @07:28AM</td>
+			<td><a href="//slashdot.org/submission/2180103/web-giants-form-us-internet-lobby-group" rel="nofollow">Web Giants Form US Internet Lobby Group</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 24, @03:38PM</td>
+			<td><a href="//ask.slashdot.org/story/12/07/24/157203/ask-slashdot-whats-holding-up-single-sign-on" rel="nofollow">Ask Slashdot: What's Holding Up Single Sign-On? </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 24, @10:53AM</td>
+			<td><a href="//news.slashdot.org/story/12/07/24/1553214/the-decline-of-googles-and-everybodys-ad-business" rel="nofollow">The Decline of Google's (and Everybody's) Ad Business</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 24, @10:16AM</td>
+			<td><a href="//slashdot.org/submission/2176081/the-decline-of-google-and-everybodys-ad-business" rel="nofollow">The Decline of Google (and Everybody's) Ad Business</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 20, @07:44PM</td>
+			<td><a href="//slashdot.org/submission/2170477/facebook-less-trusted-than-amazon-google-in-data-use-poll-says" rel="nofollow">Facebook Less Trusted Than Amazon, Google In Data Use, Poll Says </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 20, @05:37PM</td>
+			<td><a href="//search.slashdot.org/story/12/07/20/2223208/why-you-shouldnt-write-off-google-just-yet" rel="nofollow">Why You Shouldn't Write Off Google+ Just Yet</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 20, @04:36AM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/20/0010234/eff-americans-may-not-know-it-but-many-are-in-a-face-recognition-database-now" rel="nofollow">EFF: Americans May Not Know It, But Many Are In a Face Recognition Database Now</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 19, @01:21PM</td>
+			<td><a href="//slashdot.org/submission/2168303/eff-americans-may-not-know-it-but-many-are-in-a-face-recognition-database-now" rel="nofollow">EFF: Americans may not know it, but many are in a face recognition database now</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday July 18, @09:55AM</td>
+			<td><a href="//slashdot.org/submission/2165981/facebook-loses-users-users-happier-with-google" rel="nofollow">Facebook Loses Users, Users Happier With Google+</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday July 16, @11:37AM</td>
+			<td><a href="//slashdot.org/submission/2162289/facebook-ignorance-wont-help-you-keep-your-job" rel="nofollow">Facebook Ignorance Won't Help You Keep Your Job</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday July 15, @09:08PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/16/028254/tasmanian-cops-decline-to-censor-internet" rel="nofollow">Tasmanian Cops Decline To "Censor Internet"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 13, @09:07PM</td>
+			<td><a href="//slashdot.org/submission/2159081/tasmanian-cops-decline-to-censor-internet" rel="nofollow">Tasmanian Cops Decline To 'Censor Internet'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 13, @07:47PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/14/0047206/facebook-like-system-devalued-by-fake-users" rel="nofollow">Facebook "Like" System Devalued By Fake Users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 13, @12:31PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/13/1247257/facebook-scans-chats-and-posts-for-criminal-activity" rel="nofollow">Facebook Scans Chats and Posts For Criminal Activity</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 13, @04:50AM</td>
+			<td><a href="//slashdot.org/submission/2158055/facebook-like-system-devalued-by-fake-users" rel="nofollow">Facebook "Like" system devalued by fake users</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 12, @10:11AM</td>
+			<td><a href="//slashdot.org/submission/2156639/instagram-bug-exposes-private-photos-to-strangers" rel="nofollow">Instagram Bug Exposes Private Photos to Strangers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday July 11, @07:09AM</td>
+			<td><a href="//slashdot.org/submission/2154419/formspring-hacked---420000-passwords-leaked" rel="nofollow">Formspring Hacked - 420,000 Passwords Leaked</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday July 09, @04:49PM</td>
+			<td><a href="//slashdot.org/submission/2151121/is-the-web-driving-us-mad" rel="nofollow">Is the Web Driving Us Mad?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday July 07, @06:57PM</td>
+			<td><a href="//tech.slashdot.org/story/12/07/07/2357220/time-dotcom-and-facebook-invest-in-massive-undersea-internet-cable-project" rel="nofollow">TIME DotCom and Facebook Invest In Massive Undersea Internet Cable Project</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 05, @01:33PM</td>
+			<td><a href="//apple.slashdot.org/story/12/07/05/1727215/first-ios-malware-discovered-in-apples-app-store" rel="nofollow">First iOS Malware Discovered In Apple's App Store</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 03, @12:04PM</td>
+			<td><a href="//news.slashdot.org/story/12/07/03/1612253/why-mark-zuckerberg-is-a-bad-role-model-for-aspiring-tech-execs" rel="nofollow">Why Mark Zuckerberg Is a Bad Role Model For Aspiring Tech Execs</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday July 03, @10:39AM</td>
+			<td><a href="//slashdot.org/submission/2141851/why-mark-zuckerberg-is-a-bad-role-model-for-aspiring-tech-execs" rel="nofollow">Why Mark Zuckerberg is a bad role model for aspiring tech execs </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 02, @03:41PM</td>
+			<td><a href="//developers.slashdot.org/story/12/07/02/2041246/facebook-testing-the-want-button" rel="nofollow">Facebook Testing the Want Button</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday July 02, @03:23PM</td>
+			<td><a href="//slashdot.org/submission/2140167/facebook-testing-the-want-button" rel="nofollow">Facebook Testing The Want Button</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 28, @12:19PM</td>
+			<td><a href="//apple.slashdot.org/story/12/06/28/1719233/facebook-ios-app-ditching-html5-for-objectivec" rel="nofollow">Facebook iOS App Ditching HTML5 For ObjectiveC</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 27, @11:00AM</td>
+			<td><a href="//slashdot.org/submission/2133105/berkeley-law-releases-its-first-web-privacy-census" rel="nofollow">Berkeley Law releases its First Web Privacy Census</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 27, @09:13AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/06/27/1413248/silicon-valley-values-shift-to-customersploitation" rel="nofollow">Silicon Valley Values Shift To Customersploitation</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 27, @03:23AM</td>
+			<td><a href="//slashdot.org/submission/2132313/silicon-valley-values-shift-to-customersploitation" rel="nofollow">Silicon Valley Values Shift to Customersploitation</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 26, @11:58AM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/26/1241235/facebook-says-your-email-is-facebook" rel="nofollow">Facebook Says Your Email Is @Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 25, @03:43PM</td>
+			<td><a href="//slashdot.org/submission/2129609/facebook-changes-your-email-listing-to-facebookcom-without-permission" rel="nofollow">Facebook changes your email listing to @facebook.com without permission</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 22, @09:39AM</td>
+			<td><a href="//slashdot.org/submission/2126137/the-death-of-an-html5-game-breeds-an-open-source-project" rel="nofollow">The death of an HTML5 game breeds an open source project</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 18, @07:53AM</td>
+			<td><a href="//books.slashdot.org/story/12/06/18/1253230/book-review-digital-vertigo" rel="nofollow">Book Review: Digital Vertigo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday June 17, @03:23PM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/17/2023213/facebook-settles-sponsored-stories-suit-for-10m-to-charity" rel="nofollow">Facebook Settles 'Sponsored Stories' Suit For $10M To Charity</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday June 16, @07:08PM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/17/008213/banking-on-your-personal-online-data" rel="nofollow">Banking On Your Personal Online Data</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 15 2012, @10:34AM</td>
+			<td><a href="//slashdot.org/submission/2116213/banking-on-your-personal-online-data" rel="nofollow">Banking On Your Personal Online Data</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 13 2012, @07:38PM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/14/0038233/inside-facebook-data-mining-research-group" rel="nofollow">Inside Facebook Data Mining Research Group</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 12 2012, @09:23AM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/12/1423232/house-of-commons-could-force-social-networks-to-identify-trolls" rel="nofollow">House of Commons Could Force Social Networks To Identify Trolls</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday June 12 2012, @07:08AM</td>
+			<td><a href="//slashdot.org/submission/2110693/house-of-commons-could-force-social-networks-to-identify-internet-trolls" rel="nofollow">House of Commons could force social networks to identify internet trolls</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 11 2012, @03:41PM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/11/2041238/google-and-facebook-top-biggest-web-tracker-list" rel="nofollow">Google and Facebook Top Biggest Web Tracker List</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 08 2012, @09:56AM</td>
+			<td><a href="//slashdot.org/submission/2105873/facebook-introduces-mobile-software-bazaar-with-600-apps" rel="nofollow">Facebook Introduces Mobile Software Bazaar With 600 Apps</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 08 2012, @02:40AM</td>
+			<td><a href="//slashdot.org/submission/2105157/george-takei-facebook-fans-in-ddos-attack-on-his-own-website" rel="nofollow">George Takei Facebook Fans in 'DDoS Attack' on His Own Website</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday June 05 2012, @12:08PM</td>
+			<td><a href="//tech.slashdot.org/story/12/06/05/1547211/finding-the-downside-in-san-franciscos-tech-boom" rel="nofollow">Finding the Downside In San Francisco's Tech Boom</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday June 03 2012, @11:26PM</td>
+			<td><a href="//yro.slashdot.org/story/12/06/04/0426218/why-facebooks-network-effects-are-overrated" rel="nofollow">Why Facebook's Network Effects Are Overrated</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday June 03 2012, @12:24AM</td>
+			<td><a href="//mobile.slashdot.org/story/12/06/03/0524237/facebook-smartphone-a-dumb-idea-says-farhad-manjoo" rel="nofollow">Facebook Smartphone a Dumb Idea, Says Farhad Manjoo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday June 02 2012, @10:16PM</td>
+			<td><a href="//slashdot.org/submission/2096881/facebook-smartphone-a-dumb-idea" rel="nofollow">Facebook Smartphone a Dumb Idea</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 30 2012, @11:19AM</td>
+			<td><a href="//slashdot.org/submission/2091905/zuckerberg-drops-off-of-bloomberg-billionaires-index-list" rel="nofollow">Zuckerberg drops off of Bloomberg Billionaires Index list</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 30 2012, @09:39AM</td>
+			<td><a href="//slashdot.org/submission/2091791/facebook-doesnt-support-google-chrome-anymore" rel="nofollow">Facebook doesn't support Google Chrome anymore</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 28 2012, @08:42PM</td>
+			<td><a href="//slashdot.org/submission/2088625/girl-uploads-photo-of-money-to-facebook-family-robbed" rel="nofollow">Girl uploads photo of money to Facebook, Family robbed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 28 2012, @11:32AM</td>
+			<td><a href="//mobile.slashdot.org/story/12/05/28/1632226/is-facebook-working-on-a-smartphone" rel="nofollow">Is Facebook Working On a Smartphone?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday May 26 2012, @01:34AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/26/0634255/is-facebook-going-to-buy-opera" rel="nofollow">Is Facebook Going To Buy Opera?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday May 26 2012, @01:27AM</td>
+			<td><a href="//slashdot.org/submission/2085525/is-facebook-going-to-buy-opera" rel="nofollow">Is Facebook going to buy Opera?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday May 25 2012, @05:36PM</td>
+			<td><a href="//mobile.slashdot.org/story/12/05/25/2236201/dark-days-ahead-for-facebook-and-google" rel="nofollow">Dark Days Ahead For Facebook and Google?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 24 2012, @11:17PM</td>
+			<td><a href="//mobile.slashdot.org/story/12/05/25/0417257/facebook-releases-instagram-clone-two-months-after-acquisition" rel="nofollow">Facebook Releases Instagram Clone, Two Months After Acquisition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 24 2012, @07:53PM</td>
+			<td><a href="//slashdot.org/submission/2083541/facebook-releases-instagram-clone-two-months-after-acquisition" rel="nofollow">Facebook Releases Instagram Clone Two Months After Acquisition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 24 2012, @01:07AM</td>
+			<td><a href="//slashdot.org/submission/2082091/app-rips-your-face-from-facebook" rel="nofollow">App rips your face from Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 23 2012, @10:28AM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/23/1528212/facebook-zuckerberg-sued-over-ipo" rel="nofollow">Facebook, Zuckerberg Sued Over IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 23 2012, @10:22AM</td>
+			<td><a href="//slashdot.org/submission/2081297/facebook-zuckerberg-sued-over-ipo" rel="nofollow">Facebook, Zuckerberg sued over IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday May 22 2012, @09:17PM</td>
+			<td><a href="//slashdot.org/submission/2080067/sec-calls-for-review-of-facebook-ipo" rel="nofollow">SEC calls for review of Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 21 2012, @09:55AM</td>
+			<td><a href="//news.slashdot.org/story/12/05/21/1455234/facebook-shares-retreat-below-ipo-price" rel="nofollow">Facebook Shares Retreat Below IPO Price</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday May 20 2012, @09:02AM</td>
+			<td><a href="//slashdot.org/submission/2076239/the-big-lie-of-the-facebook-ipo" rel="nofollow">The Big Lie of the Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 20 2012, @07:23AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/20/0450259/zuckerberg-updates-relationship-status-to-married" rel="nofollow">Zuckerberg Updates Relationship Status To "Married"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday May 18 2012, @06:59PM</td>
+			<td><a href="//news.slashdot.org/story/12/05/18/2359243/golden-age-of-silicon-valley-is-over-with-facebook-ipo" rel="nofollow">Golden Age of Silicon Valley Is Over With Facebook IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 17 2012, @01:27PM</td>
+			<td><a href="//politics.slashdot.org/story/12/05/17/1827235/senators-to-unveil-the-ex-patriot-act-to-respond-to-facebooks-saverin" rel="nofollow">Senators To Unveil the 'Ex-Patriot Act' To Respond To Facebook's Saverin</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 17 2012, @10:28AM</td>
+			<td><a href="//tech.slashdot.org/story/12/05/17/1528225/online-loneliness-at-google" rel="nofollow">Online Loneliness At Google+ </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 16 2012, @02:04PM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/16/194240/facebook-adds-96-million-shares-will-privacy-get-worse-after-ipo" rel="nofollow">Facebook Adds 96 Million Shares, Will Privacy Get Worse After IPO?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 16 2012, @08:35AM</td>
+			<td><a href="//news.slashdot.org/story/12/05/16/1335236/general-motors-facebook-ads-arent-worth-it" rel="nofollow">General Motors: "Facebook Ads Aren't Worth It"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 16 2012, @07:34AM</td>
+			<td><a href="//slashdot.org/submission/2070145/facebook-adds-96-million-shares-to-ipo-raising-value-to-184bn" rel="nofollow">Facebook Adds 96 Million Shares to IPO, Raising Value to $18.4bn</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday May 15 2012, @06:20PM</td>
+			<td><a href="//slashdot.org/submission/2068893/general-motors-facebook-ads-arent-worth-it" rel="nofollow">General Motors: "Facebook Ads aren't Worth it"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 13 2012, @08:25PM</td>
+			<td><a href="//news.slashdot.org/story/12/05/14/0125204/facebook-tests-the-waters-with-paid-perks" rel="nofollow">Facebook Tests the Waters With Paid Perks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday May 13 2012, @07:45AM</td>
+			<td><a href="//mobile.slashdot.org/story/12/05/13/1245244/facebook-is-killing-text-messaging" rel="nofollow">Facebook Is Killing Text Messaging</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday May 11 2012, @08:07PM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/12/017246/facebook-co-founder-saverin-gives-up-us-citizenship-before-ipo" rel="nofollow">Facebook Co-Founder Saverin Gives Up U.S. Citizenship Before IPO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 09 2012, @07:43PM</td>
+			<td><a href="//slashdot.org/submission/2059871/the-insider-network---facebooks-ipo-and-the-people-getting-rich-off-it-read-mo" rel="nofollow">The Insider Network - Facebook's IPO and the people getting rich off it  Read mo</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 09 2012, @06:13PM</td>
+			<td><a href="//news.slashdot.org/story/12/05/09/2313230/facebook-announces-app-center" rel="nofollow">Facebook Announces App Center</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday May 09 2012, @04:27PM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/09/2127200/password-protection-act-bans-bosses-asking-for-facebook-passwords" rel="nofollow">Password Protection Act: Bans Bosses Asking For Facebook Passwords</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 08 2012, @10:42AM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/08/154221/facebook-spammers-make-20m-get-100k-fine" rel="nofollow">Facebook Spammers Make $20M, Get $100K Fine</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 07 2012, @07:43AM</td>
+			<td><a href="//politics.slashdot.org/story/12/05/07/1243227/aussie-politician-threatens-to-contact-employers-of-satirical-article-likers" rel="nofollow">Aussie Politician Threatens To Contact Employers of Satirical Article "Likers"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday May 07 2012, @04:54AM</td>
+			<td><a href="//slashdot.org/submission/2055535/how-do-we-deal-with-a-facebook-apocalypse" rel="nofollow">How do we deal with a 'Facebook apocalypse'?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 07 2012, @01:49AM</td>
+			<td><a href="//slashdot.org/submission/2055211/aussie-politician-threatens-to-contact-employers-of-satirical-article-likers" rel="nofollow">Aussie politician threatens to contact employers of satirical article "likers"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 06 2012, @09:10PM</td>
+			<td><a href="//news.slashdot.org/story/12/05/07/0210220/brazil-retailer-using-facebook-likes-on-its-clothing-hangers" rel="nofollow">Brazil Retailer Using Facebook Likes On Its Clothing Hangers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday May 06 2012, @06:34PM</td>
+			<td><a href="//slashdot.org/submission/2054779/brazil-retailer-using-facebook-likes-on-its-clothing-hangers" rel="nofollow">Brazil retailer using Facebook likes on its clothing hangers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 06 2012, @12:41AM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/06/0541213/facebook-says-its-filtering-comments-for-spam-not-censoring-them" rel="nofollow">Facebook Says It's Filtering Comments For Spam, Not Censoring Them</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday May 05 2012, @02:28PM</td>
+			<td><a href="//yro.slashdot.org/story/12/05/05/1928238/missouri-high-school-principal-resigns-after-posing-as-student-on-facebook" rel="nofollow">Missouri High School Principal Resigns After Posing As Student On Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 03 2012, @09:17AM</td>
+			<td><a href="//hardware.slashdot.org/story/12/05/03/1417232/open-compute-developing-wider-rack-standard" rel="nofollow">Open Compute Developing Wider Rack Standard</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 03 2012, @05:56AM</td>
+			<td><a href="//news.slashdot.org/story/12/05/02/1750257/facebook-to-go-public-on-friday-may-18" rel="nofollow">Facebook To Go Public On Friday, May 18</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 02 2012, @09:12AM</td>
+			<td><a href="//slashdot.org/submission/2049571/facebook-to-go-public-on-friday-may-18" rel="nofollow">Facebook To Go Public On Friday, May 18</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 30 2012, @06:53PM</td>
+			<td><a href="//news.slashdot.org/story/12/04/30/2353237/cash-for-tweets-and-facebook-posts-aussie-startup-pays-you-to-astroturf" rel="nofollow">Cash For Tweets and Facebook Posts? Aussie Startup Pays You to Astroturf</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 30 2012, @10:30AM</td>
+			<td><a href="//slashdot.org/submission/2046663/facebook-to-announce-new-lifesaving-feature" rel="nofollow">Facebook To Announce New "Lifesaving" Feature</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 26 2012, @07:35PM</td>
+			<td><a href="//search.slashdot.org/story/12/04/27/0035201/ny-times-microsoft-tried-to-unload-bing-on-facebook" rel="nofollow">NY Times: Microsoft Tried To Unload Bing On Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 26 2012, @01:07PM</td>
+			<td><a href="//slashdot.org/submission/2041647/ny-times-microsoft-tried-to-unload-bing-on-facebook" rel="nofollow">NY Times: Microsoft Tried to Unload Bing on Facebook </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 24 2012, @10:29AM</td>
+			<td><a href="//slashdot.org/submission/2037841/facebook-blocks-add-on-because-its-too-good-at-cleaning-up-facebook" rel="nofollow">Facebook blocks add-on because it's too good at cleaning up Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 23 2012, @12:41PM</td>
+			<td><a href="//slashdot.org/submission/2036101/facebook-purchases-650-aol-patents-from-ms" rel="nofollow">Facebook Purchases 650 AOL Patents from MS</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 19 2012, @03:53PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/19/2053238/posting-photos-of-olympics-could-land-you-in-court" rel="nofollow">Posting Photos of Olympics Could Land You In Court</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 19 2012, @12:10PM</td>
+			<td><a href="//slashdot.org/submission/2030573/british-govt-calls-google-and-facebook-in-for-snooping-law-briefing" rel="nofollow">British Govt Calls Google And Facebook In For Snooping Law Briefing</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 18 2012, @03:43PM</td>
+			<td><a href="//tech.slashdot.org/story/12/04/18/2043202/zuckerberg-made-instagram-deal-alone" rel="nofollow">Zuckerberg Made Instagram Deal Alone</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 18 2012, @12:30PM</td>
+			<td><a href="//slashdot.org/submission/2028727/zuckerberg-made-instagram-deal-by-himself" rel="nofollow">Zuckerberg Made Instagram Deal by Himself</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 17 2012, @12:32PM</td>
+			<td><a href="//slashdot.org/submission/2026837/inccom-claims-linkedin-will-outlive-facebook" rel="nofollow">Inc.com claims LinkedIn will outlive Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 15 2012, @06:09PM</td>
+			<td><a href="//apple.slashdot.org/story/12/04/15/2212218/sergey-brin-says-facebook-apple-and-govt-biggest-threats-to-internet-freedom" rel="nofollow">Sergey Brin Says Facebook, Apple and Gov't Biggest Threats To Internet Freedom</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 13 2012, @07:56PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/14/0056257/facebook-says-it-has-no-intention-to-abuse-cispa" rel="nofollow">Facebook Says It Has 'No Intention' To Abuse CISPA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 11 2012, @10:54AM</td>
+			<td><a href="//slashdot.org/submission/2017883/friends-facebook-apps-are-sharing-your-personal-information" rel="nofollow">Friends Facebook Apps Are Sharing Your Personal Information</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 10 2012, @02:45PM</td>
+			<td><a href="//slashdot.org/submission/2016225/maryland-bans-employers-from-asking-for-facebook-passwords" rel="nofollow">Maryland bans employers from asking for Facebook passwords</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday April 07 2012, @05:45PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/07/2245235/heres-what-facebook-sends-the-cops-in-response-to-a-subpoena" rel="nofollow">Here's What Facebook Sends the Cops In Response To a Subpoena</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 04 2012, @04:50PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/04/2150247/toronto-police-use-facebook-picture-in-online-lineup" rel="nofollow">Toronto Police Use Facebook Picture in Online Lineup</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 03 2012, @06:26PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/03/2326200/facebook-countersues-yahoo-over-10-patents" rel="nofollow">Facebook Countersues Yahoo Over 10 Patents</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 02 2012, @05:08PM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/02/228225/more-fuel-for-facebook-censorship-advocates-in-india" rel="nofollow">More Fuel For Facebook Censorship Advocates In India</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 02 2012, @12:50PM</td>
+			<td><a href="//news.slashdot.org/story/12/03/29/1641258/gawker-media-to-require-commenters-facebook-twitter-or-google-logins" rel="nofollow">Gawker Media To Require Commenters' Facebook, Twitter, Or Google Logins</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 02 2012, @10:11AM</td>
+			<td><a href="//slashdot.org/submission/2004757/more-fuel-for-facebook-censorship-advocates-in-india" rel="nofollow">More fuel for Facebook censorship advocates in India</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 02 2012, @12:10AM</td>
+			<td><a href="//slashdot.org/submission/2003925/teacher-fired-after-refusing-to-hand-over-facebook-login" rel="nofollow">Teacher fired after refusing to hand over Facebook login</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 01 2012, @02:35PM</td>
+			<td><a href="//hardware.slashdot.org/story/12/04/01/1935259/google-amazon-microsoft-go-east-for-network-gear" rel="nofollow">Google, Amazon, Microsoft Go East For Network Gear</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 01 2012, @11:21AM</td>
+			<td><a href="//yro.slashdot.org/story/12/04/01/1445225/teachers-aide-fired-for-refusing-to-hand-over-facebook-password" rel="nofollow">Teacher's Aide Fired For Refusing To Hand Over Facebook Password</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday March 31 2012, @11:05AM</td>
+			<td><a href="//slashdot.org/submission/2002813/google-amazon-microsoft-go-east-for-network-gear" rel="nofollow">Google, Amazon, Microsoft Go East for Network Gear</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

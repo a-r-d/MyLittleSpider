@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="alternate" type="application/atom+xml" title="Fight against Software Complexity - feed" href="/index.xml" />
+
+    <script type="text/javascript">
+      if((navigator.userAgent.match(/iPad/i))) {
+        document.write("<meta name=\"viewport\" content=\"width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;\" />");
+      } else if((navigator.userAgent.match(/iPhone/i))) {
+        document.write("<meta name=\"viewport\" content=\"width=device-width; initial-scale=0.5; maximum-scale=1.0; user-scalable=1;\" />");
+      }
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>Fight against Software Complexity</title>
+  </head>
+  <body>
+    <header id="main_header">
+      <span>
+        <a href="/">tech blog</a>
+      </span>
+      <span>
+        <a href="http://santosh79.tumblr.com" target="_blank">personal blog stuff</a>
+      </span>
+      <span>
+        <a href="http://github.com/santosh79/" target="_blank">github</a>
+      </span>
+      <span>
+        <a href="http://twitter.com/santosh79" target="_blank">@santosh79</a>
+      </span>
+    </header>
+    <section>
+      <article class="post">
+  <header>
+    <div class="date_article_page">May 20th 2012</div>
+    <h1>Fight against Software Complexity</h1>
+  </header>
+
+  <section class="content">
+    <p>Why does software <em>in the industry</em>  suck so much? Having worked at couple of startups and big companies as well, I can quite honestly say that of all the projects/repos that I had worked on, there was but one that didn&rsquo;t suck. The one that didn&rsquo;t suck, was I&rsquo;m sure in no small part due to the fact that it was written by just one person, the CTO of the company, and since it was a license-based SDK, there was a vested interest in keeping things organized. Open source software projects, when compared with industry projects, are way easier to understand and in much better shape.</p>
+
+<p>Why is that? It&rsquo;s my belief that there are a multitude of organizational factors, that come into play, that will connive to make your company&rsquo;s project complexity shoot through the roof, if you &lsquo;meh&rsquo; the fight against complexity. And no, I&rsquo;m not going to delve too deeply micro things such as variable names, TDD, refactoring etc. Those things work great in the micro, but for being able to enfore them in the micro, you need some <strong>macro</strong> things to be in place first. It&rsquo;s those macro things that I&rsquo;d like to take a step back and rant about.</p>
+
+<h3>Fight against complexity begins from the top-down</h3>
+
+<p>The CTO of your software company, is probably the most important hire you can make. That person, should:</p>
+
+<pre><code>a) Know the technology stack you are going to be using, like 
+    the back of their hand.
+b) Have had experience managing projects and watching them 
+    fall under the weight of their own complexity.
+</code></pre>
+
+<p>It&rsquo;s really important, that when you hand off the tech responsibility for a project/product to someone, that they have complexity really high on their list of things to watch out for. This is the <strong>foundation</strong> on which your software is being built, so  this person better be someone who is paranoid about complexity and will not stand for it.</p>
+
+<h3>Hiring process</h3>
+
+<p>When hiring engineers, the focus should be on one thing and one thing only &mdash; <strong>code clarity</strong>. No eff'ing puzzles, gotchas, any other crap. Give them a simple problem that requires them to model couple of objects/compose functions if it&rsquo;s a functional language, and have them write up a program. Look at how readable this is. Someone who takes their craft seriously, almost always keeps things dead simple. They choose variable names that make sense. They are anal about indenting their code. All these things count <strong>a lot</strong>. Way more than, some crazy probability question that you think is going to suss out the geniuses. You don&rsquo;t need geniuses &ndash; leave them be in their university labs. You need someone who can write clear, well thought out code. If they have a Github/other open source projects, take time to read through them to get a sense of their skill. Bottom line, it&rsquo;s really easy to open the door to someone and have them shit all over your code-base, if you are not careful.</p>
+
+<h3>Team size</h3>
+
+<p>I&rsquo;ve seen this time and again, the larger the team gets that is working on a single repo, the more crappy it becomes. And it&rsquo;s an exponential curve. If you are a startup, you probably are a little under the gun by some VC hot-shots to hire more, and <em>look big</em>. Screw that, keep your head count small. Hire only the people you <strong>really need</strong>. If Instagram was able to get by with 7 people (not just engineers), you probably can as well. The more an engineer has a feeling of ownership over a repo/project, the more likely they are going to be to take time and do things right. I know there are some obvious cases to be made against, having just one person/few people work on a repo. Believe me, if you have been anal about your hiring process, they probably have kept things super organized in that repo, thereby making a transition to a new engineer almost trivial. The new engineer, would probably also have a really great first impression of working with a clean and well organized repo. This is crucial, since that new person would probably think twice about screwing things up when they have been given a clean well maintained repo.</p>
+
+<h3>Choice of language</h3>
+
+<p>I&rsquo;m not interested in starting a flame war here &mdash; <em>Coffeescript rocks</em> or <em>Ruby on Rails still rules</em> or <em>Python is just great</em> or <em>Clojure is awesome</em> whatever.. My suggestion is simple, the higher the level of the programming language you choose when prototyping your app, the less complex it&rsquo;s going to be. I personally, have a preference for Ruby for it&rsquo;s clarity &mdash; but you should choose the highest level language most people on your team know. Good engineers take their tools very seriously, so the better the tools you are using the better the quality of engineers you are going to find. As you find speed becoming an issue, instrument first to confirm out if it&rsquo;s the language, and then switch over to something a little lower in the stack. It&rsquo;s way easier going from a higher to lower level in the programming stack.</p>
+
+<h3>Development speed</h3>
+
+<p>Finally, it&rsquo;s often really tempting to give into the <strong>mad dash</strong> mode of software development. Where all you are doing, is just cranking out code and hoping it sticks. Given a choice, between adding a ton of features in one insane sprint, just to get ready for usability testing &mdash; think about cutting down some of the excess feature fat and focus on just the core feature set. It&rsquo;s a helluva lot easier to add features to a simple repo, than to one that is a rat&rsquo;s nest. All of the technical debt accrued in the mad dash sprint, is going to slow you down sooner than you think and start grumbles in your engineering team.</p>
+
+<h3>TL;DR</h3>
+
+<p>I think the complexity creep can be nipped by a) being aware that it exists and b) taking some common sense approaches to fight it.</p>
+
+  </section>
+
+  <section class="comments">
+
+    <div id="disqus_thread"></div>
+    <script type='text/javascript' src='http://santosh-log.disqus.com/embed.js'></script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  </section>
+</article>
+
+ 
+    </section>
+    <footer>
+      powered by <a href="http://cloudhead.io/toto">toto</a>
+    </footer>
+    <script type="text/javascript">
+      SyntaxHighlighter.all();
+  </script>
+  </body>
+</html>
+

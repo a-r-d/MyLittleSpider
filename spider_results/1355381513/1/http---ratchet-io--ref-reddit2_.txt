@@ -1,0 +1,422 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ratchet.io - real-time error monitoring</title>
+
+    <meta name="description" content="Ratchet collects errors that happen in your application, notifies you, and analyzes them so you can find the cause and fix them.">
+    <meta name="keywords" content="error reporting, error tracking, error monitoring, bug tracking, crash reporting, error collection, airbrake alternative">
+
+    <meta property="og:title" content="Ratchet.io"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://ratchet.io"/>
+    <meta property="og:site_name" content="Ratchet.io"/>
+
+    <meta name="google-site-verification" content="nPf9fY-s7QK8Xvf_yEQn7EKKkp7lYEDuVwRie_9dGTg" />
+    
+    <link rel="icon" type="image/png" href="//d2tf6sbdgil6xr.cloudfront.net/static/img/favicon.png?ts=1346296519"/>
+
+    <link href="//d2tf6sbdgil6xr.cloudfront.net/static/css/bootstrap.css?ts=1354836976" rel="stylesheet">
+    
+
+
+    
+  
+  <script>
+  var _ratchetParams = {
+    "server.environment": "production", 
+    "server.host": "web1",
+    "endpoint": "https://submit.ratchet.io/api/1/"
+  };
+  _ratchetParams["notifier.snippet_version"] = "1"; var _ratchet=["893916d7644bd3b0743da13e784105b7", _ratchetParams];
+  (function(w,d){w.onerror=function(e,u,l){_ratchet.push({_t:'uncaught',e:e,u:u,l:l});};var i=function(){var s=d.createElement("script");var 
+  f=d.getElementsByTagName("script")[0];s.src="//d2tf6sbdgil6xr.cloudfront.net/js/4/ratchet.min.js";s.async=!0;
+  f.parentNode.insertBefore(s,f);};if(w.addEventListener){w.addEventListener("load",i,!1);}else{w.attachEvent("onload",i);}})(window,document);
+  </script>
+
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/jquery-1.7.1.min.js?ts=1346296519"></script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-32112334-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+    
+<!-- start Mixpanel --><script type="text/javascript">(function(c,a){window.mixpanel=a;var b,d,h,e;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src=("https:"===c.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.1.min.js';d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d);a._i=[];a.init=function(b,c,f){function d(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]);a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var g=a;"undefined"!==typeof f? g=a[f]=[]:f="mixpanel";g.people=g.people||[];h="disable track track_pageview track_links track_forms register register_once unregister identify name_tag set_config people.identify people.set people.increment".split(" ");for(e=0;e<h.length;e++)d(g,h[e]);a._i.push([b,c,f])};a.__SV=1.1})(document,window.mixpanel||[]);
+  mixpanel.init("00a701b73e44aa932686f370607c338e");
+</script><!-- end Mixpanel -->
+  
+<script>
+  mixpanel.track("pageview-root/index", {"matchdict": {}});
+</script>
+
+    
+
+    
+  
+
+  </head>
+
+  <body>
+      
+  <div class="main-content main-med">
+    <div class="header">
+      <div class="fix-width">
+        <h1 class="logo"><a href="/">Ratchet.io</a></h1>
+        <ul class="nav">
+          
+  
+  <li class="active"><a href="/">Home</a></li>
+
+          
+  
+  <li class=""><a href="/features/">Features</a></li>
+
+          <li><a href="/blog/">Blog</a></li>
+          
+  
+  <li class=""><a href="/docs/items/">Docs</a></li>
+
+        </ul>
+          <ul class="entry">
+            <li><a href="http://ratchet.io/login/" class="ajax-load" data-ajaxload-usemodal="1" data-ajaxload-hidefooter="1">Log in</a></li>
+          </ul>
+      </div>
+    </div>
+    
+    <div id="main-stage">
+      
+
+
+  <div id="root-index">
+    <div class="banner">
+      <div class="border-top"></div>
+      <div class="fix-width">
+        <img src="//d2tf6sbdgil6xr.cloudfront.net/static/img/robot.png?ts=1348009431" alt="" class="robot" />
+        <div class="errors-fix"></div>
+        <span class="text">Ratchet monitors and analyzes your app's errors and deploys.<br/>See the big picture and drill down to find the root cause.</span>
+        <div class="arrow-top"></div>
+        <div class="paper">
+          <div class="paper-left">
+            
+  
+  
+  <div class="alert alert-block template hidden fade in">
+    <button class="close" data-dismiss="alert">&times;</button>
+    <h4 class="title alert-heading"></h4>
+    <p class="body"></p>
+  </div>
+
+
+
+            <h2>Early Access</h2>
+              <p>We're now accepting customers for our <strong>Free Early Access</strong> period while we gather feedback. We expect to announce pricing early 2013.</p>
+          </div>
+          <div class="paper-right">
+            <form method="POST" action="/" class="form-vertical early-access">
+              <div class="text-input">
+                <input placeholder="Email address" type="text" name="email" value=""/>
+              </div>
+              <div class="text-input">
+                <input placeholder="Tech stack (django, rails, js, php, etc.)" type="text" name="stack" value=""/>
+              </div>
+              <div class="wrap">
+                <input type="submit" value="Sign Up" />
+                <div class="arrow-green"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="border-bottom"></div>
+    </div>
+    <div class="main">
+      <div class="fix-width">
+        <div class="services">
+          <div class="item blue">
+            <a href="/features/multiplatform/">
+              <span class="icon"></span>
+              <span class="title">5-minute<br/>integration</span>
+              <span class="border"></span>
+            </a>
+            <div class="text-block">
+              <p>For Javascript, Python, Rails, and PHP, just drop in a few lines of code.</p>
+              <p>Need more throughput or want to monitor log files? Install our server-side agent. Different platform? Create your own notifier with our <a class="plain" href="/docs/api_items/">API</a>.</p>
+              <p>Create issues with one click in Asana, Pivotal Tracker, or Github Issues.</p>
+            </div>
+          </div>
+          <div class="item orange">
+            <a href="/features/dashboard/">
+              <span class="icon"></span>
+              <span class="title">See the<br/>big picture</span>
+              <span class="border"></span>
+            </a>
+            <div class="text-block">
+              <p>Our dashboard (with graphs!) shows what's happening right now and this week.</p>
+              <p>Occurrences of the same issue are grouped together.</p>
+              <p>Track which commits went out with each deploy, and see the impact of each deploy on error rates.</p>
+            </div>
+          </div>
+          <div class="item green">
+            <a href="/features/analysis/">
+              <span class="icon"></span>
+              <span class="title">Drill down &amp;<br/>find the root cause</span>
+              <span class="border"></span>
+            </a>
+            <div class="text-block">
+              <p>Hourly and daily graphs help you see time-based patterns. Scan the list of occurrences to see what your errors have in common.</p>
+              <p>Replay individual instances to test if the error is really fixed.</p>
+              <p>In-project filenames in stacktraces are linked to the file and line in Github.</p>
+            </div>
+          </div>
+          <div class="item gray">
+            <a href="/features/alerts/">
+              <span class="icon"></span>
+              <span class="title">Fine-grained<br/>alerts</span>
+              <span class="border"></span>
+            </a>
+            <div class="text-block">
+              <p>Control which types of email notifications you want per-project, per-environment, and per-severity.</p>
+              <p>Choose from real-time notifications for new, reactivated, or power-of-10 repeats, as well as a daily summary.</p>
+            </div>
+          </div>
+        <div class="clearfix"></div>
+      </div>
+      <a href="/features/" class="tour">See All Features</a>
+      
+    </div>
+  </div>
+
+  <script>
+    $(function() {
+      $('.carousel').carousel({
+        interval: 10000
+      });
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+    <footer class="footer">
+      <div class="container" style="text-align:center;">
+        <div>
+          <strong>Email:</strong> support@ratchet.io
+          &middot;
+          <strong>Phone:</strong> 1.415.857.0548
+        </div>
+        <div>
+          &copy; 2012 Ratchet, Inc.
+          &nbsp;
+          &nbsp;
+          <a href="/about">About Us</a>
+          &nbsp;
+          &nbsp;
+          <a href="/blog/">Blog</a>
+          &nbsp;
+          &nbsp;
+          <a href="/changelog">Changelog</a>
+          &nbsp;
+          &nbsp;
+            <a href="/docs/items/">Documentation</a>
+          &nbsp;
+          &nbsp;
+          <a href="/tos">TOS</a>
+          &nbsp;
+          &nbsp;
+          <a href="/privacy">Privacy</a>
+          &nbsp;
+          &nbsp;
+          <a href="http://ratchetstatus.appspot.com/">Site Status</a>
+        </div>
+      </div>
+    </footer>
+  
+    <div>
+      
+  <div class="modal hide" id="modal-dialog">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">×</button>
+      <h3 class="modal-header-content">&nbsp;</h3>
+    </div>
+    <div class="modal-body">
+      <p class="modal-body-content"></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#" class="btn" data-dismiss="modal">Close</a>
+    </div>
+  </div>
+
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- jQuery scripts -->
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/jquery-ui.custom.min.js?ts=1346296519"></script>
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/jquery.sparkline.min.js?ts=1346296519"></script>
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/jquery.easydate.min.js?ts=1352864079"></script>
+
+    <!-- d3 scripts -->
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/d3.v2.min.js?ts=1346296519"></script>
+
+    <!-- Bootstrap scripts -->
+    <script src="//d2tf6sbdgil6xr.cloudfront.net/static/js/bootstrap.min.js?ts=1346296519"></script>
+
+    <!-- Socket.io scripts -->
+    <script type="text/javascript" src="//d2tf6sbdgil6xr.cloudfront.net/static/js/socket.io.js?ts=1352772241"></script>
+
+    <!-- Site scripts -->
+    <script src="//d2tf6sbdgil6xr.cloudfront.net/static/js/class.min.js?ts=1352772241"></script>
+    <script src="//d2tf6sbdgil6xr.cloudfront.net/static/js/site.min.js?ts=1354079033" type="text/javascript"></script>
+
+
+    <!-- Site script initialization -->
+    
+  <script>
+    <!-- Initialize the utils -->
+    var RatchetUtil = window.RatchetUtil;
+    if (!RatchetUtil) {
+      window.RatchetUtil = new Ratchet.Util();
+    }
+
+    <!-- Initialize the alert system -->
+    var AlertManager = window.AlertManager;
+    if (!AlertManager) {
+      window.AlertManager = new Ratchet.AlertManager($('#alerts'));
+    }
+
+    <!-- Initialize the replay checkbox handler -->
+    var AjaxCheckboxFormManager = window.AjaxCheckboxFormManager;
+    if (!AjaxCheckboxFormManager) {
+      window.AjaxCheckboxFormManager = new Ratchet.AjaxCheckboxFormManager($(document.body));
+    }
+
+    var initScripts = function($base) {
+      var dummy;
+
+      $('.alert-message', $base).alert();
+
+      <!-- Initialize the ajax load forms/links -->
+      dummy = new Ratchet.AjaxLoad('ajaxLoad',
+                                   $('#main-stage'),
+                                   $('#modal-dialog'),
+                                   $('.ajax-load', $base));
+    };
+
+    // Hook up JS handlers on initial page load
+    initScripts($(document.body));
+
+    // Hook up JS handlers on ajax loads
+    $(document.body).on('ajaxLoad', function(evt, loadedDataElems) {
+      for (var index in loadedDataElems) {
+        initScripts(loadedDataElems[index]);
+      }
+    });
+  </script>
+
+
+    
+<!-- begin olark code --><script data-cfasync="false" type='text/javascript'>/*{literal}<![CDATA[*/
+window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){f[z]=function(){(a.s=a.s||[]).push(arguments)};var a=f[z]._={},q=c.methods.length;while(q--){(function(n){f[z][n]=function(){f[z]("call",n,arguments)}})(c.methods[q])}a.l=c.loader;a.i=nt;a.p={0:+new Date};a.P=function(u){a.p[u]=new Date-a.p[0]};function s(){a.P(r);f[z](r)}f.addEventListener?f.addEventListener(r,s,false):f.attachEvent("on"+r,s);var ld=function(){function p(hd){hd="head";return["<",hd,"></",hd,"><",i,' onl' + 'oad="var d=',g,";d.getElementsByTagName('head')[0].",j,"(d.",h,"('script')).",k,"='",l,"//",a.l,"'",'"',"></",i,">"].join("")}var i="body",m=d[i];if(!m){return setTimeout(ld,100)}a.P(1);var j="appendChild",h="createElement",k="src",n=d[h]("div"),v=n[j](d[h](z)),b=d[h]("iframe"),g="document",e="domain",o;n.style.display="none";m.insertBefore(n,m.firstChild).id=z;b.frameBorder="0";b.id=z+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){b.src="javascript:false"}b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};ld()};nt()})({loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('9008-423-10-3698');/*]]>{/literal}*/</script><noscript><a href="https://www.olark.com/site/9008-423-10-3698/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript><!-- end olark code -->
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

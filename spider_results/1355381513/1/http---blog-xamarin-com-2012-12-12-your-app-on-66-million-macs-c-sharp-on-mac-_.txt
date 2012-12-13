@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Your C# App on 66 Million Macs: Announcing Xamarin.Mac | Xamarin Blog</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="http://blog.xamarin.com/wp-content/themes/xamarin/css/template.css?v=3" />
+		<link rel="stylesheet" type="text/css" href="http://blog.xamarin.com/wp-content/themes/xamarin/css/grid.css?v=3" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+		<link rel="stylesheet" type="text/css" href="http://blog.xamarin.com/wp-content/themes/xamarin/style.css?v=3" />
+		<link rel="pingback" href="http://blog.xamarin.com/xmlrpc.php" />
+		<script type="text/javascript" src="//use.typekit.net/pxh7yum.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        			<!-- Cool Video Gallery Script starts here -->
+			<link rel="stylesheet" href="http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/css/cvg-styles.css" type="text/css" />			<!-- Cool Video Gallery Script ends here -->
+			<script type='text/javascript' src='http://blog.xamarin.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/js/jquery.slideshow.js?ver=3.5'></script>
+<script type='text/javascript' src='http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/js/jquery.stripslashes.js?ver=3.5'></script>
+<script type='text/javascript' src='http://blog.xamarin.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.4.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.xamarin.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.xamarin.com/wp-includes/wlwmanifest.xml" />
+<link rel='prev' title='HOWTO: MonoTouch Enterprise Deployment' href='http://blog.xamarin.com/2012/12/12/howto-monotouch-enterprise-deployment/' />
+<meta name="generator" content="WordPress 3.5" />
+<link rel='canonical' href='http://blog.xamarin.com/2012/12/12/your-app-on-66-million-macs-c-sharp-on-mac/' />
+<link rel='shortlink' href='http://blog.xamarin.com/?p=2986' />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+			<!-- Cool Video Gallery Script starts here -->
+			<script type="text/javascript" src="http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/cvg-player/jwplayer.js"></script>
+			<script type="text/javascript" src="http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/third_party_lib/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+			<link rel="stylesheet" type="text/css" href="http://blog.xamarin.com/wp-content/plugins/cool-video-gallery/third_party_lib/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+							<style type="text/css" media="screen">
+					#fancybox-left-ico {
+					 left: 20px;
+					}
+					#fancybox-right-ico {
+					 right: 20px;
+					 left: auto;
+					}
+				</style>
+						<script type="text/javascript">
+				jQuery(document).ready(function(){
+					if(jQuery('.slideContent').length != 0) {
+						jQuery('.slideContent').each(function() {
+							jQuery(this.id).s3Slider({
+						      timeOut: 7000,
+							  item_id: this.id
+						   });
+						});
+					}
+				});
+			</script>
+			<!-- Cool Video Gallery Script ends here -->
+			<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.3" />
+<!-- Google Analytics Tracking by Google Analyticator 6.4.1: http://www.videousermanuals.com/google-analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-23759232-10']);
+        _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google
+	_gaq.push(['_trackPageview']);
+	var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(66538917);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+})();
+var google_conversion_id = 1015730972;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "j0fWCOywugIQnKar5AM";
+var google_conversion_value = 0;
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = 'http://www.googleadservices.com/pagead/conversion.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+})();
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+	</head>
+	<body class="single single-post postid-2986 single-format-standard">
+		<div id="top-container" class="covering-main-page">
+			<nav id="global-header">
+				<ul role="navigation">
+					<li class="nav-xamarin"><a href="http://xamarin.com"><img src="http://blog.xamarin.com/wp-content/themes/xamarin/images/xamarin-logo.png" alt="Xamarin" /></a></li>
+					<li><a href="http://xamarin.com/features">Features</a></li>
+					<li><a href="http://xamarin.com/apps">Showcase</a></li>
+					<li><a href="http://store.xamarin.com">Pricing</a></li>
+					<li><a href="http://docs.xamarin.com">Dev Center</a></li>
+					<li><a href="http://support.xamarin.com">Support</a></li>
+					<li><a href="http://xamarin.com">About</a></li>
+				</ul>
+			</nav>
+			<div id="feature-area">
+				<h1><a href="http://blog.xamarin.com">Xamarin Blog</a></h1>
+			</div>
+		</div>
+<div id="container">
+	<div class="main-page" id="blog-page">
+		<div class="content flush-padding">
+			<div class="columns">
+				<div class="cell width-8 first vertical-gap">
+					<div class="blog-posts single">
+								<article id="post-2986" class="post-2986 post type-post status-publish format-standard hentry category-mac category-news category-release category-uncategorized">
+									<hgroup>
+										<header>December 12, 2012</header>
+										<h1><a href="http://blog.xamarin.com/2012/12/12/your-app-on-66-million-macs-c-sharp-on-mac/" title="Permalink to Your C# App on 66 Million Macs: Announcing Xamarin.Mac" rel="bookmark">Your C# App on 66 Million Macs: Announcing Xamarin.Mac <span class="permalink">→</span></a></h1>
+										<footer>By <a href="http://blog.xamarin.com/author/jbuckner/" title="Posts by Jo Ann" rel="author">Jo Ann</a></footer>
+									</hgroup>
+									<div class="entry-content rich-content">
+																					<p><strong>Don&#8217;t miss our Introduction to Xamarin.Mac seminar, hosted by Miguel de Icaza on January 10th at 9am Pacific. <a title="Introduction to Xamarin.mac" href="http://resources.xamarin.com/intro-to-xamarin.mac.html" target="_blank">Sign up now!</a></strong></p>
+<p>Today we’re proud to announce <a href="http://xamarin.com/mac">Xamarin.Mac,</a> which makes it possible to use C# to build self-contained Mac OS X apps suitable for publication in the Mac App Store.</p>
+<p><a href="http://blog.xamarin.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-12.24.58-PM.png"><img class="alignright" title="Screen Shot 2012-12-11 at 12.24.58 PM" alt="" src="http://blog.xamarin.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-12.24.58-PM.png" width="372" height="215" /></a>With the release of Xamarin.Mac, it is now possible to build apps in C# for over 2.2 billion devices worldwide: 1.2 billion Windows devices, and using Xamarin, 1 billion <a href="http://xamarin.com/android">Android</a>, <a href="http://xamarin.com/ios">iOS</a>, and <a href="http://xamarin.com/mac">Mac</a> devices.</p>
+<h2>C# and Mac</h2>
+<p>Xamarin.Mac allows developers to build fully-native Cocoa applications for Mac OS X with C#. Xamarin.Mac exposes native platform APIs, making it possible for developers to build sophisticated apps that integrate with platform conventions and leverage the rich spectrum of platform-specific functionality that make Mac apps so beautiful and distinctive.</p>
+<p>Unlike other cross-platform development toolkits that target OS X, Xamarin.Mac gives you the flexibility to build anything that you can build with a conventional Objective-C-based Cocoa application — from compelling CoreAnimation-enabled user interfaces to custom menubar items. Under the hood, you can choose the combination of .NET library functionality and native Mac OS X APIs that works best for your application.</p>
+<p>We decided to build Xamarin.Mac because our existing customers came to us and told us that they wanted to create Mac experiences with C#. Now, you can use the same language and framework that you love to create native applications for all major consumer platforms.</p>
+<h2>Case Studies</h2>
+<p><a href="http://blog.xamarin.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-12.09.11-PM.png"><img class="alignleft  wp-image-3011" title="Screen Shot 2012-12-11 at 12.09.11 PM" alt="" src="http://blog.xamarin.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-12.09.11-PM.png" width="195" height="177" /></a>National Instruments recently released <a href="http://xamarin.com/apps#national-instruments">the LabVIEW-based Data Dashboard for iPad on Xamarin’s platform</a> and plans to use Xamarin.Mac to modernize future releases of NI LabVIEW for Mac.  &#8221;Our flagship system design software &#8211; NI LabVIEW &#8211; has been supporting our Mac customers for more than 27 years.” says David Fuller, vice president of Software R &amp; D. “With Xamarin, we can save a tremendous amount of development time and modernize our LabVIEW for Mac desktop capabilities in the future.&#8221;</p>
+<p>Jon Lipsky at Elevenworks, the Creator of TouchDraw, delivered a <a href="https://itunes.apple.com/us/app/touchdraw/id548887176?mt=12">Mac version</a> of his top selling Xamarin-based <a href="https://itunes.apple.com/us/app/touchdraw/id382021233?mt=8">iPad </a>and <a href="https://play.google.com/store/apps/details?id=com.elevenworks.touchdraw&amp;hl=en">Android</a> vector-drawing app in September, 2012, achieving <a href="http://lipsky.me/2012/9/11/touchdraw-code-reuse-updated">76% shared code </a>and a 5 month time-to-market.</p>
+<p><a href="http://blog.xamarin.com/wp-content/uploads/2012/12/touchdraw-for-mac.jpg"><img class="alignright  wp-image-3050" title="touchdraw-for-mac" alt="" src="http://blog.xamarin.com/wp-content/uploads/2012/12/touchdraw-for-mac.jpg" width="314" height="187" /></a>The majority of TouchDraw’s customers use the app for a wide range of business purposes where they want to capture information in the field, and then continue working on content back at the office or at home.</p>
+<p>“TouchDraw for Mac is a win for my customers because they can work seamlessly across mobile and desktop devices, and a win for me because I can now tap into the Mac App Store market,” commented Jon Lipsky.  “Xamarin.Mac helps me build more, faster for that market.”</p>
+<h2>Getting Started</h2>
+<p>We’ve made it easy for you to get started:  download the <a href="http://xamarin.com/trial">free Xamarin.Mac trial</a>, browse <a href="http://docs2.xamarin.com/mac/samples">over 40 sample apps</a>, and check-out our <a href="http://docs.xamarin.com/Mac/Guides/Getting_Started/Hello%2C_Mac">Hello, Mac</a> tutorial.   If you want a little company, head over to the <a href="http://forums.xamarin.com/">Xamarin Forums</a> or contact us at <a href="mailto:hello@xamarin.com">hello@xamarin.com</a>. For a complete list of developer resources, visit the <a href="http://docs.xamarin.com/mac">Xamarin.Mac developer center</a>.</p>
+<p style="text-align: left;">Our mission is to make it fast, easy and fun for our 200,000+ developer community to build apps for all major device platforms.  We are constantly awed by <a href="http://xamarin.com/apps">the innovation and creativity of Xamarin developers</a> targeting iOS and Android, and we look forward to seeing what you will create for Mac.</p>
+<p><a href="http://forums.xamarin.com/discussion/563/welcome-to-xamarin-mac">Discuss this post on the Xamarin Forums</a>.</p>
+<iframe name="wistia_embed" width="640" height="360" src="http://fast.wistia.com/embed/iframe/v5ilarf1sa?controlsVisibleOnLoad=true&amp;endVideoBehavior=reset&amp;playerColor=000000&amp;version=v1&amp;videoHeight=360&amp;videoWidth=640&amp;volumeControl=true" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+<div style="text-align: center;"></div>
+<script charset="ISO-8859-1" src="http://fast.wistia.com/static/concat/iframe-api-v1.js"></script>																			</div>
+								</article>
+															<div class="navigation">
+									<div class="nav-previous">&laquo; <a href="http://blog.xamarin.com/2012/12/12/howto-monotouch-enterprise-deployment/" rel="prev">HOWTO: MonoTouch Enterprise Deployment</a></div>
+									<div class="nav-next"></div>
+								</div>
+					</div>
+				</div>
+				<div class="blog-sidebar cell width-4 append-gutter vertical-gap">
+					<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-4" class="widget widget_search"><form method="get" id="searchform" action="http://blog.xamarin.com/">
+	<input type="text" name="s" id="s" placeholder="Search" value="" />
+</form></aside><aside id="s2_form_widget-2" class="widget s2_form_widget"><h3 class="widget-title">Subscribe</h3><div class="search"><form method="post" action="http://blog.xamarin.com/subscriptions/"><input type="hidden" name="ip" value="208.102.65.88" /><p><label for="s2email">Your email:</label><br /><input type="text" name="email" id="s2email" value="Enter email address..." size="20" onfocus="if (this.value == 'Enter email address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email address...';}" /></p><p><input type="submit" name="subscribe" value="Subscribe" />&nbsp;<input type="submit" name="unsubscribe" value="Unsubscribe" /></p></form>
+</div></aside><aside id="linkcat-2" class="widget widget_links"><h3 class="widget-title">Links</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://blog.xamarin.com">Blog</a></li>
+<li><a href="http://docs.xamarin.com">Documentation</a></li>
+<li><a href="http://xamarin.com/features" title="Features of Xamarin">Features</a></li>
+<li><a href="http://android.xamarin.com">Mono for Android</a></li>
+<li><a href="http://xamarin.com/monotouch">MonoTouch</a></li>
+<li><a href="http://xamarin.com/apps">Showcase</a></li>
+<li><a href="http://store.xamarin.com">Store</a></li>
+<li><a href="http://support.xamarin.com">Support</a></li>
+<li><a href="http://xamarin.com/">Xamarin</a></li>
+	</ul>
+</aside>
+</div>				</div>
+			</div>
+		</div>
+	</div>
+					<footer id="global-footer">
+					<aside>
+						<h3><a href="http://xamarin.com"><img src="http://blog.xamarin.com/wp-content/themes/xamarin/images/xamarin-footer-logo.png" alt="Xamarin" /></a></h3>
+						<div class="copyright">
+							Copyright 2012 Xamarin, Inc.<br />
+							<a href="http://xamarin.com/legal">Legal</a>
+						</div>
+						<div class="contact vcard">
+							<div class="org hidden">Xamarin, Inc.</div>
+							<a class="url hidden" href="http://xamarin.com">xamarin.com</a>
+							Contact sales:<br/>
+							<a class="email" href="mailto:hello@xamarin.com">hello@xamarin.com</a>
+						</div>
+					</aside>
+					<nav>
+						<ul>
+							<li>
+								<h3>About Us</h3>
+								<ul>
+									<li><a href="http://xamarin.com/about">Company</a></li>
+									<li><a href="http://xamarin.com/features">Features</a></li>
+									<li><a href="http://xamarin.com/apps">App Showcase</a></li>
+									<li><a href="http://store.xamarin.com">Pricing</a></li>
+									<li><a href="http://blog.xamarin.com">Blog</a></li>
+									<li><a href="http://xamarin.com/jobs">Jobs</a></li>
+									<li><a href="http://xamarin.com/licensing">Licensing</a></li>
+									<li><a href="http://support.xamarin.com/customer/portal/emails/new">Contact</a></li>
+								</ul>
+							</li>
+							<li>
+								<h3>Community</h3>
+								<ul>
+									<li><a href="http://stackoverflow.com/questions/tagged/monodroid+or+monotouch?sort=active">StackOverflow</a></li>
+									<li><a href="http://forums.xamarin.com">Forums</a></li>
+									<li><a href="http://chat.xamarin.com">Chat</a></li>
+									<li><a href="http://bugzilla.xamarin.com">Bugzilla</a></li>
+									<li><a href="http://xamarin.com/seminars">Seminars</a></li>
+									<li><a href="http://xamarin.uservoice.com">UserVoice Feedback</a></li>
+									<li><a href="http://mono-project.com">Mono Project</a></li>
+								</ul>
+							</li>
+							<li>
+								<h3>Resources</h3>
+								<ul>
+									<li><a href="http://docs.xamarin.com">Developer Center</a></li>
+									<li><a href="http://support.xamarin.com">Support</a></li>
+								</ul>
+							</li>
+							<li class="social-networks">
+								<h3>Connect</h3>
+								<ul>
+									<li><a class="twitter" href="https://twitter.com/xamarinhq" title="Twitter">Twitter</a></li>
+									<li><a class="facebook" href="https://www.facebook.com/pages/Xamarin/283148898401104" title="Facebook">Facebook</a></li>
+									<li><a class="google-plus" href="https://plus.google.com/101300081691995092351/" title="Google+">Google+</a></li>
+									<li><a class="github" href="https://github.com/xamarin" title="Github">Github</a></li>
+									<li><a class="youtube" href="https://www.youtube.com/xamarinhq" title="Youtube">YouTube</a></li>
+									<li><a class="uservoice" href="https://xamarin.uservoice.com" title="UserVoice">UserVoice</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</footer>
+			</div>
+			<script type="text/javascript" src="http://blog.xamarin.com/wp-content/themes/xamarin/js/template.js"></script>
+<!-- /// LOAD CHARTBEAT /// -->
+<script type="text/javascript">
+var _sf_async_config={};
+_sf_async_config.uid = 44884;
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+       "static.chartbeat.com/js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+</script>
+
+		</div>
+<!-- Google remarketing -->
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            var google_conversion_id = 1015730972;
+            var google_conversion_language = "en";
+            var google_conversion_format = "3";
+            var google_conversion_color = "ffffff";
+            var google_conversion_label = "j0fWCOywugIQnKar5AM";
+            var google_conversion_value = 0;
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+        <noscript>
+            <div style="display:inline;">
+                <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1015730972/?label=j0fWCOywugIQnKar5AM&amp;guid=ON&amp;script=0"/>
+            </div>
+        </noscript>
+
+<!-- Marketo -->
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('975-JOX-769');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = document.location.protocol + '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+	</body>
+</html>

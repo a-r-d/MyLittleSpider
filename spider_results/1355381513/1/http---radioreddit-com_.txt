@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>radio reddit | where the listeners are in control</title>
+  <link rel="image_src" href="http://radioreddit.com/images/rr_thumb.png" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="radio reddit RSS" href="http://radioreddit.com/rss.xml" />
+<link rel="shortcut icon" href="/sites/default/files/radioreddit_two_favicon.ico" type="image/x-icon" />
+
+  <link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_64f3293076e32fb7f518f995693fb51c.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/default/files/css/css_2092a011548c4f6b3e96bd4293260bc0.css" />
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/radioreddit_two/css/ie.css?Z" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/radioreddit_two/css/ie6.css?Z" />
+<![endif]-->
+  <script type="text/javascript" src="/sites/default/files/js/js_09adf83dcbef676efa22695a033b2b58.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-1879297-18";
+//--><!]]>
+</script>
+    <script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.escapify.js"></script>
+     </head>
+<body class="front not-logged-in one-sidebar sidebar-first">
+
+      <div id="skip-link"><a href="#main-menu">Jump to Navigation</a></div>
+  
+  <div id="page-wrapper"><div id="page">
+
+    <div id="header"><div class="section clearfix">
+
+              <a href="/" title="Home" rel="home" id="logo"><img src="/sites/all/themes/radioreddit_two/logo.png" alt="Home" /></a>
+      
+      
+      
+      
+
+<script type="text/javascript">
+
+var cursong = '';
+
+$(document).ready(function() {
+    $.ajaxSetup ({
+	// Disable caching of AJAX responses
+      cache: false
+	  });
+    update_status();
+    var refreshId = setInterval(function() {
+        update_status();
+      }, 10000);
+  });
+
+var update_status = function() {
+  $.getJSON('/api/status.json', function(data) {
+      if(data.songs.song[0].title != cursong){
+        cursong = data.songs.song[0].title;
+
+	var reddit_string="<iframe src=\"http://buttons.reddit.com/static/button/button1.html?width=120&url=";
+        reddit_string += encodeURIComponent(data.songs.song[0].reddit_url);
+        reddit_string += '&title=' + encodeURIComponent($.unescapifyHTML(data.songs.song[0].reddit_title));
+        reddit_string += '&sr=' + encodeURIComponent('radioreddit');
+        //reddit_string += '&css=' + encodeURIComponent(window.reddit_css);
+        //reddit_string += '&bgcolor=' + encodeURIComponent(window.reddit_bgcolor);
+        //reddit_string += '&bordercolor=' + encodeURIComponent(window.reddit_bordercolor);
+        reddit_string += '&newwindow=' + encodeURIComponent('1');
+        reddit_string += "\" height=\"22\" width=\"120\" scrolling='no' frameborder='0'></iframe>";
+
+        var sb_string= '<span class="sb_text">' +
+          'Program: ' + data.playlist + '<br/>' +
+          'Playing: <b><a target="_top" href="' + data.songs.song[0].reddit_url + '">' + $.unescapifyHTML(data.songs.song[0].title) + '</a></b> by ' +
+          '<a target="_top" href="/artist_profiles/?artist=' + encodeURIComponent($.unescapifyHTML(data.songs.song[0].artist)) + '">' +
+          $.unescapifyHTML(data.songs.song[0].artist) + '</a></span><br/>' +
+          '<div id="sb_button">' + reddit_string + '</div>' + '<div id="vote_dammit"><- Your vote counts!</div>';
+
+	$('#statusblock').fadeOut(1000).hide(0, function () {
+            $(this).html(sb_string).fadeIn(1000);
+          });
+      }
+    });
+}
+</script>
+<div id="statusblock">
+</div>
+    </div></div> <!-- /.section, /#header -->
+
+    <div id="main-wrapper"><div id="main" class="clearfix with-navigation">
+
+      <div id="content" class="column"><div class="section">
+
+        
+                                        
+        <div class="region region-content-top">
+  <div id="block-ad-19530" class="block block-ad region-odd odd region-count-1 count-5">
+  
+  <div class="content">
+    
+<div class="advertisement group-tids-19530" id="group-id-tids-19530"><script type='text/javascript' src='http://radioreddit.com/modules/ad/serve.php?q=1&amp;t=19530&amp;u=node&amp;l=node'></script></div>
+  </div>
+
+  </div> <!-- /.block -->
+<div id="block-block-37" class="block block-block region-even even region-count-2 count-6">
+  
+  <div class="content">
+    <p><style type="text/css">
+#welcome {
+padding:0;
+margin:0;
+}
+
+#welcome p, #welcome div {
+padding:0;
+margin:0;
+}
+</style></p>
+<table id="welcome" border="0" width="100%">
+<tbody>
+<tr>
+<td>
+<div align="center">
+<p><a href="/streams"><img alt="Listen" height="280" width="284" src="/sites/default/files/front/listen.jpg" /></a></p>
+<p>listen to the live radio reddit streams</p>
+</div>
+</td>
+<td>
+<div align="center">
+<p><a href="/discover"><img alt="" height="280" width="284" src="/sites/default/files/front/discover.jpg" /></a></p>
+<p>discover new music by redditors</p>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20px;">
+<div align="center"><a href="/charts"><img alt="Vote" height="280" width="284" src="/sites/default/files/front/vote.jpg" /></a>
+<p>vote on top music in the charts</p>
+</div>
+</td>
+<td style="padding-top: 20px;">
+<div align="center"><a href="/uploading"><img alt="upload" height="280" width="284" src="/sites/default/files/front/upload.jpg" /></a>
+<p>upload your music and be heard</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+  </div>
+
+  </div> <!-- /.block -->
+</div> <!-- /.region -->
+
+        <div id="content-area">
+          <div id="node-10171" class="node node-type-page node-promoted node-teaser clearfix">
+  
+         
+  
+  
+  <div class="content">
+      </div>
+
+  </div> <!-- /.node -->
+        </div>
+
+        
+        
+      </div></div> <!-- /.section, /#content -->
+
+              <div id="navigation"><div class="section clearfix">
+
+          <h2 class="element-invisible">Main menu</h2><ul id="main-menu" class="links clearfix"><li class="menu-149 first"><a href="/streams">Radio Stations</a></li>
+<li class="menu-504"><a href="/charts">Top 10</a></li>
+<li class="menu-3186"><a href="/discover">Browse Music</a></li>
+<li class="menu-1440"><a href="/uploading">Upload Music</a></li>
+<li class="menu-7700"><a href="http://radioreddit.com/?q=my_songs">Manage My Songs</a></li>
+<li class="menu-7963 last"><a href="http://radioreddit.com/content/best-radio-reddit-september-2012">&quot;Best Of&quot;</a></li>
+</ul>
+          
+        </div></div> <!-- /.section, /#navigation -->
+      
+      <div class="region region-sidebar-first column sidebar"><div class="section">
+  <div id="block-ad-17078" class="block block-ad region-odd odd region-count-1 count-1">
+  
+  <div class="content">
+    
+<div class="advertisement group-tids-17078" id="group-id-tids-17078"><script type='text/javascript' src='http://radioreddit.com/modules/ad/serve.php?q=1&amp;t=17078&amp;u=node&amp;l=node'></script></div>
+  </div>
+
+  </div> <!-- /.block -->
+<div id="block-user-1" class="block block-user region-even even region-count-2 count-2">
+      <h2 class="title">Navigation</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first"><a href="/user/login"><span class="tab">Login </span></a></li>
+<li class="leaf"><a href="http://radioreddit.com/chat.php" title="radio reddit chat room">Chat Room</a></li>
+<li class="leaf"><a href="/larr_info">Live at radio reddit</a></li>
+<li class="leaf"><a href="/faq">Frequently Asked Questions</a></li>
+<li class="leaf"><a href="http://radioreddit.com/artists">Artist List</a></li>
+<li class="leaf"><a href="http://www.radioreddit.com/?q=content/todays-stream-schedules">Station Schedules</a></li>
+<li class="leaf last"><a href="/contact">Contact Us</a></li>
+</ul>  </div>
+
+  </div> <!-- /.block -->
+<div id="block-block-36" class="block block-block region-odd odd region-count-3 count-3">
+  
+  <div class="content">
+    <center><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="AQVGP5MCA6JWJ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></center>
+<!-- FACEBOOK -->
+<div id="facebook">
+  <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FRadio-reddit%2F151112888274509&amp;width=250&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:62px;" allowtransparency="true"></iframe>
+</div>
+<!-- Place this tag in your head or just before your close body tag -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone size="medium"></g:plusone><a href="http://flattr.com/thing/353388/radio-reddit" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a><a href="http://www.twitter.com/Radio_Reddit"><img src="http://twitter-badges.s3.amazonaws.com/twitter-b.png" alt="Follow Radio_Reddit on Twitter"/></a>  </div>
+
+  </div> <!-- /.block -->
+<div id="block-menu-menu-contribute" class="block block-menu region-even even region-count-4 count-4">
+      <h2 class="title">Contribute</h2>
+  
+  <div class="content">
+    <ul class="menu"><li class="leaf first"><a href="https://www.goodjoe.com/products/531-adult-tee-plug-in">Buy Radio Reddit T-Shirts</a></li>
+<li class="leaf"><a href="http://www.stickermule.com/products/radio-reddit-headphones-sticker">Buy a Radio Reddit Sticker </a></li>
+<li class="leaf"><a href="http://itunes.apple.com/us/app/radio-reddit/id436364241?mt=8&amp;ls=1">iPhone App</a></li>
+<li class="leaf"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=56CCDAUZDGGAS">Paypal Sponsor</a></li>
+<li class="leaf"><a href="http://www.reddit.com/r/Bitcoin/comments/xys67/bitcoins_and_radio_reddit/">Bitcoin Sponsor</a></li>
+<li class="leaf last"><a href="http://radioreddit.com/promote">Self Serve Advertising</a></li>
+</ul>  </div>
+
+  </div> <!-- /.block -->
+</div></div> <!-- /.section, /.region -->
+
+      
+    </div></div> <!-- /#main, /#main-wrapper -->
+
+    
+  </div></div> <!-- /#page, /#page-wrapper -->
+
+  <div class="region region-page-closure">
+  <div id="block-block-26" class="block block-block region-odd odd region-count-1 count-7">
+  
+  <div class="content">
+    <p><style type="text/css">
+<!--
+.style1 {
+	color: #777;
+	font-weight: bold;
+}
+--><!--
+.style1 {
+	color: #777;
+	font-weight: bold;
+}
+-->
+</style></p>
+<table width="100%" border="0" style="margin:0;padding:0;">
+<tbody>
+<tr>
+<td width="25%" valign="top">
+              <span class="style1">help</span>
+<ul>
+<li><a href="/terms_of_use">Terms of Use / Artist License Agreement</a></li>
+<li><a href="http://www.radioreddit.com/faq">FAQ</a></li>
+<li><a href="http://www.radioreddit.com/contact">contact us</a></li>
+<li><a href="http://www.radioreddit.com/about">about</a></li>
+<li><a href="/content/dmca-policy">DMCA Policy</a></li>
+</ul>
+</td>
+<td width="25%" valign="top">
+              <span class="style1">tools</span>
+<ul>
+<li><a href="http://www.radioreddit.com/promote">advertise on radioreddit</a></li>
+<li><a href="http://www.radioreddit.com/upload">upload</a></li>
+<li><a href="http://www.radioreddit.com/apidocs">api</a></li>
+<li><a href="http://www.radioreddit.com/larr_info">perform live on radioreddit</a></li>
+</ul>
+<p>              <span class="style1">brothers</span></p>
+<ul>
+<li><a href="http://www.reddit.com">reddit</a></li>
+<li><a href="http://www.exoware.net" title="VPS">Exoware</a></li>
+</ul>
+</td>
+<td>
+<div align="center">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+  </div>
+
+  </div> <!-- /.block -->
+</div> <!-- /.region -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.write(unescape("%3Cscript src=\"//checkout.google.com/files/digital/ga_post.js\" type=\"text/javascript\"%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-1879297-18"]);_gaq.push(['_setAllowAnchor', true]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+
+</body>
+</html>

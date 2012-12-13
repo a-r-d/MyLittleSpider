@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '182055359700441562',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'hubble'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "hubble"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @03:26PM</td>
+			<td><a href="//slashdot.org/submission/2396509/hubble-sees-tribe-of-baby-galaxies-13-billion-light-years-away" rel="nofollow">Hubble sees tribe of baby galaxies 13+ billion light years away</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 27, @02:31AM</td>
+			<td><a href="//slashdot.org/submission/2371167/what-will-nasa-do-with-its-gifted-spy-scopes" rel="nofollow">What Will NASA Do with Its Gifted Spy 'Scopes?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 04, @05:49PM</td>
+			<td><a href="//science.slashdot.org/story/12/10/04/2145250/new-study-shows-universe-still-expanding-on-schedule" rel="nofollow">New Study Shows Universe Still Expanding On Schedule</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 25, @02:18PM</td>
+			<td><a href="//science.slashdot.org/story/12/09/25/1918200/the-deepest-picture-of-the-universe-ever-taken-the-hubble-extreme-deep-field" rel="nofollow">The Deepest Picture of the Universe Ever Taken: the Hubble Extreme Deep Field</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 25, @01:26PM</td>
+			<td><a href="//slashdot.org/submission/2276539/the-deepest-picture-of-the-universe-ever-taken-the-hubble-extreme-deep-field" rel="nofollow">The deepest picture of the Universe ever taken: the Hubble Extreme Deep Field</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday August 25, @09:44PM</td>
+			<td><a href="//science.slashdot.org/story/12/08/26/0244252/hubble-neatly-captures-messiers-ancient-stars" rel="nofollow">Hubble Neatly Captures Messier's Ancient Stars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday July 11, @12:21PM</td>
+			<td><a href="//slashdot.org/submission/2154787/hubble-discovers-5th-moon-of-pluto" rel="nofollow">Hubble Discovers 5th Moon of Pluto</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 04 2012, @01:26PM</td>
+			<td><a href="//science.slashdot.org/story/12/06/04/1826218/nasa-gets-two-military-spy-telescopes-for-astronomy" rel="nofollow">NASA Gets Two Military Spy Telescopes For Astronomy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 04 2012, @12:22PM</td>
+			<td><a href="//slashdot.org/submission/2098835/nasa-gets-two-military-spy-telescopes-for-astronomy" rel="nofollow">NASA Gets Two Military Spy Telescopes for Astronomy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday May 07 2012, @03:17PM</td>
+			<td><a href="//slashdot.org/submission/2056099/hubble-to-use-the-moon-to-view-transit-of-venus" rel="nofollow">Hubble To Use the Moon To View Transit of Venus</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 15 2012, @03:51PM</td>
+			<td><a href="//slashdot.org/submission/1981461/shadowplay-offers-space-age-fashion-inspired-by-hubble-photography" rel="nofollow">Shadowplay Offers Space-Age Fashion Inspired by Hubble Photography</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 15 2011, @03:31PM</td>
+			<td><a href="//science.slashdot.org/story/11/12/15/2031216/hubble-captures-the-violent-birth-of-a-star" rel="nofollow">Hubble Captures the Violent Birth of a Star</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 15 2011, @02:00PM</td>
+			<td><a href="//slashdot.org/submission/1881810/hubble-pic-of-a-30-octillion-ton-babys-tantrum" rel="nofollow">Hubble pic of a 30 octillion ton baby's tantrum</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday November 16 2011, @03:37AM</td>
+			<td><a href="//slashdot.org/submission/1850674/james-webb-space-telescope-saved" rel="nofollow">James Webb Space Telescope Saved?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 06 2011, @02:28PM</td>
+			<td><a href="//science.slashdot.org/story/11/10/06/1928229/astronomers-find-three-exoplanets-in-old-hubble-images" rel="nofollow">Astronomers Find Three Exoplanets In Old Hubble Images</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 26 2011, @12:51PM</td>
+			<td><a href="//slashdot.org/submission/1799610/does-famous-exoplanet-fomalhaut-b-really-exist" rel="nofollow">Does Famous Exoplanet 'Fomalhaut b' Really Exist?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 10 2011, @02:25PM</td>
+			<td><a href="//politics.slashdot.org/story/11/09/10/1925209/how-the-webb-space-telescope-got-so-expensive" rel="nofollow">How the Webb Space Telescope Got So Expensive</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday July 20 2011, @10:43AM</td>
+			<td><a href="//science.slashdot.org/story/11/07/20/1543248/nasas-hubble-discovers-another-moon-around-pluto" rel="nofollow">NASA's Hubble Discovers Another Moon Around Pluto</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 12 2011, @02:57AM</td>
+			<td><a href="//tech.slashdot.org/story/11/07/12/0420211/gpu-powered-planetarium-renders-64mp-projection" rel="nofollow">GPU-Powered Planetarium Renders 64MP Projection</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 16 2010, @04:27PM</td>
+			<td><a href="//science.slashdot.org/story/10/11/16/2127244/most-detailed-view-of-dark-matter-mapped-by-hubble" rel="nofollow">Most Detailed View of Dark Matter Mapped By Hubble</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 15 2010, @11:14AM</td>
+			<td><a href="//slashdot.org/submission/1390220/most-detailed-view-of-dark-matter-mapped-by-hubble" rel="nofollow">Most Detailed View of Dark Matter Mapped by Hubble</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 12 2010, @11:24AM</td>
+			<td><a href="//science.slashdot.org/story/10/11/12/1532228/james-webb-space-telescope-cost-overruns-adding-up" rel="nofollow">James Webb Space Telescope Cost Overruns Adding Up</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 21 2010, @09:35AM</td>
+			<td><a href="//science.slashdot.org/story/10/10/20/237217/record-breaking-galaxy-found-in-deep-hubble-image" rel="nofollow">Record-Breaking Galaxy Found In Deep Hubble Image</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 16 2010, @11:31AM</td>
+			<td><a href="//science.slashdot.org/story/10/09/16/141204/hubble-in-anaglyph-stereo-3d" rel="nofollow">Hubble In Anaglyph Stereo 3D</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 16 2010, @08:45AM</td>
+			<td><a href="//slashdot.org/submission/1334888/hubble-in-anaglyph-stereo-3d" rel="nofollow">Hubble in Anaglyph Stereo 3D</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 22 2010, @07:10PM</td>
+			<td><a href="//slashdot.org/submission/1289492/hyperfast-star-was-booted-from-milky-way" rel="nofollow">Hyperfast Star Was Booted from Milky Way</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 02 2010, @05:58AM</td>
+			<td><a href="//hardware.slashdot.org/story/10/05/01/2026255/james-webb-telescope-passes-critical-tests" rel="nofollow">James Webb Telescope Passes Critical Tests</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday May 01 2010, @02:37PM</td>
+			<td><a href="//slashdot.org/submission/1228052/james-webb-telescope-passes-critical-tests" rel="nofollow">James Webb Telescope Passes Critical Tests</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday April 25 2010, @07:38PM</td>
+			<td><a href="//science.slashdot.org/story/10/04/25/2056255/20-years-of-hubble" rel="nofollow">20 Years of Hubble</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday April 25 2010, @01:31PM</td>
+			<td><a href="//slashdot.org/submission/1223294/20-years-of-hubble" rel="nofollow">20 years of Hubble</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday March 28 2010, @07:02PM</td>
+			<td><a href="//science.slashdot.org/story/10/03/29/002200/hubble-builds-3d-dark-matter-map" rel="nofollow">Hubble Builds 3D Dark Matter Map</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday February 04 2010, @07:36PM</td>
+			<td><a href="//science.slashdot.org/story/10/02/05/0036235/pluto-a-complex-and-changing-world" rel="nofollow">Pluto &mdash; a Complex and Changing World</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 09 2009, @11:27PM</td>
+			<td><a href="//science.slashdot.org/story/09/12/09/1641208/new-hubble-ultra-deep-field-in-infrared" rel="nofollow">New Hubble Ultra Deep Field In Infrared</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday December 09 2009, @07:15AM</td>
+			<td><a href="//slashdot.org/submission/1130862/new-hubble-ultra-deep-field-in-infrared" rel="nofollow">New Hubble Ultra Deep Field in infrared</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 11 2009, @01:05PM</td>
+			<td><a href="//science.slashdot.org/story/09/11/11/1550233/heart-of-the-milky-way-photos-from-nasa" rel="nofollow">Heart of the Milky Way Photos From NASA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 09 2009, @10:34AM</td>
+			<td><a href="//slashdot.org/submission/1069191/hubble-releases-first-second-image-batch-after-s" rel="nofollow">Hubble releases first (second) image batch after s</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday July 25 2009, @11:07AM</td>
+			<td><a href="//science.slashdot.org/story/09/07/25/1457245/hubble-photographs-jupiters-new-scar" rel="nofollow">Hubble Photographs Jupiter's New "Scar"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 24 2009, @05:43PM</td>
+			<td><a href="//slashdot.org/submission/1044443/hubble-photographs-new-scar-on-jupiter" rel="nofollow">Hubble photographs new scar on Jupiter</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 10 2009, @12:38AM</td>
+			<td><a href="//science.slashdot.org/story/09/06/09/1823212/measuring-the-hubble-constant-better" rel="nofollow">Measuring the Hubble Constant Better</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday February 28 2009, @08:55AM</td>
+			<td><a href="//science.slashdot.org/story/09/02/28/047227/exoplanet-found-in-old-hubble-image" rel="nofollow">Exoplanet Found In Old Hubble Image</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 19 2009, @08:10PM</td>
+			<td><a href="//science.slashdot.org/story/09/02/19/0330239/hubble-repair-mission-at-risk" rel="nofollow">Hubble Repair Mission At Risk</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 05 2008, @10:39PM</td>
+			<td><a href="//science.slashdot.org/story/08/12/04/1413215/hubble-space-telescope-advent-calendar-2008" rel="nofollow">Hubble Space Telescope Advent Calendar 2008</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 04 2008, @05:49AM</td>
+			<td><a href="//slashdot.org/submission/906021/hubble-space-telescope-advent-calendar-2008" rel="nofollow">Hubble Space Telescope Advent Calendar 2008</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 31 2008, @05:25AM</td>
+			<td><a href="//science.slashdot.org/story/08/10/30/181205/nasas-hubble-space-telescope-is-back-in-business" rel="nofollow">NASA's Hubble Space Telescope Is Back In Business</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 27 2008, @04:02PM</td>
+			<td><a href="//science.slashdot.org/story/08/10/26/222214/one-of-hsts-cameras-is-back-in-action" rel="nofollow">One of HST's Cameras Is Back In Action</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 16 2008, @12:06AM</td>
+			<td><a href="//science.slashdot.org/story/08/09/15/1623213/hubble-finds-unidentified-object-in-space" rel="nofollow">Hubble Finds Unidentified Object In Space</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday January 09 2008, @12:31PM</td>
+			<td><a href="//science.slashdot.org/story/08/01/08/2221222/upgraded-hubble-to-be-90-times-as-powerful" rel="nofollow">Upgraded Hubble To Be 90 Times As Powerful</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 09 2007, @08:50AM</td>
+			<td><a href="//science.slashdot.org/story/07/12/08/1348247/adaptive-thirty-meter-telescope-sees-progress" rel="nofollow">Adaptive Thirty Meter Telescope Sees Progress</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday May 11 2007, @11:04AM</td>
+			<td><a href="//science.slashdot.org/story/07/05/11/0135255/nasa-unveils-hubbles-successor" rel="nofollow">NASA Unveils Hubble's Successor</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday January 31 2007, @05:38AM</td>
+			<td><a href="//science.slashdot.org/story/07/01/30/2135227/hubble-camera-lost-for-good" rel="nofollow">Hubble Camera Lost "For Good"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 30 2007, @08:43AM</td>
+			<td><a href="//science.slashdot.org/story/07/01/29/2235215/hubble-telescopes-main-camera-shuts-down" rel="nofollow">Hubble Telescope's Main Camera Shuts Down</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday January 29 2007, @03:45PM</td>
+			<td><a href="//slashdot.org/submission/610634/hubble-telescopes-main-camera-shuts-down" rel="nofollow">Hubble Telescope's Main Camera Shuts Down</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday January 10 2007, @11:08AM</td>
+			<td><a href="//science.slashdot.org/story/07/01/09/2330251/pillars-of-creation-destroyed" rel="nofollow">Pillars of Creation Destroyed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday January 07 2007, @11:33PM</td>
+			<td><a href="//science.slashdot.org/story/07/01/07/233252/hubble-telescope-maps-dark-matter-in-3d" rel="nofollow">Hubble Telescope Maps Dark Matter in 3D</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 29 2006, @04:17AM</td>
+			<td><a href="//science.slashdot.org/story/06/12/28/2254226/top-10-astronomy-images-of-2006" rel="nofollow">Top 10 Astronomy Images of 2006</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 03 2006, @08:49AM</td>
+			<td><a href="//slashdot.org/submission/579329/hubble-saved" rel="nofollow">Hubble saved</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 31 2006, @12:17PM</td>
+			<td><a href="//slashdot.org/story/06/10/31/1534207/the-hubble-lives-on" rel="nofollow">The Hubble Lives On</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 30 2006, @10:53AM</td>
+			<td><a href="//slashdot.org/story/06/10/30/1323230/galactic-traffic-patterns" rel="nofollow">Galactic Traffic Patterns</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday October 29 2006, @10:20PM</td>
+			<td><a href="//slashdot.org/story/06/10/30/0255206/alternative-launcher-for-returning-to-the-moon" rel="nofollow">Alternative Launcher For Returning To the Moon</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 26 2006, @11:51AM</td>
+			<td><a href="//slashdot.org/story/06/10/26/153237/nasa-to-determine-hubbles-fate" rel="nofollow">NASA To Determine Hubble's Fate</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 19 2006, @07:21PM</td>
+			<td><a href="//slashdot.org/story/06/10/18/0038218/hubble-takes-pictures-of-colliding-galaxies" rel="nofollow">Hubble Takes Pictures of Colliding Galaxies</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 12 2006, @04:04PM</td>
+			<td><a href="//slashdot.org/story/06/10/12/1335250/hubble-reinforces-planet-formation-theory" rel="nofollow">Hubble Reinforces Planet Formation Theory</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 12 2006, @12:41PM</td>
+			<td><a href="//slashdot.org/story/06/10/12/1433231/jupiters-little-white-spot-turns-red" rel="nofollow">Jupiter's Little White Spot Turns Red</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 04 2006, @11:44AM</td>
+			<td><a href="//slashdot.org/story/06/10/04/1215247/hubble-discovers-dark-spot-on-uranus" rel="nofollow">Hubble Discovers Dark Spot on Uranus</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday September 28 2006, @07:04AM</td>
+			<td><a href="//slashdot.org/story/06/09/28/0053213/hubble-camera-shuts-down" rel="nofollow">Hubble Camera Shuts Down</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 30 2006, @10:08PM</td>
+			<td><a href="//slashdot.org/story/06/06/30/233213/nasa-revives-main-hubble-telescope-camera" rel="nofollow">NASA Revives Main Hubble Telescope Camera</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 26 2006, @04:24AM</td>
+			<td><a href="//slashdot.org/story/06/06/25/0030214/hubbles-advanced-camera-suspends-operations" rel="nofollow">Hubble's Advanced Camera Suspends Operations</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 28 2006, @04:16PM</td>
+			<td><a href="//slashdot.org/story/06/04/27/2229214/hubble-space-telescopes-sixteenth-anniversary" rel="nofollow">Hubble Space Telescope's Sixteenth Anniversary</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 12 2006, @05:46AM</td>
+			<td><a href="//slashdot.org/story/06/04/12/0220221/the-tenth-planet-shrinks-under-hubbles-gaze" rel="nofollow">The Tenth Planet Shrinks Under Hubble's Gaze</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

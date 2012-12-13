@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Geeknet | Library</title>
+    <script type="text/javascript" src="/wp-content/themes/assetman/js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="/wp-content/themes/assetman/js/assetman.js"></script>
+    <link type="text/css" media="screen" rel="stylesheet" href="/wp-content/themes/assetman/style.css" />
+  </head>
+  <body>
+    <div id="super">
+      <div id="outer">
+        <a id="header-geeknet" href="/">
+          <div id="header">
+            <h1>Geeknet Media - Resource Library</h1>
+            <div id="header-geeknet">
+              <h2>Geeknet Media</h2>
+            </div>
+            <div id="header-sourceforge">
+              <h2>Sourceforge</h2>
+            </div>
+            <div id="header-freecode">
+              <h2>Freecode</h2>
+            </div>
+            <div id="header-slashdot">
+              <h2>Slashdot</h2>
+            </div>
+          </div>
+        </a>
+        <div id="main">
+          <div id="left-sidebar">
+            <div id="search-box">
+              <form id="search-form" action="/" method="get">
+                <input type="text" name="search" placeholder="Search" value="" />
+              </form>
+            </div>
+            <div id="topic-links" class="menu">
+              <h3>Topics</h3>
+              <ul>
+    <li><a href="/">All Topics</a></li>
+  <li><a href="/topic/Applications/">Applications (55)</a></li>
+  <li><a href="/topic/Business_Intelligence/">Business Intelligence (4)</a></li>
+  <li><a href="/topic/Business_Management/">Business Management (21)</a></li>
+  <li><a href="/topic/Business_Process_Management/">Business Process Management (1)</a></li>
+  <li><a href="/topic/Cloud_Computing/">Cloud Computing (24)</a></li>
+  <li><a href="/topic/Collaboration/">Collaboration (13)</a></li>
+  <li><a href="/topic/Compliance/">Compliance (2)</a></li>
+  <li><a href="/topic/Consumer_Electronics/">Consumer Electronics (2)</a></li>
+  <li><a href="/topic/Data_Management/">Data Management (6)</a></li>
+  <li><a href="/topic/DataCenter/">DataCenter (4)</a></li>
+  <li><a href="/topic/IT_Careers/">IT Careers (1)</a></li>
+  <li><a href="/topic/IT_Management/">IT Management (8)</a></li>
+  <li><a href="/topic/IT_Services_and_Support/">IT Services and Support (2)</a></li>
+  <li><a href="/topic/Infrastructure/">Infrastructure (1)</a></li>
+  <li><a href="/topic/Networking/">Networking (31)</a></li>
+  <li><a href="/topic/Security/">Security (25)</a></li>
+  <li><a href="/topic/Servers/">Servers (3)</a></li>
+  <li><a href="/topic/Software_Development/">Software Development (6)</a></li>
+  <li><a href="/topic/Storage/">Storage (9)</a></li>
+  <li><a href="/topic/Virtualization/">Virtualization (2)</a></li>
+
+              </ul>
+            </div>
+            <div id="type-links" class="menu">
+              <h3>Presentation Types</h3>
+              <ul>
+    <li><a href="/">All Types</a></li>
+  <li><a href="/type/Download/">Download (10)</a></li>
+  <li><a href="/type/LIVE_Webcast/">LIVE Webcast (4)</a></li>
+  <li><a href="/type/OnDemand_Webcast/">OnDemand Webcast (12)</a></li>
+  <li><a href="/type/Video/">Video (9)</a></li>
+  <li><a href="/type/Whitepaper/">Whitepaper (98)</a></li>
+
+              </ul>
+            </div>
+            <div id="sponsor-links" class="menu">
+              <h3>Sponsors</h3>
+              <ul>
+    <li><a href="/">All Sponsors</a></li>
+  <li><a href="/sponsor/Akamai_Technologies/">Akamai Technologies (1)</a></li>
+  <li><a href="/sponsor/Appcellerator/">Appcellerator (4)</a></li>
+  <li><a href="/sponsor/Azul_Systems/">Azul Systems (1)</a></li>
+  <li><a href="/sponsor/Blue_Coat_Systems/">Blue Coat Systems (2)</a></li>
+  <li><a href="/sponsor/Box/">Box (1)</a></li>
+  <li><a href="/sponsor/Brainloop/">Brainloop (5)</a></li>
+  <li><a href="/sponsor/Citrix_Systems/">Citrix Systems (10)</a></li>
+  <li><a href="/sponsor/DocuSign/">DocuSign (2)</a></li>
+  <li><a href="/sponsor/EMC_Corporation/">EMC Corporation (5)</a></li>
+  <li><a href="/sponsor/ESET/">ESET (1)</a></li>
+  <li><a href="/sponsor/EVault/">EVault (1)</a></li>
+  <li><a href="/sponsor/F5_Networks,_Inc./">F5 Networks, Inc. (1)</a></li>
+  <li><a href="/sponsor/First_Line_Software/">First Line Software (1)</a></li>
+  <li><a href="/sponsor/FrontRange/">FrontRange (7)</a></li>
+  <li><a href="/sponsor/Google_Technology,_Inc./">Google Technology, Inc. (3)</a></li>
+  <li><a href="/sponsor/IBM_Corporation/">IBM Corporation (87)</a></li>
+  <li><a href="/sponsor/Okta/">Okta (1)</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div id="content">
+<div class="post-container">
+  <h4><a class="post-link" href="/bi-and-ba-smarter-products-smarter-buyers/">BI and BA: Smarter Products, Smarter Buyers</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>Business Analytics/Intelligence have earned reputations as 'difficult' and risky to implement. Applications of this sort classically required complex integration across numerous working systems and data repositories AND a (usually long) period of customization. Learn how and why your colleagues are focusing efforts to access and analyze data in new, lighter, more agile, web-oriented ways that enable self-service by experienced analysts and end users.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=852">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/ventana-research-ba-benchmarking-the-analysis-of-data-to-gain-insight/">Ventana Research: BA-Benchmarking the Analysis of Data to Gain Insight</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>Businesses today have more raw information than ever before. But many lack the analytics to make good use of it. Read this report from Ventana Research for practical recommendations on how to implement business analytics to improve performance.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=821">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/cognos-express-how-analytics-make-midsize-companies-more-profitable/">Cognos Express: How Analytics Make Midsize Companies More Profitable</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>While many large enterprises have adopted analytics technologies such as business intelligence (BI), performance management (PM), and predictive analytics, misperceptions about costs and risk have caused small and midsize companies to embrace these technologies far more slowly.  See how investing in analytics tools can improve operating results by enabling managers to make decisions that are more fact based and data driven.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=818">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/paths-to-success-how-to-make-business-analytics-work-for-the-midmarket/">Paths to Success: How to Make Business Analytics Work for the Midmarket</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/Picture-7.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>Large enterprises have long had access to Business Intelligence (BI) in various forms – analytics software integrated with accounting, process automation, sales force management, and other systems, that provide reporting to stakeholders appropriate to each function. Until recently, BI solutions for the midmarket were stymied by economics: enterprise solutions were too cost-intensive and required too much lengthy and difficult integration with companion systems and data-sources. Worse, as use of these systems evolved, it often turned out that valuable IT resources were required to maintain BI systems and their integrations, and create a myriad of custom reports needed by all the key stakeholders.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=815">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/idc-brief-cloud-computing-in-the-midmarket-assessing-the-options/">IDC Brief:  Cloud Computing in the Midmarket:  Assessing the options</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>Read this analyst brief from IDC to learn about public, private and hybrid cloud models and how your organization can take advantage of them. The paper also looks at how you can integrate cloud solutions into existing IT and offers some principles for measuring the success of your cloud solutions.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=812">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/how-cloud-changes-the-game-for-line-of-business-managers-in-midsized-companies/">How Cloud Changes the Game for Line of Business Managers in Midsized Companies</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>In this paper, we explore midsize business challenges from the perspective, not of the IT department, but of the line of business managers they support. Using real-life use cases,  we show how cloud services—and, in particular, the IBM SmartCloud offerings—can help midsize business managers reach their goals and transform the business.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=809">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/mft-center-of-excellence/">MFT Center of Excellence</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>This paper provides a strategic, customer-centric approach to managing your organization’s file transfer infrastructure via the realignment of file transfer technology and support organizations into an MFT COE.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=805">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/it-practitioners-guide-security-best-practices-for-file-based-data-movement/">IT Practitioner's Guide: Security best practices for file-based data movement</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo56.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>Data security for file-based data movement is finally getting the attention it deserves. What was once a concern only in the financial services sector is now being treated seriously by all industries as they wake up to the liability and risk associated with the unsecured movement of files.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=802">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/identity-management-for-customer-and-partner-portals/">Identity Management for Customer and Partner Portals</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/Picture-7.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>For many organizations, portals are an increasingly important way of providing critical application access to partners and/or customers.  Assembled from multiple web applications, portals introduce unique identity management challenges, because unlike internal employees, users from customers or partners aren't typically stored in the corporate directory.  This forces administrators to maintain multiple user-stores and end-users to register, and manage logins for, each app individually.  This whitepaper covers:
+
+* Identity management challenges with portals
+* Managing users in multiple user-stores
+* Automating user registration across multiple apps
+* Single sign-on
+* 3rd Party portal integration
+* Existing identity management solution integration</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=797">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="post-container">
+  <h4><a class="post-link" href="/tips-for-choosing-a-cloud-services-provider/">Tips for choosing a cloud services provider</a></h4>
+  <img class="sponsor-logo" src="http://cdn.asset.geek.net/wp-content/uploads/2012/08/IBM_logo55.png" alt="" />
+  <div class="clear"></div>
+  <div class="post-content">
+    <p>One intriguing aspect of the cloud is the freedom it brings: no term or volume commitments, pay as you go pricing, and ease of entry and exit. Those points are all appealing, but choosing a cloud service provider is a serious decision. Read this IBM-sponsored white paper from Frost & Sullivan to learn the smart way to make a better choice.</p>
+  </div>
+  <div class="post-download">
+    <a href="http://app.perfectforms.com/player.htm?f=ZghCggQj&source=library&asset_id=621">Get Whitepaper</a>
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  
+            <div id="pagination">
+Page 1 of 14 | 1
+<a href="/page/2/">2</a>
+<a href="/page/3/">3</a>
+<a href="/page/4/">4</a>
+<a href="/page/5/">5</a>
+<a href="/page/6/">6</a>
+<a href="/page/7/">7</a>
+<a href="/page/8/">8</a>
+<a href="/page/9/">9</a>
+<a href="/page/10/">10</a>
+<a href="/page/11/">11</a>
+<a href="/page/12/">12</a>
+<a href="/page/13/">13</a>
+<a href="/page/14/">14</a>
+
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div id="footer">
+          <div>
+            <a href="http://geeknetmedia.com/privacy-statement/">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://geeknetmedia.com/terms-of-use/">Terms of Use</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://geeknetmedia.com/">Geeknet Media</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://slashdot.org/">Slashdot</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://sourceforge.net/">Sourceforge</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="http://freecode.com/">Freecode</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- preload PF player, remove when html forms ready -->
+    <script type="text/javascript" src="http://app.perfectforms.com/utils.js"></script>
+    <script type="text/javascript">pf_preload("http://app.perfectforms.com/player.aspx", "NjY1ODU=");</script>
+    <!-- end preload of PF player -->
+  
+  </body>
+</html>

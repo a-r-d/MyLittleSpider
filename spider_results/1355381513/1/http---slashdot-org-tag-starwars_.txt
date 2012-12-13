@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '412998985986341532',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'starwars'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "starwars"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @08:06PM</td>
+			<td><a href="//news.slashdot.org/story/12/12/13/016245/jedi-religion-most-popular-alternative-faith-in-england" rel="nofollow"> "Jedi" Religion Most Popular Alternative Faith In England</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 29, @07:57AM</td>
+			<td><a href="//news.slashdot.org/story/12/11/29/0434203/critic-cites-revenge-of-the-sith-as-generations-greatest-work-of-art" rel="nofollow">Critic Cites Revenge of the Sith As  "Generation's Greatest Work of Art</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 12, @10:33AM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/11/12/1533258/little-miss-sunshine-screenwriter-gets-nod-for-star-wars-episode-vii" rel="nofollow">Little Miss Sunshine Screenwriter Gets Nod For Star Wars: Episode VII</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday September 01, @05:07PM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/09/01/227259/final-chapter-of-pink-five-to-be-released-on-january-2013" rel="nofollow">Final Chapter of Pink Five To Be Released On January 2013</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday July 15, @07:41AM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/07/15/1241243/star-wars-fans-fix-up-luke-skywalkers-home" rel="nofollow">Star Wars Fans Fix Up Luke Skywalker's Home</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday June 23, @11:38AM</td>
+			<td><a href="//news.slashdot.org/story/12/06/23/1610237/laser-treatment-for-earth-bound-asteroids" rel="nofollow">Laser Treatment For Earth-Bound Asteroids</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday May 01 2012, @09:29AM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/05/01/0153239/star-wars-exhibition-explores-human-identity" rel="nofollow">Star Wars Exhibition Explores Human Identity</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 30 2012, @11:17AM</td>
+			<td><a href="//slashdot.org/submission/2046729/star-wars-exhibition-explores-human-identity" rel="nofollow">Star Wars Exhibition Explores Human Identity</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday March 11 2012, @12:27AM</td>
+			<td><a href="//news.slashdot.org/story/12/03/11/0527239/profile-of-a-real-life-jedi-academy" rel="nofollow">Profile of a Real-Life Jedi Academy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 09 2012, @09:25PM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/03/09/193244/topher-grace-screens-star-wars-prequel-re-edit" rel="nofollow">Topher Grace Screens Star Wars Prequel Re-edit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday March 09 2012, @11:34AM</td>
+			<td><a href="//slashdot.org/submission/1973491/topher-grace-screens-star-wars-prequel-re-edit" rel="nofollow">Topher Grace Screens Star Wars Prequel Re-edit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday March 05 2012, @11:30AM</td>
+			<td><a href="//entertainment.slashdot.org/story/12/03/04/1726255/star-wars-conceptual-artist-ralph-mcquarrie-dies-at-82" rel="nofollow">Star Wars Conceptual Artist Ralph McQuarrie Dies at 82</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday February 12 2012, @09:52PM</td>
+			<td><a href="//yro.slashdot.org/story/12/02/08/232258/jedi-masters-hand-made-lightsaber-stolen" rel="nofollow">Jedi Master's Hand-Made Lightsaber Stolen</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday February 02 2012, @02:17PM</td>
+			<td><a href="//slashdot.org/submission/1929227/star-wars-old-republic-doing-better-than-wow" rel="nofollow">Star Wars Old Republic Doing Better than WoW</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 03 2012, @09:43AM</td>
+			<td><a href="//news.slashdot.org/story/12/01/03/1332216/bob-anderson-the-man-behind-vaders-lightsaber-dies-at-89" rel="nofollow">Bob Anderson, the Man Behind Vader's Lightsaber, Dies at 89</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 16 2011, @06:09PM</td>
+			<td><a href="//idle.slashdot.org/story/11/12/16/0344218/czech-nationwide-census-shows-jump-in-jedi-knights" rel="nofollow">Czech Nationwide Census Shows Jump In Jedi Knights</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 09 2011, @07:36PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/12/07/2136230/original-star-wars-camera-sells-for-625000" rel="nofollow">Original Star Wars Camera Sells For $625,000</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 02 2011, @05:06AM</td>
+			<td><a href="//slashdot.org/submission/1868274/shatner-responds-to-fisher-on-star-trek-vs-star-wa" rel="nofollow">Shatner responds to Fisher on Star Trek vs Star Wa</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 20 2011, @12:19PM</td>
+			<td><a href="//slashdot.org/submission/1855356/princess-leia-strikes-back---at-captain-kirk" rel="nofollow">Princess Leia Strikes Back - at Captain Kirk</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday November 15 2011, @10:07AM</td>
+			<td><a href="//slashdot.org/submission/1849750/carbon-fiber-stormtroopers" rel="nofollow">Carbon fiber Stormtroopers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 05 2011, @08:13AM</td>
+			<td><a href="//games.slashdot.org/story/11/10/05/1313247/ask-slashdot-what-to-do-in-swtor-for-just-3-days" rel="nofollow">Ask Slashdot: What To Do In SW:TOR For Just 3 Days?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 28 2011, @08:49AM</td>
+			<td><a href="//idle.slashdot.org/story/11/09/28/1139219/tokyo-subway-gets-lightsaber-handrails" rel="nofollow">Tokyo Subway Gets Lightsaber Handrails</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 27 2011, @12:03PM</td>
+			<td><a href="//slashdot.org/submission/1800838/hate-the-new-star-wars-movies-love-the-subway" rel="nofollow">Hate the new Star Wars movies?  Love the Subway!</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 19 2011, @07:05AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/09/19/125202/william-shatner-on-star-trek-vs-star-wars" rel="nofollow">William Shatner On Star Trek Vs. Star Wars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 18 2011, @02:48PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/09/18/1948210/why-star-wars-should-be-left-o-the-fans" rel="nofollow">Why Star Wars Should be Left o the Fans</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 04 2011, @10:11AM</td>
+			<td><a href="//idle.slashdot.org/story/11/09/04/1511229/lucasfilm-unveils-sandcrawler-singapore-office" rel="nofollow">Lucasfilm Unveils "Sandcrawler" Singapore Office</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 26 2011, @11:28AM</td>
+			<td><a href="//idle.slashdot.org/story/11/08/26/1628223/galactic-empire-defeated-and-now-washing-cars" rel="nofollow">Galactic Empire Defeated and Now Washing Cars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 25 2011, @12:06PM</td>
+			<td><a href="//slashdot.org/submission/1768366/galactic-empire-defeated-and-now-washing-cars" rel="nofollow">Galactic Empire defeated and now washing cars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 15 2011, @09:46AM</td>
+			<td><a href="//idle.slashdot.org/story/11/08/15/1446217/star-wars-coins-issued-by-pacific-island-nation" rel="nofollow">Star Wars Coins Issued By Pacific Island Nation</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 03 2011, @11:22AM</td>
+			<td><a href="//slashdot.org/submission/1745780/make-it-happen-boba-fett-carbonite-crunch-ice-cre" rel="nofollow">Make It Happen: Boba Fett Carbonite Crunch Ice Cre</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday July 28 2011, @05:23AM</td>
+			<td><a href="//slashdot.org/submission/1739544/andrew-ainsworth-1-lucasarts-0" rel="nofollow">Andrew Ainsworth 1; Lucasarts 0</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday July 27 2011, @08:22AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/07/27/1322257/lucas-loses-star-wars-stormtrooper-copyright-case" rel="nofollow">Lucas Loses Star Wars Stormtrooper Copyright Case</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 18 2011, @08:39AM</td>
+			<td><a href="//idle.slashdot.org/story/11/07/18/1339235/stanford-students-build-jedibot" rel="nofollow">Stanford Students Build "JediBot"</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday July 06 2011, @10:46AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/07/06/1546213/star-wars-landspeeders-are-here" rel="nofollow">Star Wars Landspeeders Are Here</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday July 06 2011, @09:23AM</td>
+			<td><a href="//slashdot.org/submission/1701208/star-wars-landspeeders-are-here" rel="nofollow">Star Wars Landspeeders Are Here</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 27 2011, @11:23PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/06/28/0423236/star-wars-books-released-as-ebooks" rel="nofollow">Star Wars Books Released As Ebooks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 10 2011, @10:22AM</td>
+			<td><a href="//idle.slashdot.org/story/11/06/10/1522222/the-science-of-lightsabers" rel="nofollow">The Science of Lightsabers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 10 2011, @01:49AM</td>
+			<td><a href="//slashdot.org/submission/1640950/the-science-of-lightsabers-solved" rel="nofollow">The Science of Lightsabers, Solved</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 02 2011, @02:09PM</td>
+			<td><a href="//tech.slashdot.org/story/11/06/02/199253/lack-of-technology-puts-star-wars-series-on-hold" rel="nofollow">Lack of Technology Puts Star Wars Series On Hold</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 02 2011, @12:44AM</td>
+			<td><a href="//slashdot.org/submission/1623844/lack-of-technology-puts-star-wars-series-on-hold" rel="nofollow">Lack Of Technology Puts Star Wars Series On Hold</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 26 2011, @01:32PM</td>
+			<td><a href="//idle.slashdot.org/story/11/05/25/1430218/lego-fan-creates-250000-brick-garrison-of-moriah" rel="nofollow">Lego Fan Creates 250,000-brick Garrison of Moriah</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 19 2011, @01:54AM</td>
+			<td><a href="//slashdot.org/submission/1594786/obi-wan-kenobi-is-dead" rel="nofollow">Obi-Wan Kenobi is dead</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 05 2011, @06:01PM</td>
+			<td><a href="//slashdot.org/submission/1562834/star-wars-mmo-eas-big-bet-to-cost-100m" rel="nofollow">Star Wars MMO: EA's Big Bet to Cost $100M</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday March 15 2011, @01:17PM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/03/15/1727219/jeff-rob-visit-lucasfilm" rel="nofollow">Jeff &amp; Rob Visit Lucasfilm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday March 05 2011, @08:34AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/03/04/2030205/episode-i-3d-release-date-announced" rel="nofollow">Episode I 3D Release Date Announced</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday January 31 2011, @12:20PM</td>
+			<td><a href="//hardware.slashdot.org/story/11/01/29/2222246/a-kinect-princess-leia-hologram-in-realtime" rel="nofollow">A Kinect Princess Leia Hologram In Realtime</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday January 29 2011, @07:49AM</td>
+			<td><a href="//slashdot.org/submission/1457720/a-kinect-princess-leia-hologram-in-realtime" rel="nofollow">A Kinect Princess Leia hologram in realtime </a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday January 15 2011, @08:23PM</td>
+			<td><a href="//slashdot.org/submission/1445346/watch-a-deleted-love-scene-from-the-empire-strikes" rel="nofollow">Watch a Deleted Love Scene from the Empire Strikes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday January 07 2011, @10:40AM</td>
+			<td><a href="//entertainment.slashdot.org/story/11/01/07/1457234/star-wars-coming-to-blu-ray-in-september" rel="nofollow">Star Wars Coming To Blu-ray In September</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 30 2010, @11:54PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/12/29/135218/the-empire-strikes-back-added-to-national-film-registry" rel="nofollow">The Empire Strikes Back Added To National Film Registry</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 15 2010, @01:07AM</td>
+			<td><a href="//slashdot.org/submission/1418644/how-the-sounds-of-star-wars-were-made" rel="nofollow">How the sounds of Star Wars were made</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 29 2010, @11:20AM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/11/29/1620217/empire-strikes-back-director-irvin-kershner-dies-at-87" rel="nofollow">Empire Strikes Back Director Irvin Kershner Dies at 87</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 21 2010, @09:14AM</td>
+			<td><a href="//politics.slashdot.org/story/10/11/21/0213210/russia-to-help-nato-build-anti-missile-network" rel="nofollow">Russia To Help NATO Build Anti-Missile Network</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 27 2010, @11:57AM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/10/27/1657237/the-empire-strikes-back-vader-costume-for-sale" rel="nofollow">The Empire Strikes Back Vader Costume For Sale</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 13 2010, @07:17PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/10/13/2239242/judge-has-courtroom-quote-the-legal-scholar-yoda" rel="nofollow">Judge Has Courtroom Quote the Legal Scholar Yoda</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 07 2010, @02:30PM</td>
+			<td><a href="//slashdot.org/submission/1351524/star-wars-trilogy-as-a-paper-animation" rel="nofollow">Star Wars trilogy as a paper animation</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 28 2010, @11:34PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/09/29/0434232/star-wars-films-in-3d-due-in-2012" rel="nofollow">Star Wars Films In 3D Due In 2012</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday September 28 2010, @10:29PM</td>
+			<td><a href="//slashdot.org/submission/1344786/lucas-to-re-re-release-star-wars-in-3d" rel="nofollow">Lucas to Re-re-release Star Wars in 3D</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 03 2010, @11:35AM</td>
+			<td><a href="//idle.slashdot.org/story/10/09/03/1635201/winnie-the-pooh-parodied-in-wookie-the-chew" rel="nofollow">Winnie-the-Pooh Parodied In Wookie-the-Chew</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 30 2010, @11:53AM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/08/30/1630249/how-to-make-authentic-lightsabers" rel="nofollow">How To Make Authentic Lightsabers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday August 26 2010, @10:26PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/08/26/165232/how-star-wars-trumped-star-trek-for-scientific-accuracy" rel="nofollow">How Star Wars Trumped Star Trek For Scientific Accuracy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday August 24 2010, @11:36PM</td>
+			<td><a href="//yro.slashdot.org/story/10/08/25/0436219/lucasfilm-sues-jedi-mind-over-jedi" rel="nofollow">LucasFilm Sues Jedi Mind Over 'Jedi'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 24 2010, @04:09PM</td>
+			<td><a href="//idle.slashdot.org/story/10/08/24/141203/victorian-star-wars-paintings-nsfw" rel="nofollow">Victorian Star Wars Paintings *NSFW*</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday August 20 2010, @06:10PM</td>
+			<td><a href="//idle.slashdot.org/story/10/08/20/1631234/star-wars-fans-look-for-love-in-alderaan-places" rel="nofollow">Star Wars Fans Look For Love In Alderaan Places</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday August 16 2010, @11:25AM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/08/16/1541253/lost-star-wars-scene-in-the-wild" rel="nofollow">Lost Star Wars Scene In the Wild</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday August 16 2010, @10:39AM</td>
+			<td><a href="//slashdot.org/submission/1309228/lost-star-wars-scene-in-the-wild" rel="nofollow">Lost Star Wars Scene in the Wild</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday August 14 2010, @06:10PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/08/14/2310203/lucas-promises-star-wars-on-blu-ray-in-2011" rel="nofollow">Lucas Promises Star Wars on Blu-Ray in 2011</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 01 2010, @11:11PM</td>
+			<td><a href="//slashdot.org/submission/1297124/twitter-reveals-secret-imperial-documents" rel="nofollow">Twitter reveals secret Imperial documents</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday July 23 2010, @05:26PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/07/23/1310207/darth-vader-robs-long-island-bank" rel="nofollow">Darth Vader Robs Long Island Bank</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday July 07 2010, @08:41AM</td>
+			<td><a href="//yro.slashdot.org/story/10/07/07/1341219/george-lucas-cds-lightsaber-laser" rel="nofollow">George Lucas C&amp;Ds 'Lightsaber Laser'</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday June 24 2010, @10:19AM</td>
+			<td><a href="//tech.slashdot.org/story/10/06/24/145249/one-step-closer-to-star-wars-holograms" rel="nofollow">One Step Closer to Star Wars Holograms</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday June 23 2010, @11:19AM</td>
+			<td><a href="//idle.slashdot.org/story/10/06/23/1521259/make-a-wish-builds-a-millennium-falcon-fort-for-boy" rel="nofollow">Make-A-Wish Builds A Millennium Falcon Fort For Boy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday June 15 2010, @04:04PM</td>
+			<td><a href="//idle.slashdot.org/story/10/06/15/1141247/guggenheim-to-showcase-youtube-videos" rel="nofollow">Guggenheim To Showcase YouTube Videos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday June 10 2010, @12:07PM</td>
+			<td><a href="//idle.slashdot.org/story/10/06/10/1349245/1950s-empire-strikes-back" rel="nofollow">1950s Empire Strikes Back</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday June 09 2010, @12:12PM</td>
+			<td><a href="//idle.slashdot.org/story/10/06/09/1224200/the-star-wars-kid-is-back" rel="nofollow">The Star Wars Kid Is Back</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 06 2010, @08:18AM</td>
+			<td><a href="//slashdot.org/submission/1231534/youtube---darth-vaders-recording-for-tomtom-gps--" rel="nofollow">YouTube - Darth Vader's recording for TomTom GPS -</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 14 2010, @10:35AM</td>
+			<td><a href="//slashdot.org/submission/1215794/5-minutes-of-star-wars-uncut-video" rel="nofollow">5 Minutes of Star Wars Uncut [VIDEO]</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday April 07 2010, @12:44PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/04/06/1718250/star-wars-to-air-as-animated-sitcom" rel="nofollow">Star Wars To Air As Animated Sitcom</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 06 2010, @11:08AM</td>
+			<td><a href="//slashdot.org/submission/1210088/star-wars-to-air-as-animated-sitcom" rel="nofollow">Star Wars to air as animated sitcom</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday April 02 2010, @07:59AM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/04/02/1246206/365-days-of-photojournalism-with-stormtroopers" rel="nofollow">365 Days of Photojournalism With Stormtroopers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday April 01 2010, @06:49PM</td>
+			<td><a href="//slashdot.org/submission/1206634/365-days-of-photojournalism-with-stormtroopers" rel="nofollow">365 days of photojournalism with Stormtroopers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday March 16 2010, @08:28PM</td>
+			<td><a href="//news.slashdot.org/story/10/03/16/1613219/jobcentre-apologizes-for-anti-jedi-discrimination" rel="nofollow">Jobcentre Apologizes For Anti-Jedi Discrimination</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday March 10 2010, @04:15PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/03/10/1923209/the-lost-film-that-accompanied-empire-strikes-back" rel="nofollow">The Lost Film That Accompanied Empire Strikes Back</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 23 2010, @01:06PM</td>
+			<td><a href="//idle.slashdot.org/story/10/02/23/1747221/the-worlds-largest-lightsaber-fight" rel="nofollow">The World's Largest Lightsaber Fight</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday February 19 2010, @08:50AM</td>
+			<td><a href="//slashdot.org/submission/1176308/imperial-walkers-on-the-horizon" rel="nofollow">Imperial Walkers On The Horizon?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday February 12 2010, @06:26PM</td>
+			<td><a href="//tech.slashdot.org/story/10/02/12/1350222/directed-energy-weapon-downs-ballistic-missile" rel="nofollow">Directed Energy Weapon Downs Ballistic Missile</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 11 2010, @01:48PM</td>
+			<td><a href="//entertainment.slashdot.org/story/10/02/11/1257246/star-wars-tv-show-tainted-by-memories-of-jar-jar" rel="nofollow">Star Wars TV Show Tainted By Memories of Jar Jar</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 09 2010, @08:34AM</td>
+			<td><a href="//idle.slashdot.org/story/10/02/09/1334224/jedi-group-seeking-new-leader" rel="nofollow">Jedi Group Seeking New Leader</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday February 09 2010, @08:01AM</td>
+			<td><a href="//slashdot.org/submission/1169084/jedi-group-seeking-new-leader" rel="nofollow">Jedi group seeking new leader</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday December 21 2009, @11:37AM</td>
+			<td><a href="//slashdot.org/story/09/12/21/1637235/the-definitive-evisceration-of-the-phantom-menace-nsfw" rel="nofollow">The Definitive Evisceration of The Phantom Menace *NSFW*</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday December 21 2009, @11:16AM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/12/21/1558251/the-definitive-evisceration-of-the-phantom-menace-nsfw" rel="nofollow">The Definitive Evisceration of The Phantom Menace *NSFW*</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 20 2009, @04:07PM</td>
+			<td><a href="//slashdot.org/submission/1137450/the-definitive-evisceration-of-the-phantom-menace" rel="nofollow">The definitive evisceration of The Phantom Menace.</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 17 2009, @06:19AM</td>
+			<td><a href="//slashdot.org/submission/1135770/phd-speaks-out-on-physics-of-space-battles" rel="nofollow">PhD Speaks out on Physics of Space Battles</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday December 11 2009, @06:13PM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/12/10/1333202/the-star-wars-christmas-special-still-exists" rel="nofollow">The Star Wars Christmas Special Still Exists</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday December 10 2009, @07:02AM</td>
+			<td><a href="//slashdot.org/submission/1131524/the-star-wars-christmas-special-still-exists" rel="nofollow">The Star Wars Christmas Special Still Exists...</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 19 2009, @01:07PM</td>
+			<td><a href="//tech.slashdot.org/story/09/11/19/1655245/laser-weapon-shoots-down-airplanes-in-test" rel="nofollow">Laser Weapon Shoots Down Airplanes In Test</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 18 2009, @01:05PM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/11/18/1624214/1977-star-wars-computer-graphics" rel="nofollow">1977 Star Wars Computer Graphics</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 06 2009, @11:47AM</td>
+			<td><a href="//entertainment.slashdot.org/story/09/10/06/1647234/fans-come-together-to-complete-star-wars-uncut" rel="nofollow">Fans Come Together To Complete Star Wars Uncut</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday October 06 2009, @11:32AM</td>
+			<td><a href="//slashdot.org/submission/1086983/fans-come-together-to-complete-star-wars-uncut" rel="nofollow">Fans Come Together to Complete Star Wars Uncut</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday August 20 2009, @10:03AM</td>
+			<td><a href="//news.slashdot.org/story/09/08/20/153223/poor-design-choices-in-the-star-wars-universe" rel="nofollow">Poor Design Choices In the Star Wars Universe</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday August 15 2009, @01:15PM</td>
+			<td><a href="//tech.slashdot.org/story/09/08/15/1410232/airborne-laser-successfully-tracks-hits-missile" rel="nofollow">Airborne Laser Successfully Tracks, Hits Missile</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday March 10 2009, @11:25AM</td>
+			<td><a href="//science.slashdot.org/story/09/03/10/1454259/chinas-new-military-space-stations-coming-soon" rel="nofollow">China's New Military Space Stations Coming Soon</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 12 2009, @10:50AM</td>
+			<td><a href="//science.slashdot.org/story/09/02/11/2318226/satellites-collide-in-orbit" rel="nofollow">Satellites Collide In Orbit</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday January 15 2009, @09:23PM</td>
+			<td><a href="//science.slashdot.org/story/09/01/15/0153225/earths-radio-telescopes-combining-forces" rel="nofollow">Earth's Radio Telescopes Combining Forces</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday January 05 2009, @09:46AM</td>
+			<td><a href="//science.slashdot.org/story/09/01/04/1241205/obama-moves-to-link-pentagon-with-nasa" rel="nofollow">Obama Moves To Link Pentagon With NASA</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday November 23 2008, @02:30PM</td>
+			<td><a href="//news.slashdot.org/story/08/11/23/1851200/machine-condenses-drinking-water-out-of-thin-air" rel="nofollow">Machine Condenses Drinking Water Out of Thin Air</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 18 2008, @05:38AM</td>
+			<td><a href="//news.slashdot.org/story/08/11/17/1442223/the-science-of-the-lightsaber" rel="nofollow">The Science of the Lightsaber</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 28 2008, @11:38PM</td>
+			<td><a href="//news.slashdot.org/story/08/10/21/238250/lucasarts-bioware-announce-star-wars-mmo" rel="nofollow">LucasArts, Bioware Announce Star Wars MMO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 25 2008, @08:53AM</td>
+			<td><a href="//science.slashdot.org/story/08/10/24/2030246/29m-to-start-us-satellite-protection-program" rel="nofollow">$29M To Start US Satellite Protection Program</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 24 2008, @11:12PM</td>
+			<td><a href="//games.slashdot.org/story/08/10/25/0019212/further-details-on-the-star-wars-mmo" rel="nofollow">Further Details On the Star Wars MMO</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday September 22 2008, @01:36PM</td>
+			<td><a href="//news.slashdot.org/story/08/09/22/1632224/us-congress-funds-laser-weapons" rel="nofollow">US Congress Funds Laser Weapons</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 11 2008, @11:48AM</td>
+			<td><a href="//idle.slashdot.org/story/08/09/11/1648230/jedi-knights-course-offered-by-queens-university-belfast" rel="nofollow">Jedi Knights Course Offered By Queen's University Belfast</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday August 13 2008, @07:59AM</td>
+			<td><a href="//news.slashdot.org/story/08/08/13/1222225/lucasarts-embargoes-clone-wars-reviews" rel="nofollow">LucasArts Embargoes "Clone Wars" Reviews</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday June 16 2008, @04:16PM</td>
+			<td><a href="//entertainment.slashdot.org/story/08/06/16/2116228/r2-d2-monitors-your-web-servers" rel="nofollow">R2-D2 Monitors Your Web Servers</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 21 2008, @05:50PM</td>
+			<td><a href="//news.slashdot.org/story/08/05/21/2250231/the-secret-history-of-star-wars" rel="nofollow">The Secret History of Star Wars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 08 2008, @10:20PM</td>
+			<td><a href="//hardware.slashdot.org/story/08/05/08/198236/r2d2-shaped-dvd-and-videogame-projector" rel="nofollow">R2D2-Shaped DVD and Videogame Projector</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday April 09 2008, @06:50AM</td>
+			<td><a href="//hardware.slashdot.org/story/08/04/09/0119212/the-texas-petawatt-laser" rel="nofollow">The Texas Petawatt Laser</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 07 2008, @11:15PM</td>
+			<td><a href="//yro.slashdot.org/story/08/04/08/005248/imperial-storm-troopers-skirmish-in-latest-ip-battle" rel="nofollow">Imperial Storm Troopers Skirmish in Latest IP Battle</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 14 2008, @12:43PM</td>
+			<td><a href="//entertainment.slashdot.org/story/08/02/14/1540208/animated-film-set-to-kick-off-star-wars-tv-show" rel="nofollow">Animated Film Set To Kick Off Star Wars TV Show</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 12 2008, @03:05PM</td>
+			<td><a href="//tech.slashdot.org/story/08/02/12/1751250/us-military-seeks-hypersonic-weaponry" rel="nofollow">US Military Seeks Hypersonic Weaponry</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday December 29 2007, @01:32AM</td>
+			<td><a href="//science.slashdot.org/story/07/12/21/0356221/chance-for-a-tunguska-sized-impact-on-mars" rel="nofollow">Chance for a Tunguska Sized Impact on Mars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 27 2007, @11:34AM</td>
+			<td><a href="//science.slashdot.org/story/07/12/27/137211/black-hole-fires-at-neighboring-galaxy" rel="nofollow">Black Hole Fires at Neighboring Galaxy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday December 14 2007, @08:29AM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/12/14/1329203/30-years-of-lucasfilm-staff-christmas-cards" rel="nofollow">30 Years of LucasFilm Staff Christmas Cards</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday December 13 2007, @03:47AM</td>
+			<td><a href="//tech.slashdot.org/story/07/12/13/0315230/boeing-12000lb-chemical-laser-set-to-fry-targets" rel="nofollow">Boeing 12,000lb Chemical Laser Set to Fry Targets</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 05 2007, @06:51PM</td>
+			<td><a href="//it.slashdot.org/story/07/12/05/2051230/what-if-yoda-ran-ibm" rel="nofollow">What If Yoda Ran IBM?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday November 24 2007, @11:26PM</td>
+			<td><a href="//news.slashdot.org/story/07/11/23/1729251/when-did-star-wars-jump-the-shark" rel="nofollow">When Did Star Wars Jump the Shark?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday October 31 2007, @05:20AM</td>
+			<td><a href="//games.slashdot.org/story/07/10/30/1734213/lucasarts-bioware-announce-partnership" rel="nofollow">LucasArts, BioWare Announce Partnership</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday October 21 2007, @07:45PM</td>
+			<td><a href="//news.slashdot.org/story/07/10/19/146200/star-wars-television-series-moving-forward" rel="nofollow">Star Wars Television Series Moving Forward</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday October 08 2007, @06:40AM</td>
+			<td><a href="//news.slashdot.org/story/07/10/07/159251/x-wing-rocket-launches-disintegrates" rel="nofollow">X-Wing Rocket Launches, Disintegrates</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday October 03 2007, @09:18PM</td>
+			<td><a href="//science.slashdot.org/story/07/10/03/1544246/rocket-powered-21-foot-long-x-wing-actually-flies" rel="nofollow">Rocket-Powered 21-Foot Long X-Wing Actually Flies</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday September 23 2007, @05:09AM</td>
+			<td><a href="//news.slashdot.org/story/07/09/19/1520211/the-wiimote-as-yoda-intended---a-lightsaber" rel="nofollow">The Wiimote As Yoda Intended - A Lightsaber</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday August 29 2007, @08:22PM</td>
+			<td><a href="//science.slashdot.org/story/07/08/28/0335241/nasa-to-send-lukes-lightsaber-into-space" rel="nofollow">NASA To Send Luke's Lightsaber Into Space</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday August 21 2007, @08:12AM</td>
+			<td><a href="//slashdot.org/story/07/08/20/1556247/star-wars-fan-puts-himself-in-carbonite" rel="nofollow">Star Wars Fan Puts Himself in Carbonite</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 13 2007, @02:49AM</td>
+			<td><a href="//games.slashdot.org/story/07/07/12/1957216/e3-previews-lego-star-wars-complete-saga-and-littlebigplanet" rel="nofollow">E3 Previews &mdash; Lego Star Wars Complete Saga and LittleBigPlanet</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 11 2007, @08:54PM</td>
+			<td><a href="//news.slashdot.org/story/07/06/12/0154216/star-wars-roleplaying-game-saga-edition" rel="nofollow">Star Wars Roleplaying Game &mdash; Saga Edition</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday June 09 2007, @11:24PM</td>
+			<td><a href="//news.slashdot.org/story/07/06/10/0424214/star-wars-takes-over-harvard-commencement" rel="nofollow">Star Wars Takes Over Harvard Commencement</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday May 27 2007, @03:40PM</td>
+			<td><a href="//news.slashdot.org/story/07/05/27/2040256/cg-television-clone-wars-trailer-released" rel="nofollow">CG Television Clone Wars Trailer Released</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday May 25 2007, @10:41AM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/05/25/1541235/star-wars-is-30-years-old" rel="nofollow">Star Wars is 30 Years Old</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 10 2007, @02:15AM</td>
+			<td><a href="//news.slashdot.org/story/07/05/09/2227200/lucas-to-make-new-live-action-star-wars-films" rel="nofollow">Lucas To Make New Live Action Star Wars Films</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday April 28 2007, @01:00AM</td>
+			<td><a href="//science.slashdot.org/story/07/04/27/2144212/darpa-developing-defensive-plasma-shield" rel="nofollow">DARPA Developing Defensive Plasma Shield</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday April 23 2007, @09:40AM</td>
+			<td><a href="//news.slashdot.org/story/07/04/23/1440223/star-wars-the-lost-interviews" rel="nofollow">Star Wars, the Lost Interviews</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday April 03 2007, @07:16PM</td>
+			<td><a href="//news.slashdot.org/story/07/04/03/0137240/serenity-trounces-star-wars" rel="nofollow">Serenity Trounces Star Wars</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 29 2007, @05:31PM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/03/29/2231236/usps-announces-star-wars-stamp-set" rel="nofollow">USPS Announces Star Wars Stamp Set</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday March 23 2007, @03:02PM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/03/23/1544256/the-sci-fi-movie-stigma" rel="nofollow">The Sci-Fi Movie Stigma</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday March 15 2007, @09:57AM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/03/15/0353236/star-wars-fan-movie-challenge-2007" rel="nofollow">Star Wars Fan Movie Challenge 2007</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday March 11 2007, @08:07PM</td>
+			<td><a href="//slashdot.org/submission/625934/usps-introduces-r2-d2-mailboxes" rel="nofollow">USPS introduces R2-D2 mailboxes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday March 07 2007, @09:11PM</td>
+			<td><a href="//news.slashdot.org/story/07/03/07/1332232/100k-for-kenobis-cloak" rel="nofollow">$100k For Kenobi's Cloak</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 13 2007, @09:17AM</td>
+			<td><a href="//news.slashdot.org/story/07/02/13/1417209/star-wars---the-force-unleashed" rel="nofollow">Star Wars - The Force Unleashed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday January 29 2007, @06:41PM</td>
+			<td><a href="//tech.slashdot.org/story/07/01/29/2042242/us-missle-interceptor-tests-a-success" rel="nofollow">US Missle Interceptor Tests a Success</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday January 18 2007, @10:41AM</td>
+			<td><a href="//tech.slashdot.org/story/07/01/18/0235229/china-tests-anti-satellite-laser-weapon" rel="nofollow">China Tests Anti-Satellite Laser Weapon</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday January 12 2007, @07:12AM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/01/12/015256/harrison-ford-turned-down-han-solo-role" rel="nofollow">Harrison Ford Turned Down Han Solo Role</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday November 16 2006, @04:43AM</td>
+			<td><a href="//entertainment.slashdot.org/story/06/11/15/2150222/star-wars-virgin-takes-the-plunge" rel="nofollow">Star Wars Virgin Takes the Plunge</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 15 2006, @10:55PM</td>
+			<td><a href="//slashdot.org/story/06/11/15/1845209/big-freakin-laser-beams-in-space" rel="nofollow">Big Freakin' Laser Beams In Space</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 06 2006, @09:46AM</td>
+			<td><a href="//slashdot.org/story/06/11/06/0416255/a-sunshade-in-space-to-combat-global-warming" rel="nofollow">A Sunshade In Space To Combat Global Warming</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday November 01 2006, @12:44AM</td>
+			<td><a href="//slashdot.org/story/06/10/31/2211246/lego-christmas-production-shortage" rel="nofollow">Lego Christmas Production Shortage</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday October 20 2006, @04:46AM</td>
+			<td><a href="//slashdot.org/story/06/10/19/1844229/us-announces-new-space-security-policy" rel="nofollow">U.S. Announces New Space Security Policy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday October 07 2006, @09:58PM</td>
+			<td><a href="//slashdot.org/story/06/10/06/212252/creating-water-from-thin-air" rel="nofollow">Creating Water from Thin Air</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday October 05 2006, @12:01PM</td>
+			<td><a href="//slashdot.org/story/06/10/05/1548207/george-lucas-to-quit-movie-business" rel="nofollow">George Lucas To Quit Movie Business</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday September 23 2006, @12:13PM</td>
+			<td><a href="//slashdot.org/story/06/09/21/2013227/lego-star-wars-ii-sells-11-million" rel="nofollow">Lego Star Wars II Sells 1.1 Million</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Wednesday September 13 2006, @03:07PM</td>
+			<td><a href="//slashdot.org/story/06/09/13/1213200/original-star-wars-on-dvd-sorta" rel="nofollow">Original Star Wars on DVD... Sorta</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 31 2006, @11:52PM</td>
+			<td><a href="//slashdot.org/story/06/07/31/1553211/fan-created-star-wars-spinoff-in-the-works" rel="nofollow">Fan-created Star Wars Spinoff in The Works</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday July 13 2006, @06:23AM</td>
+			<td><a href="//slashdot.org/story/06/07/13/0038259/northrop-to-sell-laser-shield-bubble-for-airports" rel="nofollow">Northrop to Sell Laser Shield Bubble for Airports</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday June 26 2006, @11:43PM</td>
+			<td><a href="//slashdot.org/story/06/06/26/1850213/star-wars-galaxies-emulator-test-server-hits-alpha" rel="nofollow">Star Wars Galaxies Emulator Test Server Hits Alpha</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 04 2006, @10:49PM</td>
+			<td><a href="//slashdot.org/story/06/05/04/0329239/classic-star-wars-trilogy-finally-on-dvd" rel="nofollow">Classic Star Wars Trilogy Finally on DVD</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday May 04 2006, @12:33PM</td>
+			<td><a href="//slashdot.org/story/06/05/04/1227216/us-considers-anti-satellite-laser" rel="nofollow">U.S. Considers Anti-Satellite Laser</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 17 2006, @03:44PM</td>
+			<td><a href="//slashdot.org/story/06/04/17/150259/lucasarts-aims-for-1" rel="nofollow">LucasArts Aims for #1</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday April 07 2006, @11:55AM</td>
+			<td><a href="//slashdot.org/story/06/04/07/1523237/star-wars-kid-cuts-a-deal-with-his-tormentors" rel="nofollow">Star Wars Kid Cuts a Deal With His Tormentors</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Saturday April 01 2006, @03:22PM</td>
+			<td><a href="//slashdot.org/story/06/03/31/188233/how-hot-would-a-light-saber-really-be" rel="nofollow">How Hot Would a Light Saber Really Be?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Saturday April 01 2006, @05:34AM</td>
+			<td><a href="//slashdot.org/story/06/04/01/065202/new-plans-from-lucasfilm" rel="nofollow">New Plans From Lucasfilm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday March 28 2006, @04:15AM</td>
+			<td><a href="//slashdot.org/story/06/03/28/014249/the-new-force-at-lucasfilm" rel="nofollow">The New Force at Lucasfilm</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday March 21 2006, @07:08PM</td>
+			<td><a href="//slashdot.org/story/06/03/21/163235/new-star-wars-tv-series-confirmed" rel="nofollow">New Star Wars TV Series Confirmed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday March 06 2006, @01:58PM</td>
+			<td><a href="//slashdot.org/story/06/03/06/183232/future-plans-for-swg" rel="nofollow">Future Plans for SWG?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday March 06 2006, @10:15AM</td>
+			<td><a href="//slashdot.org/story/06/03/06/1420251/george-lucas-predicts-death-of-big-budget-movies" rel="nofollow">George Lucas Predicts Death of Big Budget Movies</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Go Playground</title>
+		<link rel="stylesheet" href="/static/style.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/static/jquery-linedtextarea.js"></script>
+		<script src="/static/playground.js"></script>
+		<script>
+		$(document).ready(function() {
+			playground({
+				'codeEl':     '#code',
+				'outputEl':   '#output',
+				'runEl':      '#run',
+				'fmtEl':      '#fmt',
+				'shareEl':    '#share',
+				'shareURLEl': '#shareURL',
+				'enableHistory': true
+			});
+			$('#code').linedtextarea();
+			var about = $('#about');
+			about.click(function(e) {
+				if ($(e.target).is('a')) {
+					return;
+				}
+				about.hide();
+			});
+			$('#aboutButton').click(function() {
+				if (about.is(':visible')) {
+					about.hide();
+					return;
+				}
+				about.show();
+			})
+		});
+		</script>
+	</head>
+	<body itemscope itemtype="http://schema.org/CreativeWork">
+		<div id="banner">
+			<div id="head" itemprop="name">Go Playground</div>
+			<div id="controls">
+				<input type="button" value="Run" id="run">
+				<input type="button" value="Format" id="fmt">
+				<input type="button" value="Share" id="share">
+				<input type="text" id="shareURL">
+			</div>
+			<div id="aboutControls">
+				<input type="button" value="About" id="aboutButton">
+			</div>
+		</div>
+		<div id="wrap">
+			<textarea itemprop="description" id="code" name="code" autocorrect="off" autocomplete="off" autocapitalize="off" spellcheck="false">package main
+
+import (
+	&#34;fmt&#34;
+	&#34;math/rand&#34;
+	&#34;time&#34;
+)
+
+const (
+	width    = 76
+	height   = 10
+	numBalls = 10
+)
+
+type screen [height][width]byte
+
+func (s *screen) print() {
+	fmt.Print(&#34;\x0c&#34;)
+	for _, row := range *s {
+		for i, b := range row {
+			if b == 0 {
+				row[i] = &#39; &#39;
+			}
+		}
+		fmt.Println(string(row[:]))
+	}
+}
+
+func (s *screen) paint(x, y int, b byte) {
+	s[y][x] = b
+}
+
+type ball struct {
+	x, y   int
+	xd, yd int
+}
+
+func newBall() *ball {
+	return &amp;ball{
+		x:  rand.Intn(width),
+		y:  rand.Intn(height),
+		xd: (rand.Intn(2) * 2) - 1,
+		yd: (rand.Intn(2) * 2) - 1,
+	}
+}
+
+func (b *ball) move() {
+	moveBounce(&amp;b.x, &amp;b.xd, width)
+	moveBounce(&amp;b.y, &amp;b.yd, height)
+}
+
+func moveBounce(v, d *int, max int) {
+	*v += *d
+	if *v &lt; 0 {
+		*v = -*v
+		*d = -*d
+	} else if *v &gt;= max {
+		*v = max - 2 - (*v - max)
+		*d = -*d
+	}
+}
+
+func main() {
+	balls := []*ball{}
+	for i := 0; i &lt; numBalls; i++ {
+		balls = append(balls, newBall())
+	}
+	for i := 200; i &gt;= 0; i-- {
+		var s screen
+		for _, b := range balls {
+			b.move()
+			s.paint(b.x, b.y, &#39;*&#39;)
+		}
+		s.print()
+		time.Sleep(time.Second / 20)
+	}
+}
+</textarea>
+		</div>
+		<div id="output"></div>
+		<img itemprop="image" src="http://golang.org/doc/gopher/project.png" style="display:none">
+		<div id="about">
+<p><b>About the Playground</b></p>
+
+<p>
+The Go Playground is a web service that runs on
+<a href="http://golang.org/">golang.org</a>'s servers.
+The service receives a Go program, compiles, links, and
+runs the program inside a sandbox, then returns the output.
+</p>
+
+<p>
+There are limitations to the programs that can be run in the playground:
+</p>
+
+<ul>
+
+<li>
+The playground can use most of the standard library, with some
+exceptions; notably absent are network and file system access.
+Therefore, the only communication a playground program has to the
+outside world is by writing to standard output and standard error.
+</li>
+
+<li>
+In the playground the time begins at 2009-11-10 23:00:00 UTC
+(determining the sigificance of this date is an exercise for the reader).
+This makes it easier to cache programs by giving them deterministic output.
+</li>
+
+<li>
+There are also limits on execution time and on CPU and memory usage,
+and the program is restricted to running in a single thread
+(but may use many goroutines).
+</li>
+
+</ul>
+
+<p>
+The playground uses the latest stable release of Go.<br>
+To find the precise version, run <a href="/p/1VcPUlPk_3">this program</a>.
+</p>
+		</div>
+	</body>
+</html>

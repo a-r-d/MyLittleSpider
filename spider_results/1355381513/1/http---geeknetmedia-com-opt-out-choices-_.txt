@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  
+  <link rel="shortcut icon" href="http://geeknetmedia.com/wp-content/themes/geeknet/images/favicon.gif">
+  <link rel="stylesheet" type="text/css" media="all" href="http://geeknetmedia.com/wp-content/themes/geeknet/css/style.css" />
+  <link rel="pingback" href="http://geeknetmedia.com/xmlrpc.php" />
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/libs/modernizr-2.5.3.min.js"></script>
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33283445-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+
+<body class="page page-id-733 page-template-default singular two-column right-sidebar">
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="wrap">
+    <header>
+      <div class="tupperware">
+        <h1><a href="http://geeknetmedia.com/" title="Geeknet Media" rel="home">Geeknet Media</a></h1>
+        <nav>
+          <div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://geeknetmedia.com/about-geeknet-media/">About Geeknet Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://geeknetmedia.com/about-geeknet-media/why-geeknet/">Why Geeknet Media?</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://geeknetmedia.com/about-geeknet-media/whos-on-our-network/">Who&#8217;s On Our Network?</a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://geeknetmedia.com/about-geeknet-media/sourceforge-net/">Sourceforge.net</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://geeknetmedia.com/about-geeknet-media/slashdot-org/">Slashdot.org</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://geeknetmedia.com/about-geeknet-media/freecode-com/">Freecode.com</a></li>
+</ul>
+</li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-143"><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising &#038; Marketing Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="http://geeknetmedia.com/advertising-and-marketing-services/display-advertising/">Display Advertising</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="http://geeknetmedia.com/advertising-and-marketing-services/demand-generation/">Demand Generation</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://geeknetmedia.com/advertising-and-marketing-services/marketing-services/">Marketing Services</a></li>
+</ul>
+</li>
+<li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819"><a href="http://geeknetmedia.com/news-press/">News &#038; Press</a>
+<ul class="sub-menu">
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://geeknetmedia.com/news-press/news/">News</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://geeknetmedia.com/news-press/press-releases/">Press Releases</a></li>
+</ul>
+</li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://geeknetmedia.com/blog/">Blog</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://geeknetmedia.com/contact/">Contact</a></li>
+</ul></div> 
+        </nav>
+        <div class="topright">
+          <span>Toll Free: +1.877.433.5638</span>
+          <ul class="social">
+            <li><a href="http://facebook.com/GeeknetMedia" class="facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/geeknetmedia" class="twitter">Twitter</a></li>
+            <li><a href="http://geeknetmedia.com/contact/" class="email">Email</a></li>
+          </ul>
+            
+	<form method="get" id="searchform" action="http://geeknetmedia.com/">
+		<div class="input-append">
+      <input type="text" id="s" name="s" placeholder="Search" /><button class="btn btn-inverse" type="submit"><i class="icon-search icon-white"></i></button>
+    </div>
+	</form>
+        </div>
+      </div>
+    </header>  <div class="tupperware">
+		<div id="primary">
+			<div id="content" role="main">
+
+				
+					
+<article id="post-733" class="post-733 page type-page status-publish hentry">
+  <header class="entry-header">
+  <h1 class="entry-title">Opt out choices</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div id="HTMLBlock1996" class="HTMLBlock">
+<h1>Geeknet Media Cookies and Opt-Out Choices</h1>
+
+<p>Users of the SourceForge, Slashdot and Freecode websites have choices regarding the collection and use of information through our websites.  This page summarizes some of those choices regarding our use of cookies, some advertising and other tools we use on our websites, and choices that you have about receiving newsletters and other communications from Geeknet.  This page is designed to highlight some of the choices you have; for a more detailed discussion, please see <a href="/privacy-statement">Geeknet’s Privacy Statement</a>.</p>
+
+<h2>Cookies</h2>
+
+<p>&#8220;Browser&#8221; cookies are small text files placed on a computer for various purposes including marketing, data analysis, and to enable our web sites to tailor the user’s experience on our sites.  You may set your browser to reject cookies or to notify you when a web site tries to place cookies in your browser program.  For your convenience, additional information about how to manage cookies for major browsers please follow the following links: </p> 
+ 
+
+<ul>
+<li>Safari: <a href="http://docs.info.apple.com/article.html?path=Safari/3.0/en/11471.html">http://docs.info.apple.com/article.html?path=Safari/3.0/en/11471.html</a>
+</li>
+<li>Firefox: <a href="http://support.mozilla.org/en-US/kb/Deleting%20cookies">http://support.mozilla.org/en-US/kb/Deleting%20cookies</a></li>
+<li>Internet Explorer: <a href="http://support.microsoft.com/kb/278835">http://support.microsoft.com/kb/278835</a></li>
+<li>Chrome: <a href="https://support.google.com/chrome/bin/answer.py?answer=95647">https://support.google.com/chrome/bin/answer.py?answer=95647</a></li>
+</ul>
+
+<p>Our websites also may use local shared objects, also known as &#8220;Flash cookies&#8221; to store your preferences or display content based upon what you view on our website to personalize your visit.  To learn how to manage privacy and storage settings for Flash cookies, including how to delete Flash cookies, please click here: 
+<a href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html#117118">http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html#117118</a>.</p>
+
+
+<h2>Additional opt-out choices for analytics and marketing networks</h2>
+
+<p>Several of the advertising networks and service providers that we use to analyze activities on our sites also offer opt-out mechanisms as an alternative to managing the placement of cookies by these services through your browser settings as discussed above:  </p>
+
+<p>Google Analytics.  If you would like to opt-out of Google Analytics, Google has developed a tool that works with major internet browsers to permit you to opt-out.  For more information and install their opt-out tool, please click here: <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a></p>
+
+<p>Google Advertising.  To opt-out of or manage your targeted third-party advertising preferences with Google, please click here: <a href="http://www.google.com/policies/privacy/ads/">http://www.google.com/policies/privacy/ads/</a></p>
+
+<p>ComScore.  To opt-out of comScore’s universal data collection, please click here: <a href="http://www.scorecardresearch.com/preferences.aspx">http://www.scorecardresearch.com/preferences.aspx</a> </p>
+
+<p>National Advertising Initiative.  To opt-out of targeted third party advertising by Network Advertising Initiative members, please click here: <a href="http://www.networkadvertising.org/managing/opt_out.asp">http://www.networkadvertising.org/managing/opt_out.asp</a></p>
+
+<p>In addition, some of our third party advertising partners display an “ad choices” icon with the advertisement on our site.  If you see this icon with an advertisement, you can click on it to find out more information about the ad and your ad choices.</p>
+
+
+<h2>Additional opt-out choices for social media</h2>
+
+<p>Integration of social media links to our sites may enable tracking  by these providers, who provide their own opt-out and data control mechanisms:</p>
+
+<ul>
+<li>Facebook, whose cookie control instructions are at  <a href="https://www.facebook.com/help/?page=176591669064814">https://www.facebook.com/help/?page=176591669064814</a></li>
+<li>Twitter, whose Privacy Policy links to various account control options at <a href="http://twitter.com/privacy">http://twitter.com/privacy</a></li>
+<li>Google Plus, which provides display control at <a href="http://www.google.com/profiles">http://www.google.com/profiles</a></li>
+</ul>
+
+<h2>Social Network Login</h2>
+
+<p>If you chose to use third-party social networking sites, such as Facebook or Twitter, to log into one of our sites that offers that login feature, we may collect information, such as your basic profile information, gender, age, interests, and other demographic and geographical information, from the social networking site you use to interact with our site.  If you do not want to share information from your social networking account with us you can either decline to use these features or check your social networking site’s current privacy setting options to see what options they provide for limiting disclosures when you use login sharing features.</p>
+
+<h2>Geeknet Newsletters and Direct Marketing Communications</h2>
+
+If you would like to opt-out/unsubscribe from receiving newsletters or marketing communications  or deactivate your accounts, please use the links below and provide a copy of the communication or account name you wish to unsubscribe.  Please understand that it may take up to a week for your request to be processed.</p>
+
+<p>For Sourceforge, please contact us at <a href="mailto:sfnet_ops@geek.net">sfnet_ops@geek.net</a></p>
+
+<p>For Slashdot, please contact us at <a href="mailto:feedback@slashdot.org">feedback@slashdot.org</a></p>
+
+<p>For FreeCode, please contact us at <a href="mailto:help@freecode.com">help@freecode.com</a></p>
+
+<p>For GeeknetMedia.com, please contact us at <a href="mailto:sfnet_ops@geek.net">sfnet_ops@geek.net</a></p></div>	</div>
+</div>			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer><!-- .entry-meta -->
+</article><!-- #post-733 -->
+
+						<div id="comments">
+	
+	
+	
+									
+</div><!-- #comments -->
+
+				
+			</div><!-- #content -->
+		</div><!-- #primary -->
+  </div>
+  
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="tupperware">
+      <div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-358"><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-364"><a href="http://geeknetmedia.com/opt-out-choices/">Cookies / Opt Out</a></li>
+<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="http://sourceforge.net">Sourceforge</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104"><a href="http://slashdot.org">Slashdot</a></li>
+<li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105"><a href="http://freecode.com">Freecode</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://geeknetmedia.com/solution-centers/">Solution Centers</a></li>
+<li id="menu-item-571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a href="http://geek.theresumator.com/apply/">Careers</a></li>
+</ul></div> 
+      <span class="copyright">Copyright &copy; 2012 Dice. All rights reserved.</span>
+    </div>
+  </footer>
+  
+  <div class="fixed-footer">
+    <div class="tupperware">
+      <p><a href="/contact">Looking to advertise with Geeknet Media? To see how we can help you, <span>contact a sales representative</span> today!</a></p>
+    </div>
+  </div>
+  
+  <div id="adDemoOverlay">
+    <div id="adDemoOverlayBground"></div>
+    <div id="adDemoContainer">
+      <div id="loadDemoHere"></div>
+      <div id="closeAdDemoOverlay"></div>
+    </div>
+  </div>
+  
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/all.js"></script>
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/script.js"></script>
+  <div id="fb-root"></div>
+  </body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Served from: geeknetmedia.com @ 2012-12-13 06:57:27 -->

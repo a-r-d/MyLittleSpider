@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="EucIl-Yx1ii9l_OeyDpsbCfYQgGgPkM2OzY7cUFVwdU" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="mrseb,mr seb,seb,sebastian,delling,website,photography,photos,games,wow,england,uk,dedicated server,hosting,project,bio,resume,c.v.,landscape,blog,writing,travel" />
+<meta name="description" content="Portal site for Mr Seb, Sebastian Anthony: professional photographer, writer and world traveller. Based in London, England." />
+<title>Mr Seb, Sebastian Anthony, Sebby -- an index to my life</title>
+<style type="text/css">
+<!--
+body {
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+margin: 20px;
+padding: 0;
+width: 40em;
+}
+h1 {
+	margin-top: -5px;
+}
+a {
+	color: #FF0000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+}
+a:visited {
+	color: #660000;
+}
+a:visited:hover {
+	color: #FF6600;
+}
+-->
+</style>
+</head>
+
+<body>
+<h1>Sebastian's Rudimentary Index</h1>
+<p>This is  an index of all things <em>me</em>.</p>
+<h2><strong>Primary Resources:</strong></h2>
+<ul>
+  <li><strong><a href="http://blog.mrseb.co.uk">http://blog.mrseb.co.uk</a> -- </strong> my every-day blog crammed full of pretty photos, funny stories and tales from my 'round-the-world travels. The purpose of this blog is to chronicle my rise to fame as both a  fine-art landscape photographer and writer<em>. [As of April 2011, this blog mostly mirrors my uploads to Flickr -- hopefully I will soon find more time to blog properly, though...]</em></li>
+  <li><strong><a href="http://flickr.com/mrseb">http://flickr.com/mrseb</a> -- </strong>a rough-and-ready stream of my photos before they get put on my blog or listed/displayed in galleries (<em>really </em>odd photos will only turn up on my blog, so you might want to follow both!)</li>
+  <li><strong><a href="http://blog.mrseb.co.uk/buy-prints/">http://blog.mrseb.co.uk/buy-prints/</a> -- </strong>buy my prints! They're very reasonably priced and look fantastic in almost any setting. As I sell more and exhibit in galleries they go up in price, so time is of the essence!</li>
+</ul>
+<h2>Secondary Resources:</h2>
+<ul>
+  <li><a href="http://mrseb.co.uk/portfolio/photo/"><strong>Photography portfolio</strong></a> -- a variety of my photos neatly arranged into countries and categories for your viewing pleasure.</li>
+  <li><strong><a href="http://twitter.com/mrseb">Twitter</a></strong> -- are inane, egocentric babblings your kind of thing? Despite being deeply embroiled in the world of technology, I mainly tweet about food, music, TV, and the love of my life: musical theatre.</li>
+  <li><a href="http://www.facebook.com/sebant/"><strong>Facebook page</strong></a> -- be my fan on Facebook! Fans will be eligible for money-off vouchers that'll make my photo prints even more economically attractive.</li>
+  <li><a href="https://plus.google.com/u/0/104662101073256643930/about"><strong>Google+</strong></a> -- I'm not entirely sure if I'll use Google+ and its Circles feature, but here's a link to my profile just in case.</li>
+  <li><a href="http://www.extremetech.com"><strong>ExtremeTech</strong></a> -- while it was once an incredibly popular site, and even a print magazine, ExtremeTech was shuttered in 2009. Now, under new management, and with me as the lead editor, Ziff Davis has relaunched ET. We will rise from the ashes and provide interesting and insightful news and features on all things<strong> technology. </strong><em>[Yes, don't worry, the site is being overhauled with a new design at the end of May.]</em></li>
+  <li><strong><a href="http://dls.mrseb.com/">Where is the Download Squad now?</a></strong> -- since Download Squad's unfair and unexpected demise, the writers have gone on to bigger and better things. We can now be found at TUAW, Lifehacker, Geek.com, ExtremeTech, and more! This site is simply an aggregation of all our new sites.</li>
+<li><strong><a href="http://www.downloadsquad.com">Download Squad</a></strong> (RIP) -- if you want some of my more 'news-centric' or 'snarky' commentary, Download Squad is the 
+place to find me. I'm an editor that manages, coaxes and coerces a bunch of tech-bloggin' monkeys. Not wanting to brag or anything, but we I reckon we're about 10 times better than most other tech sites. <em>[Download Squad, as of April 2011, has been shut down by AOL.]</em>
+<li><a href="http://uk.linkedin.com/in/mrseb"><strong>LinkedIn</strong></a> -- just because I'm not a cubicle-camping office-dweller doesn't mean I don't NETWORK!
+<li><a href="http://mrseb.co.uk/portfolio/writing/"><strong>Writing portfolio</strong></a> --  background on my education and experience, and some examples of my writing skill and style. <em>[Outdated as of April 2011]</em>
+</ul>
+<h2>Tertiary Resources:</h2>
+<p>If the previous two sections didn't sate your curiousity, or if they piqued it, <a href="mailto:mrsebastian@gmail.com">email me</a>. I'm also a member of sites like <a href="http://www.last.fm/user/mr_seb">Last.fm</a> and <a href="http://www.goodreads.com/user/show/2811860">Goodreads</a>, if you're into that kind of thing. Generally, if you see a Mr Seb anywhere on the internet, it's me (unless it's a Frenchman -- there are a lot of French Mr Sebs, for some reason).</p>
+
+
+<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+ 
+	<script type="text/javascript">
+	try {
+		var pageTracker = _gat._getTracker("UA-7158117-1");
+		pageTracker._initData();
+		pageTracker._trackPageview();
+	} catch(err) {}</script>
+			<script type="text/javascript">
+				var analyticsFileTypes = ['mp3','pdf','jpg'];
+				var analyticsOutboundPrefix = '/outgoing/';
+				var analyticsDownloadsPrefix = '/download/';
+				var analyticsEventTracking = 'enabled';
+			</script>
+
+</body>
+
+</html>

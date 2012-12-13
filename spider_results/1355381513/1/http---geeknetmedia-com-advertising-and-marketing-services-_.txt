@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8" />
+  
+  <link rel="shortcut icon" href="http://geeknetmedia.com/wp-content/themes/geeknet/images/favicon.gif">
+  <link rel="stylesheet" type="text/css" media="all" href="http://geeknetmedia.com/wp-content/themes/geeknet/css/style.css" />
+  <link rel="pingback" href="http://geeknetmedia.com/xmlrpc.php" />
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/libs/modernizr-2.5.3.min.js"></script>
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33283445-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+</head>
+
+<body class="page page-id-139 page-parent page-template page-template-sidebar-page-php two-column right-sidebar">
+  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+  <div id="wrap">
+    <header>
+      <div class="tupperware">
+        <h1><a href="http://geeknetmedia.com/" title="Geeknet Media" rel="home">Geeknet Media</a></h1>
+        <nav>
+          <div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="http://geeknetmedia.com/about-geeknet-media/">About Geeknet Media</a>
+<ul class="sub-menu">
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://geeknetmedia.com/about-geeknet-media/why-geeknet/">Why Geeknet Media?</a></li>
+	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://geeknetmedia.com/about-geeknet-media/whos-on-our-network/">Who&#8217;s On Our Network?</a></li>
+	<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://geeknetmedia.com/about-geeknet-media/sourceforge-net/">Sourceforge.net</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://geeknetmedia.com/about-geeknet-media/slashdot-org/">Slashdot.org</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://geeknetmedia.com/about-geeknet-media/freecode-com/">Freecode.com</a></li>
+</ul>
+</li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-139 current_page_item menu-item-143"><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising &#038; Marketing Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-255"><a href="http://geeknetmedia.com/advertising-and-marketing-services/display-advertising/">Display Advertising</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="http://geeknetmedia.com/advertising-and-marketing-services/demand-generation/">Demand Generation</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-252"><a href="http://geeknetmedia.com/advertising-and-marketing-services/marketing-services/">Marketing Services</a></li>
+</ul>
+</li>
+<li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819"><a href="http://geeknetmedia.com/news-press/">News &#038; Press</a>
+<ul class="sub-menu">
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a href="http://geeknetmedia.com/news-press/news/">News</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://geeknetmedia.com/news-press/press-releases/">Press Releases</a></li>
+</ul>
+</li>
+<li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a href="http://geeknetmedia.com/blog/">Blog</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="http://geeknetmedia.com/contact/">Contact</a></li>
+</ul></div> 
+        </nav>
+        <div class="topright">
+          <span>Toll Free: +1.877.433.5638</span>
+          <ul class="social">
+            <li><a href="http://facebook.com/GeeknetMedia" class="facebook">Facebook</a></li>
+            <li><a href="http://twitter.com/geeknetmedia" class="twitter">Twitter</a></li>
+            <li><a href="http://geeknetmedia.com/contact/" class="email">Email</a></li>
+          </ul>
+            
+	<form method="get" id="searchform" action="http://geeknetmedia.com/">
+		<div class="input-append">
+      <input type="text" id="s" name="s" placeholder="Search" /><button class="btn btn-inverse" type="submit"><i class="icon-search icon-white"></i></button>
+    </div>
+	</form>
+        </div>
+      </div>
+    </header>      <div class="cta-image" style="background-image: url(http://geeknetmedia.com/wp-content/uploads/2012/07/advertising-home.jpg);"></div>
+  <div class="bottombar thin"></div>
+    <div class="tupperware large-gutters">
+    <div class="row">
+      <div class="span8">
+  		  <div id="primary">
+    			<div id="content" role="main">
+
+    				
+    					
+<article id="post-139" class="post-139 page type-page status-publish hentry">
+  <header class="entry-header">
+  	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<div style="text-align: center;">
+<img src="/wp-content/uploads/2012/07/sourceforge_logo_lrg.png" style="width: 170px; margin: 0 20px;" />
+<img src="/wp-content/uploads/2012/07/freecode_logo_lrg.png" style="width: 148px; margin: 0 20px;" />
+<img src="/wp-content/uploads/2012/07/slashdot_logo_lrg.png" style="width: 170px; margin: 0 20px;" />
+</div>
+<div class="divider"></div>
+<p>Connect with the right audience in a way that only Geeknet Media can deliver. Whether it’s through Digital Display, Demand Generation, Marketing Services or Custom Offerings, Geeknet Media can create a program to scale to the needs of each advertiser. Each program is custom tailored to campaign objectives and is positioned to have the highest impact possible with our influential audience.</p>
+
+<p>Geeknet media has massive scale and reach to audiences worldwide and North America.  By extension, we offer our advertisers an authentic community experience that gives them reach, scale and access.  Trust is a key component in Geeknet Media’s relationship with its audience. It’s what makes our communities different, and what makes the audience want to participate and engage with the content on our sites.</p>
+
+			</div><!-- .entry-content -->
+	<footer class="entry-meta">
+			</footer><!-- .entry-meta -->
+</article><!-- #post-139 -->
+
+    						<div id="comments">
+	
+	
+	
+									
+</div><!-- #comments -->
+
+    				
+    			</div><!-- #content -->
+    		</div><!-- #primary -->
+    	</div>
+    	<div class="span4">
+        		<div id="secondary" class="widget-area" role="complementary">
+		  							<div class='well large' style='padding: 8px 0;'><ul class='nav nav-list'><li class='nav-header active'><a href='http://geeknetmedia.com/advertising-and-marketing-services/'>Advertising &#038; Marketing Services</a></li><li class="page_item page-item-253"><a href="http://geeknetmedia.com/advertising-and-marketing-services/display-advertising/">Display Advertising</a></li>
+<li class="page_item page-item-248"><a href="http://geeknetmedia.com/advertising-and-marketing-services/demand-generation/">Demand Generation</a></li>
+<li class="page_item page-item-245"><a href="http://geeknetmedia.com/advertising-and-marketing-services/marketing-services/">Marketing Services</a></li>
+</ul></div><blockquote>
+            <p>“Geeknet Media delivers on guarantees and care about our experience and feedback. We look forward to our continued efforts as our programs grow and evolve in the coming years.  Thank you Geeknet Media for the awesome partnership!”</p>
+            <small>Marketing Manager, Microsoft</small>
+          </blockquote>					</div><!-- #secondary .widget-area -->
+      </div>
+    </div>
+  </div><!-- .tupperware -->
+  
+    <div class="push"></div>
+  </div>
+  <footer>
+    <div class="tupperware">
+      <div class="menu-footer-container"><ul id="menu-footer" class="menu"><li id="menu-item-872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-872"><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+<li id="menu-item-358" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-358"><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+<li id="menu-item-364" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-364"><a href="http://geeknetmedia.com/opt-out-choices/">Cookies / Opt Out</a></li>
+<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="http://sourceforge.net">Sourceforge</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104"><a href="http://slashdot.org">Slashdot</a></li>
+<li id="menu-item-105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-105"><a href="http://freecode.com">Freecode</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://geeknetmedia.com/solution-centers/">Solution Centers</a></li>
+<li id="menu-item-571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a href="http://geek.theresumator.com/apply/">Careers</a></li>
+</ul></div> 
+      <span class="copyright">Copyright &copy; 2012 Dice. All rights reserved.</span>
+    </div>
+  </footer>
+  
+  <div class="fixed-footer">
+    <div class="tupperware">
+      <p><a href="/contact">Looking to advertise with Geeknet Media? To see how we can help you, <span>contact a sales representative</span> today!</a></p>
+    </div>
+  </div>
+  
+  <div id="adDemoOverlay">
+    <div id="adDemoOverlayBground"></div>
+    <div id="adDemoContainer">
+      <div id="loadDemoHere"></div>
+      <div id="closeAdDemoOverlay"></div>
+    </div>
+  </div>
+  
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/all.js"></script>
+  <script src="http://geeknetmedia.com/wp-content/themes/geeknet/js/script.js"></script>
+  <div id="fb-root"></div>
+  </body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Served from: geeknetmedia.com @ 2012-12-13 06:57:01 -->

@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10.0" /> 
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    
+
+<script id="before-content" type="text/javascript">
+var pageload = {
+	pagemark: '887629476677859764',
+	before_content: (new Date).getTime()
+};
+function pageload_done( $, console, maybe ){
+	pageload.after_readycode	= (new Date).getTime();
+	pageload.content_ready_time	= pageload.content_ready - pageload.before_content;
+	pageload.script_ready_time	= pageload.after_readycode - pageload.content_ready;
+	pageload.ready_time		= pageload.after_readycode - pageload.before_content;
+	// Only report 1% of cases.
+	maybe || (Math.random()>0.01) || $.ajax({ data: {
+		op: 'page_profile',
+		pagemark: pageload.pagemark,
+		dom: pageload.content_ready_time,
+		js: pageload.script_ready_time
+	} });
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+
+
+<meta property="fb:admins" content="100000696822412">
+<meta property="fb:page_id" content="267995220856">
+<title>Slashdot Items Tagged With 'islam'</title>
+
+
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie8-classic.css?release_20121206" ><![endif]-->
+<link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/classic.css?release_20121206" >
+<!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen, projection" href="//a.fsdn.com/sd/ie7-classic.css?release_20121206" ><![endif]-->
+
+
+
+
+
+
+
+
+
+
+<script src="//a.fsdn.com/sd/all-minified.js?release_20121206" type="text/javascript"></script>
+<script id="after-jquery" type="text/javascript">
+(function( $, pageload, pageload_done, console ){
+$ && pageload && $(function(){
+	pageload.content_ready = (new Date).getTime();
+	pageload_done && $(function(){ pageload_done($, console, 'maybe'); });
+});
+})(window.jQuery, window.pageload, window.pageload_done, window.console);
+</script>
+
+<script type="text/javascript">
+var suggestions_for_context = {
+	nod: 'fresh funny insightful interesting maybe ',
+	nix: 'binspam dupe notthebest offtopic slownewsday stale stupid ',
+
+	tagnod: 'descriptive',
+	feedback: 'typo dupe error',
+	metanod: 'insightful interesting informative funny underrated',
+	metanix: 'offtopic flamebait troll redundant overrated'
+};
+
+</script>
+
+<script type="text/javascript">
+var adpage = 'index';
+</script><link rel="top"       title="News for nerds, stuff that matters" href="//slashdot.org/" >
+<link rel="search"    title="Search Slashdot" href="//slashdot.org/search.pl">
+<link rel="alternate" title="Slashdot RSS" href="http://rss.slashdot.org/Slashdot/slashdot" type="application/rss+xml">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<!-- DoubleClick Random Number -->
+<script type="text/javascript">
+   dfp_ord=Math.random()*10000000000000000;
+   dfp_tile = 1;
+</script>
+<!-- End DoubleClick Random Number -->
+
+<script type="text/javascript">
+window.google_analytics_uacct = "UA-32013-5";
+
+var _gaq = _gaq || [];
+
+
+
+
+
+  _gaq.push(['_setAccount', 'UA-36136016-1']);
+  _gaq.push(['b._setAccount', 'UA-32013-5']);
+  _gaq.push(['_setDomainName', '.slashdot.org']);
+  _gaq.push(['b._setDomainName', '.slashdot.org']);
+
+	
+		_gaq.push(['_addIgnoredRef', 'slashdot.org']);
+		_gaq.push(['b._addIgnoredRef', 'slashdot.org']);
+	
+
+  _gaq.push(['_setCustomVar', 1, 'User Type',  'Anon', 3]);
+  _gaq.push(['b._setCustomVar', 1, 'User Type',  'Anon', 3]);
+	
+	_gaq.push(['_setCustomVar', 2, 'Page','tags', 3]);
+	_gaq.push(['b._setCustomVar', 2, 'Page','tags', 3]);
+
+	
+
+
+
+
+
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['b._trackPageview']);
+  _gaq.push(['_trackPageLoadTime']);
+  _gaq.push(['b._trackPageLoadTime']);
+
+
+
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body class="anon tags ">
+<div id="top_parent"></div><a name="topothepage"></a>
+
+
+
+<header class="col_wrapper container clearfix h">
+    <hgroup>
+    <section class="grid_9">
+		<div id="logo" >
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+			<div id="jump" class="hide">
+				<a href="#main-articles">Stories</a><br>
+				<a href="#blocks">Slash Boxes</a><br>
+				<a href="#comments">Comments</a>
+			</div>
+		</div>
+	
+		<form id="search" method="get" action="//slashdot.org/index2.pl">
+			<input type="text" name="fhfilter" value="" id="searchquery">
+			<span class="ui-icon search"></span>
+			<input type="submit" value="Search">
+		</form>
+	
+	</section>
+
+	<nav role="top-navigation" class="grid_15">
+		<ul class="dropnav">
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   onclick="getModalPrefs('newUserModal', 'Create Account', 1); $('#modal_box').addClass('join'); return false;">Join</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/login"   onclick="show_login_box(); return false;">Login</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/submission"   onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" title="Submit a Story to Slashdot">Submit</a>
+		
+	</li>
+
+	<li >
+		<a href="//slashdot.org/my/newuser"   >Newsletter</a>
+		
+	</li>
+
+	<li >
+		<a href="http://library.geeknetmedia.com/"  onclick="_blank" >Resources</a>
+		
+	</li>
+
+	<li class="droparrowneeded">
+		<a href="//slashdot.org/topic"   >Channels</a>
+		
+			<ul>
+			
+				<a href="//slashdot.org/topic/bi"   >SlashBI</a>
+			
+				<a href="//slashdot.org/topic/cloud"   >SlashCloud</a>
+			
+				<a href="//slashdot.org/topic/datacenter"   >SlashDataCenter</a>
+			
+				<a href="http://seeker.dice.com/jobsearch/servlet/JobSearch?caller=0&source=77&LOCATION_OPTION=2&EXTRA_STUFF=0&N=0&Hf=0&Ntk=JobSearchRanking&op=300&values=&FREE_TEXT=&Ntx=mode+matchall&EXCLUDE_KEY1=p_JobTitle&EXCLUDE_TEXT1=&EXCLUDE_KEY2=p_JobTitle&EXCLUDE_TEXT2=&EXCLUDE_KEY3=p_JobTitle&EXCLUDE_TEXT3=&EXCLUDE_KEY4=p_JobTitle&EXCLUDE_TEXT4=&EXCLUDE_KEY5=p_JobTitle&EXCLUDE_TEXT5=&EXCLUDE_KEY6=p_JobTitle&EXCLUDE_TEXT6=&EXCLUDE_KEY7=p_JobTitle&EXCLUDE_TEXT7=&EXCLUDE_KEY8=p_JobTitle&EXCLUDE_TEXT8=&locationRadio=on&RADIUS=64.37376&WHERE=&COUNTRY=1525&STAT_PROV=0&METRO_AREA=33.78715899%2C-84.39164034&AREA_CODES=&AC_COUNTRY=1525&TRAVEL=0&TAXTERM=0&SORTSPEC=0&FRMT=0&DAYSBACK=30&NUM_PER_PAGE=30"  target="_blank" >Jobs</a>
+			
+			</ul>
+		
+	</li>
+
+	<li >
+		<a href="//tv.slashdot.org" class="btn link slashtvico"  ><span>SlashTV</span></a>
+		
+	</li>
+
+</ul>
+
+
+<!-- dropnavstyle begin -->
+<style type="text/css">
+
+.dropnav{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	font: "Arial, sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	list-style:none;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+.dropnav ul{
+	padding-top:10px;
+	background:none;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	.dropnav li{
+		float:right;
+		padding:0px;
+		}
+	.dropnav li a{
+		background:none bottom right no-repeat;
+		color:#ffffff;
+		display:block;
+		font-weight:normal;
+		line-height:25px;
+		margin:0px;
+		padding:0px 5px;
+		padding-bottom: 6px;
+		text-align:center;
+		text-decoration:none;
+		}
+		.dropnav li a:hover, .dropnav ul li:hover a{
+			 /* background: #005555 bottom center no-repeat; */
+			  color:#FFFFFF;
+			  text-decoration:underline; 
+			}
+	.dropnav li ul{
+		background:#004242;
+		display:none;
+		height:auto;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		border:0px;
+		position:absolute;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.dropnav li:hover ul{
+		display:block;
+		
+		}
+	.dropnav li li {
+		display:block;
+		float:none;
+		min-width:100px;
+		margin:0px;
+		padding:0px;
+		}
+	.dropnav li:hover li a{
+		background:none;
+		
+		}
+	.dropnav li ul a{
+		display:block;
+		height:25px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.dropnav li ul a:hover, .dropnav li ul li:hover a{
+		 	background:#005555 center left no-repeat; 
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.dropnav p{
+		clear:left;
+		}
+
+	.dropnav li.droparrowneeded>a:after {
+		content: "\25BE";
+		margin-left: 5px; 
+		text-decoration: none;
+	}
+
+		
+</style>
+<!-- dropnavstyle end -->
+	</nav>
+    </hgroup>
+</header>
+
+
+
+<section id="fix"><div class="col_1"></div><div class="col_2"><section class="grid_24 fix"></section></div></section>
+<section>
+
+   
+      <div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+   
+
+	<div class="col_1">
+
+
+<nav class="left_menu" id="links" role="sections">
+	    
+	    
+            <ul class="menu" id="fhtablist_new">
+
+			
+				
+				
+				
+				
+				
+				<li class="Stories">
+				
+				<a href="//slashdot.org/stories">Stories</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Recent">
+				
+				<a href="//slashdot.org/recent">Recent</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Popular">
+				
+				<a href="//slashdot.org/popular">Popular</a>
+				
+				</li>
+				
+				
+				
+				
+				
+				<li class="Blog">
+				
+				<a href="//slashdot.org/blog">Blog</a>
+				
+				</li>
+
+		
+	</ul>
+            <h4 class="hide" id="links-sections-title"  class='active'>
+			
+				<a class="data-title" href="//slashdot.org" >Slashdot</a>
+				
+				
+				<script type="data">{ color: "", viewname: "stories", filter: "", name: "Main", id: 13 }</script>
+
+			
+		</h4>
+	
+	
+	
+	
+		<ul id="firehose-sections" role="sections" class="left_menu">
+	
+
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-askslashdot">
+			<a id="fhsectiontitle-4" class="data-title" href="//ask.slashdot.org">Ask Slashdot</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-bookreview">
+			<a id="fhsectiontitle-6" class="data-title" href="//books.slashdot.org">Book Reviews</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-games">
+			<a id="fhsectiontitle-10" class="data-title" href="//games.slashdot.org">Games</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-idle">
+			<a id="fhsectiontitle-28" class="data-title" href="//idle.slashdot.org">Idle</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-yro">
+			<a id="fhsectiontitle-17" class="data-title" href="//yro.slashdot.org">YRO</a>
+			
+		</li>
+		
+	
+	<li class="enhancedspacer"></li>
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-cloud">
+			<a id="fhsectiontitle-cloud" class="data-title" href="//slashdot.org/stories/cloud">Cloud</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-hardware">
+			<a id="fhsectiontitle-21" class="data-title" href="//hardware.slashdot.org">Hardware</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-linux">
+			<a id="fhsectiontitle-19" class="data-title" href="//linux.slashdot.org">Linux</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-it">
+			<a id="fhsectiontitle-18" class="data-title" href="//it.slashdot.org">Management</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-mobile">
+			<a id="fhsectiontitle-29" class="data-title" href="//mobile.slashdot.org">Mobile</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		<li class="" id="fhsection-science">
+			<a id="fhsectiontitle-14" class="data-title" href="//science.slashdot.org">Science</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-security">
+			<a id="fhsectiontitle-security" class="data-title" href="//slashdot.org/stories/security">Security</a>
+			
+		</li>
+		
+	 
+				
+
+		
+		
+		
+		<li class="" id="fhsection-storage">
+			<a id="fhsectiontitle-storage" class="data-title" href="//slashdot.org/stories/storage">Storage</a>
+			
+		</li>
+		
+	
+	</ul>
+
+</nav>
+	
+
+	</div>
+	
+	<div class="col_2">
+		<section class="grid_24" id="content">
+			<section id="firehose">
+				<div class="grid_24" ><h1>
+	Slashdot Items Tagged "islam"
+
+</h1>
+
+
+
+
+
+
+	
+		<table class="data">
+                <tr><th>Date / Time</th><th>Story</th></tr>
+		
+		
+			<tr class="data_hl1">
+			<td>Wednesday December 12, @04:23PM</td>
+			<td><a href="slashdot.sourceforge.net/submission/2396547/islamic-hacker-group-resumes-attacks-on-banks" rel="nofollow">Islamic hacker group resumes attacks on banks</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday October 15, @04:48PM</td>
+			<td><a href="//yro.slashdot.org/story/12/10/14/1451228/the-surprising-truth-about-internet-censorship-in-the-middle-east" rel="nofollow">The Surprising Truth About Internet Censorship In the Middle East</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday September 28, @08:38AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/2281859/innocence-of-muslims-film-maker-arrested-jailed" rel="nofollow">Innocence of Muslims Film maker Arrested, Jailed.</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 24, @05:18PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/24/1312228/pakistans-pm-demands-international-blasphemy-laws-from-un" rel="nofollow">Pakistan's PM Demands International Blasphemy Laws From UN</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday September 24, @05:53AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/2273857/pakistans-pm-demands-international-blasphemy-laws-from-un-oic" rel="nofollow">Pakistan's PM Demands International Blasphemy Laws from UN, OIC</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday September 23, @06:57PM</td>
+			<td><a href="//search.slashdot.org/story/12/09/23/2357216/iran-set-to-block-access-to-google" rel="nofollow">Iran Set To Block Access To Google</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 18, @07:54PM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/16/0235215/the-implications-of-google-restricting-access-to-anti-islam-film" rel="nofollow">The Implications of Google Restricting Access To Anti-Islam Film</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday September 17, @10:51AM</td>
+			<td><a href="//yro.slashdot.org/story/12/09/14/1948225/youtube-refuses-to-remove-anti-islamic-film-clip" rel="nofollow">YouTube Refuses To Remove Anti-Islamic Film Clip</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday August 24, @11:03AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/2225675/iran-to-ban-women-from-science-and-engineering-classes" rel="nofollow">Iran to Ban Women from Science and Engineering Classes</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday July 20, @06:20PM</td>
+			<td><a href="//yro.slashdot.org/story/12/07/20/2320245/in-advance-of-ramadan-indonesian-govt-starts-massive-censorship-push" rel="nofollow">In Advance of Ramadan, Indonesian Gov't Starts Massive Censorship Push</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday July 10, @09:30AM</td>
+			<td><a href="//science.slashdot.org/story/12/07/09/1855227/nobel-laureate-wiped-from-pakistans-textbooks-as-heretic" rel="nofollow">Nobel Laureate Wiped From Pakistan's Textbooks As Heretic</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 31 2012, @08:53PM</td>
+			<td><a href="//science.slashdot.org/story/12/05/29/1820225/another-afghan-school-poisoned-160-girls-hospitalized" rel="nofollow">Another Afghan School Poisoned &mdash; 160 Girls Hospitalized</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday April 17 2012, @02:55PM</td>
+			<td><a href="//news.slashdot.org/story/12/04/17/1634218/anti-education-attack-poisons-150-afghan-schoolgirls" rel="nofollow">Anti-Education Attack Poisons 150 Afghan Schoolgirls</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday March 12 2012, @10:06AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1976481/anonymous-hacks-tunisian-islamist-sites" rel="nofollow">Anonymous Hacks Tunisian Islamist Sites</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday February 13 2012, @05:22AM</td>
+			<td><a href="//yro.slashdot.org/story/12/02/12/1816255/journalist-arrested-for-tweet-deported-to-saudi-arabia" rel="nofollow">Journalist Arrested For Tweet Deported to Saudi Arabia</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday February 06 2012, @11:40AM</td>
+			<td><a href="//tech.slashdot.org/story/12/02/06/1453203/indian-court-orders-google-to-remove-content" rel="nofollow">Indian Court Orders Google To Remove Content</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 24 2012, @10:09AM</td>
+			<td><a href="//yro.slashdot.org/story/12/01/22/0354253/web-developer-sentenced-to-death-in-iran" rel="nofollow">Web Developer Sentenced To Death In Iran</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday January 24 2012, @09:22AM</td>
+			<td><a href="//yro.slashdot.org/story/12/01/22/1648204/indonesian-man-faces-five-years-for-atheist-facebook-post" rel="nofollow">Indonesian Man Faces Five Years For Atheist Facebook Post</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday January 06 2012, @03:24PM</td>
+			<td><a href="//yro.slashdot.org/story/12/01/06/1322206/iran-developing-halal-domestic-intranet" rel="nofollow">Iran Developing 'Halal' Domestic Intranet</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday December 25 2011, @02:50AM</td>
+			<td><a href="//yro.slashdot.org/story/11/12/24/008227/taliban-seizes-and-burns-pcs-cell-phones-to-stop-obscenity" rel="nofollow">Taliban Seizes and Burns PCs, Cell Phones To Stop Obscenity</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday November 28 2011, @03:45PM</td>
+			<td><a href="//science.slashdot.org/story/11/11/28/0050228/muslim-medical-students-boycott-darwin-lectures" rel="nofollow">Muslim Medical Students Boycott Darwin Lectures</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday November 26 2010, @11:23PM</td>
+			<td><a href="//tech.slashdot.org/story/10/11/26/1914218/the-sensible-body-scan-alternative" rel="nofollow">The Sensible Body Scan Alternative</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday November 23 2010, @03:01PM</td>
+			<td><a href="//yro.slashdot.org/story/10/11/23/1849233/kuwait-bans-dslr-cameras-use-for-non-journalists" rel="nofollow">Kuwait Bans DSLR Cameras Use For Non-Journalists</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 15 2010, @05:23AM</td>
+			<td><a href="//yro.slashdot.org/story/10/11/13/057239/facebook-postings-lead-to-arrest-for-heresy-in-the-west-bank" rel="nofollow">Facebook Postings Lead To Arrest for Heresy In the West Bank</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday November 14 2010, @05:32AM</td>
+			<td><a href="//yro.slashdot.org/story/10/11/13/177231/saudi-arabia-bans-facebook" rel="nofollow">Saudi Arabia Bans Facebook</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday November 08 2010, @03:25PM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1383596/quick-look-ubuntu-muslim-edition-1010-sabily-al" rel="nofollow">Quick Look: Ubuntu Muslim Edition 10.10 (Sabily Al</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday November 04 2010, @12:53PM</td>
+			<td><a href="//news.slashdot.org/story/10/11/03/1938204/uk-pressures-the-us-to-takedown-extremist-videos" rel="nofollow">UK Pressures the US To Takedown Extremist Videos</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday September 16 2010, @02:08PM</td>
+			<td><a href="//developers.slashdot.org/story/10/09/16/1615226/haystack-and-the-myth-of-the-boy-wizard" rel="nofollow">Haystack and the Myth of the Boy Wizard</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 25 2010, @07:28PM</td>
+			<td><a href="//yro.slashdot.org/story/10/06/25/1811204/pakistan-to-scour-google-yahoo-for-blasphemy" rel="nofollow">Pakistan To Scour Google, Yahoo For Blasphemy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Friday June 25 2010, @12:08PM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1268476/pakistan-scours-google-other-sights-f0r-blasphemy" rel="nofollow">Pakistan scours Google, other sights f0r blasphemy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Friday June 18 2010, @06:04PM</td>
+			<td><a href="//yro.slashdot.org/story/10/06/18/1528255/pakistani-lawyer-wants-mark-zuckerberg-executed" rel="nofollow">Pakistani Lawyer Wants Mark Zuckerberg Executed</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday May 20 2010, @06:43AM</td>
+			<td><a href="//yro.slashdot.org/story/10/05/19/216245/pakistan-court-orders-facebook-ban-over-mohammed-images" rel="nofollow">Pakistan Court Orders Facebook Ban Over Mohammed Images</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Wednesday May 19 2010, @10:09AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1241238/pakistan-court-orders-facebook-ban" rel="nofollow">Pakistan Court Orders Facebook Ban</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Thursday April 22 2010, @04:36PM</td>
+			<td><a href="//yro.slashdot.org/story/10/04/22/2136247/south-parks-episode-201-the-expurgated-version" rel="nofollow">South Park's Episode 201 &mdash; the Expurgated Version</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday January 19 2010, @02:35PM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1154222/publishing-banned-e-books-in-the-arabic-world" rel="nofollow">Publishing Banned e-Books in the Arabic World</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday January 10 2010, @01:11AM</td>
+			<td><a href="slashdot.sourceforge.net/submission/1148046/british-woman-arrested-after-reporting-rape" rel="nofollow">British woman arrested after reporting rape</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday July 20 2009, @06:38PM</td>
+			<td><a href="//slashdot.org/story/09/07/20/1550224/ireland-criminalizes-blasphemy" rel="nofollow">Ireland Criminalizes Blasphemy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday April 13 2009, @11:31AM</td>
+			<td><a href="//tech.slashdot.org/story/09/04/13/0243229/uk-to-train-pro-west-islamic-groups-to-game-google" rel="nofollow">UK To Train Pro-West Islamic Groups To Game Google</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday October 23 2008, @03:49PM</td>
+			<td><a href="//yro.slashdot.org/story/08/10/22/1856213/afghan-student-gets-20-years-for-blasphemy" rel="nofollow">Afghan Student Gets 20 Years For Blasphemy</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday July 06 2008, @04:10PM</td>
+			<td><a href="//yro.slashdot.org/story/08/07/05/189206/in-iran-blogging-may-be-punishable-by-death" rel="nofollow">In Iran, Blogging May Be Punishable By Death</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday March 24 2008, @01:19PM</td>
+			<td><a href="//yro.slashdot.org/story/08/03/23/1914238/network-solutions-suspends-site-of-anti-islam-film" rel="nofollow">Network Solutions Suspends Site of Anti-Islam Film</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 12 2008, @08:28AM</td>
+			<td><a href="//yro.slashdot.org/story/08/02/07/1651256/muslim-groups-attempt-to-censor-wikipedia" rel="nofollow">Muslim Groups Attempt to Censor Wikipedia</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Sunday February 03 2008, @11:00AM</td>
+			<td><a href="//yro.slashdot.org/story/08/02/02/1915253/internet-censorships-first-death-sentence" rel="nofollow">Internet Censorship's First Death Sentence?</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday October 02 2007, @06:37PM</td>
+			<td><a href="//science.slashdot.org/story/07/10/02/1816244/science-in-islamic-countries" rel="nofollow">Science In Islamic Countries</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Tuesday September 04 2007, @11:55PM</td>
+			<td><a href="//slashdot.org/story/07/09/04/2318219/facebook-exposes-advertisers-to-hate-speech" rel="nofollow">Facebook Exposes Advertisers To Hate Speech</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Sunday August 26 2007, @11:00AM</td>
+			<td><a href="//entertainment.slashdot.org/story/07/08/25/231216/where-to-find-opus-on-sunday" rel="nofollow">Where To Find Opus On Sunday</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Monday February 12 2007, @06:28AM</td>
+			<td><a href="//yro.slashdot.org/story/07/02/10/214250/two-ways-not-to-handle-free-speech" rel="nofollow">Two Ways Not To Handle Free Speech</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Monday March 13 2006, @10:31AM</td>
+			<td><a href="//slashdot.org/story/06/03/13/1255202/1001-islamic-inventions" rel="nofollow">1001 Islamic Inventions</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl1">
+			<td>Thursday February 23 2006, @04:58PM</td>
+			<td><a href="//slashdot.org/story/06/02/23/2018246/yahoo-reverses-allah-ban" rel="nofollow">Yahoo Reverses Allah Ban</a></td>
+			</tr>
+			
+		
+			<tr class="data_hl2">
+			<td>Tuesday February 21 2006, @01:26PM</td>
+			<td><a href="//slashdot.org/story/06/02/21/1511226/yahoo-bans-allah-in-screen-names" rel="nofollow">Yahoo! Bans "Allah" in Screen Names</a></td>
+			</tr>
+			
+		
+		</table></section>
+
+	
+				<aside id="slashboxes">
+					
+				</aside>
+	
+
+			</section>
+		</div>
+        	</section>
+		</section>
+
+
+	<footer id="fhft" class="grid_24 nf">
+		<div id="logo_nf" class="fleft">
+			<a href="//slashdot.org"><span>Slashdot</span></a>
+		</div>
+		<nav role="firehose footer">
+			
+			
+			<ul class="fright submitstory">
+				<li class="fright"><a onclick="show_submit_box('','submission'); $('#modal_box').addClass('submit'); return false;" href="/submit">Submit<span class="opt"> Story</span></a></li>
+			</ul>
+		</nav>
+	</footer>
+	<section class="bq"><blockquote class="msg grid_24" cite="http://slashdot.org"><p>Dinosaurs aren't extinct.  They've just learned to hide in the trees.</p><span class="slant"></span></blockquote></section>
+	<footer id="ft" class="grid_24">
+		<nav class="grid_10" role="footer">
+		    <ul>
+			<li><a href="//slashdot.org/faq">FAQ</a></li>
+			<li><a href="//slashdot.org/archive.pl">Story Archive</a></li>
+			<li><a href="//slashdot.org/hof.shtml">Hall of Fame</a></li>
+			<li><a href="http://geeknetmedia.com/advertising-and-marketing-services/">Advertising</a></li>
+			<li><a href="http://geeknetmedia.com/terms-of-use/">Terms</a></li>
+			<li><a href="http://geeknetmedia.com/privacy-statement/">Privacy</a></li>
+			<li><a href="http://geeknetmedia.com/opt-out-choices/">Cookies/Opt Out</li>
+			<li><a href="//slashdot.org/faq/slashmeta.shtml">About</a></li>
+			<li>
+			    <a href="mailto:feedback@slashdot.org">Feedback</a>
+			</li>
+		    </ul>
+		</nav>
+	        <div class="grid_14 tright tm">Trademarks property of their respective owners. Comments owned by the poster. <span class="nobr">Copyright &copy; 2012 Slashdot. All Rights Reserved.</span> <span class="nobr">Slashdot is a <a href="http://www.diceholdingsinc.com/phoenix.zhtml?c=211152&p=irol-landing" title="The Mother Ship">Dice Holdings, Inc.</a> company</span></div>
+	</footer>
+<div id="login_cover" class="hide" onclick="hide_login_box()"></div>
+<div id="login_box" class="hide">
+	<div id="login_box_content">
+		<div id='embbeded_login_modal' class="hide">
+<form action="https://slashdot.org/my/login" method="post" onsubmit="if (global_returnto) { this.returnto.value = global_returnto }" class="embedded"><fieldset style="-webkit-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0">
+<div style='height:25px;'>&nbsp;</div>
+    <input type="hidden" name="returnto" value="">
+    <input type="hidden" name="op" value="userlogin">
+    <p>
+        <label class="fleft" for="unickname">Nickname:</label>
+        <input type="text" name="unickname" value="">
+    </p>
+    <p>
+        <label class="fleft" for="upasswd">Password:</label>
+        <input type="password" name="upasswd" placeholder="6-20 characters long">
+    </p>
+    <label class="checkbox"><input type="checkbox" name="login_temp" value="yes"> Public Terminal</label>
+    <br>
+    <hr>
+    <input type="submit" name="userlogin" value="Log In" class="fno"> <a href="//slashdot.org/my/mailpassword" class="btn link" onclick="getModalPrefs('sendPasswdModal', 'Retrieve Password', 1); return false;">Forgot your password?</a>
+</fieldset></form>
+
+                <form action="//slashdot.org/login.pl" method="post"><fieldset style="-webkit-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px">
+                <input type="hidden" name="op" value="claim_openid">
+                <input type="hidden" name="openid_login" value="1">
+                <label for="openid_url" class="openid_url">
+                <input type="text" name="openid_url" value="http://" size="32" maxlength="255">
+                </label><br>
+                <input type="submit" value="Log in with OpenID" class="button fno" style="width:230px;">
+                </fieldset></form>
+
+<div class="actions">
+ <a class="ico close" onclick="hide_login_slider();" href=""><span>Close</span></a>
+</div>
+</div>
+		<div class="actions">
+			<a class="ico close" href="#" onclick="hide_login_box(); return false"><span>Close</span></a>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">logged_in = 0</script>
+<script type="text/javascript">
+COMSCORE.beacon({
+  c1:2,
+  c2:6035546,
+  c3:"",
+  c4:"",
+  c5:"",
+  c6:"",
+  c15:""
+});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035546&amp;c3=&amp;c4=&amp;c5=&amp;c6=&amp;c15=&amp;cj=1" alt="comScore2"></noscript>
+<div id="modal_cover" class="hide" onclick="hide_modal_box(); return false;"></div>
+<div id="modal_box" class="hide">
+      <div id="modal_box_content"></div>
+      <header class="n">
+                  <span class="fadeout"></span>
+                  <span class="fadeoutfade"></span>
+		  <span class="pf"><a class="ico close" onclick="hide_modal_box(); return false;" href="#"><span>Close</span></a></span>
+		  <h3 class="pf"><div id="logo"><a href="//slashdot.org">Slashdot</a></div><span id="preference_title"></span></h3>
+      </header>
+</div>
+<script id="after-content" type="text/javascript">
+(function( $, fn, console ){
+	$ && fn && $(function(){ fn($, console); });
+})(window.jQuery, window.pageload_done, window.console);
+</script>
+
+<div class="busy genericspinner hide"><span>Working...</span></div>
+</body>
+</html>

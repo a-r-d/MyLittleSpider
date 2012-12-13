@@ -1,0 +1,501 @@
+<!DOCTYPE html> <!DOCTYPE html> <html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://ogp.me/ns/fb#"> <!-- Chewie loves you --> <head> <!-- NR header --> <!-- NEW_RELIC_HEADER_SCRIPT --> <title>Google tweaks image search to make porn harder to find | Internet & Media - CNET News</title> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <meta name="" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta property="fb:app_id" content="16995676698"/>
+<meta property="fb:admins" content="100001036810388"/>
+<meta property="og:site_name" content="CNET"/> <!--[if IE]><![endif]--> <link type="text/css" rel="stylesheet" href="http://asset3.cbsistatic.com/cnwk.1d/cb1355350976000/css/rb/Build/global/base.css?v=3"/> <!--[if gte IE 9]> <link type="text/css" rel="stylesheet" href="http://i.i.com.com/cnwk.1d/css/rb/Build/global/ie9.css"/> <![endif]--> <!--[if IE 8]> <link type="text/css" rel="stylesheet" href="http://i.i.com.com/cnwk.1d/css/rb/Build/global/ie8.css"/> <![endif]--> <!--[if IE 7]> <link type="text/css" rel="stylesheet" href="http://i.i.com.com/cnwk.1d/css/rb/Build/global/ie7.css"/> <![endif]--> <!--[if IE 6]> <link type="text/css" rel="stylesheet" href="http://i.i.com.com/cnwk.1d/css/rb/Build/global/ie6.css"/> <![endif]--> <!-- UGC Maintenance Mode --> <!-- ugcFlags Comments mmode value: false -->
+<!-- ugcFlags Forums mmode value: false -->
+<!-- ugcFlags Toolbar mmode value: false -->
+<!-- ugcFlags AssetRating mmode value: false -->
+<!-- ugcFlags UFO mmode value: false -->
+<!-- ugcFlags DlUFO mmode value: false -->
+<!-- ugcFlags Login mmode value: false -->
+<!-- ugcFlags SocialLogin mmode value: false -->
+<!-- ugcFlags UserLists mmode value: false -->
+<!-- ugcFlags UserDB mmode value: false -->
+<!-- ugcFlags RPS mmode value: false -->
+<!-- ugcFlags Global mmode value: false --> <script type="text/javascript">
+    if(navigator.userAgent.match(/ipad/i)){
+        document.write('<link type="text/css" rel="stylesheet" rev="stylesheet" media="screen" href="http://i.i.com.com/cnwk.1d/css/rb/tron/ipadOverwrite.css"/>');
+    }
+</script> <script type="text/javascript" src="http://asset2.cbsistatic.com/cnwk.1d/cb1355347141000/html/rb/js/tron/Build/Filelists/global/loader.js"></script> <script type="text/javascript" src="http://asset0.cbsistatic.com/cnwk.1d/cb1355347141000/html/rb/js/tron/Build/Filelists/global/base.js"></script> <script type="text/javascript" src="http://fonts.cnet.com/mna1gzn.js"></script> <script type="text/javascript">try{Typekit.load();}catch(e){}</script> <script type="text/javascript">
+    UserVars = new LocalVars.UserVars({
+        loggedIn: ' ',
+        userName: ' ',
+        ursRegId: ' ',
+        rememberMe: ' ',
+        confirmed: ' '
+    });
+
+    PageVars = new LocalVars.PageVars({
+        pageType: '8301',
+        nodeId: '1023',
+        siteId: '3',
+        assetId: '57558795',
+        pageNumber: '93',
+        channelId: '1023',
+        editionId: '3',
+        brandId: '5',
+        breadcrumb: '1023',
+        userIP: '208.102.65.88, 216.68.10.172, 208.102.65.88, 64.30.227.218, 64.211.21.100, 208.102.65.88',
+        guid: 'UMl8KQoOYJEAAHHh98AAAAHm',
+        dvarSession: ' ',
+        mmode: { 
+            comments: 'false'
+        },
+        uaType: ' '
+    });
+</script>  <link rel="search" type="application/opensearchdescription+xml" title="CNET News Search" href="http://news.cnet.com/html/osdd/news.xml" />  <!-- nagTag --> <link type="text/css" rel="stylesheet" rev="stylesheet" href="http://asset0.cbsistatic.com/cnwk.1d/cb1355350975000/css/rb/Build/8301/redesign/8301.0.0.v2.css"/> <link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.cnet.com/news//google-tweaks-image-search-to-make-porn-harder-to-find/57558795" /> <script type="text/javascript">
+    
+    if(window.PageVars) {
+        PageVars.set('communityId', '2108');
+        PageVars.set('targetCommunityId', '2108');
+    }
+</script> <meta name="description" content="The company says the move is designed to ensure adult content is shown only to those who explicitly request it. Read this article by Casey Newton on CNET News." />
+<meta name="keywords" content="google search, safesearch" />
+<meta property="og:description" content="The company says the move is designed to ensure adult content is shown only to those who explicitly request it. Read this article by Casey Newton on CNET News."/> <meta property="og:image" content="http://i.i.com.com/cnwk.1d/i/tim/2012/09/26/pornoogle_610x320.png"/> <meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@CNET"/>
+<meta name="twitter:creator" content="@CaseyNewton"/> <meta name="twitter:url" content="http://news.cnet.com/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/"/> <meta name="twitter:title" content="Google tweaks image search to make porn harder to find"/>
+<meta name="twitter:description" content="The company says the move is designed to ensure adult content is shown only to those who explicitly request it. Read this article by Casey Newton on CNET News."/>
+<meta name="twitter:image" content="http://i.i.com.com/cnwk.1d/i/tim/2012/09/26/pornoogle_610x320.png"/> <link rel="image_src" href="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/09/26/pornoogle_610x320.png" /> <link rel="alternate" type="application/rss+xml" title="Internet & Media Feed" href="http://news.cnet.com/8300-1023_3-93.xml" /> <link rel="alternate" type="application/rss+xml" title="Latest News" href="http://news.cnet.com/2547-1_3-0-20.xml" /> <link rel="canonical" href="http://news.cnet.com/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/" /> <meta name="fragment" content="!"> <script type="text/javascript">
+            PageVars.set('title', "Google tweaks image search to make porn harder to find - CNET News");
+            
+            PageVars.set('description', "The company says the move is designed to ensure adult content is shown only to those who explicitly request it.");
+            
+            PageVars.set('href', "http://news.cnet.com/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/");
+        </script> <meta property="og:title" content="Google tweaks image search to make porn harder to find"/> <meta property="og:type" content="article"/> <meta property="og:url" content="http://news.cnet.com/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/"/>  <script type="text/javascript" src="http://dw.com.com/js/dw.js"></script>
+<script type="text/javascript">
+    DW.pageParams = {
+        siteid: '3',
+        edid:   '3',
+        prtnr:  'CNET Networks, Inc.',
+        ptid:   '8301',
+        onid:   '1023',
+        asid:   '57558795',
+        pgnbr:  '93',
+        astId:  '28',
+        pguid:  'UMl8KQoOYJEAAHHh98AAAAHm',
+        testName: ' ',
+        testVersion: ' ',
+        testGroup: ' ',
+        ursglobid: ' ',
+        version: ' ',
+        x_arw_buckets: 'MAD:first_impression'
+    };    
+</script> <script type="text/javascript">
+    DW.regSilo = '1';
+</script> <script type="text/javascript" src="http://asset1.cbsistatic.com/cnwk.1d/Ads/common/manta/adFunctionsD-cnet.js"></script>  <script type="text/javascript">
+    var cbsiAdGlobal = {
+        'BRAND': PageVars.get('brandId'),
+        'CID': '57558795',
+        'CNET-PAGE-GUID': PageVars.get('guid', 'string'),
+        'DVAR_ATTR': ' ',
+        'DVAR_CARRIER': ' ',
+        'DVAR_KEYWORD': ' ',
+        'DVAR_MFG': ' ',
+        'DVAR_OS': ' ',
+
+        'DVAR_SESSION': ' ',
+
+        'DVAR_TAG': 'google search;safesearch',
+        'DVAR_USER_GROUP': 'first_impression',
+        'DVAR_VERSION': '2011',
+        'DVAR_KEYWORD': ' ',
+        'DVAR_PUBLISH': ' ',
+        'DVAR_PAGEMODE': ' ',
+        'NCAT': PageVars.get('breadcrumb'),
+        'NODE': PageVars.get('nodeId'),
+        'PTYPE': PageVars.get('pageType'),
+        'SITE': PageVars.get('siteId'),
+        'STAGING': (PageVars.isLiveEnv()) ? 0 : 1  // set to 1 if on a test environment
+    };
+    cbsiRegisterAdGlobals(cbsiAdGlobal);
+    
+    
+    
+
+</script> <!-- Remove intromercial ad for DL except for DL FD (pagetype 2000) - per bug 437976 --> <!-- MAC T f.10.13.13 --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- NO AD TEXT: _QUERY_STRING="POS=100&SP=80" _REQ_NUM="0"  --><!-- default ad --><img src="http://adlog.com.com/adlog/i/r=6459&amp;sg=1815&amp;o=1023%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=01phx2-ad-e12:50C979CDBBA5&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /><!-- MAC ad --> <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]--> <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  
+  _gaq.push(['_setAccount', 'UA-30164722-3']);
+  
+  _gaq.push(['_trackPageview']);
+  
+  _gaq.push(['nT._setAccount', 'UA-27653683-1']);
+  
+  _gaq.push(['nT._setAllowLinker', true]);
+  _gaq.push(['nT._setSampleRate', '1']);
+  _gaq.push(['nT._trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> <!--Visual Revenue Reader Response Tracking Script (v6) --> <script type="text/javascript">
+    var _vrq = _vrq || [];
+    _vrq.push(['id', 103]);
+    _vrq.push(['automate', false]);
+    _vrq.push(['track', function(){}]);
+    (function(d, a) {
+         var s = d.createElement(a),
+         x = d.getElementsByTagName(a)[0];
+         s.async = true;
+         s.src = 'http://a.visualrevenue.com/vrs.js';
+         x.parentNode.insertBefore(s, x);
+    })(document, 'script');
+</script> <!-- End of VR RR Tracking Script - All rights reserved --> </head> <body class="siteId3 pageType8301 node1023"> <!-- ClickTale top -->
+<script type="text/javascript">
+    var WRInitTime = (new Date()).getTime();
+</script>
+<!-- /ClickTale top --> <script type="text/javascript">
+                    DW.ldc_domain='.cnet.com';
+                    DW.trackClicks(DW.noTagClickHandler);
+        </script> <div id="rb_shell"> <div id="omnibarAd"> <!-- MAC T 13.14.17.17 --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- NO AD TEXT: _QUERY_STRING="POS=100&SP=250" _REQ_NUM="0"  --><!-- default ad --><img src="http://adlog.com.com/adlog/i/r=18639&amp;sg=1815&amp;o=1023%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=01phx2-ad-e3:50C821ED9D596E&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /><!-- MAC ad -->
+</div> <!--[if lt IE 9]>
+<noscript><div id="rbHeader" class="headerTag " section="hdr" name="rb_header"></noscript>
+<![endif]-->
+<header id="rbHeader" class="pfABTest" section="hdr" name="rb_header">  <div class="int"> <div class="rbLogo"> <a href="http://www.cnet.com/">CNET</a> </div> <a href="/" class="siteId3logo siteLogo">News</a> <form method="get" action="/1770-5_3-0.html" class="universalSearch" name="tsearch" section="srch" id="universalSearch"> <div class="searchBoxWrap"> <input type="text" name="query" size="20" maxlength="255" class="searchBox" value="Search CNET" onfocus="if(this.value==this.defaultValue) this.value='';" autocomplete="off" id="universalSearchBox" /> <button type="button" class="searchGo" value="Go" onclick="submitSearch('universalSearch',false);"></button> </div> <input type="hidden" name="tag" value="srch" /> <input type="hidden" name="searchtype" value="news" /> </form> <a href="http://reviews.cnet.com/holiday-gift-guide/" class="holidayHeaderLogo">2012 Holiday Gift Guide</a> <!-- MAC T 17.17.1a.1a --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- NO AD TEXT: _QUERY_STRING="PREHTML=%3Cdiv%20class%3D%22headerTextAd%22%3E&POSTHTML=%3C%2Fdiv%3E&POS=300&SP=64" _REQ_NUM="0"  --><!-- default ad --><img src="http://adlog.com.com/adlog/i/r=11653&amp;sg=1815&amp;o=1023%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=300&amp;e=3&amp;rqid=01phx2-ad-e11:50C8D8FD51BE01&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /><!-- MAC ad --> </div> <!-- /int --> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav id="primaryNav"> <ul id="primaryNavBar" class="section" section="brandnav"> <li class="site1"> <a class="" href="http://www.cnet.com/">Home</a> </li> <li class="expandable site7"> <a class="menuHead " href="http://reviews.cnet.com/">Reviews <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <h3 id="topCategoriesNav">Top Categories</h3> <h3 id="moreCategoriesNav">More Categories</h3> <div id="reviewsNavLinkCategories"> <ul> <li><a href="http://reviews.cnet.com/car-tech/">Car Tech</a></li> <li><a href="http://reviews.cnet.com/cell-phones/">Cell Phones</a></li> <li><a href="http://reviews.cnet.com/desktop-computers/">Desktops</a></li> <li><a href="http://reviews.cnet.com/digital-cameras/">Digital Cameras</a></li> <li><a href="http://reviews.cnet.com/home-audio/">Home Audio</a></li> <li><a href="http://reviews.cnet.com/laptops/">Laptops</a></li> <li><a href="http://reviews.cnet.com/printers/">Printers</a></li> <li><a href="http://reviews.cnet.com/tablets/">Tablets</a></li> <li><a href="http://reviews.cnet.com/televisions/">Televisions</a></li> <li><a href="http://forums.cnet.com/">Forums</a></li> </ul> <ul> <li><a href="http://reviews.cnet.com/appliances-kitchen-gadgets/">Appliances</a></li> <li><a href="http://reviews.cnet.com/camcorders/">Camcorders</a></li> <li><a href="http://reviews.cnet.com/cell-phone-accessories/">Cell Phone Accessories</a></li> <li><a href="http://reviews.cnet.com/components/">Components</a></li> <li><a href="http://reviews.cnet.com/e-book-readers/">E-book Readers</a></li> <li><a href="http://reviews.cnet.com/games/">Games &amp; Gear</a></li> <li><a href="http://reviews.cnet.com/gps/">GPS</a></li> <li><a href="http://reviews.cnet.com/hard-drive-burners/">Hard Drives &amp; Storage</a></li> <li><a href="http://reviews.cnet.com/headphones-reviews/">Headphones</a></li> <li><a href="http://reviews.cnet.com/home-video/">Home Video</a></li> </ul> <ul> <li><a href="http://reviews.cnet.com/web-hosting/">Internet Access</a></li> <li><a href="http://reviews.cnet.com/monitors/">Monitors</a></li> <li><a href="http://reviews.cnet.com/mp3-players/">MP3 Players</a></li> <li><a href="http://reviews.cnet.com/networking-wifi/">Networking &amp; Wi-Fi</a></li> <li><a href="http://reviews.cnet.com/peripherals/">Peripherals</a></li> <li><a href="http://download.cnet.com/">Software</a></li> <li><a href="http://reviews.cnet.com/web-hosting/">Web Hosting</a></li> </ul> </div> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="expandable site3"> <a class="menuHead active" href="/"><i>You are here: </i>News <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <ul> <li><a href="/">Latest News</a></li> <li><a href="/mobile-news/">Mobile</a></li> <li><a href="/bootstrap/">Startups</a></li> <li><a href="/cutting-edge/">Cutting Edge</a></li> <li><a href="/digital-media/">Internet &amp; Media</a></li> <li><a href="/security/">Security &amp; Privacy</a></li> <li><a href="/business-tech/">Business Tech</a></li> <li><a href="/crave/">Crave</a></li> </ul> <ul> <li><a href="/apple/">Apple</a></li> <li><a href="/microsoft-news/">Microsoft</a></li> <li><a href="/politics-and-law/">Politics &amp; Law</a></li> <li><a href="/gaming-and-culture/">Tech Culture</a></li> <li><a href="/tech-blogs/">Blogs</a></li> <li><a href="/tech-video/">Video</a></li> <li><a href="/photo-galleries/">Photos</a></li> <li><a href="http://www.cnet.com/news-rss/">RSS</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="expandable site4"> <a class="menuHead " href="http://download.cnet.com/">Download <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <ul> <li><a href="http://download.cnet.com/windows/">Windows Software</a></li> <li><a href="http://download.cnet.com/mac/">Mac Software</a></li> <li><a href="http://download.cnet.com/ios/">iOS Apps</a></li> <li><a href="http://download.cnet.com/android/">Android Apps</a></li> <li><a href="http://download.cnet.com/download-blog/">The Download Blog</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="site53 expandable"> <a class="menuHead " href="http://cnettv.cnet.com/">CNET TV <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <ul> <li><a href="http://cnettv.cnet.com/most-popular/">Most Popular</a></li> <li><a href="http://cnettv.cnet.com/new-releases/">New Releases</a></li> <li><a href="http://cnettv.cnet.com/products/">Products</a></li> <li><a href="http://cnettv.cnet.com/tech-shows/">Tech Shows</a></li> <li><a href="http://cnettv.cnet.com/how-to/">How To</a></li> <li><a href="http://cnettv.cnet.com/?type=franchiseId&amp;value=18">Car Tech</a></li> <li><a href="http://cnettv.cnet.com/?type=nodeId&amp;value=6454&amp;name=Cell%20Phones">Cell Phones</a></li> <li><a href="http://cnettv.cnet.com/?type=nodeId&amp;value=3126&amp;name=Tablets">Tablets</a></li> </ul> <ul> <li><a href="http://cnettv.cnet.com/always-on/">Always On</a></li> <li><a href="http://cnettv.cnet.com/?type=franchiseId&amp;value=69&amp;name=Apple%20Byte">Apple Byte</a></li> <li><a href="/conversations/">CNET Conversations</a></li> <li><a href="http://cnettv.cnet.com/oncars/">CNET On Cars</a></li> <li><a href="http://cnettv.cnet.com/?type=franchiseId&amp;value=7&amp;name=CNET%20Top%205">CNET Top 5</a></li> <li><a href="/update/">CNET Update</a></li> <li><a href="http://cnettv.cnet.com/?type=franchiseId&amp;value=153&amp;name=Rumor%20Has%20It">Rumor Has It</a></li> <li><a href="http://www.cnet.com/the-404/">The 404</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="site39 expandable"> <a class="menuHead " href="http://howto.cnet.com/">How To <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <ul> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=2035">Computers</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=10020812">Home Theater</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=9744235">Photography</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=9750513">Privacy</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=1011">Security</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=1058">Smartphones</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=10439980">Tablets</a></li> <li><a href="http://howto.cnet.com/8300-11310_39-285.html?categoryId=9852563">Web</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="siteM expandable"> <a class="menuHead " href="http://reviews.cnet.com/marketplace/">Deals <span></span></a> <div class="menuWrapper"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <nav> <ul> <li><a href="http://reviews.cnet.com/marketplace/">Today's Deals</a></li> <li><a href="http://reviews.cnet.com/marketplace/exclusives/">Members-only Deals</a></li> <li><a href="http://reviews.cnet.com/marketplace/coupons/">Coupon Codes</a></li> <li><a href="http://reviews.cnet.com/8300-33153_7-10391733.html">Marketplace Blog</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </div> </li> <li class="expandable loginAction"> <div class="loggedOut"> <a class="menuHead">Log In | Join <span></span></a> <div class="menuWrapper"> <nav> <ul> <li class="timelineSets"> <a>Facebook Timeline options</a> </li> <li class="first"><a id="openLogIn" onclick="CURS.Manager.checkLogin({ursForm: 'login', appId: 9})">Log In</a></li> <li><a onclick="CURS.Manager.checkLogin({ursForm: 'register', appId: 9})">Join CNET</a></li> <li class="last socialConnect">Sign in with <span id="gigyaHeader" class="small gigyaWidget"></span></li> </ul> </nav> </div>
+</div> <div class="loggedIn" style="display:none"> <a class="menuHead" href="/profile/"><span class="cnetUserName welcome"></span> <span></span></a> <div class="menuWrapper"> <nav> <ul> <li class="timelineSets"> <a>Facebook Timeline options</a> </li> <li class="first socialConnect"><span id="gigyaHeaderConnections" class="gigyaWidget connections"></span></li> <li><a href="/profile/">My profile</a></li> <li class="last"><a class="logOut" href="/1331-4_3-9.html">Log out</a></li> </ul> </nav> </div>
+</div> </li> <li class="fbButton"> <button class="fbGraphButton off"></button> </li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]-->
+</header>
+<!-- /rbHeader -->
+<!--[if lt IE 9]>
+<noscript></div></noscript>
+<![endif]--> <div id="rb_skin" class="rb_skin">  <!-- DNA Vars: , , , , , , , , , -->     <!-- DNA'd: - false --> <!-- MAC T 1b.1b.1f.1f --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- MAC-AD STATUS: COULD NOT MAP ( _MAPPINGS='NEWS' BRAND='5' SITE='3' SP='119' CNET-PTYPE='87' POS='100' NCAT='1023:' CNET-PARTNER-ID='1' ) TO _RGROUP --><!-- NO AD TEXT: _QUERY_STRING="PREHTML=%3Cdiv%20id%3D%22backsplash%22%20class%3D%22ad%22%3E&POSTHTML=%3C%2Fdiv%3E&POS=100&SP=119" _REQ_NUM="0"  --><!-- MAC ad --> <!-- ncat.jsp NCAT=1023:B93--> <!-- firstCat: 2013 --> <!-- MAC T 1f.20.25.26 --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><style type="text/css">.mad_center div, .mad_center table, .mad_center iframe, .mad_center img, .mad_center center, .mad_center object, #adDiv, #adDiv div, #adDiv table, #adDiv iframe, #adDiv img, #adDiv center, #adDiv object {margin-left:auto;margin-right:auto;}.mad_center img, .mad_center embed, .mad_center iframe {vertical-align:top;} .mad_center, #adDiv {text-align:center;text-align:-moz-center;text-align:-webkit-center}</style><div id="leaderboard"><div style="display:none;">ie8 fix</div><style type="text/css"> # .fifpre, # .fifpost {display:block;} # .adHolder div, # .adHolder table, # .adHolder iframe, # .adHolder img, # .adHolder center, # .adHolder object {margin-left: auto; margin-right: auto;} # .adHolder {text-align:center;text-align:-moz-center;text-align:-webkit-center;} # .adHolder img, # .adHolder embed, # .adHolder iframe {vertical-align:top;}</style><div class="mad_adcontainer mad_center sp15seg628653" id="madison_ad_15_100" align="center">
+		<script type="text/javascript">
+			// Detect for cbsi global var
+			if(typeof(cbsiadGlobal)=="undefined")
+				cbsiadGlobal = {};
+			// set Takeover var to 1
+			cbsiadGlobal.has_takeover=1;	
+		</script><div style="text-align:center;"><center><SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N3671.SD148013N3671SN0/B6987320.30;sz=970x66;pc=cbs628653;click0=http://adlog.com.com/adlog/e/r=21336&amp;sg=628653&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=00phx1-ad-e19:50C9289E21A2ED&amp;orh=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;t=2012.12.13.06.56.41&amp;event=58/;ord=2012.12.13.06.56.41?">
+</SCRIPT>
+<NOSCRIPT>
+<a rel="nofollow" href="http://adlog.com.com/adlog/e/r=21336&sg=628653&o=1023%253aB93%253a&h=cn&p=2&b=5&l=en_US&site=3&pt=8301&nd=1023&pid=&cid=57558795&pp=100&e=3&rqid=00phx1-ad-e19:50C9289E21A2ED&orh=&ppartner=&pdom=&count=&ra=208%2e102%2e65%2e88&pg=UMl8KQoOYJEAAHHh98AAAAHm&t=2012.12.13.06.56.41&event=58/http://ad.doubleclick.net/jump/N3671.SD148013N3671SN0/B6987320.30;sz=970x66;pc=cbs628653;ord=2012.12.13.06.56.41" target="_blank">
+<IMG SRC="http://ad.doubleclick.net/ad/N3671.SD148013N3671SN0/B6987320.30;sz=970x66;pc=cbs628653;ord=2012.12.13.06.56.41?" BORDER=0 WIDTH=970 HEIGHT=66 ALT="Advertisement"></A>
+</NOSCRIPT></center></div><img src="http://adlog.com.com/adlog/i/r=21336&amp;sg=628653&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=00phx1-ad-e19:50C9289E21A2ED&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255fpublish%253dnew%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /></div></div><!-- MAC ad --> <div id="rb_wrap"> <!-- arrowUser.mvtUserBucket.name = --> <!-- arrowUser.mvtUserBucket.group = --> <div id="rb_content" class="blogId93 NewsSkin"> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="specialAnnouncements">
+
+    <!--[if lt IE 9]>
+    <noscript>
+        <div class="sectionTag" id="breakingNewsTick">
+    </noscript>
+    <![endif]-->
+    <section id="breakingNewsTick" >
+        <style type="text/css">
+            #contentAux{
+                top: 70px;
+            }
+        </style>
+
+        <div class="introText">
+            <div class="breakingNewsIcon"></div>
+            <span>
+                
+                        The CNET 100 
+                    
+            </span>
+            <div class="leftArrow"></div>
+        </div>
+
+        <div section="breaking">
+            
+                    <h1>
+                        <a class="title" href="http://www.cnet.com/cnet100/">Dive into the most influential tech, people, trends, and news stories of 2012.</a>
+                    </h1>
+                
+        </div>
+
+        <div class="social">
+            <div class="rightArrow"></div>
+
+            
+                    
+                        
+                    
+                    
+                        
+                        
+                        
+                    
+                
+            <span>Share</span>
+
+            <a href="http://twitter.com/share?url=http%3A%2F%2Fnews.cnet.com&amp;counturl=http%3A%2F%2Fnews.cnet.com&amp;via=CNET&amp;text=Dive+into+the+most+influential+tech%2C+people%2C+trends%2C+and+news+stories+of+2012." target="new" class="linkIcon twitter"></a>
+            <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fnews.cnet.com" target="new" class="linkIcon facebook"></a>
+        </div>
+    </section>
+    <!--[if lt IE 9]>
+    <noscript></div></noscript>
+    <![endif]-->
+
+</div>
+
+    <div class="topWrap"> <div section="bc">
+<ul class="breadcrumb"> <li><a href="http://www.cnet.com/">CNET</a></li> <li><a href="/">News</a></li> <!-- TODO: Find a better way to target between blogs and node posts for breadcrumb --> <li><a href="/digital-media/">Internet & Media</a></li> <li>Google tweaks image search to make porn harder ...</li> </ul>
+</div> </div> <!--[if lt IE 9]> <noscript><div id="contentBody" section="mncol"></noscript> <![endif]--> <article id="contentBody" section="mncol"> <div class="post"> <!--[if lt IE 9]> <noscript><div class="header" section="title"></noscript> <![endif]--> <header section="title"> <h1>Google tweaks image search to make porn harder to find</h1> <p id="introP">The company says the move is designed to ensure adult content is shown only to those who explicitly request it.</p> <div class="postByline"> <a rel="author" href="http://www.cnet.com/profile/CaseyNewton/"><figure><img class="mugshot" alt="Casey Newton" height="43" width="60" src="http://asset1.cbsistatic.com/cnwk.1d/i/tim/2012/12/05/Casey_Newton_60x43.jpg" /></figure></a> <div id="nameAndTime"> <span class="author"> <div class="singleAuthor"> by <a rel="author" href="http://www.cnet.com/profile/CaseyNewton/">Casey Newton</a> </div> </span> <!--[if lt IE 9]> <noscript><div class="datestamp"></noscript> <![endif]--> <time class="datestamp"> December 12, 2012 11:49 AM PST </time> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <a href="http://www.twitter.com/CaseyNewton" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" data-width="200px">Follow @CaseyNewton</a> </div> </div> </header> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <div class="postBody txtWrap" section="txt" >
+<div class="cnet-image-div image-LARGE2 float-none" style="width: 610px">
+<img class="cnet-image" src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/09/26/pornoogle_610x320.png" alt=""
+width="610" height="320" />
+<span class="image-credit">
+(Credit:
+Chris Matyszczyk/CNET)
+</span>
+</div>
+<p>Search for porn using Google Image Search today and you might not find much. </p>
+<p>The company rolled out a change to its image search algorithm overnight that makes it tougher to stumble across adult pictures, whether or not you're searching for them. </p>
+<p>Here's how a Google representative explains the change:</p>
+<p>"We are not censoring any adult content, and want to show users exactly what they are looking for -- but we aim not to show sexually-explicit results unless a user is specifically searching for them. We use algorithms to select the most relevant results for a given query. If you're looking for adult content, you can find it without having to change the default setting -- you just may need to be more explicit in your query if your search terms are potentially ambiguous. The image search settings now work the same way as in Web search."</p>
+<p>In other words, if you have SafeSearch turned off, you can still probably find anything you're looking for by appending the word "porn" to your search. </p>
+<p>But that might not be enough to satisfy some users. <a href="http://www.reddit.com/r/WTF/comments/14q6ir/censorship_as_of_past_two_hours_google_images/">A Reddit thread</a> this morning found users struggling to find explicit content even with SafeSearch turned off. </p>
+<p>"What is this? communism?!" asked user <a href="http://www.reddit.com/r/WTF/comments/14q6ir/censorship_as_of_past_two_hours_google_images/c7fhppw">Fake_Cakeday</a>. "BRING BACK THE PORN!"</p>
+<p>Google says the change simply brings image search settings in line with existing settings for Web and video search. But it's worth noting that this move is unusual for a company that in every other case works to make it easier, not harder, for you to find the thing you're looking for. The idea behind products like the Knowledge Graph and Google Now is that the company should bring you information with the least amount of effort possible. With its new image search settings, Google has identified one place where it wants users to work a bit harder. </p>
+</div><!-- /div section --> <footer> <!--[if lt IE 9]> <noscript><div></noscript> <![endif]--> <aside> </aside> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <div section="tags" class="tagsWrap"> <div class="postLinks"> <dl> <dt><b>Topics:</b></dt> <dd> <a href="/8300-5_3-0.html?categoryId=2013">Search</a>, </dd> <dd> <a href="/8300-5_3-0.html?categoryId=9702220">Google</a> </dd> <dt class="pipe"><b>Tags:</b></dt> <dd> <a href="/8300-5_3-0.html?keyword=google+search">google search</a>, </dd> <dd> <a href="/8300-5_3-0.html?keyword=safesearch">safesearch</a> </dd> <!-- Added DVAR tag per bug 422649. liaHeader value=google search;safesearch --> </dl> </div> </div> <div class="editorBio"> <a rel="author" href="http://www.cnet.com/profile/CaseyNewton/"><figure><img class="mugshot" src="http://asset3.cbsistatic.com/cnwk.1d/html/news/clear.gif" height="100" width="140" lazySrc="http://i.i.com.com/cnwk.1d/i/tim/2012/12/05/Casey_Newton_140x100.jpg" /></figure></a> <div id="bioLinks"> <a rel="author" href="http://www.cnet.com/profile/CaseyNewton/">Casey Newton</a> <p class="shortBio">Casey Newton writes about Google for CNET, which he joined in 2012 after covering technology for the San Francisco Chronicle. He is really quite tall.</p> <div id="socialFollow" section="socialFollow"> <a class="googPlus" rel="me" target="_blank" href="http://plus.google.com/118437665756721164059/"><img src="http://asset2.cbsistatic.com/cnwk.1d/i/social/google/gplus-icon-16.png"></a> <a href="http://www.twitter.com/CaseyNewton" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false" data-width="200px">Follow @CaseyNewton</a> <fb:like class="fb_XFBML" href="http://www.facebook.com/people/@/103692109788729" layout="button_count" show_faces="false" ref="fblikeeditor"></fb:like> </div><!--/socialFollow--> </div><!--/bioLinks--> </div><!--/editorBio--> </footer> </div><!-- /post --> <!-- MAC T 2a.2b.2d.2d --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- MAC-AD STATUS: COULD NOT MAP ( _MAPPINGS='NEWS' BRAND='5' SITE='3' SP='174' CNET-PTYPE='87' POS='100' NCAT='1023:B93:' CNET-PARTNER-ID='1' ) TO _RGROUP --><!-- NO AD TEXT: _QUERY_STRING="PREHTML=%3Cdiv%20class%3D%22infoboardWrap%22%3E%3Cdiv%20class%3D%22infoboard%22%3E&POSTHTML=%3C%2Fdiv%3E%3C%2Fdiv%3E&NCAT=1023%3AB93%3A&POS=100&SP=174" _REQ_NUM="0"  --><!-- MAC ad --> <div class="nrelateUnit" id="nrelate_related_placeholder"></div> <!-- nagTag --> <!--[if lt IE 9]> <noscript> <div class="sectionTag" id="fourAcross"> </noscript> <![endif]--> <section id="postsFourAcross" class="secondRowDM" section="morePosts"> <h2>Don't Miss</h2> <ul> <li > <a href="/8301-1023_3-57558683-93/google-zeitgeist-2012-whitney-gangnam-ipad-3-and-more/" class="image"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure > <img src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/12/12/google-2012-zeitgeist_140x100.png"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div> <a href="/8301-1023_3-57558683-93/google-zeitgeist-2012-whitney-gangnam-ipad-3-and-more/">Google Zeitgeist 2012: Whitney, Gangnam, iPad 3 and more</a> <p class="blogName">Internet & Media</p> </div> </li> <li > <a href="/8301-13579_3-57558661-37/apple-tv-is-in-early-stage-of-testing-report-says/" class="image"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure > <img src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/12/12/App_appleTV_610x426_140x100.jpg"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div> <a href="/8301-13579_3-57558661-37/apple-tv-is-in-early-stage-of-testing-report-says/">Apple TV is in 'early stage of testing,' report says</a> <p class="blogName">Apple</p> </div> </li> <li > <a href="/2300-10797_3-10014836.html" class="image"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure > <img src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/12/10/Cantina_band_140x100.jpg"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div> <a href="/2300-10797_3-10014836.html">Darth Vader, Yoda, and lightsabers, oh my (pictures)</a> <p class="blogName">Slideshow</p> </div> </li> <li class="last"> <a href="http://reviews.cnet.com/portable-speakers/philips-soundshooter-orange/4505-11313_7-35551476.html" class="image"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure > <img src="http://asset1.cbsistatic.com/cnwk.1d/sc/35551476-2-140-0.gif"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div> <a href="http://reviews.cnet.com/portable-speakers/philips-soundshooter-orange/4505-11313_7-35551476.html">Tiny grenade speaker doesn't bomb</a> <p class="blogName">Review</p> </div> </li> </ul> </section> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!-- nagTag --> <script type="text/javascript">
+        tlSpinnerVars = {'videoId': '50136916'};
+    </script> <div id="tlWrap"> <div id="tlThumbWrap" onclick="makeNewsPlayer({'franchiseId':'161','videoId':'50136916','name':'CNET Update','title':'FreedomPop offers free home broadband','mapp':function(){return (PageVars.get('pageType')==8301 ? '8301_lower_promo' : null)}});"> <img id="tlThumb" src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/12/12/ud121212_140x100.jpg"> <img id="tlPlayButton" src="http://asset0.cbsistatic.com/cnwk.1d/i/tron/overlays/video-overlay-med.png"> </div> <div id="tlMetaWrap"> <div id="tlHed"> <span id="tlShow">CNET Update</span> </div> <div id="tlTitle" onclick="makeNewsPlayer({'franchiseId':'161','videoId':'50136916','name':'CNET Update','title':'FreedomPop offers free home broadband','mapp':function(){return (PageVars.get('pageType')==8301 ? '8301_lower_promo' : null)}});">FreedomPop offers free home broadband</div> <div id="tlDek">A startup looks to disrupt the broadband industry with free Internet, Facebook makes privacy settings easier to find, and a video shows what could be the next BlackBerry phone.</div> <div id="tlPlayVideo" onclick="makeNewsPlayer({'franchiseId':'161','videoId':'50136916','name':'CNET Update','title':'FreedomPop offers free home broadband','mapp':function(){return (PageVars.get('pageType')==8301 ? '8301_lower_promo' : null)}});">Play Video</div> </div> </div> <!--[if lt IE 9]>
+<noscript><div id="postComments"></noscript>
+<![endif]-->
+<section id="postComments" class="OneLinkHide"> <div class="postTalkback" section="tback"> </div> </section>
+<!--[if lt IE 9]>
+<noscript></div></noscript>
+<![endif]--> <div class="bidwar"> <iframe src="http://bwp.news.com/search?dw-siteid=3&dw-ontid=1023&dw-ptid=8301&dw-edid=3" scrolling="no" width="100%" height="300" marginheight="0" marginwidth="0" frameborder="0" target="_top" class="bwp_std_call"></iframe> </div> </article> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!--[if lt IE 9]><noscript><div class="sidebar" id="contentAux" section="postrtcol"></noscript><![endif]-->
+<section class="sidebar" id="contentAux" section="postrtcol"> <div class="ad"> <!-- MAC T 36.36.39.3a --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><style type="text/css">.mad_center div, .mad_center table, .mad_center iframe, .mad_center img, .mad_center center, .mad_center object, #adDiv, #adDiv div, #adDiv table, #adDiv iframe, #adDiv img, #adDiv center, #adDiv object {margin-left:auto;margin-right:auto;}.mad_center img, .mad_center embed, .mad_center iframe {vertical-align:top;} .mad_center, #adDiv {text-align:center;text-align:-moz-center;text-align:-webkit-center}</style><div id="topMPU" class="mpu"><div style="display:none;">ie8 fix</div><style type="text/css"> # .fifpre, # .fifpost {display:block;} # .adHolder div, # .adHolder table, # .adHolder iframe, # .adHolder img, # .adHolder center, # .adHolder object {margin-left: auto; margin-right: auto;} # .adHolder {text-align:center;text-align:-moz-center;text-align:-webkit-center;} # .adHolder img, # .adHolder embed, # .adHolder iframe {vertical-align:top;}</style><div class="mad_adcontainer mad_center sp16seg629456" id="madison_ad_16_100" align="center"><IFRAME SRC="http://ad.doubleclick.net/adi/N884.148013.CBSINTERACTIVE-CNET/B7148763.23;sz=300x250;click0=http://adlog.com.com/adlog/e/r=21337&amp;sg=629456&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=00phx2-ad-e8:50C83BE795F1E1&amp;orh=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;t=2012.12.13.06.56.41&event=58/;ord=2012.12.13.06.56.41?" width="300" height="250" MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR='#000000'>
+<SCRIPT language='JavaScript1.1' SRC="http://ad.doubleclick.net/adj/N884.148013.CBSINTERACTIVE-CNET/B7148763.23;abr=!ie;sz=300x250;click0=http://adlog.com.com/adlog/e/r=21337&amp;sg=629456&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=00phx2-ad-e8:50C83BE795F1E1&amp;orh=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;t=2012.12.13.06.56.41&event=58/;ord=2012.12.13.06.56.41?">
+</SCRIPT>
+<NOSCRIPT>
+<a rel="nofollow" target="_blank" href="http://adlog.com.com/adlog/e/r=21337&sg=629456&o=1023%253aB93%253a&h=cn&p=2&b=5&l=en_US&site=3&pt=8301&nd=1023&pid=&cid=57558795&pp=100&e=3&rqid=00phx2-ad-e8:50C83BE795F1E1&orh=&ppartner=&pdom=&count=&ra=208%2e102%2e65%2e88&pg=UMl8KQoOYJEAAHHh98AAAAHm&t=2012.12.13.06.56.41&event=58/http://ad.doubleclick.net/jump/N884.148013.CBSINTERACTIVE-CNET/B7148763.23;abr=!ie4;abr=!ie5;sz=300x250;ord=2012.12.13.06.56.41">
+<IMG SRC="http://ad.doubleclick.net/ad/N884.148013.CBSINTERACTIVE-CNET/B7148763.23;abr=!ie4;abr=!ie5;sz=300x250;ord=2012.12.13.06.56.41?" BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A>
+</NOSCRIPT>
+</IFRAME><img src="http://adlog.com.com/adlog/i/r=21337&amp;sg=629456&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=100&amp;e=3&amp;rqid=00phx2-ad-e8:50C83BE795F1E1&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255fpublish%253dnew%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /></div></div><!-- MAC ad --> </div> <!-- nagTag --> <!--[if lt IE 9]> <noscript> <div class="sectionTag" id="cnetBlogs"> </noscript> <![endif]--> <section id="cnetBlogs" section="FD.posts" data-vr-zone="FD.posts"> <h2>Featured Posts</h2> <ul> <li class="blogSide" id="News - Mobile" data-vr-contentbox=""> <a class="blogId94 blogImages" href="/mobile-news/"></a> <a href="/8301-1035_3-57558679-94/googles-schmidt-android-is-winning-that-war-with-apple/"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img heigth="43" src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/06/19/eric_schmidt-2_270x278_270x278_60x45.jpg" alt="Thumbnail image of Google's Schmidt: Android is 'winning that war' with Apple"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div > <a href="/8301-1035_3-57558679-94/googles-schmidt-android-is-winning-that-war-with-apple/">Google's Schmidt: Android is 'winning that war' with Apple</a> <p class="blogName">Mobile</p> </div> </li> <li class="blogSide" id="News - Politics and Law" data-vr-contentbox=""> <a class="blogId38 blogImages" href="/politics-and-law/"></a> <a href="/8301-13578_3-57558622-38/amazon-wins-its-insane-gadget-airbag-patent/"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img heigth="43" src="http://asset2.cbsistatic.com/cnwk.1d/i/tim/2012/12/11/Screen_Shot_2012-12-11_at_3.54.02_PM_60x45.png" alt="Thumbnail image of Amazon wins its insane gadget-airbag patent"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div > <a href="/8301-13578_3-57558622-38/amazon-wins-its-insane-gadget-airbag-patent/">Amazon wins its insane gadget-airbag patent</a> <p class="blogName">Politics and Law</p> </div> </li> <li class="blogSide" id="News - Internet & Media" data-vr-contentbox=""> <a class="blogId93 blogImages" href="/digital-media/"></a> <a href="/8301-1023_3-57558683-93/google-zeitgeist-2012-whitney-gangnam-ipad-3-and-more/"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img heigth="43" src="http://asset0.cbsistatic.com/cnwk.1d/i/tim/2012/12/12/google-2012-zeitgeist_60x45.png" alt="Thumbnail image of Google Zeitgeist 2012: Whitney, Gangnam, iPad 3 and more"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div > <a href="/8301-1023_3-57558683-93/google-zeitgeist-2012-whitney-gangnam-ipad-3-and-more/">Google Zeitgeist 2012: Whitney, Gangnam, iPad 3 and more</a> <p class="blogName">Internet & Media</p> </div> </li> <li class="blogSide" id="Crave" data-vr-contentbox=""> <a class="blogId1 blogImages" href="/crave/"></a> <a href="/8301-17938_105-57558738-1/nasa-releases-mayan-calendar-told-ya-so-video-10-days-early/"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img heigth="43" src="http://asset3.cbsistatic.com/cnwk.1d/i/tim/2012/12/12/nasa-endworld_60x45.jpg" alt="Thumbnail image of NASA releases Mayan calendar 'told ya so' video 10 days early"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div > <a href="/8301-17938_105-57558738-1/nasa-releases-mayan-calendar-told-ya-so-video-10-days-early/">NASA releases Mayan calendar 'told ya so' video 10 days early</a> <p class="blogName">Crave</p> </div> </li> <li class="blogSide" id="News - Mobile" data-vr-contentbox=""> <a class="blogId94 blogImages" href="/mobile-news/"></a> <a href="/8301-1035_3-57558710-94/rip-e-book-readers-rise-of-tablets-drives-e-reader-drop/"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img heigth="43" src="http://asset0.cbsistatic.com/cnwk.1d/i/tim/2012/11/19/KindleWithBooksv3_610x457_60x45.jpg" alt="Thumbnail image of RIP e-book readers? Rise of tablets drives e-reader drop"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <div > <a href="/8301-1035_3-57558710-94/rip-e-book-readers-rise-of-tablets-drives-e-reader-drop/">RIP e-book readers? Rise of tablets drives e-reader drop</a> <p class="blogName">Mobile</p> </div> </li> </ul> </section> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!-- nagTag --> <!--[if lt IE 9]> <noscript> <div class="sectionTag" id="mostPopular"> </noscript> <![endif]--> <section id="mostPopular" section="mostPop"> <h2>Most Popular</h2> <ul> <li> <div class="facebook"></div> <a href="/8301-17938_105-57558595-1/dont-miss-the-best-meteor-shower-of-the-year/">Don't miss the best meteor shower of the year</a> <p class="count">2k<span>Facebook Likes</span></p> </li> <li> <div class="twitter"></div> <a href="/8301-1023_3-57558886-93/report-google-maps-for-ios-coming-out-tonight/">Report: Google Maps for iOS coming out 'tonight'</a> <p class="count">1k<span>Tweets</span></p> </li> <li> <div class="google"></div> <a href="/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/">Google tweaks image search to make porn harder to find</a> <p class="count">71<span>Google Plus Shares</span></p> </li> <li> <div class="comments"><span>228</span> comments</div> <a href="/8301-13579_3-57558151-37/australia-police-discourage-use-of-apple-maps-app-after-rescues/">Australia police discourage use of Apple maps app after rescues</a> <p class="count">228<span>Comments</span></p> </li> </ul> </section> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!-- MAC T 3e.3f.41.41 --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><!-- MAC-AD STATUS: COULD NOT MAP ( _MAPPINGS='NEWS' BRAND='5' SITE='3' SP='104' CNET-PTYPE='87' POS='100' NCAT='1023:' CNET-PARTNER-ID='1' ) TO _RGROUP --><!-- NO AD TEXT: _QUERY_STRING="PREHTML=%3Cdiv%20class%3D%22exclusiveResourceCtr%22%3E&POSTHTML=%3C%2Fdiv%3E&POS=100&SP=104" _REQ_NUM="0"  --><!-- MAC ad --> <script type="text/javascript">
+    window.addEvent('domready', function(){
+        //initialize the fb like button when the user hovers over the div
+            try{
+                $('fbLikeConnect').addEvent('mouseenter', function(e){
+
+                    if(!this.getElement('.fb-like')){
+//                        Support for pages that use 1.2dev version of mootools
+                        var fbLike = new Element('fb' + (MooTools.version == '1.2dev' ? '' : '\\') + '\:like', {
+                            'class': 'fb-like fb_edge_widget_with_comment fb_iframe_widget',
+                            ref: 'connectCNETfblike',
+                            'data-href': 'http://www.facebook.com/cnet',
+                            'data-send': 'false',
+                            'data-width':'280',
+                            'data-show-faces':'true'
+                        });
+
+                        $('facebookInnerDiv').appendChild(fbLike);
+
+                        Facebook.parse({
+                            container: $('facebookInnerDiv')
+                        });
+                    }
+                });
+            }
+            catch(e){}
+
+        //initialize the twitter button when the user hovers over the div
+            try{
+                $('twitterConnect').addEvent('mouseenter', function(e){
+
+                    if(!this.getElement('.twitter-follow-button')){
+                        var twitterButton = new Element('a', {
+                            'class': 'twitter-follow-button',
+                            'href': 'https://twitter.com/cnet',
+                            'data-show-count': 'true',
+                            'data-size': 'large',
+                            'data-lang':'en',
+                            html: 'Follow @CNET'
+                        });
+
+                        $('twitterInnerDiv').appendChild(twitterButton);
+
+                        Twitter.loadWidgets();
+                    }
+                });
+            }
+            catch(e){}
+    });
+</script> <!--[if lt IE 9]>
+<noscript><div class="connectCNET" section="connectCNET"></noscript>
+<![endif]-->
+<section id="connectCNET" class="connectCNET"> <h2>Connect With CNET</h2> <ul> <li id="fbLikeConnect" class="linkBGFacebook"> <a class="imgLink"> <span class="image">image</span> <h4>Facebook</h4> <p>Like Us</p> <div class="facebookOutterDiv" id="facebookOutterDiv" > <div class="facebookPadding"></div> <div class="arrow-down"></div> <div id="facebookInnerDiv" class="facebookInnerDiv"></div> </div> </a> </li> <li id="twitterConnect" class="linkBGTwitter"> <a class="imgLink"> <span class="image">image</span> <h4>Twitter</h4> <p>Follow Us</p> </a> <div class="twitterOutterDiv" id="twitterOutterDiv" > <div class="twitterPadding"></div> <div class="arrow-down"></div> <div id="twitterInnerDiv" class="twitterInnerDiv"></div> </div> </li> <li class="linkBGGooglePlus"> <a class="imgLink"> <span class="image">image</span> <h4>Google +</h4> <p>Add Us</p> <div class="plusOutterDiv" id="plusOutterDiv" > <div class="plusPadding"></div> <div class="arrow-down"></div> <div class="plusInnerDiv"> <div class="plusLEVTBottom" onmouseover="Google.trackFollowEvent(Google);"></div> <g:plus class="g-plus" id="g-plus" href="https://plus.google.com/105198124856956810263?rel=publisher" width="260" height="69" theme="light" callBack="trackFollowEvent" style="margin: 7px 0 0 8px" ></g:plus> </div> </div> </a> </li> <li class="linkBGRSS"> <a class="imgLink" href="/2547-1_3-0-20.xml"> <span class="image">image</span> <h4>RSS</h4> <p>Subscribe</p> </a> </li> <li class="linkBGMobile"> <a id="lbl" href="http://www.cnet.com/mobile-apps/"> <span class="image">image</span> <h4>Mobile</h4> <p>Download Now</p> </a> </li> <li class="linkBGNewsletter"> <a class="imgLink" href="http://www.cnet.com/newsletters/"> <span class="image">image</span> <h4>Newsletters</h4> <p>Subscribe Now</p> </a> </li> </ul>
+</section>
+<!--[if lt IE 9]>
+<noscript></div></noscript>
+<![endif]--> <!-- nagTag --> <!--[if lt IE 9]> <noscript><div class="promoModuleCNET" section="railPromo"></noscript> <![endif]--> <section class="promoModuleCNET" section="railPromo"> <h2>Holiday Gift Guide</h2> <p class="head"><a id="headerPromoLink" href="http://reviews.cnet.com/holiday-gift-guide/best-3d/?part=rr">Best 3D TVs and accessories</a></p> <a id="imagePromoLink" href="http://reviews.cnet.com/holiday-gift-guide/best-3d/?part=rr"> <!--[if lt IE 9]> <noscript><div class="figure"></noscript> <![endif]--> <figure> <img src="http://asset2.cbsistatic.com/cnwk.1d/i/tim/2012/05/25/3dglassesBLOCO_08_copy_300x214.jpg" width="300" alt="The promo image for Best 3D TVs and accessories"/> </figure> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </a> <p class="dek">Are you one of the few who actually cares about 3D? Or own a 3D TV and need add-ons to enjoy it? We've got you covered.</p> <div class="button"> <a id="promoButton" class="nextPage" href="http://reviews.cnet.com/holiday-gift-guide/best-3d/?part=rr">See our picks</a> </div> </section> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!-- MAC T 45.45.4a.4a --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><style type="text/css">.mad_center div, .mad_center table, .mad_center iframe, .mad_center img, .mad_center center, .mad_center object, #adDiv, #adDiv div, #adDiv table, #adDiv iframe, #adDiv img, #adDiv center, #adDiv object {margin-left:auto;margin-right:auto;}.mad_center img, .mad_center embed, .mad_center iframe {vertical-align:top;} .mad_center, #adDiv {text-align:center;text-align:-moz-center;text-align:-webkit-center}</style><div id="bottomMPU" class="mpu"><div style="display:none;">ie8 fix</div><style type="text/css"> # .fifpre, # .fifpost {display:block;} # .adHolder div, # .adHolder table, # .adHolder iframe, # .adHolder img, # .adHolder center, # .adHolder object {margin-left: auto; margin-right: auto;} # .adHolder {text-align:center;text-align:-moz-center;text-align:-webkit-center;} # .adHolder img, # .adHolder embed, # .adHolder iframe {vertical-align:top;}</style><div class="mad_adcontainer mad_center sp16seg635062" id="madison_ad_16_200" align="center"><iframe src="http://view.atdmt.com/CNT/iview/425302233/direct;wi.300;hi.250;pc.635062/01/2012.12.13.06.56.41?click=" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" width="300" height="250">
+<script language="JavaScript" type="text/javascript">
+document.write('<a href="http://clk.atdmt.com/CNT/go/425302233/direct;wi.300;hi.250;pc.635062/01/2012.12.13.06.56.41" target="_blank"><img src="http://view.atdmt.com/CNT/view/425302233/direct;wi.300;hi.250;pc.635062/01/2012.12.13.06.56.41"/></a>');
+</script><noscript><a href="http://clk.atdmt.com/CNT/go/425302233/direct;wi.300;hi.250;pc.635062/01/2012.12.13.06.56.41" target="_blank"><img border="0" src="http://view.atdmt.com/CNT/view/425302233/direct;wi.300;hi.250;pc.635062/01/2012.12.13.06.56.41" /></a></noscript></iframe><img src="http://adlog.com.com/adlog/i/r=11134&amp;sg=635062&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=200&amp;e=3&amp;rqid=00phx1-ad-e16:50C95D2AAA2A0&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255fpublish%253dnew%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /></div></div><!-- MAC ad --> </section>
+<!--[if lt IE 9]><noscript></div></noscript><![endif]--> <!-- MAC T 4b.4b.4f.4f --><!-- MAC [r20120816-1010-dataManipAddDnsBufSize:1.13.14] phx1-rb-tron-xw6.cnet.com::1518025024 2012.12.13.06.56.41 --><style type="text/css">.mad_center div, .mad_center table, .mad_center iframe, .mad_center img, .mad_center center, .mad_center object, #adDiv, #adDiv div, #adDiv table, #adDiv iframe, #adDiv img, #adDiv center, #adDiv object {margin-left:auto;margin-right:auto;}.mad_center img, .mad_center embed, .mad_center iframe {vertical-align:top;} .mad_center, #adDiv {text-align:center;text-align:-moz-center;text-align:-webkit-center}</style><div class="ad leaderboard extra"><div style="display:none;">ie8 fix</div><style type="text/css"> # .fifpre, # .fifpost {display:block;} # .adHolder div, # .adHolder table, # .adHolder iframe, # .adHolder img, # .adHolder center, # .adHolder object {margin-left: auto; margin-right: auto;} # .adHolder {text-align:center;text-align:-moz-center;text-align:-webkit-center;} # .adHolder img, # .adHolder embed, # .adHolder iframe {vertical-align:top;}</style><div class="mad_adcontainer mad_center sp15seg551625" id="madison_ad_15_500" align="center"><div
+style="text-align:center;"><center><script type="text/javascript">
+admeld_publisher  = 489;
+admeld_site       = 'cnetnews';
+admeld_size       = '728x90';
+admeld_placement   = 'cnetnews_btf';
+admeld_no_iframe = true;
+</script>
+<script type="text/javascript" src="http://js.admeld.com/meld128.js"></script></center></div><img src="http://adlog.com.com/adlog/i/r=20747&amp;sg=551625&amp;o=1023%253aB93%253a&amp;h=cn&amp;p=2&amp;b=5&amp;l=en_US&amp;site=3&amp;pt=8301&amp;nd=1023&amp;pid=&amp;cid=57558795&amp;pp=500&amp;e=3&amp;rqid=00phx2-ad-e3:50C86CD087BC12&amp;orh=&amp;ort=&amp;ppartner=&amp;pdom=&amp;count=&amp;ra=208%2e102%2e65%2e88&amp;dvar=dvar%255flb%255fmpu%253d1%2523dvar%255fpublish%253dnew%2523dvar%255ftag%253dgoogle%2520search%253bsafesearch%2523dvar%255fuser%255fgroup%253dfirst%255fimpression%2523dvar%255fversion%253d2011&amp;ucat_rsi=%2526&amp;pg=UMl8KQoOYJEAAHHh98AAAAHm&amp;ru=&amp;t=2012.12.13.06.56.41/http://i.i.com.com/cnwk.1d/Ads/common/dotclear.gif" HEIGHT="0" WIDTH="0" alt="" style="position:absolute; top:0px; left:0px" /></div></div><!-- MAC ad --> </div> </div> <script type="text/javascript" src="http://asset2.cbsistatic.com/cnwk.1d/cb1355347141000/html/rb/js/tron/Build/Filelists/8301/8301.0.0.js"></script> <!-- Omniture SiteCatalyst variables for all sites except site 4 --> <script type="text/javascript">
+                PageVars.data.authorId = "10471452";
+                PageVars.data.authorName = "Casey Newton";
+                PageVars.data.sections = "news|Internet & Media";
+                PageVars.data.page_type = "story";
+                PageVars.data.content_title = "Google tweaks image search to make porn harder to find";
+                PageVars.data.content_id = "57558795";
+                PageVars.data.content_type = "blog";
+                PageVars.data.evt_content_view = 'TRUE';
+            </script> </div> <!--[if lt IE 9]> <noscript><div id="rbFooter" section="ftr" class="footerTag"></noscript>
+<![endif]-->
+<footer id="rbFooter" section="ftr"> <!--[if lt IE 9]> <noscript><div class="navTag"></noscript> <![endif]--> <!--[if lt IE 9]> <noscript><div class="sectionTag rbFooterCopy"></noscript> <![endif]--> <section class="rbFooterCopy"> <ul class="footerCopyright"> <li class="first">&copy; CBS Interactive Inc. All rights reserved.</li> <li><a href="http://legalterms.cbsinteractive.com/privacy" rel="nofollow">Privacy Policy</a></li> <li><a href="http://legalterms.cbsinteractive.com/adchoice" rel="nofollow">Ad Choice</a></li> <li><a href="http://legalterms.cbsinteractive.com/terms-of-use" rel="nofollow">Terms of Use</a></li> <li class="last"><a href="http://legalterms.cbsinteractive.com/eula" rel="nofollow">Mobile User Agreement</a></li> <li class="cnetSearch"> <form id="networkSites"> Visit other CBS Interactive sites: <select id="siteTarget" name="target" onChange="window.location=document.getElementById('siteTarget').options[document.getElementById('siteTarget').selectedIndex].value;return false"> <option selected="selected" value="">Select Site</option> <option value="http://www.cbscares.com/">CBS Cares</option> <option value="http://www.cbsfilms.com">CBS Films</option> <option value="http://www.cbsradio.com/">CBS Radio</option> <option value="http://www.cbs.com">CBS.com</option> <option value="http://www.cbsinteractive.com">CBS Interactive</option> <option value="http://www.cbsnews.com">CBSNews.com</option> <option value="http://www.cbssports.com">CBSSports.com</option> <option value="http://www.chow.com">CHOW</option> <option value="http://www.clicker.com">Clicker</option> <option value="http://www.cnet.com">CNET</option> <option value="http://collegenetwork.cbssports.com">College Network</option> <option value="http://www.gamespot.com">GameSpot</option> <option value="http://help.com">Help.com</option> <option value="http://www.last.fm">Last.fm</option> <option value="http://www.maxpreps.com/national/national.htm">MaxPreps</option> <option value="http://www.metacritic.com">Metacritic.com</option> <option value="http://www.cbsnews.com/moneywatch/">Moneywatch</option> <option value="http://www.mysimon.com">mySimon</option> <option value="http://radio.com">Radio.com</option> <option value="http://www.search.com">Search.com</option> <option value="http://shopper.cnet.com">Shopper.com</option> <option value="http://www.sho.com/sho/home">Showtime</option> <option value="http://www.smartplanet.com">SmartPlanet</option> <option value="http://www.techrepublic.com">TechRepublic</option> <option value="http://www.theinsider.com">The Insider</option> <option value="http://www.tv.com">TV.com</option> <option value="http://www.urbanbaby.com">UrbanBaby</option> <option value="http://www.zdnet.com">ZDNet</option> </select> </form> </li> <noscript><style>#networkSites {display:none;}</style><li><a href="http://www.cbsnews.com/moneywatch/">Moneywatch</a> | <a href="http://www.chow.com">CHOW</a> | <a href="http://www.cnet.com/">CNET.com</a> | <a href="http://www.cnetcontentsolutions.com/">CNET Channel</a> | <a href="http://www.gamespot.com">GameSpot</a> | <a href="http://www.cbsinteractive.com/brands/international/">International Media</a> | <a href="http://www.mysimon.com">mySimon</a> | <a href="http://www.search.com">Search.com</a> | <a href="http://www.techrepublic.com/">TechRepublic</a> | <a href="http://www.tv.com">TV.com</a> | <a href="http://www.zdnet.com/">ZDNet</a></li></noscript> </ul> </section><!-- /rbFooterCopy --> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> <!-- sponsors --> <nav class="rbFooterMap"> <ul class="first"> <li class="hed">Reviews</li> <li><a href="http://reviews.cnet.com/">All Reviews</a></li> <li><a href="http://reviews.cnet.com/camcorders/">Camcorders</a></li> <li><a href="http://reviews.cnet.com/car-tech/">Car Tech</a></li> <li><a href="http://reviews.cnet.com/cell-phones/">Cell Phones</a></li> <li><a href="http://reviews.cnet.com/digital-cameras/">Digital Cameras</a></li> <li><a href="http://reviews.cnet.com/gps/">GPS</a></li> <li><a href="http://reviews.cnet.com/laptops/">Laptops</a></li> <li><a href="http://reviews.cnet.com/televisions/">TVs</a></li> </ul> <ul> <li class="hed">News</li> <li><a href="/">All News</a></li> <li><a href="/business-tech/">Business Tech</a></li> <li><a href="/crave/">Crave</a></li> <li><a href="/cutting-edge/">Cutting Edge</a></li> <li><a href="/greentech/">Green Tech</a></li> <li><a href="/security/">Security</a></li> <li><a href="/mobile-news/">Wireless</a></li> </ul> <ul> <li class="hed">Downloads</li> <li><a href="https://upload.cnet.com/">Add Your Software</a></li> <li><a href="http://download.cnet.com/">All Downloads</a></li> <li><a href="http://download.cnet.com/mac/">Mac</a></li> <li><a href="http://download.cnet.com/mobile-downloads/">Mobile</a></li> <li><a href="http://download.cnet.com/software-deals/">Software Deals</a></li> <li><a href="http://download.cnet.com/webware-apps/">Webware</a></li> <li><a href="http://download.cnet.com/windows/">Windows</a></li> </ul> <ul> <li class="hed">CNET TV</li> <li><a href="http://cnettv.cnet.com/">All Videos</a></li> <li><a href="http://cnettv.cnet.com/always-on/">Always On</a></li> <li><a href="http://cnettv.cnet.com/apple-byte/">Apple Byte</a></li> <li><a href="http://cnettv.cnet.com/most-popular/">Most Popular</a></li> <li><a href="http://cnettv.cnet.com/top-5/">CNET Top 5</a></li> <li><a href="http://cnettv.cnet.com/?type=franchiseId&amp;value=161&amp;name=CNET+Update">CNET Update</a></li> <li><a href="http://cnettv.cnet.com/prizefight/">Prizefight</a></li> </ul> <ul> <li class="hed">More</li> <li><a href="http://www.cbsinteractive.com/">About CBS Interactive</a></li> <li><a href="http://www.cnet.com/about/">About CNET</a></li> <li><a href="http://shopper.cnet.com/deals/">CNET Deals</a></li> <li><a href="http://forums.cnet.com/">CNET Forums</a></li> <li><a href="http://www.cnet.com/mobile-apps/">CNET Mobile</a></li> <li><a href="http://www.cnet.com/2735-5_1-842.html">CNET Site Map</a></li> <li><a href="/8300-10915_3-8.html">Corrections</a></li> <li><a href="https://cbsi.secure.force.com/CBSi/knowledgehome">Help Center</a></li> <li><a href="http://reprints.ygsgroup.com/m/cnet/" class="noluke">Permissions</a></li> </ul> <ul class="last"> <li class="hed">Follow us via...</li> <li><a href="http://www.facebook.com/cnet" class="brandLogo blFb">Facebook</a></li> <li><a href="http://twitter.com/cnet" class="brandLogo blTwitter">Twitter</a></li> <li><a href="https://plus.google.com/u/0/105198124856956810263/posts" class="brandLogo blGp">Google+</a></li> <li><a href="http://www.youtube.com/user/CNETTV" class="brandLogo blYt">YouTube</a></li> <li><a href="http://www.linkedin.com/today/news.cnet.com" class="brandLogo blLi">LinkedIn</a></li> <li><a href="http://cnet.tumblr.com/" class="brandLogo blTumblr">Tumblr</a></li> <li><a href="http://pinterest.com/cnet" class="brandLogo blPin">Pinterest</a></li> <li><a href="http://www.cnet.com/newsletters/">Newsletters</a></li> <li><a href="http://www.cnet.com/rss/">RSS</a></li> </ul> </nav> <!--[if lt IE 9]> <noscript></div></noscript> <![endif]--> </footer><!-- /rbFooter -->
+<!--[if lt IE 9]> <noscript></div></noscript>
+<![endif]--> <div id="servicesEtc">   <script type="text/javascript">
+                    DW.clear();
+                </script> <noscript> <img src="http://dw.com.com/clear/c.gif?ts=1355381801&amp;im=mii1.4&amp;edId=3&amp;ptId=8301&amp;onId=1023&amp;sId=3&amp;asId=57558795&amp;astId=28&amp;pgnbr=93&amp;oid=8301-1023_3-57558795-93&amp;ctype=btoTopic&amp;cval=&amp;pguid=UMl8KQoOYJEAAHHh98AAAAHm&amp;ld=news.cnet.com&amp;tcset=ISO-8859-1&amp;title=Google%20tweaks%20image%20search%20to%20make%20porn%20harder%20to%20find%20%7C%20Internet%20%26%20Media%20-%20CNET%20News&amp;srcUrl=http://news.cnet.com/8301-1023_3-57558795-93/google-tweaks-image-search-to-make-porn-harder-to-find/&amp;x_breadcrumb=1023&amp;x_arw_bkts=MAD:first_impression" border="0" height="1" width="1" alt="" /> </noscript> <!-- Omniture SiteCatalyst Tracking --> <script type="text/javascript" src="http://asset3.cbsistatic.com/cnwk.1d/html/rb/js/omniture/s_code_tm.js"></script> <script type="text/javascript">
+            <!-- Omniture SiteCatalyst cookie  -->
+            if(document.location.host.contains('uat') || document.location.host.contains('tron') || document.location.host.contains('hh') || document.location.host.contains('spinner')){
+        //      Setting this cookie to stage when on dev environment so that tracking data is not sent to Omniture
+                document.cookie='s_tagEnv=stage; path=/';
+            }   else{
+                document.cookie='s_tagEnv=live; path=/';
+            }
+
+            var om = {
+               'context': {
+                   'ontology_id':'1023'
+               }
+            }
+
+    //        This pageTypeId test is required so it can be overridden.  This is need for the front doors
+            if(PageVars.data.page_type_id !==  undefined){
+                om.context.page_type_id = PageVars.data.page_type_id;
+            } else{
+                om.context.page_type_id = 8301;
+            }
+
+            if(PageVars.data.authorName !==  undefined){
+                om.context.author_names = PageVars.data.authorName;
+            }
+
+            if(PageVars.data.authorId !==  undefined){
+                om.context.author_ids = PageVars.data.authorId;
+            }
+
+            if(PageVars.data.sections !==  undefined){
+                om.context.sections = PageVars.data.sections;
+            }
+
+            if(PageVars.data.page_type !==  undefined){
+                om.context.page_type = PageVars.data.page_type;
+            }
+
+            if(PageVars.data.content_title !==  undefined){
+                om.context.content_title = PageVars.data.content_title;
+            }
+
+            if(PageVars.data.content_id !==  undefined){
+                om.context.content_id = PageVars.data.content_id;
+            }
+
+            if(PageVars.data.content_type !==  undefined){
+                om.context.content_type = PageVars.data.content_type;
+            }
+
+            if(PageVars.data.page_num !==  undefined){
+                om.context.page_num = PageVars.data.page_num;
+            }
+
+            if(PageVars.data.blog_id !==  undefined){
+                om.context.blog_id = PageVars.data.blog_id;
+            }
+
+            if(PageVars.data.blog_name !==  undefined){
+                om.context.blog_name = PageVars.data.blog_name;
+            }
+
+            if(PageVars.data.evt_content_view !==  undefined){
+                om.context.evt_content_view = PageVars.data.evt_content_view;
+            }
+
+            if(PageVars.data.evt_product_view !==  undefined){
+                om.context.evt_product_view = PageVars.data.evt_product_view;
+            }
+
+            if(PageVars.data.product_title !==  undefined){
+                om.context.product_title = PageVars.data.product_title;
+            }
+
+            if(PageVars.data.product_id !==  undefined){
+                om.context.product_id = PageVars.data.product_id;
+            }
+
+            if(s){s.t()}
+        </script> <!-- End Omniture SiteCatalyst Tracking --> <!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online --> <noscript> <div> <img class="noluke" src="http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-304254h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /> </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 --> <!-- Begin comScore Tag --> <noscript>
+<img src="http://b.scorecardresearch.com/b?c1=2&c2=3000023&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag --> <!-- START CrowdScience tracker -->
+<script type="text/javascript">
+    (function() {
+       var pguid = "";
+       if ('UMl8KQoOYJEAAHHh98AAAAHm' != '') {
+           pguid = 'UMl8KQoOYJEAAHHh98AAAAHm';
+       }
+       var xclgfbrowser = Cookie.read("XCLGFbrowser");
+       if (xclgfbrowser == null) {
+           xclgfbrowser = "";
+       }
+       var cs = document.createElement('script'); cs.type = 'text/javascript';
+       cs.async = true;
+       cs.src = ('https:' == document.location.protocol ?  'https://' :
+'http://') +
+         'static.crowdscience.com/start-c2e7cdddce.js?cp0=' + encodeURIComponent(pguid) + 
+         '&cp1=' + encodeURIComponent(xclgfbrowser); 
+       var s = document.getElementsByTagName('script')[0];         
+       s.parentNode.insertBefore(cs,s);
+    })();
+</script>
+<!-- END CrowdScience tracker --> </div> </div><!-- /rb_shell --> <script type="text/JavaScript">
+    <!--
+    cbsiAdBehavioralSetup();
+    cbsiAdBehavioral();
+    
+    //-->
+</script> <!-- ClickTale bottom -->
+<div id="ClickTaleDiv" style="display: none;"></div>
+<script type="text/javascript" src="http://s.clicktale.net/WRc5.js"></script>
+<script type="text/javascript" src="http://asset2.cbsistatic.com/cnwk.1d/cb1355347136000/html/rb/js/tron/Build/Init/3rd-party/ClickTale/clicktale.init.js"></script>
+<!-- /ClickTale bottom --> <!-- Connexity --> <script>
+    CxTv={Ve:'b',A:'27',X:'71',Op:'r'};CxTp=((document.location.protocol=='https:')?'https:':'http:');CxTr=((CxTp=='https:')?'//t':'//s');CxTs=
+    document.createElement('script');CxTs.type='text/javascript';CxTs.async=true;CxTs.src=CxTp+CxTr+'.cxt.ms/action2.js';CxTn
+    = document.getElementsByTagName('script')[0];CxTn.parentNode.insertBefore(CxTs,
+    CxTn);
+</script> <!-- /Connexity --> <!-- NR footer --> <!-- NEW_RELIC_FOOTER_SCRIPT --> </body>
+</html>

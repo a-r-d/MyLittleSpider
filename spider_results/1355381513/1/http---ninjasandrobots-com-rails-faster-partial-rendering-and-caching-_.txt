@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script>var _sf_startpt=(new Date()).getTime()</script>
+  <title>Faster Rails partial rendering and caching. 78% improvement of test application | Nathan Kontny</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Svbtle.com" />
+  <meta name="description" content="Using a new gem I created, I was able to optimize a Rails action by 78% (152 ms to 34 ms). The gem takes advantage of Rail&amp;rsquo;s read_multi method to retrieve cached partials in parallel instead of the traditional route of sequentially fetchi... | Founder of two YC companies: Inkling and Cityposh. Was a software engineer for President Obama&#x27;s re-election campaign.&nbsp;&#8226;&nbsp;Nathan Kontny&rsquo;s blog"/>
+  <link rel="alternate" type="application/rss+xml" href="http://ninjasandrobots.com/feed" />
+  <link href="https://d1yg14i6wd46hx.cloudfront.net/cargo/build.blog-58a5bef262a6d9d5bf9b21e6ed6543d1.css" media="screen" rel="stylesheet" type="text/css" />
+  <style>blockquote{border-color: #88ACDB;}aside#logo,aside#logo div a,ul#user_meta a:hover span.link_logo_inside,ul#user_meta a:hover span.link_logo,aside.kudo.complete span.circle,aside.alsoby li a:hover {background-color: #88ACDB;}aside#logo div a,aside.kudo.complete span.circle {background-image: url(//d1jcp5e5r52ocf.cloudfront.net/flask_large.png);}section.preview header#begin h2,ul#user_meta a:hover,nav.pagination span.next a,nav.pagination span.prev a {color: #88ACDB;}ul#user_meta a:hover,nav.pagination span.next a,nav.pagination span.prev a {border-color: #88ACDB;}</style>
+  <script data-cfasync="false" src="//use.typekit.com/syh2mqx.js"></script>
+  <script data-cfasync="false">
+  try{Typekit.load();}catch(e){} // GA << ANALYTICS
+  var _gaq = _gaq || []; _gaq.push( ['_setAccount', 'UA-28994039-1'],['_setDomainName', 'none'],['_setAllowLinker', true],['_setUsername', 'nate'],['_trackPageview'],['b._setAccount', 'UA-30635820-1'],['b._setDomainName', 'ninjasandrobots.com'],['b._setAllowLinker', true],['b._trackPageview']);(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+  </script>
+</head>
+<body class="nate">
+  <header id="sidebar">
+  <aside id="logo" class="clearfix">
+    <div class="clearfix">
+      <a href="http://ninjasandrobots.com">nate</a>
+    </div>
+  </aside>
+  <ul id="user_meta">
+    <li class="blog_name">  
+      <h1 id="blog_name">
+        <a href="http://ninjasandrobots.com">nate</a>
+      </h1>
+    </li>
+    <li class="blog_owner">  
+      <h2 id="blog_owner">
+        <a href="http://ninjasandrobots.com">Nathan Kontny</a>
+      </h2>
+    </li>
+    <li class="tagline">
+      <h2 id="tagline">
+        Founder of two YC companies: Inkling and Cityposh. Was a software engineer for President Obama&rsquo;s re-election campaign.
+      </h2>
+    </li>
+    <li class="link website">
+      <a href="http://natekontny.com">
+        natekontny.com
+      </a>
+    </li>
+    <li class="link twitter">
+      <a href="http://twitter.com/natekontny">
+        @natekontny
+      </a>
+    </li>
+    <li class="link email">
+      <a href="mailto:nate@inventric.com?subject=hi">
+        say hello
+      </a>
+    </li>
+    <li class="link feed">
+      <a href="http://ninjasandrobots.com/feed">
+        feed
+      </a>
+    </li>
+  </ul>
+  <aside id="svbtle_linkback">
+    <a href="https://svbtle.com">
+      <span class="logo_square"><span class="logo_circle">&nbsp;</span></span>&nbsp;<span class="svbtle">Svbtle</span>
+    </a>
+  </aside>
+</header>
+<section id="river">
+  <header id="begin">
+    <time datetime="2012-12-11" id="top_time">December 11, 2012</time>
+  </header>
+  <article id="eidOoycJd6uak5LYlpUVoroSs9Rv7XQ47lQdXMAaX" class="post">
+  <h2>
+    <a href="/rails-faster-partial-rendering-and-caching" class="no-link title">Faster Rails partial rendering and caching. 78% improvement of test application</a>
+  </h2>
+  <p>Using a new gem I created, I was able to optimize a Rails action by 78% (152 ms to 34 ms). The gem takes advantage of Rail&rsquo;s read_multi method to retrieve cached partials in parallel instead of the traditional route of sequentially fetching things from Memcached. </p>
+
+<hr /> 
+
+<h2>Syntax</h2>
+
+<p>Using this gem, if you want to automatically render a collection and cache each partial with its default cache key: </p>
+
+<pre><code>&lt;%= render partial: 'item', collection: @items, cache: true %&gt;
+</code></pre>
+
+<p>If you want a custom cache key for this same behavior, use a Proc: </p>
+
+<pre><code>&lt;%= render partial: 'item', collection: @items, cache: Proc.new{|item| [item, 'show']} %&gt;
+</code></pre>
+
+<h2>Background</h2>
+
+<p>One of the applications I worked on at the Obama campaign was Dashboard, a virtual field office we created. Dashboard doesn&rsquo;t talk directly to a database. It only speaks to a rest API called Narwhal. You can imagine the performance obstacles we faced building an application this way. So we had to take insane advantage of caching everything we could. This included looking for as many places as possible where we could fetch from Memcached in parallel using Rails' read_multi: </p>
+
+<blockquote>
+<p><b>read_multi(*names)</b> public</p>
+
+<p>Read multiple values at once from the cache. Options can be passed in the last argument.</p>
+
+<p>Some cache implementation may optimize this method.</p>
+
+<p>Returns a hash mapping the names provided to the values found.</p>
+</blockquote>
+
+<p>The result of all this is I&rsquo;m constantly on the lookout for more places where caching can be optimized. And one area I&rsquo;ve noticed recently is how us Rails developers render and cache collections of partials. </p>
+
+<p>For example, at Inkling we render a client homepage as a collection of divs: </p>
+
+<pre><code>&lt;%= render :partial =&gt; 'markets/market', :collection =&gt; @markets %&gt;
+</code></pre>
+
+<p>And each _market.html.erb partial is cached. If you looked inside you&rsquo;d see something like: </p>
+
+<pre><code>&lt;% cache(market) do %&gt;
+slow things....
+&lt;% end %&gt;
+</code></pre>
+
+<p>It&rsquo;s tough to cache the entire collection of these partials in a single parent, because each user sees a different homepage depending on their permissions. But even if we could cache the entire page for lots of users, that parent cache would be invalidated each time one of its children changes, which they do, frequently. </p>
+
+<p>So for a long time I&rsquo;ve dealt with the performance of rendering out pages where we read from Memcached dozens and dozens of times, sequentially. Memcached is fast, but fetching from Memcached like this can add up, especially over a cloud like Heroku. </p>
+
+<p>Luckily, Memcached supports reading a bunch of things at one time. So I&rsquo;ve tweaked the render method of Rails to utilize fetching multiple things at once. </p>
+
+<h2>How much faster?</h2>
+
+<p>Depends on how many things your fetching from Memcached for a single page. But I tested with <a href="https://github.com/n8/multi_fetch_fragments_test_app">a simple application that renders 50 items to a page</a>. Each of those items is a rendered partial that gets cached to Memcached. </p>
+
+<p>There&rsquo;s two actions: without_gem and with_gem. without_gem performs caching around each individual fragment as it&rsquo;s rendered sequentially. with_gem uses the new ability this gem gives to the render partial method. </p>
+
+<p>Using <a href="http://blitz.io">Blitz.io</a> I ran a test ramping up to 25 simultaneous users against the test app hosted on Heroku. I configured Heroku to use 10 dynos and unicorn with 3 workers on each dyno.</p>
+
+<h4>without_gem</h4>
+
+<p>This rush generated 648 successful hits in 1.0 min and we transferred 24.49 MB of data in and out of your app. The average hit rate of 10/second translates to about 892,683 hits/day.</p>
+
+<p>The average response time was 168 ms.</p>
+
+<p>You&rsquo;ve got bigger problems, though: 1.07% of the users during this rush experienced timeouts or errors!</p>
+
+<h4>with_gem</h4>
+
+<p>This rush generated 705 successful hits in 1.0 min and we transferred 24.08 MB of data in and out of your app. The average hit rate of 11/second translates to about 969,892 hits/day.</p>
+
+<p>The average response time was 90 ms.</p>
+
+<p>New Relic&rsquo;s report was even more rosy. According to New Relic, the test action went from an average of 152 ms to 34 ms.</p>
+
+<h2>Installation</h2>
+
+<ol>
+<li>Add <code>gem 'multi_fetch_fragments'</code> to your Gemfile.</li>
+<li>Run <code>bundle install</code>.</li>
+<li>Restart your server </li>
+<li>Render collection of objects with their partial using the new syntax (see above): </li>
+</ol>
+
+<pre><code>&lt;%= render partial: 'item', collection: @items, cache: true %&gt;
+</code></pre>
+
+<p>Note: You may need to refactor any partials that contain cache blocks. For example if you have an _item.html.erb partial with a cache block inside caching the item, you can remove the method call to &ldquo;cache&rdquo; and rely on the new render method abilities.</p>
+
+<h2>Feedback</h2>
+
+<p><a href="https://github.com/n8/multi_fetch_fragments">Source code available on Github</a>. Feedback and pull requests are greatly appreciated.  Let me know if I can improve this.</p>
+
+<iframe frameborder="0" src="//platform.twitter.com/widgets/follow_button.html?screen_name=natekontny&amp;show_count=false" style="width: 300px; height: 20px;"></iframe>
+
+  <aside class="kudo kudoable" id="kudo_eidOoycJd6uak5LYlpUVoroSs9Rv7XQ47lQdXMAaX">
+    <a href="#kudo" class="kudobject">
+      <div class="opening clearfix">
+        <span class="circle">&nbsp;</span>
+      </div>
+    </a>
+    <a href="#kudo" class="counter">
+      <span class="num">155</span>
+      <span class="txt">Kudos</span>
+    </a>
+  </aside>
+</article> 
+
+
+	<aside class="alsoby">
+	  <h2>Also read...</h2>
+		<ul>
+			<li>
+				<a href="http://ninjasandrobots.com/you-need-some-experience/">
+					<h3>I have no idea what I&rsquo;m doing</h3>
+		  		<p class="kudos">
+		  			1.2k
+		  		</p>
+		  	</a>
+			</li>
+			<li>
+				<a href="http://ninjasandrobots.com/facebook-pages-nest-thermostat/">
+					<h3>Facebook Pages: Why I don&rsquo;t like Nest thermostat or anything else anymore.</h3>
+		  		<p class="kudos">
+		  			1.0k
+		  		</p>
+		  	</a>
+			</li>
+			<li>
+				<a href="http://ninjasandrobots.com/a-startup-founder-s-hourly-rate/">
+					<h3>A startup founder&rsquo;s hourly rate</h3>
+		  		<p class="kudos">
+		  			687
+		  		</p>
+		  	</a>
+			</li>
+			<li>
+				<a href="http://ninjasandrobots.com/i-like-screws/">
+					<h3>How I find ideas in trivial details. The guy who stares at screws.</h3>
+		  		<p class="kudos">
+		  			650
+		  		</p>
+		  	</a>
+			</li>
+			<li>
+				<a href="http://ninjasandrobots.com/google-ive-had-enough-how-about-a-compromise/">
+					<h3>Google, I&rsquo;ve had enough. How about a Compromise?</h3>
+		  		<p class="kudos">
+		  			612
+		  		</p>
+		  	</a>
+			</li>
+		</ul>
+	</aside>
+
+  <nav class="pagination">
+    <span class="prev">
+      <a href="http://ninjasandrobots.com" class="back_to_blog">&larr;&nbsp;&nbsp;&nbsp;Read more</a>
+    </span>
+  </nav>
+</section>
+  <script data-cfasync="false" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script src="https://d1yg14i6wd46hx.cloudfront.net/cargo/build.blog-39f263190266b3ba8313fd52b025e6f1.js" type="text/javascript"></script>
+  <script type='text/javascript'>var _sf_async_config={};_sf_async_config.uid = 1721;_sf_async_config.domain = 'svbtle.com';_sf_async_config.sections = 'Tech';_sf_async_config.authors = 'Svbtle Authors';(function(){function loadChartbeat() {window._sf_endpt=(new Date()).getTime();var e = document.createElement('script');e.setAttribute('language', 'javascript');e.setAttribute('type', 'text/javascript');e.setAttribute('src',(('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/')+'js/chartbeat.js');document.body.appendChild(e);}var oldonload = window.onload;window.onload = (typeof window.onload != 'function') ? loadChartbeat : function() { oldonload(); loadChartbeat(); };})();</script>
+</body>
+</html>
