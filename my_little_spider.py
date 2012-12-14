@@ -19,21 +19,21 @@ import time
 import random
 import datetime
 import os
+import re
 
 from bs4 import BeautifulSoup
 
 #####################################################
 
-SAVE_PAGES = True
+SAVE_PAGES = False
 SAVE_PAGE_DIR = "spider_results"
 SCAN_TIME = str(int(time.time())) # want like- 1355284655
 BASE_DIR = os.path.join(SAVE_PAGE_DIR, SCAN_TIME)
 STATS_FILES = BASE_DIR
 
-if SAVE_PAGES:
-    d = os.path.join(os.getcwd(), BASE_DIR)
-    if not os.path.exists(d):
-        os.makedirs(d)
+d = os.path.join(os.getcwd(), BASE_DIR)
+if not os.path.exists(d):
+    os.makedirs(d)
 
 VERBOSITY = 2 ### 0, 1, 2, 3
 """
@@ -72,6 +72,33 @@ URL_FILTER_SET_CONTAINS = [
     ".pdf"
     ] #contains- ignore files
 REMOVE_FROM_URL = ["/","?","=","!",":",".",","]
+
+PROCESS_RE_AND_SAVE = True
+RE_DICT = {
+    'email_simple':r'.+\s([a-z.-]+@[a-z.-]+)\s.+',
+    'phone_num_full_dot_or_dash':r'.+\s+([0-9]{3}[\.-][0-9]{3}[\.-][0-9]{4})\s+.+'
+}
+
+def harvest_content_by_expression(txt, url):
+    try:
+        total_matches = 0
+        for key, value in RE_DICT.iteritems(): 
+            captures = re.findall(value, txt)
+            try:
+                if captures != None and len(captures) > 0:
+                    total_matches += len(captures)
+                    f = open(os.path.join(STATS_FILES, "RE_harvest_" + key + ".txt"), 'a')
+                    for c in captures:
+                        f.write("%s: %s\n" % (url,c));
+                    f.close()
+                    
+            except Exception, e:
+                print "FAILED to save re results: ",url, e
+        if VERBOSITY > 1:
+            print "Num RE captures from page: ", total_matches
+    except Exception, e:
+        print "Failed re check on page- ",url, e
+
 
 def get_all_links(txt):
     try:
@@ -207,6 +234,8 @@ def single_harvest(url):
         txt = get_page(url)
         if VERBOSITY > 0:
             print "Getting links from @ %s" % url 
+        if PROCESS_RE_AND_SAVE:
+            harvest_content_by_expression(txt, url)
         links = get_all_links(txt)
         if VERBOSITY > 0:
             print "Fixing partial links for %s" % url
