@@ -8,7 +8,7 @@
 #
 #   To Do:
 #       1. Parametize opts.
-#       2. Provide support for unicode when writing files.
+#       2. Speed up the RE thing.
 #       3. Multi-Threading.
 #
 #####################################################
@@ -25,7 +25,9 @@ from bs4 import BeautifulSoup
 
 #####################################################
 
-SAVE_PAGES = False
+SAVE_PAGES = True
+SAVE_PAGES_TEXT_ONLY = True # removes all markup, does tags.strings to get text.
+PROCESS_RE_AND_SAVE = True
 SAVE_PAGE_DIR = "spider_results"
 SCAN_TIME = str(int(time.time())) # want like- 1355284655
 BASE_DIR = os.path.join(SAVE_PAGE_DIR, SCAN_TIME)
@@ -44,8 +46,8 @@ Verbosity explained:
     3 = prints out very many updates.
 """
 SEEDS = [
-    "http://www.reddit.com/r/Programming/", 
-    "http://slashdot.org/", 
+    "http://a-r-d.me",
+    "http://www.reddit.com/r/Programming",
     "http://news.ycombinator.com/"
     ]
 RECURSION_LEVEL = 0
@@ -69,26 +71,34 @@ URL_FILTER_SET_CONTAINS = [
     ".exe",
     ".js",
     ".css",
-    ".pdf"
+    ".pdf",
+    "#" #idc about same page section links
     ] #contains- ignore files
 REMOVE_FROM_URL = ["/","?","=","!",":",".",","]
 
-PROCESS_RE_AND_SAVE = True
 RE_DICT = {
-    'email_simple':r'.+\s([a-z.-]+@[a-z.-]+)\s.+',
+    'email_simple':r'.+\s+([\S]+@[\S]+)\s+.+',
     'phone_num_full_dot_or_dash':r'.+\s+([0-9]{3}[\.-][0-9]{3}[\.-][0-9]{4})\s+.+'
 }
 
 def harvest_content_by_expression(txt, url):
+    if VERBOSITY > 1:
+        print "Entering the RE checker for ", url
     try:
         total_matches = 0
         for key, value in RE_DICT.iteritems(): 
+            if VERBOSITY > 2:
+                print "checking RE: ", value
             captures = re.findall(value, txt)
+            if VERBOSITY > 2:
+                print "Matches: ", captures
             try:
                 if captures != None and len(captures) > 0:
                     total_matches += len(captures)
                     f = open(os.path.join(STATS_FILES, "RE_harvest_" + key + ".txt"), 'a')
                     for c in captures:
+                        if len(c) > 100:
+                            continue # long stuff is prob. a false positive
                         f.write("%s: %s\n" % (url,c));
                     f.close()
                     
@@ -110,14 +120,21 @@ def get_all_links(txt):
         
         for link in the_links:
             href = link.get("href")
-            if href not in URL_FILTER_SET:
+            if href not in URL_FILTER_SET and href != None:
+                bad = False
                 for test in URL_FILTER_SET_CONTAINS:
-                    if href != None:
-                        if href.find(test) == -1 and href.find(test.upper()) == -1:
-                            urls.append(href)
+                    if href.find(test) != -1 or href.find(test.upper()) != -1:
+                        bad = True
+                        break
+                if not bad:
+                    urls.append(href)
         if VERBOSITY > 1:
             print "Found %s links from the page" % (len(urls))
-        return urls
+            
+        # no dupes:
+        link_set = set(urls)
+        link_list = list(link_set)
+        return link_set
     except Exception, e:
         print "failed getting links - error: %s" % (e)
         return []
@@ -154,7 +171,12 @@ def get_page(url):
                 if VERBOSITY > 1:
                     print "Saving file to: ", dir    
                 f = open(dir, 'w')
-                f.write(the_page)
+                if SAVE_PAGES_TEXT_ONLY:
+                    soupy = BeautifulSoup(the_page)
+                    for s in soupy.stripped_strings:
+                        f.write("%s\n" % s)
+                else:
+                    f.write(the_page)
                 f.close()
             except Exception, e:
                 print "FAILED TO SAVE PAGE: %s __ %s" % (url, e)
