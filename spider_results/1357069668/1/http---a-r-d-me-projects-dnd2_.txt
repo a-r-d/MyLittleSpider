@@ -1,0 +1,14 @@
+html
+Drag N Drop Gallery 2
+var photo_files = [{name:"./galleries/Id like to see you climb those.jpg", width:742, height:593},{name:"./galleries/storm aproach at sunset.jpg", width:552, height:804},{name:"./galleries/rocky mountain narrow.jpg", width:479, height:919}];
+
+var dir_files = ["./galleries/d40x_portfolio","./galleries/d5000_portfolio","./galleries/d50_portfolio"];
+Drag N Drop Gallery.
+Drop some pics on ./galleries
+Currently Viewing:
+./galleries/
+About:
+Click below on the folders to navigate to a particular gallery. I like to organize my photos by camera. 
+				The D5000 is the newest camera that I own. The D50 is the oldest DLSR. This uses PHP on the backend to iterate over the gallery directory,
+				so anything you drop in there will be viewable and easy to navigate to from the web. There is no limit to recursive depth, but the next level will not show
+				up until you navigate to one above it.

@@ -1,0 +1,1038 @@
+html
+[if IE 7]>
+<html class="ie ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]
+[if IE 8]>
+<html class="ie ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]
+[if !(IE 7) | !(IE 8)  ]><!
+<![endif]
+August 2012 | Framework Hell
+[if lt IE 9]>
+<script src="http://frameworkhell.com/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]
+This site is optimized with the Yoast WordPress SEO plugin v1.3.4.1 - http://yoast.com/wordpress/seo/
+/ Yoast WordPress SEO plugin.
+[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://frameworkhell.com/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]
+.ads {
+			position: relative;
+			text-align: center;		
+			clear: both;
+		}
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+.site-title a,
+		.site-description {
+			color: #b21515 !important;
+		}
+body.custom-background { background-color: #e6e6e6; background-image: url('http://frameworkhell.com/wp-content/uploads/2012/12/py+bw_logo_red_140.png'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+Google Analytics Tracking by Google Analyticator 6.4.1: http://www.videousermanuals.com/google-analyticator/
+var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-34027872-1 ']);
+        _gaq.push(['_addDevId', 'i9k95']); // Google Analyticator App ID with Google 
+        
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+Framework Hell
+Frameworks can be hellish- I try to help.
+Menu
+Skip to content
+blog
+about me
+links
+projects
+#site-navigation
+#masthead
+Monthly Archives:
+August 2012
+.archive-header
+Flex ViewNavigator screen resolution reference
+Leave a reply
+.comments-link
+.entry-header
+>In a Flex ViewNavigator application you have a ton of confusing options for getting the current screen dimensions. Because there is a menu bar at the top of the screen- so you will actually get a short height- I found that using:
+<!--
+	google_ad_client = "pub-9622909715647886";
+	google_alternate_color = "FFFFFF";
+	google_ad_width = 336;
+	google_ad_height = 280;
+	google_ad_format = "336x280_as";
+	google_ad_type = "text";
+	google_ad_channel ="";
+	google_color_border = "";
+	google_color_link = "";
+	google_color_bg = "";
+	google_color_text = "";
+	google_color_url = "";
+	google_ui_features = "rc:0";
+
+	//-->
+var screenYAxisMax:int = navigator.measuredHeight;
+var screenXAxisMax:int = navigator.measuredWidth;
+Will usually get me what I want on my iPhone 4. I have not yet tried this on an Android device but will update this when I do.
+But for reference here is trace for all of the options I could find while debugging on my device for a Flex ViewNavigator Mobile app:
+.entry-content
+This entry was posted in
+Flex
+on
+August 25, 2012
+by
+admin
+.
+.entry-meta
+#post
+Installing PIL on CentOS 6.2 for Django Image Support
+Leave a reply
+.comments-link
+.entry-header
+If you are reading this you tried to install PIL on CentOS because you needed Django Image support in a model. But when you deployed to the server you got some error message from the Django Admin Panel like:
+<!--
+	google_ad_client = "pub-9622909715647886";
+	google_alternate_color = "FFFFFF";
+	google_ad_width = 336;
+	google_ad_height = 280;
+	google_ad_format = "336x280_as";
+	google_ad_type = "text";
+	google_ad_channel ="";
+	google_color_border = "";
+	google_color_link = "";
+	google_color_bg = "";
+	google_color_text = "";
+	google_color_url = "";
+	google_ui_features = "rc:0";
+
+	//-->
+Upload a valid image. The file you uploaded was either not an image or a corrupted image.
+Basically here is what is broken:
+How to Fix it?
+You need PNG and JPEG support for PIL and for this you need to two libraries. Specifically you need to development versions of the libraries for PIL to compile correctly when you install it:
+SO get these:
+yum install zlib-devel
+yum install libjpeg-devel
+Then do:
+pip uninstall PIL
+pip install PIL
+And try it again. You should see the selfcheck.py output say that you now have support for PNG and JPEG.
+.entry-content
+This entry was posted in
+Django
+on
+August 24, 2012
+by
+admin
+.
+.entry-meta
+#post
+Multiple device screen resolution for Flex Mobile Apps – Flashbuilder 4.6
+Leave a reply
+.comments-link
+.entry-header
+<!--
+	google_ad_client = "pub-9622909715647886";
+	google_alternate_color = "FFFFFF";
+	google_ad_width = 468;
+	google_ad_height = 60;
+	google_ad_format = "468x60_as";
+	google_ad_type = "text";
+	google_ad_channel ="";
+	google_color_border = "";
+	google_color_link = "";
+	google_color_bg = "";
+	google_color_text = "";
+	google_color_url = "";
+	google_ui_features = "rc:0";
+
+	//-->
+Here is a problem I ran into the other day: I wrote an app for iPhone 3gs with all the setting specifically for it, then later wanted to deploy it to a Kindle Fire. Now Kindle Fire is firstly and Android device and secondly it has some fairly odd dimensions:
+Various Screen resolutions for comparison:
+
+ndle fire:
+width = 600
+height = 1024
+dpi = 160
+
+iphone 3gs:
+dpi = 163
+width = 320
+height = 480
+
+iphone 4
+dpi = 326
+width = 640
+height = 960
+What I wanted was a super simple way to just stretch the application. To do this I needed to find out what resolution the app was set for, what resolution the new deployment should be, and what the scale factor would be. Now this was just for a little thing I was writing for testing purposes and I didn’t really care about how it came out looking.
+I am using a tabbed navigator application in this example. It is something that I use fairly often for all the time it saves. Basically in the application file I use the applicationComplete event and then specify a scale for the X and Y resolutions based on what it was written for, and what the current detected resolution is:
+For the application tag:
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication 
+		xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	 	xmlns:s="library://ns.adobe.com/flex/spark" 
+	 	skinClass="skins.BgSkinClass"			
+	 	applicationComplete="tabbedviewnavigatorapplication1_applicationCompleteHandler(event)"
+		applicationDPI="160"
+	 	>
+And then in the Script tag below:
+<fx:Script>
+	<![CDATA[
+	import mx.events.FlexEvent;
+
+	protected function tabbedviewnavigatorapplication1_applicationCompleteHandler(event:FlexEvent):void
+	{
+		// we can set scale based on application window size
+		// We know this is the current size.
+		// For iphone 4 projects: 
+		var baseX:int = 640;
+		var baseY:int = 960;
+						
+		// for kindle fire x = 600, y - 1024. 
+		var destinationX:int = Capabilities.screenResolutionX;
+		var destinationY:int = Capabilities.screenResolutionY;
+
+		var scaleFactorX:Number = destinationX / baseX;
+		var scaleFactorY:Number = destinationY / baseY;
+
+		tabbedNavigator.scaleX = scaleFactorX;
+		tabbedNavigator.scaleY = scaleFactorY;
+	}
+
+	]]>
+</fx:Script>
+This will scale up your application the fill the screen on the device. Make sure you make this a separate application file in your project and only build it for releases because otherwise when you are debugging on your computer it will stretch to the full size of your screen!
+.entry-content
+This entry was posted in
+Flex
+on
+August 18, 2012
+by
+admin
+.
+.entry-meta
+#post
+Apache Axis2 Tutorial. Part 1.
+Leave a reply
+.comments-link
+.entry-header
+In this post I am going to go over a quick Apache Axis2 Install following a little Axis2 Tutorial explaining how to get a basic web service up and running. I also provide the required structure and a download of the web service.
+For reference:
+Homepage..
+|
+Install Guide:
+Installing Apache Axis2 is much easier than Axis 1.4 here is why:
+you can download a WAR file with Axis2 already packaged
+and just drop it into Tomcat and you are done (almost).
+First lets click “Validation” and make sure everything is green in there. If not,
+Apache can help
+.
+Axis2 works a little bit differently than Axis 1.4 in that the system is slightly more organized. All services are visible under:
+http://localhost:8084/axis2/services/listServices
+The project structure on the disk looks like: axis2/WEB-INF/services/
+Each service is deployed as a .aar file with a specially arranged structure. You can also just drop the whole structure into the tomcat/webapps/axis2/WEB-INF/services/ directory without compressing to .aar format!
+- ServiceName
+- META-INF
+- services.xml
+- lib
+- samples
+- quickstart
+- service
+- pojo
+- ServiceName.class
+In the services.xml you have to specify some things:
+Service Name Service
+
+
+<messageReceiver
+mep="http://www.w3.org/2004/08/wsdl/in-only"
+class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+<messageReceiver
+mep="http://www.w3.org/2004/08/wsdl/in-out"
+class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+
+samples.quickstart.service.pojo.ServiceName
+Now to set up an example:
+First set an envirnoment variable called AXIS2_HOME: (e.g – C:\Users\adecker\Documents\apache-tomcat-6.0.35\webapps\axis2)…
+Now lets use the class axis provides for us:
+package samples.quickstart.service.pojo;
+
+import java.util.HashMap;
+
+public class ExampleService {
+private HashMap map = new HashMap();
+
+public double getPrice(String symbol) {
+Double price = (Double) map.get(symbol);
+if(price != null){
+return price.doubleValue();
+}
+return 42.00;
+}
+
+public void update(String symbol, double price) {
+map.put(symbol, new Double(price));
+}
+}
+And they also require a very very specific folder structure. So I am providing that as a download here:
+[download] ExampleService.zip
+Now go ahead and compile that java class:
+javac ExampleService.java
+And drop the file into your services directory:
+tomcat/webapps/axis2/WEB-INF/services/
+And check:
+http://localhost:8084/axis2/services/listServices
+once again…
+You should then click on
+http://localhost:8084/axis2/services/ExampleService?wsdl
+And make sure the WSDL come out fine. Now we can test it. Check the WSDL document to see what kind of things we can do. If you look, there are two Operations near the bottom called “getPrice” and “update”. To call them you specify in the URL string operation, then argument.
+http://localhost:8084/axis2/services/ExampleService/getPrice?symbol=FB
+Note that this is not the same URL structure that Axis 1.4 uses.
+Result:
+42.0
+.entry-content
+This entry was posted in
+Web Services
+on
+August 16, 2012
+by
+admin
+.
+.entry-meta
+#post
+Apache AXIS 1.4 Tutorial – Making a Java Webservice with Tomcat 6.
+Leave a reply
+.comments-link
+.entry-header
+Apache AXIS 1.4 is a Java Web Service generator which is really cool because it is able to take existing Java Classes and transform them into Web Services with the ease of drag and drop. I will take you through how to set the whole thing up and even test it with some math problems.
+First thing we need to is to set up Tomcat to help with this simple example. On windows, you need to set three environmental variables:
+CATALINA_HOME
+(which is the path to your tomcat directory- eg c:\servers\tomcat)
+and
+JRE_HOME
+(which is the path your JRE install- eg c:\Program Files\java\jre6)
+and
+JAVA_HOME
+(Axis needs this, not Tomcat eg: C:\jdk1.6.0_27 -yes AXIS actually needs the full JDK)
+Check the screenshot below for hints here.
+—
+Now you need to get a copy of AXIS. Get it from here, unzip it, and drop the “axis” directory from you download into the tomcat install under “webapps”. Second thing is you need the libraries. Go to axis/lib and copy all these .jar files over into the tomcat/lib directory.
+Before you lauch tomcat you should also check some things:
+1. What port are you running on?
+If there is a conflict go to tomcat/conf/server.xml and change the “port” attribute from the first “connector” tag to something else. I usually run on something other than 8080 (default).
+2. Do you have any users set up in tomcat-users.xml?
+If not throw one in there. I usually just run everything with “test” in all fields when developing.
+Now you can run startup.bat out of the tomcat/bin directory.
+Go to http://localhost:8084  (or http://localhost:8080  if you didn’t change it!).
+If it is working, try to see if axis deployed OK. We dropped axis into the webapps directory so go ahead and navigate to http://localhost:8084/axis/  where you should see something like this:
+Now you will likely get some error that looks like this if you try to click “Call” on the main AXIS page:
+No compiler found in your classpath!  (you may need to add 'tools.jar')
+This may be because you don’t have the full JDK installed. Yes AXIS actually needs to compile stuff. The other possibility is that it is looking the JRE path for tools.jar… it will not find it! In this case you will have to copy tools.jar from the jdk/lib/tools.jar into tomcat/lib/ to get this working. It is 12 megabytes, you can’t miss it. This is what I had to do.
+Try it again and you should get something like this:
+Okay so now lets try and actually do something. You are very likely here because your boss told you that you need to use AXIS and now you are trying to figure out what it is even for. So let’s do some examples. The easiest will be a very simple calculator class so here is what you will do:
+Write the following and save it as “Calc.jws”:
+public class Calc {
+  public int add(int i1, int i2) {
+    return i1 + i2; 
+  }
+
+  public int subtract(int i1, int i2) {
+    return i1 - i2;
+  }
+}
+Now copy this file into tomcat/webapps/axis/ yes, right into the root of the axis directory under your Tomcat Webapps. Now visit:
+http://localhost:8084/axis/Calc.jws
+And visit the link “click to see WSDL”.
+An exceprt we will use:
+ 
+<wsdl:operation name="add" parameterOrder="i1 i2">
+    <wsdl:input message="impl:addRequest" name="addRequest"/>
+    <wsdl:output message="impl:addResponse" name="addResponse"/>
+</wsdl:operation>
+Alright so there is that worked well right? Just add “?wsdl” to the end of the path to the webservice and you get the whole spec printed back. Now how do we communicate with this thing? It looks like we should be able to send it a command with an argument and it should spit stuff out right?
+Can you just call it like this? -
+http://localhost:8084/axis/Calc.jws?method=add&i1=3&i2=4
+Yes. You should get something like:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soapenv:Body>
+        <addResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+            <addReturn xsi:type="xsd:int">7</addReturn>
+        </addResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
+Right, 3 + 4 = 7. The arguments were i1 and i2 for integer one and integer two. You should notice we got back a typed response also. Everything in AXIS is typed.
+More reading:
+Apache’s install instructions:
+http://axis.apache.org/axis/java/install.html
+Another tutorial:
+http://www.digizol.org/2008/07/web-service-axis-tutorial-client-server.html
+A guy that goes a little more in depth:
+http://www.lucianofiandesio.com/javatales/axant.html
+.entry-content
+This entry was posted in
+Web Services
+on
+August 16, 2012
+by
+admin
+.
+.entry-meta
+#post
+Log4j quick installation tutorial with email configuration.
+Leave a reply
+.comments-link
+.entry-header
+Log4j – simple logging at its finest.
+I checked out a lot of Log4j tutorials before coming here. And I think most of them are outdated or go into way to much detail when all anyone really wants is a simple logger to deploy with their webapp so they don’t need to dig through logs.
+That was my goal: let the app email me with a stack trace and all the pertinent information when things go wrong and save me the trouble of digging through logs.
+The other thing is I wanted to deploy at the app level: there are maybe five other apps on this Tomcat instance and I only want to focus on one at a time.
+So do we set up
+Log4j
+?
+It is super simple:
+Log4j jar file has a static class in it that automatically loads and tries to configure it.
+All you need is a file called log4j.properties to customize it.
+Yeah so that is it. Drop in the Jar file. Add the in the properties file. And you are good.
+What is even easier? If I give you the properties file with the emailer already set up:
+log4j.properties
+# email setting
+#email appender
+log4j.appender.mail=org.apache.log4j.net.SMTPAppender
+#defines how othen emails are send
+log4j.appender.mail.BufferSize=1
+log4j.appender.mail.SMTPHost=localhost
+log4j.appender.mail.From=app@a-r-d.me
+log4j.appender.mail.To=me@a-r-d.me
+log4j.appender.mail.Subject=Log... App Error!
+log4j.appender.mail.threshold=error
+log4j.appender.mail.layout=org.apache.log4j.PatternLayout
+log4j.appender.mail.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm} %n-File: %20F %n- Location: %20l %n- Threadname: %20t %n- Classname: %20C %n- Method Name: %20M %n- Priority: %5p %n- Category, line: %c{1}:%L %n-Message: %m%n
+
+log4j.rootLogger=warn, mail
+The conversion pattern is what kind of stuff is logged. Mine is pretty obvious:
+log4j.appender.mail.layout.ConversionPattern=
+%d{yyyy-MM-dd HH:mm} %n
+-File: %20F %n
+-Location: %20l %n
+-Threadname: %20t %n
+-Classname: %20C %n
+-Method Name: %20M %n
+-Priority: %5p %n
+-Category, line: %c{1}:%L %n
+-Message: %m%n
+That %n is a newline. Check here for a
+cheatsheet
+.
+.entry-content
+This entry was posted in
+Java
+on
+August 14, 2012
+by
+admin
+.
+.entry-meta
+#post
+How to set up Django Admin pages for deployment.
+Leave a reply
+.comments-link
+.entry-header
+If you are reading this you know about the Django Admin pages by now. Doubtless they are one of the best features of the whole framework, so you will be wanting to deploy them with your server. But you may have noticed they don’t work!!!
+By default the admin pages will serve out of your STATIC_URL setting in your settings.py file. So the path will end up being /static/admin which means wherever you are serving your static pages from just drop the admin files in there.
+But where are the admin files?
+In windows:
+C:\Python27\Lib\site-packages\django\contrib\admin\templates\admin
+In linux it should be the same after you get to site packages. Just copy that admin folder into your static root.
+.entry-content
+This entry was posted in
+Django
+on
+August 12, 2012
+by
+admin
+.
+.entry-meta
+#post
+Fulltext document search with Django: Forget PyLucene, Use Whoosh!
+Leave a reply
+.comments-link
+.entry-header
+There are plenty of search options for the Django framework if you are talking about indexing database content. But if you are not holding your site content in a database like you would with a CMS you end up having a ton of text documents floating around for each page. Your client will want these to be searchable and short of using a custom google site search (which you client doesn’t want because of the adds) you don’t see many options.
+For a medium size site this is what happens. You have around 50 pages but most of them are quite different and need custom layouts so you cant make a model system and then just shove them in a DB.
+When it comes to fulltext document search Lucene is a something that comes out in front. So it my be obvious to consider PyLucene. But with the conmplex configuration and all of the building that you need to do to pull it off a pure python solutions seems like a much better option. And if you are only indexing something like 100 documents it will still be fast.
+This is where whoosh comes in.
+pip install whoosh
+Here come the bullet points:
+Now there are things you need to know:
+-Whoosh needs to be fed documents in a schema format.
+-You need to set up a schema that will fit your application
+-You need to clean the documents you feed it
+These are the steps you take:
+-Create the DB (the schema)
+-Index the documents
+-Query using search terms.
+This is how you handle it in Django:
+-Make 3 action paths:
+1. First is to create db
+2. Second is to re-index directories
+3. Third is to search and return results.
+Some Special things we need to consider:
+-Django is a web framework that hides URL paths from the actual documents.
+-Meaning that /home/products/1/ may ref /products/first_product.html
+-Given this we need a map between the URL and Document name.
+-We consult the map when building the index.
+So lets check out how we map this out in django urls.py
+url(r'^search/$', views.search),
+url(r'^search/index/new/$', views.searchindexnew),
+url(r'^search/index/update/$', views.searchindexupdate),
+And then in the views:
+import whooshController
+
+def search(request):
+    if request.method == "GET" and 'searchQuery' in request.GET:
+        searchResults, numres, messageResults = whooshController.searchController(request.GET['searchQuery'],settings.DEBUG)
+    else:
+        return render_to_response("search_results.html", {
+                                  'searchterm': "",
+                                  'message': "There doesn't seem to be anything here.",
+                                  }, 
+                                  context_instance=RequestContext(request))   
+    return render_to_response("search_results.html", {
+            'searchterm': request.GET['searchQuery'],
+            'message': "There were %d results!" % len(searchResults),
+            'searchResults':searchResults,
+            'numResults':numres,
+            'messageResults':messageResults,
+            }, context_instance=RequestContext(request))   
+    
+    
+    
+def searchindexnew(request):  
+    res = whooshController.makeDBTemplates(settings.DEBUG)
+    
+    if res:
+        return HttpResponse("It worked")
+    
+    return HttpResponse("It failed")
+
+
+def searchindexupdate(request):  
+    res = whooshController.indexTemplates(settings.DEBUG)
+    
+    if res:
+        return HttpResponse("It worked")
+    
+    return HttpResponse("It failed")
+Next we need to write the code to handle creating the DB:
+### index directories for devel vs production
+INDEX_DIR_DEV = "C:/django/myapp/myapp/index"
+INDEX_DIR_PROD = "/var/www/mysite/myapp/myapp/index"
+
+TEMPLATE_DIR_DEV = "C:/django/myapp/templates"
+TEMPLATE_DIR_PROD = "/var/www/mysite/myapp/templates"
+
+##
+## RUN this to build the index with the schema below:
+##
+def makeDBTemplates(isDebug):
+    if isDebug:
+        indexdir = INDEX_DIR_DEV
+    else:
+        indexdir = INDEX_DIR_PROD
+    # we have a title, a path, some content, and a link to where the template is found on the internet
+    schema = Schema(title=TEXT(stored=True), path=ID(stored=True), content=TEXT(stored=True), link=STORED)
+
+    if not os.path.exists(indexdir):
+        os.mkdir(indexdir)
+    
+    ix = index.create_in(indexdir, schema)
+    return True
+After we have created the DB we need to actually add stuff too it. This is complicated part.
+### Directory listing:
+DIR_LIST = [
+    'company', 
+    'contact', 
+    'pages', 
+    'products', 
+    'projects',
+    'news'
+    ]
+
+### holds maps of filenames to URLS
+URL_MAP = {
+    'home.html':'/home/',
+    'company_history.html':'/company/history/',
+    "company_main.html":"/company/main/",
+    "product_1.html":"/product/1/"
+    }
+
+### ignore these when indexing:
+FILE_IGNORE = [
+    "contact_main.html",
+    "example.html", 
+    "example3.html", 
+    ]
+
+### Check if on ignore list:
+def checkIGNORE(fname):
+    for key in FILE_IGNORE:
+        if key == fname:
+            return True
+    return False
+    
+### Pull URL from URL_MAP if not, redirect to known 404 page.
+def findURL(fname):
+    for key, value in URL_MAP.items():
+        if key == fname:
+            return value 
+    return "/test/404/"
+
+### read file and return contents as string
+def getTextContents(name):
+    f = open(name, "r")	
+    
+    #strip html tags with django util
+    stripped = strip_tags(f.read())
+    
+    ## now we just need to come up with a template strpping method:
+    # remove {{ }}
+    p = re.compile(r'{{[^{{]*?}}')
+    stripped2 = p.sub('', stripped)
+    
+    # remove {% %}
+    p = re.compile(r'{%[^{%]*?%}')
+    stripped3 = p.sub('', stripped2)
+    
+    return stripped3
+
+### adds a new file to index
+def addToIndex(writer, fileNameList, fullPathList):
+    print "Len Filenames: %d .. len pathslist: %d " % (len(fileNameList), len(fullPathList))
+    ''' E.G:
+        writer.add_document(title=u"Home Page", content=u"This is the home page!",
+            path=indexdir + "/home.html", link=u"/home/")
+        ''' 
+    i = 0
+    for file in fileNameList:
+        #skip adding if on ignore list
+        if checkIGNORE(file):
+            print "Ignoring: %s" % file
+            continue
+        name = file.split('.')
+        url = findURL(file)
+        fileContents = getTextContents(fullPathList[i])
+        #print fileContents
+        print "Not Ignoring: name: %s, link: %s" % (name[0], url)
+        writer.add_document(title=u"%s" % name[0], 
+                            content=u"%s" % fileContents, 
+                            path=u"%s" % fullPathList[i], 
+                            link=u"%s" % url)
+        i += 1
+    #Must commit to save. 
+    writer.commit()
+
+## Exists only for pretty debugging
+def pplist(lst):
+    for x in lst:
+        print x
+        
+#my printer        
+def pplist2(lst):
+    i = 1
+    for xx in lst:
+        print "%d:" % i
+        for x in xx:
+            print "%s: %s " % (x, xx[x])
+        i += 1
+
+###
+### Build a directory / file listing of all the templates.
+###
+def getAllFiles(debugMode):
+    ### get index dir
+    if debugMode:
+        indexdir = INDEX_DIR_DEV
+    else:
+        indexdir = INDEX_DIR_PROD
+        
+    ### get template dir
+    if debugMode:
+        templateDir = TEMPLATE_DIR_DEV
+    else:
+        templateDir = TEMPLATE_DIR_PROD
+    
+    #directory list is defined at top
+    dirList = DIR_LIST
+    
+    ## make some lists
+    fileList = []
+    fullPathList = []
+    
+    ## iterate
+    i = 0
+    for dir in dirList:
+        path = os.path.join(templateDir,dirList[i])
+        listing = os.listdir(path)
+        for thisFile in listing:
+            fileList.append(thisFile)  
+            fullPathList.append(path + "/" + thisFile)
+        i += 1
+    
+    ## return em both
+    pplist(fullPathList)
+    return fileList, fullPathList
+
+
+def indexTemplates(isDebug):
+    ## now that index is created you can open it:
+    if isDebug:
+        indexdir = INDEX_DIR_DEV
+    else:
+        indexdir = INDEX_DIR_PROD
+    
+    ## Open
+    ix = index.open_dir(indexdir)
+    writer = ix.writer()
+    
+    ## get file listing
+    fileNameList, fullPathList = getAllFiles(isDebug)
+    
+    ## add, update
+    addToIndex(writer, fileNameList, fullPathList)
+    return True
+To break down what is going on:
+1. we get a list of all the files we want to index.
+2. we are cleaning the file text up (strip out HTML, strip out template tags)
+3. we are indexing the files into the DB:
+a). find what file maps to what URL
+b). add the cleaned text into here.
+Now for the search:
+def multiWordSearch(term, isDebug):
+    if isDebug:
+        indexdir = INDEX_DIR_DEV
+    else:
+        indexdir = INDEX_DIR_PROD
+        
+    try:
+        ix = index.open_dir(indexdir)
+    except Exception, err:
+        print "Failed to open index dir. from %s" % indexdir
+        print "Error: %s" % err
+        listOfResults = []
+        numRes = 0
+        matched = ""
+        return listOfResults, numRes, matched
+    
+    #split by spaces.
+    term = term.replace('-', ' ')
+    term = term.replace('.', ' ')
+    term = term.replace(',', ' ')
+    wordList = term.split(' ')
+    try:
+        searcher = ix.searcher()
+        termlist = []
+        for word in wordList:
+            termlist.append(Term("content", u"%s" % word))
+        
+        qry = And(termlist)
+        results = searcher.search(qry, terms=True)
+        numRes = len(results)
+        matched = results.matched_terms()
+        #print "Results: %d" % len(results)
+        #pplist2(results) 
+        listOfResults = []
+        i = 1
+        for hit in results:
+            #print hit
+            listOfResults.append({
+                'id': i,
+                'name': hit['title'],
+                'link': hit['link'],
+                'matched': hit.highlights("content")
+                })
+            i += 1
+     
+    except:
+        listOfResults = []
+        numRes = 0
+        matched = ""
+    
+    finally:
+        searcher.close()
+        
+    return listOfResults, numRes, matched
+    
+    
+def searchController(terms, isDebug):   
+    ### Test Search:
+    #simpleSearch("mounting", True)
+    ## search words split by stuff:
+    results, length, matching_message = multiWordSearch(terms, isDebug)
+    #print "There were %d results" % length
+    # we want: id, name, link location, score(?)
+    #print results
+    return results, length, matching_message
+Maybe you also want my imports:
+import whoosh
+from whoosh.fields import Schema, TEXT, STORED, ID
+import os, os.path
+import glob
+from whoosh import index
+
+# search
+from whoosh.query import *
+from whoosh.qparser import QueryParser
+
+## special:
+from django.utils.html import strip_tags
+
+import re
+That should be it. This is enough code to get you up and going with a bit copy and pasting,
+changing paths, fixing your directory listing, and mapping out your URLS
+.entry-content
+This entry was posted in
+Django
+,
+Python
+on
+August 11, 2012
+by
+admin
+.
+.entry-meta
+#post
+How to make a repeating background bitmap image on Flex mobile (spark / flashbuilder 4.6) application.
+Leave a reply
+.comments-link
+.entry-header
+There is no default CSS attribute in any of the basic application types for flex. So to create a background image that covers your entire application you will have to resort some tricks. And the worst part is that it is VERY different to do this on a mobile application. So I am going to show how to do this with a tabbed navigator application with a bitmap fill.
+To be clear here are different cases:
+This guy explains how to do it on a regular desktop/ web based flex app. (See the comments for more detail).
+This guy explains how to do it with a single image on a flex mobile app (but using a ViewNavigatorApplication).
+So first here is my application file. Note I used a skinClass attribute to ref a custom skin. This is where the magic happens. Additionally you need to override the backgrounds in the other styles as needed so that your background image will show through. Otherwise you will have ugly white backgrounds on your labels and such.
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+      xmlns:s="library://ns.adobe.com/flex/spark" applicationDPI="160" width="100%" height="100%"
+      skinClass="skins.BgSkinClass"
+      >
+	
+	<fx:Style source="uptimeChecker.css"/>
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		
+		
+		s|View {
+			backgroundAlpha: 0;
+		}
+		
+		s|Label {
+			backgroundAlpha: 0;
+		}
+		
+		s|List {
+			backgroundAlpha: 0;
+		}
+	</fx:Style>
+	
+	<s:ViewNavigator label="Quick Check" width="100%" height="100%" firstView="views.QuickCheckView" />
+	<s:ViewNavigator label="Check List" width="100%" height="100%" firstView="views.CheckListView"/>
+	<s:ViewNavigator label="Edit List" width="100%" height="100%" firstView="views.EditListView" />
+
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:TabbedViewNavigatorApplication>
+Now we get the actual skin. This is actually just an actionscript class thrown in a package called “skins”. Everything is created programatically with actionscript so there are a lot of imports. Also notice we do: “extends TabbedViewNavigatorApplicationSkin”. If you are doing a different application base type you will need to change that! You should also be able to see where I set the source for my repeating fill image.
+package skins
+{
+    import mx.core.BitmapAsset;
+    import mx.graphics.BitmapFill;
+    import mx.graphics.BitmapFillMode;
+
+    import spark.components.Group;
+    import spark.components.Image;
+    import spark.primitives.BitmapImage;
+    import spark.primitives.Rect;
+    import spark.skins.mobile.TabbedViewNavigatorApplicationSkin;
+
+    public class BgSkinClass extends TabbedViewNavigatorApplicationSkin {
+        private var image:Image;
+
+        [Embed(source="/assets/back.png")]
+        private var background:Class;
+
+        private var group:Group = new Group();
+
+        public function BgSkinClass() {
+            super();
+        }
+
+        override protected function drawBackground(w:Number, h:Number):void{
+            super.drawBackground(w,h);
+            group.height=h;
+            group.width=w;
+        }
+
+        override protected function createChildren():void {
+
+            var rec:Rect = new Rect();
+            var bitmapFill:BitmapFill = new BitmapFill();
+            rec.percentHeight=100;
+            rec.percentWidth=100;
+            bitmapFill.source =(new background() as BitmapAsset);
+            bitmapFill.fillMode = BitmapFillMode.REPEAT;
+            rec.fill = bitmapFill;
+
+            group.addElement(rec);
+            this.addChild(group);
+            super.createChildren();
+
+        }
+    }
+}
+If you just came for the fix it should be fairly straightforward to simply copy the code and fix the naming of things. So go ahead and copy paste!
+Example:
+#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+see gallery_shortcode() in wp-includes/media.php
+.entry-content
+This entry was posted in
+Flex
+on
+August 11, 2012
+by
+admin
+.
+.entry-meta
+#post
+Styling with CSS and other tricks on Flex Mobile apps (Flashbuilder 4.6)
+Leave a reply
+.comments-link
+.entry-header
+What I set out to do here is to make a very basic but useful guide to styling a flex mobile app. I will provide an annotated style sheet and some tricks about using icons in the basic Spark components.
+First I am starting with a tabbed navigator application. Lets follow along with
+this example
+and update the CSS for all of the base components.
+Make sure you have this in your app mxml file:
+<fx:Style source="yourAppName.css"/>
+Now lets go over the CSS for a basic tabbed navigator app. Remember also at any time you can check the docs for possible styling options.
+For example here the docs for the action bar.
+I ran into a problem trying to embed a repeating background image for my application and ended up trying to look in
+the docs for tabbed navigator application
+but it turns out background-image is not a supported CSS attribute.
+To make a background image in your application you have to do some really crazy stuff. I will make a whole blog post on it later.
+Here is some basic CSS for a flex mobile app wth tabbed navigator.
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+
+/* Fairly obvious what this is */
+global
+{
+	symbol-color: #000000;
+	chrome-color: #B5DAFF;
+	font-weight: bold;
+	
+	/* background color of each view */
+	background-color:#ffffff;
+	
+	vertical-align: top;
+	text-align: left;
+	font-size: 16;
+	/* content-background-alpha: 0.62; */
+}
+
+/** this is the bar the top of the app **/
+s|ActionBar{
+	chromeColor:#B5DAFF; /* more like background color */
+	titleAlign:center; 
+	defaultButtonAppearance: beveled;
+}
+
+/** Lists obviously **/
+s|List{
+	color:#B5DAFF;
+	chromeColor:#B5DAFF;
+}
+
+
+/* This is the styling of the tabbed navigator */
+s|TabbedViewNavigator #tabBar { 
+	chromeColor: #4D6DFF; /* color of background on buttons */
+	color: #ffffff; /* color of text on tab names */
+	textDecoration:underline; 
+}
+.entry-content
+This entry was posted in
+Flex
+on
+August 11, 2012
+by
+admin
+.
+.entry-meta
+#post
+Post navigation
+←
+Older posts
+#nav-below .navigation
+#content
+#primary
+Search for:
+Recent Posts
+Flex: Add MX controls to mobile App
+A component skin system for same source mobile / desktop apps
+Flex: Using mobile components in a Desktop app
+Clojure Adventures Part 1
+Flash Builder is useless without design view
+Recent Comments
+brand
+on
+Apache Axis 1.4 Tutorial – Making a Java Webservice with Tomcat 6. Part 1.
+Archives
+December 2012
+September 2012
+August 2012
+Categories
+AS3
+Django
+flashbuilder
+Flex
+Java
+jQuery
+Python
+Uncategorized
+Web Services
+Meta
+Log in
+Entries
+RSS
+Comments
+RSS
+WordPress.org
+#secondary
+#main .wrapper
+Proudly powered by WordPress
+.site-info
+#colophon
+#page
+//<![CDATA[
+SyntaxHighlighter.all();
+//]]>

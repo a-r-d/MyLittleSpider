@@ -1,0 +1,167 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"
+Red River Gorge Climbing spots
+CSS
+Scripts
+/* for some reason this is require for the google maps canvas to display at all */
+		
+		html { height: 100% }
+		body { height: 100%; margin: 0; padding: 0 }
+		
+		#map_canvas 
+				{
+				margin-left: 1%;
+				width: 98%;
+				height: 90%;
+				}
+/* the main piece of data:
+				-[integer]
+					-name
+					-lat
+					-lng
+					-description
+			*/
+			var location_json = {"1":{"name":"Coffin Ridge","lat":"37.85184782750648","lng":"-83.65214605924852","description":"pg 62"},"2":{"name":"Bee Branch","lat":"37.89149277302506","lng":"-83.71299367620452","description":"pg 107"},"3":{"name":"Backside wall","lat":"37.88840000006982","lng":"-83.64199999995563","description":"pg 90"},"4":{"name":"Marimba Fork","lat":"37.90020000009999","lng":"-83.57390000002219","description":"pg. 118"},"5":{"name":"Blackburn Rock","lat":"37.8786944751656","lng":"-83.70179970426102","description":"pg 106"},"6":{"name":"Asylum Wall","lat":"37.84680026470468","lng":"-83.70009254551172","description":"pg 106"},"7":{"name":"Blue Belly Lizzard Pinnacle","lat":"37.84170000008813","lng":"-83.65430000010737","description":"pg 60 same approch as \"the dome\"\n \n5.1 three stars\n\n50 ft."},"8":{"name":"Willie\"s Wall","lat":"37.87369818111787","lng":"-83.66390062300569","description":"pg 80"},"9":{"name":"Brighton Wall","lat":"37.87270000001129","lng":"-83.66530000007063","description":"pg 80"},"10":{"name":"Buzzard Ridge","lat":"37.84859999997365","lng":"-83.65360000001512","description":"pg 62"},"11":{"name":"Muscle Beach","lat":"37.87420000052628","lng":"-83.65380000015745","description":"pg 84"},"12":{"name":"Lumpy Wall","lat":"37.88919999982424","lng":"-83.63709999997532","description":"Pg 91"},"13":{"name":"Symphony Wall","lat":"37.87390000032663","lng":"-83.66680000016127","description":"pg 81"},"14":{"name":"The Dome","lat":"37.84449999955441","lng":"-83.65609999999681","description":"pg 60"},"15":{"name":"SEE rocks","lat":"37.78850000042829","lng":"-83.74609999965833","description":"pg 194"},"16":{"name":"majors pinnacle","lat":"37.88689999989884","lng":"-83.63730000011884","description":"pg 91"},"17":{"name":"Clearcut Wall","lat":"37.86639999962016","lng":"-83.66640000006672","description":"pg 78\n\nbaptist preacher"},"18":{"name":"Minas Ithil","lat":"37.87559999983865","lng":"-83.6554000000132","description":"pg 84 same approach as Muscle Beach"},"19":{"name":"Jazz Rock","lat":"37.87239999980193","lng":"-83.66810000007024","description":"pg 82"}};
+		
+			function init() 
+				{
+				//postion for marker
+				var lat_m = 37.79787684894448;
+				var lng_m = -83.7020318012207;
+				
+				//Center of map upon init:
+				var lat = 37.839479235926156;
+				var lng = -83.65678845996092;
+				
+				var map_center = new google.maps.LatLng(lat,lng);
+		        var myOptions = {
+								center: map_center,
+								zoom: 12,
+								mapTypeId: google.maps.MapTypeId.TERRAIN
+								};
+								
+				//this needs to be global because im going to call it later. A lot.
+		        map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+		        
+		        //add a marker:
+		        you_icon = 'img/person_you.png';
+		        marker_pos = new google.maps.LatLng(lat_m,lng_m);
+
+				marker_you = new google.maps.Marker({
+													map:map,
+													draggable:true,
+													animation: google.maps.Animation.BOUNCE,
+													position: marker_pos,
+													icon: you_icon
+												});
+												
+				console.log('begin reading json data');
+				
+				place_array = [];
+				info_array = [];
+				
+				//beigin main loop
+				$.each(location_json,function(place, place_marker){
+					
+					console.log(place_marker.name + place_marker.lat + place_marker.lng + place_marker.description);
+					var loc = new google.maps.LatLng(place_marker.lat,place_marker.lng);
+					var rollover = place_marker.name + "  Note: " + place_marker.description;
+					var flag = 'img/flag.png';
+					
+					var marker = new google.maps.Marker({
+													map:map,
+													draggable: false,
+													animation: google.maps.Animation.DROP,
+													position: loc,
+													title: rollover,
+													icon: flag
+												});
+												
+					var infowindow = new google.maps.InfoWindow({content: rollover});
+					
+					add_info(marker, infowindow);
+					add_directions(marker, loc);
+					
+					// Now I need to push each of these to an array with a listener
+					place_array.push(marker);
+					info_array.push(infowindow);
+					});// end each loop
+					
+				//call event handler addition function
+					
+				}//end init func
+
+			//agian, must be wrapped:
+			function add_directions(marker, loc)
+				{
+				//marker = obvious
+				//marker_pos = current position 'you'
+				//loc = position to place marker
+
+				google.maps.event.addListener(marker, 'click', function (){
+						calc_dir(loc);
+					});
+				}
+			var directionsDisplay;
+			var directionsService;
+
+
+			function calc_dir(loc)
+				{
+				$('#dir_panel').empty();
+				
+				//var lat = marker_you.position.Pa;
+				//var lng = marker_you.position.Qa;
+				
+				var current = marker_you.getPosition();
+				
+				//var current = new google.maps.LatLng(lat,lng);
+				console.log("current you marker: " + current);
+				
+				if(directionsDisplay != null)
+					{
+					directionsDisplay.setMap(null);
+					//seems to work well enough
+					}
+	
+					
+					//works fine up to this point
+					directionsDisplay = new google.maps.DirectionsRenderer();
+					//set the directions to render to our current map 'map'
+					directionsDisplay.setMap(map);
+					//set the panel display area:
+					directionsDisplay.setPanel(document.getElementById('dir_panel'));
+			
+					directionsService = new google.maps.DirectionsService();
+			
+					var request = 	{
+									origin: current,
+									destination: loc,
+									travelMode: google.maps.DirectionsTravelMode.WALKING
+									};
+									
+					directionsService.route(request, function(result, status) {
+						if (status == google.maps.DirectionsStatus.OK) 
+							{
+							directionsDisplay.setDirections(result);
+							console.log(result);
+							
+							}
+						});
+				
+				console.log(status);
+				
+				}
+
+
+			//this needs to be wrapped in a sep function call to lock in values.
+			function add_info(marker, info)
+				{
+				google.maps.event.addListener(marker, 'click', function () {
+						info.open(map, this);
+					});
+				}
+		
+		$(document).ready(function(){
+		//nothin yet
+		});
+Red River Gorge Climbing Spots

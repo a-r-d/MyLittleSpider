@@ -1,0 +1,15 @@
+xml version="1.0" encoding="UTF-8"
+Comments for Framework Hell
+http://frameworkhell.com
+Frameworks can be hellish- I try to help.
+Fri, 28 Dec 2012 06:35:39 +0000
+hourly
+1
+http://wordpress.org/?v=3.5
+Comment on Apache Axis 1.4 Tutorial – Making a Java Webservice with Tomcat 6. Part 1. by brand
+http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/#comment-3
+brand
+Fri, 28 Dec 2012 06:35:39 +0000
+http://blog.a-r-d.me/?p=78#comment-3
+I love the blog. Great post. It is very true, people must learn how to learn before they can learn. lol i know it sounds funny but its very true. . .
+<p>I love the blog. Great post. It is very true, people must learn how to learn before they can learn. lol i know it sounds funny but its very true. . .</p>

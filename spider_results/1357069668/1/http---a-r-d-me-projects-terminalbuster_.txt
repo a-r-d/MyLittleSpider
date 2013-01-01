@@ -1,0 +1,741 @@
+html
+terminal explorere
+body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+            }
+        
+        /*** WRAPS BOTH TERMINALS
+        **/
+        #mainWraper {
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            }
+            
+            
+        /*** TERMINAL 1: 
+        **/
+            #termWrapper1 {
+                position: absolute;
+                top:50px;
+                left:50px;
+                }
+                
+                #headImg1 {
+                    position: absolute;
+                    padding: 0px;
+                    z-index: 101;
+                    }
+                    
+                #txtOutput1 {
+                    position: absolute;
+                    width: 688px;
+                    height: 400px;
+                    border: solid;
+                    border-width: 1px;
+                    border-top: 0px;
+                    border-color: #9E9E9E;
+                    padding: 0px;
+                    
+                    color: white;
+                    z-index: 100;
+                    background-color: black;
+                    
+                    overflow: auto;
+                    word-wrap: break-word;
+                    }
+        /*******************************************/
+        
+        /*** TERMINAL 2:
+        **/      
+            #termWrapper2 {
+                position: absolute;
+                top:250px;
+                left:400px;
+                }      
+                #headImg2 {
+                    position: absolute;
+                    padding: 0px;
+                    z-index: 51;
+                    }
+                 
+                 #txtOutput2 {
+                    position: absolute;
+                    width: 688px;
+                    height: 400px;
+                    border: solid;
+                    border-width: 1px;
+                    border-top: 0px;
+                    border-color: #9E9E9E;
+                    padding: 0px;
+                    
+                    color: white;
+                    z-index: 50;
+                    background-color: black;
+                    
+                    overflow: auto;
+                    word-wrap: break-word;
+                    }
+        /*******************************************************/
+            #termWrapper3 {
+                position: absolute;
+                top:25px;
+                left:600px;
+                }      
+                
+                #headImg3 {
+                    position: absolute;
+                    padding: 0px;
+                    z-index: 26;
+                    }
+                 
+                 #txtOutput3 {
+                    position: absolute;
+                    width: 688px;
+                    height: 400px;
+                    border: solid;
+                    border-width: 1px;
+                    border-top: 0px;
+                    border-color: #9E9E9E;
+                    padding: 0px;
+                    
+                    color: red;
+                    z-index: 25;
+                    background-color: black;
+                    
+                    overflow: auto;
+                    word-wrap: break-word;
+                    }
+                
+        #txtBank {
+            display: none;
+            }
+        #txtBank2 {
+            display: none;
+            }
+var arrText1 = [];
+    var arrText2 = [];
+    
+    $(document).ready( function() {
+        $('#numbg').numberBg({
+        'color': 'green',
+        'bgcolor': 'black',
+        'opacity': 0.5,
+        'zindex' : 0
+        });
+        
+        /*** Formatting
+        **/
+        /*
+        var wid = $('#headImg1').width();
+        var topOffset = $('#headImg1').offset().top;
+        var leftOffset = $('#headImg1').offset().left;
+        $('#txtOutput1').css({
+            top: String(topOffset + 32) + "px",
+            left: String(leftOffset) + "px"
+            });
+                */
+        /*
+        wid = $('#headImg2').width();
+        topOffset = $('#headImg2').offset().top;
+        $('#txtOutput2').css("top", topOffset + 65 + "px");
+        */
+        /*  $('#txtOutput2').css({
+            top: String(topOffset + 32) + "px"
+            }); */
+        
+        /*** Process the text
+        **/
+        var strText1 = $('#txtBank').html();
+        var txtLen1 = strText1.length;
+        var i = 0;
+        while(i < txtLen1) {
+            arrText1.push(strText1.substr(i, 10));
+            i += 10;
+            }
+            
+        var strText2 = $('#txtBank2').html();
+        var txtLen2 = strText2.length;
+        i = 0;
+        while(i < txtLen2) {
+            arrText2.push(strText2.substr(i, 10));
+            i += 10;
+            }
+            
+        /*** Set up objects to hide all the vars
+        **/
+        terminal1 = new Object();
+        terminal1.id = "#txtOutput1";
+        terminal1.idNoHash = "txtOutput1";
+        terminal1.idImg = "#termWrapper1";
+        terminal1.position = 0;
+        terminal1.txtArray = arrText1;
+        
+        terminal2 = new Object();
+        terminal2.id = "#txtOutput2";
+        terminal2.idNoHash = "txtOutput2";
+        terminal2.idImg = "#termWrapper2";
+        terminal2.position = 0;
+        terminal2.txtArray = arrText2;
+        
+        /** Initially we type into terminal 1
+        **/
+        currentTerminal = new Object();
+        currentTerminal = terminal1;
+        
+        /** the main event handler 
+        **/
+        $(document).keydown( function(event) {
+            // 9 = tab
+            // 13 = enter
+            // 27 = esc
+            if(event.keyCode == 27) {
+                // switch from one to 2
+                console.log("switching terminals");
+                if(currentTerminal.id == terminal1.id) {
+                    // switch back old data
+                    terminal1 = currentTerminal;
+                    // switch  current terminal
+                    currentTerminal = terminal2;
+                    bringToFront(currentTerminal.id, terminal1.id, currentTerminal.idImg, terminal1.idImg);
+                    }
+                else { 
+                    // switch from 2 to 1
+                    terminal2 = currentTerminal;
+                    currentTerminal = terminal1;
+                    bringToFront(currentTerminal.id, terminal2.id, currentTerminal.idImg, terminal2.idImg);
+                    }
+                }
+            else {
+                
+            $(currentTerminal.id).append(currentTerminal.txtArray[currentTerminal.position]);
+            currentTerminal.position += 1;
+            // jQuery has no selector for this?
+            var scrlHeight = document.getElementById(currentTerminal.idNoHash).scrollHeight;
+            $(currentTerminal.id).scrollTop(scrlHeight);
+            // console.log("new height:" + newHeight + " scrlHeight:" + scrlHeight);
+            }
+        }); // END KEYDOWN
+    
+    
+    // 3rd terminal has shit render in it
+    setInterval( function() {
+        // 1 char = 10 px
+        var rand = Math.round(Math.random() * 127);
+        var rand2 = Math.round(Math.random() * 127);
+        var rand3 = Math.round(Math.random() * 127);
+        var rand4 = Math.round(Math.random() * 127);
+        var rand5 = Math.round(Math.random() * 127);
+        var rand6 = Math.round(Math.random() * 127);
+        var toAdd = String.fromCharCode(rand) + String.fromCharCode(rand2) +
+                    String.fromCharCode(rand3) + String.fromCharCode(rand4) +
+                    String.fromCharCode(rand5) + String.fromCharCode(rand6);
+        $('#txtOutput3').append(toAdd);
+        
+        var scrlHeight = document.getElementById('txtOutput3').scrollHeight;
+        $('#txtOutput3').scrollTop(scrlHeight);
+        }, 20);
+        
+    }); // END READY
+    
+    function bringToFront(idToFront, idToBack, imgIdToFront, imgIdToBack) {
+        // switch z index.
+        console.log(idToFront + idToBack + imgIdToFront + imgIdToBack);
+        $(idToFront).css("z-index", 100);
+        $(idToBack).css("z-index", 50);
+
+        $(imgIdToFront).css("z-index", 101);
+        $(imgIdToBack).css("z-index", 51);
+        }
+def make_mulitple_queries(self, full_list):
+        #get num in list:
+        const = Const()
+        #this number is set to 100 now
+        stock_per_qry = const.getStocksPerQuery()
+
+        length = len(full_list)
+        loops = math.floor(length / stock_per_qry)
+        if(loops == 0):
+            loops = 1 # want to run at least once
+            stock_per_qry = length # need to change this or else index is out of range
+        remaind = length % stock_per_qry
+
+        query_list = []
+        i = 0
+        while( i < loops):
+            ii = i * stock_per_qry
+            temp_list = []
+            while(ii < ((i + 1) * stock_per_qry)):
+                temp_list.append(full_list[ii])
+                ii += 1
+
+            qry = self.formulate_query(temp_list)
+            query_list.append(qry)  
+            i += 1
+
+        return query_list
+
+
+    def formulate_query(self, stocks_list):
+        #THIS SHOULD BE BROKEN UP DO TO 20 at a time or somethin
+        #print "querying list", stocks_list
+        stocks = Const()
+        base = stocks.getBase()
+        end = stocks.getEnd()
+        middle = "" #define it for loop
+
+        length = len(stocks_list) #get length
+        i = 1 #start @ 1
+        for x in stocks_list:
+            #this is a list, so we need to do this: %22item%22%2C%22item%22
+            #where  %22 = "   #and  %2C = ,
+            if(length != i): #do this if we have more
+                middle += "%22" + x + "%22,"
+            if(length == i): #do this if we dont need a comma
+                middle += "%22" + x + "%22"
+            i += 1
+
+        full_qry = base + middle + end
+        #print full_qry
+        return full_qry
+
+    def execute_multiple_YQl(self, query_list):
+        #here we call YQl and get many responses
+        replies = []
+        i = 0
+
+        const = Const()
+        stock_per_qry = const.getStocksPerQuery()
+        delay = const.getDelayBetweenQuery()
+
+        for qry in query_list:
+            response = urllib2.urlopen(qry)
+            jsonstr = response.read()
+
+            replies.append(jsonstr)
+            print "queried for stocks", i, "times,", (stock_per_qry * i + stock_per_qry), "stocks"
+            #wait 5 seconds before doing again
+            i += 1
+            time.sleep(delay)
+
+        return replies
+
+
+    def parse_multiple_qryresult(self, qry_res_list):
+        stocks = Const() 
+        items = stocks.getResponseList()
+
+        for x in qry_res_list:
+            res = self.parse_single_qry(x, items)
+            self.tickerdat_update_db(res)
+
+        print "finished parsing, and updating DB for all queries"
+
+    def parse_single_qry(self, json_result, items):
+        #decode JSON
+        jsondecoded = json.loads(json_result)
+
+        #if more than one result
+        if(jsondecoded['query']['count'] > 1):
+            res = [] #main array
+            #cycle through the mulitple quotes
+            for n in jsondecoded['query']['results']['quote']:
+                #cycle through the fields for each quote
+                dict = {} #inner aray for each symbol quote #this is a dictionary
+                for nn in n:
+                    ii = 0
+                    #cycle through and test if the value is in the list we want!
+                    #okay, here is where we face some issues:
+                    #do: if Ask = null or if Bid = null, get AskRealtime and BidRealtime, put into Ask, Bid
+                    for x in items:
+                        if(nn == x):
+                            if(n[nn] == None and nn == "Ask"):
+                                print "swapping AskRealtime to Ask"
+                                temp = n["AskRealtime"]
+                                n["Ask"] = temp #SWAPPED
+                            if(n[nn] == None and nn == "Bid"):
+                                print "swapping BidRealtime to Bid"
+                                temp = n["BidRealtime"]
+                                n["Bid"] = temp #SWAPPED
+
+                            #print items[ii], n[nn]
+                            value = n[nn]
+                            key = items[ii]
+                            dict[key] = value #pop to dictionary
+                        ii += 1
+                ######WHAT res[jsondecoded['query']['results']['quote'][n]['Symbol']] = quote #pack outer array
+                res.append(dict)
+            return res #return the outer array
+
+        #if only one result
+        elif(jsondecoded['query']['count'] == 1):
+            res = {} #this is a dictionary
+            for n in jsondecoded['query']['results']['quote']:
+                i = 0
+                for x in items:
+                    if(n == x):
+                        #print items[i], jsondecoded['query']['results']['quote'][n]
+                        res[items[i]] = jsondecoded['query']['results']['quote'][n]
+                    i += 1
+            return res
+        #if failure
+        else:
+            return "there was an error retrieving stocks"
+            #in fact you should get jsondecoded['error']['diagnostics']
+            #but if you use an invalid symbol you will just get all NULL in fields.
+
+
+    def tickerdat_update_db(self, qry):
+        scrt = Secret()
+        #open cxn
+        #db = MySQLdb.connect(scrt.getMYSQLhostname(),scrt.getMYSQLuser(),scrt.getMYSQLpassword(),scrt.getMYSQLdbname())
+        #prep cursor
+        #cursor = db.cursor()
+        timestamp = time.time()
+
+        #for multi qry, and NEW entry.. x is a dictionary
+        for x in qry:
+            db = MySQLdb.connect(scrt.getMYSQLhostname(),scrt.getMYSQLuser(),scrt.getMYSQLpassword(),scrt.getMYSQLdbname())
+            cursor = db.cursor()
+            #lets check if these exist:
+            try:
+                if(self.check_if_exists(x['symbol'])): 
+                    print "updating ", x['symbol']
+                    #UPDATE IF FOUND
+                    #note: no parens on the SET command
+                    sql = """UPDATE latest_symbols SET  
+                            ask='%s',bid='%s',dayshigh='%s',dayslow='%s',
+                            yearlow='%s',yearhigh='%s',dividendyield='%s',
+                            fiftydaymovingaverage='%s',twohundreddaymovingaverage='%s', 
+                            Volume='%s',PERatio='%s',MarketCapitalization='%s', EarningsShare='%s', 
+                            EPSEstimateCurrentYear='%s', EPSEstimateNextYear='%s', AverageDailyVolume='%s', 
+                            BookValue='%s', Name='%s', OneyrTargetPrice='%s' 
+                            WHERE symbol='%s'""" % \
+                            (x['Ask'], x['Bid'], x['DaysHigh'], x['DaysLow'], x['YearLow'], \
+                             x['YearHigh'], x['DividendYield'], x['FiftydayMovingAverage'], \
+                             x['TwoHundreddayMovingAverage'], x["Volume"],x["PERatio"], \
+                             x["MarketCapitalization"], x["EarningsShare"], x["EPSEstimateCurrentYear"], \
+                             x["EPSEstimateNextYear"], x["AverageDailyVolume"], x["BookValue"], \
+                             x["Name"], x["OneyrTargetPrice"], x['symbol'])
+                    #print sql
+
+                else: #INSERT IF NOT FOUND  
+                #this for a new symbol
+                    sql = """INSERT INTO latest_symbols
+                        (symbol,ask, bid, dayshigh, dayslow, yearlow, 
+                        yearhigh, dividendyield, fiftydaymovingaverage, twohundreddaymovingaverage,
+                        Volume, PERatio, MarketCapitalization, EarningsShare, 
+                        EPSEstimateCurrentYear, EPSEstimateNextYear, AverageDailyVolume, 
+                        BookValue, Name, OneyrTargetPrice)
+                        VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', 
+                        '%s', '%s', '%s','%s', '%s', '%s', '%s', '%s', 
+                        '%s', '%s', '%s', '%s', '%s')""" % \
+                        (x['symbol'], x['Ask'], x['Bid'], x['DaysHigh'], \
+                        x['DaysLow'], x['YearLow'], x['YearHigh'], x['DividendYield'], \
+                        x['FiftydayMovingAverage'], x['TwoHundreddayMovingAverage'], \
+                        x["Volume"],x["PERatio"],x["MarketCapitalization"], x["EarningsShare"], \
+                        x["EPSEstimateCurrentYear"], x["EPSEstimateNextYear"], x["AverageDailyVolume"], \
+                        x["BookValue"], x["Name"], x["OneyrTargetPrice"])
+
+                try:
+                    # Execute the SQL command
+                    cursor.execute(sql)
+                    # Commit your changes in the database
+                    db.commit()
+
+                except:
+                    # Rollback in case there is any error
+                    db.rollback()
+
+                db.close()
+
+            except:
+                print "error making query."
+
+        # disconnect from server
+
+    def check_if_exists(self, symbol):
+        #check if symbol exists
+        scrt = Secret()
+        db = MySQLdb.connect(scrt.getMYSQLhostname(),scrt.getMYSQLuser(),scrt.getMYSQLpassword(),scrt.getMYSQLdbname())
+        cursor = db.cursor()
+
+        sql = "SELECT symbol FROM latest_symbols WHERE symbol='%s'" % symbol
+
+        try:
+            cursor.execute(sql)
+            db.commit()
+            results = cursor.fetchone()
+        except:
+            db.rollback()
+
+        #print results
+        db.close()  
+        if(results != None):  #in python null = None
+            #we found it
+            return True
+        else:
+            #didnt, so do insert
+            return False
+
+class LoggingFiles:
+
+    #Folder required: 'logs'
+    qrylog = "query_logs.txt"
+    responselog = "response_logs.txt"
+    selllog = "sell_logs.txt"
+    buylogs = "buy_logs.txt"
+    addportfoliologs = "port_add_logs.txt"
+    errorlogs = "error_logs.txt"
+
+    default_writemode = "w" # CHANGE TO "a" to append
+
+    #all of these will write a singleline to a file
+    def writeLnToQryLog(self, stringtowrite):
+        filename = self.qrylog
+        mode = self.default_writemode
+
+        current = open(filename, mode)
+        current.write("%s\n" % stringtowrite)
+        current.close()
+
+    def writeLnToResponse(self, stringtowrite):
+        filename = self.responselog
+        mode = self.default_writemode
+
+        current = open(filename, mode)
+        current.write("%s\n" % stringtowrite)
+        current.close()
+#!/usr/bin/env python
+
+#### OPEN CSV AND READ INTO A LIST OF LINES, TABED PIECES ###
+def pullCSV():
+    #fname = raw_input("What is filename, TAB DELIMITED! > ")
+    #headerLoc = input("linenumber where heading is (eg 2) > ")
+    fname = "store_list.csv"
+    f = open(fname, "r")
+    lines= []
+
+    while(1):
+        line = f.readline()
+        if line == "":
+            break
+        # remove endlines
+        line = line.replace('\n', '')
+        line = line.replace('"', '')
+
+        splitlist = line.split('\t')
+        lines.append(splitlist)
+    return lines
+
+
+#### MAKE THE JS ARRAY FOR STATES IN LIST ###
+def mkStateArray(lines):
+    #print lines[1]
+    header = lines[1]
+    stateList = []
+
+    i = 0
+    for x in header:
+        if x == 'state' or x == 'State':
+            statePos = i
+            for line in lines:
+                # now state = line[i]
+                if line[i] not in stateList and line[i] != "" and line[i] != 'State' and line[i] != 'state':
+                    stateList.append(line[i])
+        i += 1
+    stateList = sorted(stateList)
+    return stateList, statePos
+
+
+#### MAKE THE JS ARRAY FOR STATES ##
+def mkCityArray(lines, stateList, statePos):
+    cityDict = {}
+    header = lines[1]
+
+    for x in stateList:
+        #for each state:
+        cityList = [] # make a new list to hold the cities
+        for line in lines:
+            #for each line in the file:
+            if line[statePos] == x and line[statePos - 1] not in cityList: # if the state matches
+                # also remove repeats
+                cityList.append(line[statePos - 1]) # CITY IS LEFT OF STATE
+
+        cityList = sorted(cityList)
+        cityDict[x] = cityList
+
+    #print cityDict
+    return cityDict
+
+
+
+#### MAKE ZIPCODES ###
+def makeZipandStoreList(lines,cityDict,statePos):
+    ## What to do here?
+    # I think I want to combine zip + store number
+    # also we want to be able to identify campaign/ manager from this
+    # cityDict: [{state : [citylist]},ect]
+
+    ### I can fix this later to read the header, but for now this is simpler.
+    campaignPos = statePos + 4
+    managerPos = statePos + 3
+    DMAPos = statePos + 2
+    zipPos = statePos + 1
+    cityPos = statePos - 1
+    storePos = statePos - 2
+
+    zipsAndNums = {} # holds stuff for output
+    allData = [] # holds another list of all the data for a unique store
+    elements = ["Store","Zip", "DMA", "DistManager", "CampaignNum"]
+
+    for dict in cityDict:
+        #pull out each dictionary
+        for x in cityDict[dict]:
+            #print x, x is a city
+            tempList = []
+            for line in lines:
+            #in each line: pull out the city
+                if x == line[cityPos] and line[cityPos] not in tempList:
+                    #print line[cityPos], line[zipPos], line[storePos], line[managerPos], line[campaignPos]
+                    string = "Zip: " + line[zipPos] + "   Store: " + line[storePos]
+                    tempList.append(string)
+                    allData.append({"City": line[cityPos], "Zip": line[zipPos], "DMA": line[DMAPos], "DistManager": line[managerPos], "Store": line[storePos], "CampaignNum": line[campaignPos]})
+            tempList = sorted(tempList)
+            zipsAndNums[x] = tempList
+            #zipsAndNums.append({x: tempList})
+
+    #print zipsAndNums
+    #sort = sorted(zipsOnly)
+    return zipsAndNums, allData
+
+
+
+### write the file  ####
+def writeJSFile(stateList, cityDict, zipsAndNums):
+    #open file
+    f = open('menu_dat.js', 'w')
+
+    #add state list array
+    ln = len(stateList)
+    stateArr = "state_array = ["
+    i = 0
+    for x in stateList:
+        if i == (ln - 1):
+            #dont want a comma on last one
+            stateArr += '"' + x + '"'
+        else:
+            stateArr += '"' + x + '",'
+        i += 1
+
+    stateArr += "]; \n"
+    f.write(stateArr)
+    print "states array appended to file"
+
+    ################################
+    #skip a line
+    f.write("\n")
+    ln = len(cityDict)
+    i = 0
+
+    cityArr = "city_array = {"
+    for item in cityDict:
+        cityArr += '"' + item + '": ['
+
+        ln2 = len(cityDict[item])
+        ii = 0
+        for x in cityDict[item]:
+            if ii == (ln2 - 1):
+                cityArr += '"' + x + '"'
+            else:
+                cityArr += '"' + x + '",'
+            ii += 1
+        #make sure we are not at end of list
+        if i == (ln - 1):
+            cityArr += '] \n'
+        else:
+            cityArr += '], \n'
+        i += 1
+
+    cityArr += "}; \n"
+    f.write(cityArr)
+    print "city assoc array appended to file"
+    #######################
+    f.write("\n")
+
+    ln = len(zipsAndNums)
+    i = 0
+    zipsArr = "zip_array = {"
+
+    for item in zipsAndNums:
+        zipsArr += '"' + item + '": ['
+        ln2 = len(zipsAndNums[item])
+        ii = 0
+        for x in zipsAndNums[item]:
+            if ii == (ln2 - 1):
+                zipsArr += '"' + x + '"'
+            else:
+                zipsArr += '"' + x + '",'
+            ii += 1
+        #make sure we are not at end of list
+        if i == (ln - 1):
+            zipsArr += '] \n'
+        else:
+            zipsArr += '], \n'
+        i += 1
+
+    zipsArr += "}; \n"
+    f.write(zipsArr)
+    print "Zips assoc array appended to file"
+    #close the file
+    f.close()
+
+#####
+def mk_store_DB(allData):
+    #save this to a file in JS format to be used later
+    f = open('db_stores.js', 'w')
+    ln = len(allData)
+    storeArr = "store_JSON = {"
+    i = 0
+    for store in allData:
+
+        ln2 = len(store)
+        ii = 0
+        storeArr += "'" + store["Store"] + "':"
+        storeArr += "{"
+        for x in store:
+            if ii == ln2 - 1:
+                storeArr +=  x + ': "' + store[x] + '"'
+            else:
+                storeArr +=  x + ': "' + store[x] + '",'
+            ii += 1
+        if i == ln - 1:
+            storeArr += "} \n"
+        else:
+            storeArr += "}, \n"
+        i += 1
+    storeArr += "};"
+    #print storeArr     
+
+    f.write(storeArr)
+    print "stores appended to store list: db_stores.js"
+    f.close()
+
+
+#### 
+def main():
+    lines = pullCSV()
+    stateList, statePos = mkStateArray(lines)
+    cityDict = mkCityArray(lines, stateList, statePos)
+    zipsAndNums, allData = makeZipandStoreList(lines,cityDict,statePos)
+    mk_store_DB(allData)
+    writeJSFile(stateList, cityDict, zipsAndNums)
+
+    return 0
+
+
+if __name__ == '__main__':
+    main()

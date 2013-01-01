@@ -1,0 +1,69 @@
+html
+body {
+                padding: 0px;
+                margin: 0px;
+                background-color: black;
+                color: green;
+                width: 100%;
+                height: 100%;
+                }
+                
+                #screenArea {
+                    text-align: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 75%;
+                    
+                    font-size: 20px;
+                    color: green;
+                    /*font-family: 'Press Start 2P', cursive; */
+                    text-wrap: unrestricted;
+                    }
+console.log("begin scripts");
+            // normal functions
+
+			clrArray = ['#33CCFF', '#3366FF', '#33FF66', '#66FF33', '#00FF00', 
+						'#00FF80', '#FFFF00', '#7AFF7A', '#FF8000'];
+            
+            function startMatrix(width, height) {
+                var totalIters = 0;
+                setInterval( function() {
+                    // 1 char = 10 px
+                    var numsWidth = (width * 0.6) / 10;
+                    for(var i=0; i <= numsWidth; i++) {
+                    
+                        var rand = Math.round(Math.random() * 255);
+                        var toAdd = String.fromCharCode(rand);;
+						var color = clrArray[Math.round(Math.random() * clrArray.length)];
+                        var toAdd = "<span style='color:" + color + ";'>" + toAdd + "";
+                        $('#screenArea').prepend(toAdd);
+                        //console.log("adding");
+                        }
+                    $('#screenArea').prepend("<br />");
+                    totalIters++;
+                    
+                    // shorten div:
+                        var entireSection = $('#screenArea').html();
+                        //console.log("whole section: " + entireSection);
+                        var splitSection = entireSection.split("@");
+                        console.log(splitSection);
+                        var lenArr = splitSection.length;
+                        
+                        console.log("length of arr: " + lenArr);
+                        var newSection = "";
+                        if(lenArr > 50) {
+                            for(i = 0; i < 20; i++) {
+                                newSection += splitSection[i];
+                                }
+                            $('#screenArea').empty().append(newSection);
+                            }
+                    }, 150);
+                }// end main looper
+                
+            // ready wrapper
+            $(document).ready( function() {
+                console.log("ready loaded");
+                var width = $(window).width();
+                var height = $(window).height();
+                startMatrix(width, height);
+            });

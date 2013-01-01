@@ -1,0 +1,160 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"
+Dodge a Bro Scores
+body {
+				background-color: black;
+			}
+			
+			.container {
+				background-color: white;
+			}
+			
+			#photoContainer {
+				float: right;
+				box-shadow: -3px 3px 2px 2px #ccc;
+			}
+scripts from cdns
+Dodge A Bro High Scores
+end first row
+Top 200 Scores. Includes iOS and Android App.
+Name
+Score
+Kills
+Date
+i win
+1273
+97
+2012-09-22 14:20:13
+kattactus
+1139
+82
+2012-09-15 17:52:44
+the best evar
+1111
+87
+2012-09-12 21:03:40
+omg
+870
+56
+2012-09-05 18:39:16
+rohme wins
+759
+60
+2012-09-15 16:59:23
+ard
+734
+60
+2012-09-23 19:47:55
+Bro master
+733
+60
+2012-09-03 22:44:53
+so much bro
+720
+65
+2012-09-03 22:42:38
+bro tastic
+716
+59
+2012-10-14 19:33:46
+it was really hard
+565
+44
+2012-09-05 18:36:29
+nww
+543
+38
+2012-09-14 11:24:07
+the main bro
+416
+45
+2012-09-04 20:21:54
+Zach
+392
+50
+2012-09-02 21:50:42
+derp
+374
+33
+2012-10-24 17:28:36
+mr bro
+371
+33
+2012-09-08 14:09:36
+I tried
+356
+37
+2012-09-03 23:11:42
+kattactus
+334
+26
+2012-09-15 17:48:13
+oh noh
+324
+37
+2012-09-04 18:39:59
+rohme
+224
+22
+2012-09-15 16:54:39
+god damn nottles!
+214
+21
+2012-09-15 16:56:18
+mossad
+178
+27
+2012-09-02 21:47:59
+killa z
+177
+18
+2012-09-13 21:09:18
+pen
+170
+26
+2012-09-02 16:18:55
+cool guy
+167
+26
+2012-09-02 17:21:08
+mike d
+161
+12
+2012-09-08 19:25:29
+Awesome test
+147
+22
+2012-09-12 19:41:25
+Super tester
+126
+21
+2012-09-02 15:45:07
+i lost
+117
+17
+2012-09-28 18:01:00
+mr x
+75
+15
+2012-09-02 19:03:42
+Super tester
+71
+15
+2012-09-02 15:06:31
+failure kid
+63
+13
+2012-09-03 15:47:37
+rachelle
+20
+4
+2012-09-02 21:45:18
+Super tester
+-9
+3
+2012-09-02 14:58:34
+Broseph
+-10
+3
+2012-09-02 18:38:55
+© Aaron Decker 2012

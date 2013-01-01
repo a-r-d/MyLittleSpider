@@ -1,0 +1,307 @@
+HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd"
+Karen Tutors- Meeting the needs of each child
+local css
+scripts from cdns
+local script includes
+body {
+				background-color: #555555;
+				font-family: 'Habibi', serif;
+			}
+			
+			.container{
+				background-color: white;
+			}
+			
+			h1 {
+				color: #BF3232;
+			}
+			
+			h4 {
+				color: #BF3232;
+			}
+			
+			#photoContainer {
+				float: right;
+				box-shadow: -3px 3px 2px 2px #ccc;
+			}
+			
+			#photoHeader {
+				height: 230px;
+				width: 320px;
+			}
+			
+			#nextBtn {
+				border-width: 0px;
+				text-decoration: none;
+			}
+			
+			#nextBtn:hover {
+				border-width: 0px;
+				text-decoration: none;
+			}
+			
+			#nextText {
+				text-decoration: none;
+			}
+			#nextText:hover {
+				text-decoration: none;
+			}
+$(document).ready(function () {
+				
+				/**
+				 * TABS
+				 */
+				$('#myTab a:first').tab('show');
+				
+				$('#myTab a').click(function (e) {
+				    e.preventDefault();
+				    $(this).tab('show');
+				    })
+		});
+$(document).ready(function(){   		
+				/**
+				 * SWAP PHOTOS:
+				 */
+				var pIter = 1;
+				var photoArr = [
+					'img/pics/1-use.jpg',
+					'img/pics/5-use-wide.jpg',
+					'img/pics/7-use-wide.jpg',
+					'img/pics/13-use.jpg'
+					];
+					
+				$('#headerPhoto').attr({
+						src: photoArr[0],
+						height: 230,
+						width: 320
+							});	
+							
+				setInterval(function(){
+					$('#headerPhoto').attr({
+						src: photoArr[pIter],
+						height: 230,
+						width: 320
+							});
+					pIter++;
+					if(pIter > 3) {
+						pIter = 0;
+					}
+				}, 15000);
+			});
+Karen Riley
+Private Tutor
+Meeting the needs of each child.
+end first row
+start the main row
+tab navigator:
+About
+Background
+Contact
+FAQ
+include external file here
+About me and what I do:
+I’m Karen Riley. I am an experienced Orton-Gillingham tutor with over 12 years of experience. I have worked in traditional, Montessori, public and private schools.
+I have taught children of various ethnic and cultural backgrounds. I am successful using best practices to develop and implement lessons to meet the needs of children. I believe in the curiosity of children and inquiry-based learning to educate.
+I welcome the opportunity to meet you and provide a happy, safe and respectful learning experience for your child.
+Include external file here
+A brief overview of my background:
+Work Experience:
+Instructional Assistant 1997-2001, North Avondale Montessori.
+2002 Started an Orton-Gillingham Tutoring Program in CPS
+Began my private tutoring business in 2002
+Through a grant in 2004 worked with students grades 1-6 improving math skills
+Learning Specialist 2006 – 2012, The New School Montessori.
+Training:
+Orton-Gillingham training, Miami University, Oxford OH.
+Certificate in Visualizing and Verbalizing For Comprehension and Thinking
+Junior Great Books Training.  An interpretive reading, writing, and discussion program.
+Proficient using Montessori math materials k-6.
+$(document).ready(function(){  	
+		/**
+		 * EMAILER
+		 */
+				// Emailer:
+				$('#clearForm').click(function(){
+					$('#input01').val("");
+					$('#input02').val("");
+					$('#input03').val("");
+				});
+				
+				$('#sendForm').click(function(){
+					// send form via ajax here:
+				});
+				
+				
+		$('#ajaxLoader').hide();
+		var lastemail = "nothing";
+		
+          $('#sendForm').click(function(e){
+          	e.preventDefault();
+          	
+          	var email = $('#input01').val();
+          	var subject = $('#input02').val();
+          	var message = $('#input03').val();
+          	
+          	var re = /\S+@\S+/g;
+          	
+          	var errors = false;
+          	
+          	if(email.length == 0) {
+          		errors = true;
+          		$('#emailErr').empty().append("Email was empty!");
+          		return;
+          	}
+          	
+			if(!re.test(email)){
+				errors = true;
+				$('#emailErr').empty().append("Whoops, that doesn't look like a valid email!");
+				return;
+			}
+			
+			if(email == lastemail) {
+				errors = true;
+				$('#emailErr').empty().append("Whoops, looks like you tried to send it twice!");
+				return;
+			}
+          	
+          	if(!errors) {
+          		var json = {
+          			return_email: email,
+          			message: message,
+          			subject: subject
+          		};
+          		
+          		// start call
+          		$('#ajaxLoader').show();
+          		$.ajax({
+					type: "POST",
+					url: "./php/email.php", 
+					data: json,
+					dataType: "json",
+					success: function(result){
+						var stat = result.status;
+						var msg = result.messsage;
+						
+						// Debug:
+						console.log("Result " + result + " msg: " + msg + " status: " + stat);
+						
+						if(stat == "1") {
+							$('#emailErr').empty().append("Thank you!");
+							lastemail = email;
+						} else {
+							$('#emailErr').empty().append(msg);
+							}
+						$('#ajaxLoader').hide();
+                        },// end success
+                     error: function(result) {
+                     	alert("Server Error: " + result);
+                     	$('#ajaxLoader').hide();
+                     }
+                    });
+         
+          	} // end if no errors
+          });
+			})
+Got a question or want to set up an Appointment?
+Phone: 513-319-6155
+Email:
+kikilriley@gmail.com
+(or)
+karen@karentutors.com
+You can also send me an email quickly using the form below:
+Return Email:
+Subject:
+Message:
+Send Email
+Clear Form
+end the section
+INCLUDE EXTERNAL FILE
+Common Questions:
+Q:
+What grade levels do you tutor?
+A:
+I work with students K through 6.
+Q:
+Which subjects do you provide tutoring for?
+A:
+I help children improve their reading, spelling, writing and comprehension skills. I also tutor math, including algebra.  At the parents' request, I can assist with homework assignments, as well.
+Q:
+Where do you tutor?
+If your child attends a private school, I can be permitted to tutor during school hours.
+I can come to your child's public school after school hours.
+I can tutor in your home.
+You can bring them to my home office.
+Q:
+What is the Orton-Gillinghman method?
+Orton-Gillingham Multi-sensory Phonics Program is a  system that incorporates the five senses to aide in phonics, reading, handwriting and spelling instruction.
+Q:
+How much do you charge?
+My fee is $40.00 per session.
+end span 10 tab navigator
+INCLUDE TESTIMONIALS
+var testimonialArr = [
+				'"Karen is a remarkable educator.  She uses a mixture of humor, expertise, and wisdom to connect with students in a way that is rarely seen.  I have been a teacher in private, public, and Montessori schools for the past 11 years and I have never met a tutor as effective as her.  The students absolutely love her because she has a way of teaching that\'s both fun and powerful.  She can make them laugh and learn at the same time.  Now that\'s a good tutor!"<br/><br /> - Jeff Groh 4th, 5th, and 6th grade teacher at The New School Montessori',
+				
+				'Karen has helped me in many ways over the past five years. She has helped me improve my reading and writing skills at school. She has always been a great support for me emotionally and academically. Karen makes everything more fun! I would not be as confident with my school work if it was not for her. I recommend Karen Riley for all your student\'s needs!<br /><br />-Marley (Student)',
+				 	
+				'Karen\'s skills in tutoring my daughter in math went way beyond helping her understand and complete assignments and improve test scores. Karen helped my daughter regain confidence in herself to succeed at math. Karen was a life saver in helping decrease the tension that had developed in our house due to my daughter’s frustrations. My daughter never complained about going to tutoring with Karen. I believe that is quite a testimonial to Karen’s skills!!!  <br /><br /> -Sharon ( parent )',
+				
+				'I came to a new school three years ago. When I came, I could tell that I was behind in math. Karen helped me a great deal to get caught up to speed. I now attend Walnut Hills High School and feel that I am ready to tackle this year\'s math.<br /><br /> -Avery ( student ) ',
+								
+				'I have had the privilege to work with Karen for four years. She brightens up any room she enters with her sense of humor and joy for working with children. She opens her heart to her students and truly enjoys getting to know each one!  <br /><br /> Karen\'s is able to recognize each student\'s strengths and challenges which allows her to individualize her work and focus on each child’s unique learning style.  Karen\'s students not only gain a better understanding of the concepts, but they also gain self-confidence as they learn to see themselves as competent and successful learners.<br /><br />  -Nancy (Teacher, The New School)  ',
+								
+				'Karen Riley is wonderful. While highly skilled at using the Orton-Gillingham method for teaching and supporting children\'s learning, her enthusiasm, wit and creativity engage children in the joy that is too often lost in traditional teaching methods. Having observed her instructing countless children in reading as well as other subjects, I\'ve found Karen to consistently afford children the opportunity to work hard and then, rejoice in their new found skills and confidence.<br /><br />Eric L Dustman<br />Director<br />The New School Montessori',
+				
+				'Karen Riley has been an excellent tutor for our daughter for the last five years. Karen has a wonderful personality and my daughter became comfortable with her the minute they first met. Karen is able to customize how she teaches each child in order to meet the students where they are academically.<br /><br /> If it has not been for Karen my daughter would not be reading as well as she is today. Through Karen my daughter confidence has increased tremendously over the years and her love for learning has grown as well. I cannot say enough kind words about how much we love Karen Riley.  <br /><br />Julie (parent) '
+								];
+								
+				$(document).ready(function(){
+					var iter = 1;
+					/*
+					setInterval(function(){
+						
+						//swapWords("#testimonialSwap", testimonialArr[iter], 10, false);
+						$('#testimonialSwap').empty().append(testimonialArr[iter]);
+						
+						iter++;
+						if(iter > 6)
+							iter = 0;
+					}, 15000);
+					//swapWords("#testimonialSwap", testimonialArr[0], 5, false);
+					
+					
+					*/
+					$('#testimonialSwap').empty().append(testimonialArr[0]);
+					
+					$('#nextBtn').click(function(){
+						iter++;
+						if(iter > 6)
+							iter = 0;
+						$('#testimonialSwap').empty().append(testimonialArr[iter]);
+					});
+					
+					$('#nextBtn').mouseover(function(){
+						$(this).attr({src:"img/bw-forward-50px-green.png"});
+					});
+					
+					$('#nextBtn').mouseout(function(){
+						$(this).attr({src:"img/bw-forward-50px.png"});
+					});
+				});
+What people are saying about Karen:
+Test 1
+end span2 testimonials
+More
+end the main row
+© Karen Riley 2012
+end container
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36512817-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();

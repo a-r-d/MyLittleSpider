@@ -1,0 +1,304 @@
+html
+ARD Home
+body {
+				font-family: 'Lato', sans-serif;
+			}
+			
+			#menuCanvas a{
+				color: black;
+				font-style: bold;
+			}
+			#menuCanvas a:hover{
+				color: black;
+				text-decoration: none;
+			}
+			
+			#menuCanvas .head{
+				
+			}
+			
+			#menuCanvas .head:hover{
+				color: white;
+				background-color: red;
+			}
+			
+			#menuCanvas .menu{
+				color: black;
+				background-color: white;
+			}
+			#menuCanvas .menu li{
+				color: black;
+				background-color: white;
+			}
+			#menuCanvas .menu li:hover{
+				color: white;
+				background-color: red;
+				border-top: #dddddd dashed 1px;
+				border-bottom: #dddddd dashed 1px;
+			}
+			#menuCanvas .menu li a:hover{
+				color: white;
+				background-color: red;
+			}
+			
+			.magicRectangle {
+				display:none;
+				position:absolute;
+				 background: #EEEDEA url(img/pat_moving.gif) repeat;
+				 border-width: 1px;
+				 border-style: dashed;
+				 border-color: #EEEDEA;
+				 opacity: 0.5;
+			}
+$(document).ready(function(){
+				
+				$.fn.scrollView = function () {
+				    return this.each(function () {
+				        $('html, body').animate({
+				            scrollTop: $(this).offset().top
+				        }, 1000);
+				    });
+				}
+				
+				/*****************************/
+				initMenu('#menuCanvas');
+				});
+				/*******************************/
+				
+				var zIndexBuilding = 100;
+				var shadowColor = "#F0F0F0";
+				
+				var spacing = 10;
+				var padding = 2;
+				var hedWidth = 125;
+				
+				function initMenu(selector){
+					var $kids = $(selector).children();
+					// menu base is first child or .head
+					// menu pullout is 2nd child or .menu
+					var $heads = $kids.find('.head');
+					var $menus = $kids.find('.menu');
+					if($heads.length != $menus.length) {
+						console.log("some orphan heads or menus");
+						console.log("Menus: " + $menus.length + " heads: " + $heads.length);
+						return;
+					}
+					console.log("Menus: " + $menus.length + " heads: " + $heads.length);
+					
+					$(selector).parent().css({
+						position: "relative"
+					});
+					
+					
+					
+					// build structure
+					buildCityCSS(selector, $heads, $menus);
+					animateCityOver(selector, $heads, $menus);
+					
+					// build cosmetic styles
+					buildCosmeticStyles(selector, $heads, $menus);
+					
+					// add event handlers
+					buildEvents(selector, $heads, $menus);
+					
+					// make shadow divs
+					makeShadowBuildings(selector, $heads, $menus);
+				}
+				
+				function buildCityCSS(selector, $heads, $menus) {
+					// now set the CSS, we have checked
+					
+					$heads.css({
+						float: "left",
+						display: "inline-block",
+						width: hedWidth,
+						padding: padding,
+						marginLeft: spacing,
+						position: "absolute"
+					});
+					
+					$menus.css({
+						float: "left",
+						display: "inline-block",
+						listStyle: "none",
+						padding: padding,
+						marginLeft: spacing,
+						zIndex: zIndexBuilding,
+						width: hedWidth,
+						position: "absolute"
+					})
+					
+					// for each head- set in position:
+					$.each($heads, function(i){
+						var x = i * (hedWidth + spacing);
+						var y = 0;
+						
+						$(this).css({
+							top: y,
+							left: x
+						});
+					});
+					
+					// for each head
+					var tallest = 0;
+					$.each($heads, function(i){
+						var thisHead = $heads[i];
+						var thisMenu = $menus[i];
+						
+						//var x = parseInt($(thisHead).css("left"));
+						//var y = parseInt($(thisHead).css("right"));
+						var x = $(thisHead).position().left;
+						var y = $(thisHead).position().top;
+						var hMenu = $(thisMenu).height();
+						//x += padding * 3;
+						console.log("Moving Menu: x=" + x + " y=" + y);
+						$(thisMenu).css({
+							left: x,
+							top: y,
+							marginTop: (-1 * hMenu) - padding * 2
+						});
+						
+						if(hMenu > tallest) {
+							tallest = hMenu;
+						}
+					});
+					
+					var totalWidth = $(selector).width();
+					$(selector).css({
+						marginTop: tallest + padding * 2,
+						marginLeft: "auto",
+						marginRight: "auto"
+					});
+				}
+				
+				function animateCityOver(selector, $heads, $menus) {
+					var xOrig = [];
+					var yOrig = [];
+					$.each($heads, function(i){
+						var x = $(this).position().left;
+						var y = $(this).position().top;
+						
+						xOrig.push(x);
+						yOrig.push(y);
+					})
+					
+					$.each($heads, function(i){
+						$(this).css({
+							top: 0,
+							left: 0,
+						});
+					})
+					
+					$.each($heads, function(i){
+						$(this).animate({
+							top: yOrig[i],
+							left: xOrig[i],
+						}, 2100);
+					})
+				}
+				
+				function buildCosmeticStyles(selector, $heads, $menus) {
+					
+					$.each($heads, function(i){
+						$(this).css({
+							//backgroundColor: "white",
+							borderStyle: "solid",
+							borderWidth: 1,
+							borderColor: "black"
+						});
+					});
+					
+					$.each($menus, function(i){
+						var newLeft = $(this).css("left");
+						$(this).css({
+							//backgroundColor: "white",
+							borderStyle: "solid",
+							borderWidth: 1,
+							borderColor: "grey",
+							display: "none"
+						});
+					});
+					
+					
+				}
+				
+				function buildEvents(selector, $heads, $menus) {
+					$.each($heads, function(i){
+						var hed = $heads[i];
+						var men = $menus[i];
+						
+						$(hed).click(function(){
+							
+							if($(men).is(":visible")) {
+								$(men).slideToggle("fast");
+								//$(hed).parent().find('.magicRectangle').hide(5000);
+								$(hed).parent().find('.magicRectangle').slideToggle(5000);
+							} else {
+								$(men).slideToggle("fast");			
+								//$(hed).parent().find('.magicRectangle').show("fast");
+								$(hed).parent().find('.magicRectangle').slideToggle('fast');
+							}
+						});
+						
+						
+						
+					});
+				}
+				
+				function makeShadowBuildings(selector, $heads, $menus) {
+					var divs = [];
+					$.each($menus,function(i){
+						var h = $($menus[i]).height();
+						var w = $($menus[i]).width();
+						var x = parseInt($($menus[i]).css('left'));
+						var y = parseInt($($menus[i]).css('top')); // Reports SO wrong in firefox
+						//var x = $($menus[i]).position().left;
+						//var y = $($menus[i]).position().top;
+						var mt = parseInt($($menus[i]).css("margin-top"));
+						var ml = parseInt($($menus[i]).css("margin-left"));
+						var p = padding;
+						console.log("Magic rect w: " + w + " h " + h + " x " + x +" y " + y);
+						var color = shadowColor;
+						//x += padding * 5;
+						var div = "<div class='magicRectangle' style='height:" + h + "px;width:" + w + "px;z-index:" + (zIndexBuilding - 1) + ";top:" + y + "px;left:" + x + "px;margin-top:" + mt + "px;margin-left:" + ml + "px;padding:" + p +"px;'>";
+						
+						// add to the parent so we can mirror it
+						$($heads[i]).parent().append(div);
+					});
+				}
+a-r-d.
+me
+me
+Contact
+About
+research
+Contact
+web projects
+Contact
+About
+research
+mobile projects
+Contact
+About
+research
+Contact
+github
+client portfolio
+Contact
+About
+research
+Contact
+github
+research
+Contact
+github
+extra
+Contact
+About
+research
+Contact
+github
+things
+Contact
+About
+© Aaron Decker 2012   |   email me: me@a-r-d.me

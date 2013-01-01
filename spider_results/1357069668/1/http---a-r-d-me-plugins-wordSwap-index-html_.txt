@@ -1,0 +1,124 @@
+wordSwap jQuery Plugin
+SyntaxHighlighter.all();
+$(document).ready(function(){
+				
+			});
+wordSwap jQuery Plugin
+Introduction:
+wordSwap is a simple jQuery plugin that allows you transition between blocks of text with several effects.
+Setup:
+Get the code:
+On github:
+download it
+From this site:
+download it
+you need to add the jquery library
+also you need to include the wordSwap js file
+Default settings:
+$(document).ready(function(){
+								// pass the selector into the wordSwap fn 
+								$('#defaultSwap').wordSwap(); // no parameters... Fills in defaults.
+							});
+the some code is just below on the page:
+Swap out the thing below:
+$(document).ready(function(){
+								$('#test2').wordSwap(); // no parameters...
+							});
+Swap out the thing below:
+Usage:
+A simple usage case is if you have one word you want to swap out for another on the click of a button:
+$(document).ready(function(){
+							
+							$('#someButton').click(function(){
+								
+								// pass in a single word to swap 1 time:
+								$('#swapMe').wordSwap({"newWord":"just a test"});
+								
+							})
+							
+						});
+Original text...
+Test below:
+$(document).ready(function(){
+								
+								// pass in a single word to swap 1 time:
+								$('#btn1').click(function(){
+									$('#test3').wordSwap({"newWord":"just a test"});
+								});
+							});
+Test me
+ORIGINAL WORD
+Passing your own word array:
+$(document).ready(function(){
+								// pass the selector into the wordSwap fn 
+								$('#arraySwaper').wordSwap({
+									wordArray:['Wow this is cool',
+												'I am adding my own words',
+												'If I make them really long',
+												'I will need to change',
+												'The loop interval time..'
+												],
+									simpleMode: true // prevents the airport effect.
+										}); 
+							});
+Swap out the thing below:
+$(document).ready(function(){
+								$('#test4').wordSwap({
+									wordArray:['Wow this is cool',
+												'I am adding my own words',
+												'If I make them really long',
+												'I will need to change',
+												'The loop interval time..'
+												],
+									simpleMode: true // prevents the airport effect:
+										}); 
+							});
+Swap out the thing below:
+Changing the default char array, and times:
+$(document).ready(function(){
+								// pass the selector into the wordSwap fn 
+								$('#arraySwaper2').wordSwap({
+									wordArray:['Progress',
+												'Potential',
+												'Perseverance',
+												'Profit'
+												],
+									customChars: ['.', '!', '#', '&', '{', '}', '?', '*', '^', '$', '@', '+', '=', '-'],
+									intervalWord: 4000,
+									intervalLetter: 300
+									}); 
+							});
+Swap out the thing below:
+$(document).ready(function(){
+								$('#test5').wordSwap({
+									wordArray:['Progress',
+												'Potential',
+												'Perseverance',
+												'Profit'
+												],
+									customChars: ['.', '!', '#', '&', '{', '}', '?', '*', '^', '$', '@', '+', '=', '-'],
+									intervalWord: 4000,
+									intervalLetter: 300
+									}); 
+							});
+Swap out the thing below:
+Default parameters:
+/*
+					 * Param guide:
+					 * 'newWord' - if you define a single word: - it will just swap out a word, one time
+					 * 'wordArray' - if you pass an array, it will use this 
+					 * 'customChars' - pass in your own array of symbols to loop over
+					 * 'simpleMode' - if true, only swap letters, no 'Airport effect'
+					 * 'intervalLetter' -  to swap each letter - 100 is about good for a small array
+					 * 'charArr' - there are 5 predefined- pick one of them or use 'customChars'
+					 */
+ 
+					'newWord'         	: null,
+					'wordArray' 		: ['testing', 'another test', 'final test'],
+					'simpleMode'  		: false,
+					'intervalLetter' 	: 100,
+					'intervalWord' 		: 5000,
+					'loopOnce'			: false,
+					'customChars'		: null,
+					'charArr'			: 1
+© Aaron Decker 2012

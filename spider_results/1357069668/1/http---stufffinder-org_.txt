@@ -1,0 +1,41 @@
+html
+Find stuff with Stuff Finder using browser based geolocation and google places
+CSS
+Scripts
+Stuff Finder:
+Find Stuff Nearby and Get Directions
+ON RESULT CLICK REPOSITION HERE
+What do you want to do:
+Get Food
+Get Drinks
+See A movie
+Closest Cemetary
+Rob a bank
+bowling alley
+grocery or supermarket
+Point of Interest
+Range:
+Quarter Mile
+Half a Mile
+1 Mile
+5 Miles
+10 Miles
+25 Mile
+[GO!]
+[Clear Old Markers]
+Wrong Location? Move the marker or Search:
+[GO!]
+Places:
+[click to calculate distance !]
+Directions:
+Results:
+Find things near you and get directions in one click.
+        http://www.stufffinder.org 
+        stufffinder or stuff finder will help you 
+        find a bank
+        find a car
+        find a bar
+        or find a restaurant close by. 
+        If you are out of town you can use stufffinder to quickly
+        find a restaurant nearby, get directions and grab a bite to eat.
+copyright 2012 Aaron Decker

@@ -1,0 +1,823 @@
+xml version="1.0" encoding="UTF-8"
+Framework Hell
+http://frameworkhell.com
+Frameworks can be hellish- I try to help.
+Tue, 01 Jan 2013 19:17:32 +0000
+en-US
+hourly
+1
+http://wordpress.org/?v=3.5
+Flex: Add MX controls to mobile App
+http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/
+http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/#comments
+Thu, 27 Dec 2012 04:10:25 +0000
+admin
+flashbuilder
+Flex
+http://frameworkhell.com/?p=181
+<p>In Flash-builder when you start a mobile project it will restrict you to only Spark controls. However, even though MX control are not optimized for mobile and should not actually be used in a mobile project, it can still be convenient to reference the source from a desktop project to re-use code. It is a [...]</p><p>The post <a href="http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/">Flex: Add MX controls to mobile App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>In Flash-builder when you start a mobile project it will restrict you to only Spark controls. However, even though MX control are not optimized for mobile and should not actually be used in a mobile project, it can still be convenient to reference the source from a desktop project to re-use code. It is a little tricky to add MX controls to a mobile App because there are many libraries to reference but it can be done. </p>
+<p>There is no &#8220;official&#8221; way to do this because Adobe absolutely does not want you using MX controls in the UI of an AIR mobile app. But to be honest, Spark controls are somewhat lacking and I have &#8220;cheated&#8221; and used the percent complete loader control in an iOS mobile app before with no ill effects. I think the newer devices are so fast it matters little. Anyway, read on.</p>
+<p>In the project explorer right click your mobile project and go to properties.  Select “Flex Build Path” and click the “Add SWC” button on the form. You want to browse to:<br />
+<strong>C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\flex_sdk_4.6.0.23201\frameworks\libs\mx</strong><br />
+Here you need to add &#8220;<strong>mx.swc</strong>&#8220;. </p>
+<p>We are not done yet. Next go up one level to:<br />
+<strong>C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\flex_sdk_4.6.0.23201\frameworks\libs</strong><br />
+And add in &#8220;<strong>spark.swc</strong>&#8220;, &#8220;<strong>sparkskins.swc</strong>&#8221; and &#8220;<strong>spark_dmv.swc</strong>&#8220;.</p>
+<p>Now, go up to:<br />
+<strong>C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\flex_sdk_4.6.0.23201\frameworks\themese\wireframe</strong><br />
+And pop in <strong>wireframe.swc</strong> </p>
+<p>This was written using Flex SDK 4.6 and AIR SDK 3.4, I don&#8217;t know if it will be different for you- but it isn&#8217;t a problem because you can fix it easily. Simply open up a new blank flex Desktop project and a new blank Flex mobile project and compare what is different in the build path. Add in the difference to the mobile app and you should be set. Again my SDK is likely different from yours so don&#8217;t go copying and pasting those paths into explorer.</p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/&text=Flex: Add MX controls to mobile App" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/">Flex: Add MX controls to mobile App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/feed/
+0
+A component skin system for same source mobile / desktop apps
+http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/
+http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/#comments
+Wed, 26 Dec 2012 16:34:12 +0000
+admin
+flashbuilder
+Flex
+http://frameworkhell.com/?p=173
+<p>Preface and build path requirements to pull this off: With Adobe AIR you have lots of support for cross platform application development, and with Flex you get an application framework to do this quickly. However the way Flex is constructed with MX controls and Spark controls it makes it difficult to re-use code between a [...]</p><p>The post <a href="http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/">A component skin system for same source mobile / desktop apps</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<h3>Preface and build path requirements to pull this off:</h3>
+<p>With Adobe AIR you have lots of support for cross platform application development, and with Flex you get an application framework to do this quickly. However the way Flex is constructed with MX controls and Spark controls it makes it difficult to re-use code between a desktop and mobile app.</p>
+<p>To simply include the source code from a mobile project even if you are not using all of it you will need to add the mobile components into the build path or else you will not be able to compile.</p>
+<p>The inverse is also true. If you want to include the source of a desktop app (e.g. via linking) into a mobile project because you need a few classes you will need to include all of the libraries to do this. Instructions for that are linked (there are many more libraries to include than the inverse).</p>
+<ol>
+<li>how to link mobile flex project into desktop<strong style="line-height: 24px;">- <a style="color: #0f3647;" href="http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/">http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/</a></strong></li>
+<li>how to link desktop flex project into mobile- <strong style="line-height: 24px;"><a style="color: #0f3647;" href="http://frameworkhell.com/flex-add-mx-controls-to-mobile-app/">Add MX controls to mobile App</a></strong></li>
+</ol>
+<p>&nbsp;</p>
+<h3>A component skin system for same source mobile / desktop apps:</h3>
+<p>Once this is complete you can take the idea a step further and actually break out areas of the application(s) into components with different skin classes.</p>
+<p>Generally for the desktop app I do this by making  panel for the window/ component I want to display. Inside of this I put my re-usable code. For mobile I use the view navigator / pushing views system that Flex supports and simply add the re-usable code the view inside of a container.</p>
+<p>The code container I use is extended from <strong>Spark SkinnableComponent.</strong> You may want to try to use a Spark SkinnableContainer, but don&#8217;t- you can&#8217;t change the layout area the same way and this won&#8217;t work.  Then I include the skin class based on some flag I set in the application launcher file. I generally have two or three skin classes: Desktop, Mobile, and Tablet.</p>
+<p>For example here is a small Component class that references skin classes based on a flag:</p>
+<pre>
+package com.a-r-d.someproject.modules.projectsections.contact
+{
+   import com.a-r-d.someproject.modules.projectsections.contact.skins.ProjectContactsDesktopSkin;
+   import com.a-r-d.someproject.modules.projectsections.contact.skins.ProjectContactsMobileSkin;
+   import com.a-r-d.someproject.utils.AppSessionData;
+   import com.a-r-d.someproject.utils.MyConstants;
+   
+   import flash.display.DisplayObjectContainer;
+   
+   import spark.components.List;
+   import spark.components.supportClasses.SkinnableComponent;
+
+   public class ProjectContactsComponent extends SkinnableComponent
+   {
+      
+      [SkinState("default")]
+      [SkinState("loading")]
+      
+      [Event(name="change", type="flash.events.Event")] 
+      
+      public var projectIData:XML;
+      public var compnentData:XML;
+      
+      [Bindable]
+      public var fontSizeNormal:int = 20;
+      
+      [Bindable]
+      private var title:String = "Project Contacts";
+      
+      [SkinPart(required="true")]
+      public var internalContactList:List;
+      
+      [SkinPart(required="true")]
+      public var externalContactList:List;
+      
+      
+      public function ProjectContactsComponent()
+      {
+         this.percentWidth = 100;
+         
+         if( AppSessionData.deviceType == MyConstants.DEVICE_TYPE_MOBILE) {
+            this.percentHeight = 100;
+            
+            if(AppSessionData.screen_size_category == MyConstants.DEVICE_SCREEN_SIZE_TINY ) {
+               setStyle("skinClass", ProjectContactsMobileSkin);
+            } else {
+               setStyle("skinClass", ProjectContactsTabletSkin);
+            }
+         } else {
+            setStyle("skinClass", ProjectContactsDesktopSkin);
+            this.height = 400; // need this for show/hide effect.
+         }
+         
+         /****
+         
+         YOUR RE-USABLE LOGIC GOES HERE !!!
+         
+         ****/
+      }
+      
+      override protected function commitProperties():void { 
+         super.commitProperties(); 
+      }
+      override protected function partAdded(partName:String, instance:Object):void {
+         super.partAdded(partName, instance);
+      }
+      override protected function partRemoved(partName:String, instance:Object):void {
+         super.partRemoved(partName, instance);
+      }
+   }
+}
+</pre>
+<p>So this has three skin classes it will set based on the screen size and if it is on a mobile device or an a desktop. The class also references a few required layout components:</p>
+<pre>
+[SkinPart(required="true")]
+public var internalContactList:List;
+</pre>
+<p>This, for example, is a required list element- it must be present on any skin class referenced. However on the desktop and tablet versions we have more real estate so I put the two lists side by side, while in the mobile app they are on top of each other. Also all of the heights and widths are relative and percentage based so our components will scale to fit the screens we are targeting.</p>
+<p>Now what do the skin classes look like? The skin class is a very simple MXML file with no logic that only lays out the required components. Here is the mobile skin:</p>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;s:Skin xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot; 
+      xmlns:s=&quot;library://ns.adobe.com/flex/spark&quot; 
+      xmlns:mx=&quot;library://ns.adobe.com/flex/mx&quot;
+      height=&quot;100%&quot;
+      width=&quot;100%&quot;
+      &gt;
+   &lt;!-- host component --&gt;
+   &lt;fx:Metadata&gt;
+      [HostComponent(&quot;me.a-r-d.someproject.modules.projectsections.contact.ProjectContactsComponent&quot;)]
+   &lt;/fx:Metadata&gt;
+   &lt;s:states&gt;
+      &lt;s:State name=&quot;default&quot;/&gt;
+      &lt;s:State name=&quot;loading&quot;/&gt;
+   &lt;/s:states&gt;
+   
+   &lt;s:Scroller width=&quot;100%&quot; height=&quot;100%&quot;&gt;
+      &lt;s:VGroup width=&quot;100%&quot; height=&quot;100%&quot;&gt;
+         &lt;s:Spacer height=&quot;1%&quot; /&gt;
+         &lt;s:Label text=&quot;Internal Contacts&quot;/&gt;
+         &lt;s:List id=&quot;internalContactList&quot; borderColor=&quot;0x000000&quot; borderVisible=&quot;true&quot; height=&quot;45%&quot; width=&quot;100%&quot;&gt;&lt;/s:List&gt;
+         &lt;s:Spacer height=&quot;2%&quot; /&gt;
+         &lt;s:Label text=&quot;External Contacts&quot;/&gt;
+         &lt;s:List id=&quot;externalContactList&quot;  borderColor=&quot;0x000000&quot; borderVisible=&quot;true&quot; height=&quot;45%&quot; width=&quot;100%&quot;&gt;&lt;/s:List&gt;
+      &lt;/s:VGroup&gt;
+   &lt;/s:Scroller&gt;
+&lt;/s:Skin&gt;
+</pre>
+<p>The dekstop skin looks very similar, except for some layout changes:</p>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;s:Skin xmlns:fx=&quot;http://ns.adobe.com/mxml/2009&quot; 
+      xmlns:s=&quot;library://ns.adobe.com/flex/spark&quot; 
+      xmlns:mx=&quot;library://ns.adobe.com/flex/mx&quot;
+      height=&quot;100%&quot;
+      width=&quot;100%&quot;
+      minHeight=&quot;300&quot;
+      minWidth=&quot;800&quot;
+      maxHeight=&quot;600&quot;
+      maxWidth=&quot;1200&quot;
+      &gt;
+   &lt;!-- host component --&gt;
+   &lt;fx:Metadata&gt;
+      [HostComponent(&quot;me.a-r-d.someproject.modules.projectsections.contact.ProjectContactsComponent&quot;)]
+   &lt;/fx:Metadata&gt;
+   &lt;s:states&gt;
+      &lt;s:State name=&quot;default&quot;/&gt;
+      &lt;s:State name=&quot;loading&quot;/&gt;
+   &lt;/s:states&gt;
+   
+   &lt;s:HGroup width=&quot;100%&quot; height=&quot;100%&quot;&gt;
+      &lt;s:VGroup width=&quot;50%&quot; height=&quot;100%&quot;&gt;
+         &lt;s:Label  text=&quot;Internal Contacts&quot;/&gt;
+         &lt;s:List id=&quot;internalContactList&quot; borderColor=&quot;0x000000&quot; borderVisible=&quot;true&quot; height=&quot;90%&quot; width=&quot;100%&quot;&gt;&lt;/s:List&gt;
+      &lt;/s:VGroup&gt;
+      &lt;s:VGroup width=&quot;50%&quot; height=&quot;100%&quot;&gt;
+         &lt;s:Label text=&quot;External Contacts&quot;/&gt;
+         &lt;s:List id=&quot;externalContactList&quot; borderColor=&quot;0x000000&quot; borderVisible=&quot;true&quot; height=&quot;90%&quot; width=&quot;100%&quot;&gt;&lt;/s:List&gt;
+      &lt;/s:VGroup&gt;
+   &lt;/s:HGroup&gt;
+&lt;/s:Skin&gt;
+</pre>
+<h3>How Do I use this?</h3>
+<p>As I mentioned earlier for a desktop app I like to use a panel or something as my container. For the mobile app you will want to create a container (like a Spark BorderContainer) inside of your view to shove it in.</p>
+<p>It really is as simple as:</p>
+<pre>
+protected function skinnablecontainer1_contentCreationCompleteHandler(event:FlexEvent):void{
+   var cont:ProjectContactsComponent = new ProjectContactsComponent();
+   cont.projectIData = projectData;
+   projectAttributeContainer.addElement(cont);   
+}
+</pre>
+<p>And somewhere below in the layout for the panel below my buttons I had a container I put it in:</p>
+<pre>
+&lt;s:Group id=&quot;projectAttributeContainer&quot; width=&quot;100%&quot; height=&quot;100%&quot; gap=&quot;5&quot; &gt;&lt;/s:Group&gt;
+</pre>
+<p>For mobile it is generally the exact same. Instantiate the component in the creation complete and add it to some other container you can easily manipulate later. (E.g. if you want to refresh the component you can simple remove all from the container and add it again).</p>
+<p>Here is what the end result looks like- I put my container a much more complex panel in the desktop version, and pushed a very simple view in the mobile version:</p>
+<p><a href="http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/end_result_mobile/" rel="attachment wp-att-178"><img class="alignnone size-medium wp-image-178" alt="end_Result_mobile" src="http://frameworkhell.com/wp-content/uploads/2012/12/end_Result_mobile-226x300.png" width="226" height="300" /></a> <a href="http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/end_result_desktop/" rel="attachment wp-att-176"><img class="alignnone size-medium wp-image-176" alt="end_Result_desktop" src="http://frameworkhell.com/wp-content/uploads/2012/12/end_Result_desktop-300x205.png" width="300" height="205" /></a></p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/&text=A component skin system for same source mobile / desktop apps" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/">A component skin system for same source mobile / desktop apps</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/a-component-skin-system-for-same-source-mobile-desktop-apps/feed/
+0
+Flex: Using mobile components in a Desktop app
+http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/
+http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/#comments
+Wed, 26 Dec 2012 15:57:21 +0000
+admin
+flashbuilder
+Flex
+http://frameworkhell.com/?p=165
+<p>Using mobile components in a Desktop app is something you have to do occasionally when you are trying to reuse code- fortunately it is relatively easy to do this (opposed to the other way around). To do this I am starting from Flashbuilder in a &#8220;Flex Project&#8221; with desktop option selected. With this kind of project simply [...]</p><p>The post <a href="http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/">Flex: Using mobile components in a Desktop app</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>Using mobile components in a Desktop app is something you have to do occasionally when you are trying to reuse code- fortunately it is relatively easy to do this (opposed to the other way around).</p>
+<p>To do this I am starting from Flashbuilder in a &#8220;Flex Project&#8221; with desktop option selected. With this kind of project simply right click on the project on the and go to &#8220;properties&#8221;. This will open up a window with a side bar that has many options. Select &#8220;Flex Build Path&#8221; and click the &#8220;Add SWC&#8221; button on the form. You want to browse to:</p>
+<p>C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\flex_sdk_4.6.0.23201\frameworks\libs\mobile</p>
+<p><strong>(You may be using a different SDK that I am, but the path should generally be similar- now select the file &#8220;mobilecomponents.swc&#8221;. See the image for details.)</strong></p>
+<p><a href="http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/flex_mobile_components/" rel="attachment wp-att-166"><img class="alignnone size-medium wp-image-166" alt="flex_mobile_components" src="http://frameworkhell.com/wp-content/uploads/2012/12/flex_mobile_components-300x253.png" width="300" height="253" /></a></p>
+<p>&nbsp;</p>
+<p>Next step is to add the mobile theme. You will have the references in the editor now, but the project wont compile correctly unless you add the mobile theme. To do this go to &#8220;Flex Theme&#8221; in the same properties window for the project and go to &#8220;Import Theme&#8221;. You want to import the mobile theme into the project classpath. The path on my machine was <strong>(but again it will different based on what SDK you are using)</strong>:</p>
+<p>C:\Program Files (x86)\Adobe\Adobe Flash Builder 4.6\sdks\flex_sdk_4.6.0.23201\frameworks\themes\Mobile</p>
+<p>&nbsp;</p>
+<p><a href="http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/mobile_theme/" rel="attachment wp-att-169"><img class="alignnone size-medium wp-image-169" alt="mobile_theme" src="http://frameworkhell.com/wp-content/uploads/2012/12/mobile_theme-300x236.png" width="300" height="236" /></a></p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/&text=Flex: Using mobile components in a Desktop app" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/">Flex: Using mobile components in a Desktop app</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/flex-using-mobile-components-in-a-desktop-app/feed/
+0
+Clojure Adventures Part 1
+http://frameworkhell.com/clojure-adventures-part-1/
+http://frameworkhell.com/clojure-adventures-part-1/#comments
+Wed, 26 Dec 2012 05:46:53 +0000
+admin
+Uncategorized
+http://frameworkhell.com/?p=162
+<p>Clojure Adventures Part 1: Beginings (linux): Install Clojure. apt-get install clojure Install Leiningen (like a clojure swiss army knife + package manager). apt-get install leiningen Install a clojure package to get started. You will now be able to access this program from the command line by calling &#8216;lein&#8217;. Firstly, I am trying to build a [...]</p><p>The post <a href="http://frameworkhell.com/clojure-adventures-part-1/">Clojure Adventures Part 1</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>Clojure Adventures Part 1:</p>
+<p>Beginings (linux):</p>
+<p>Install Clojure.<br />
+<code><br />
+apt-get install clojure<br />
+</code></p>
+<p>Install Leiningen (like a clojure swiss army knife + package manager).<br />
+<code><br />
+apt-get install leiningen<br />
+</code></p>
+<p>Install a clojure package to get started. You will now be able to access this program from the command line by calling &#8216;lein&#8217;. Firstly, I am trying to build a little crawler and I&#8217;m going to use enlive to do it. So the enlive tutorial (https://github.com/swannodette/enlive-tutorial).</p>
+<p>First they say to clone the repo for enlive. Ok.<br />
+mkdir enlive-repo<br />
+cd enlive-repo<br />
+git clone git://github.com/swannodette/enlive-tutorial.git</p>
+<p>From here on I am following the tutorial. Getting the dependencies with &#8216;lein deps&#8217; and launching the repl in this location with &#8216;lein repl&#8217;.</p>
+<p>Holy crap &#8216;lein deps&#8217; just downloaded megs worth of shit. So what is this doing? It is looking at that project.clj file and downloading all of the dependencies listed here:</p>
+<p><code><br />
+(defproject enlive-tutorial "0.1.0"<br />
+:description "Enlive Tutorial"<br />
+:dependencies [[org.clojure/clojure "1.2.0"]<br />
+[org.clojure/clojure-contrib "1.2.0"]<br />
+[enlive "1.0.0-SNAPSHOT"]<br />
+[ring "0.2.5"]<br />
+[net.cgrand/moustache "1.0.0-SNAPSHOT"]]<br />
+:dev-dependencies [[swank-clojure "1.3.0-SNAPSHOT"]]<br />
+:source-path "src")<br />
+</code></p>
+<p>For some reason it needs clojure 1.2 idk.</p>
+<p>Anyway, then you can go any scrape Hacker News and the New York Times. But now you want to start your own project. How does this work? Okay, so lets make a new project.</p>
+<p><code><br />
+mkdir crawler1<br />
+</code></p>
+<p>Then I copy over the old project.clj file from the example and change the name and version number. Lets leave the dependencies the same and the source path can be left alone as well.</p>
+<p><code><br />
+mkdir src<br />
+mkdir src/tests<br />
+</code></p>
+<p>I run &#8216;lein deps&#8217; and leiningen copies over the libs I need into this new project dir. I go ahead and knock into &#8216;lein repl&#8217;. I notice it says server started on localhost port 19491 so it looks like ring is working well.</p>
+<p>Okay, so I make a new file caled test1.clj underneath src/test and add some code. I put some code in this file based off of what the tutorial says and what <a href="https://github.com/francis-" target="_blank">francis wolke</a> sent me earlier.</p>
+<p><code><br />
+; scraper 1<br />
+(ns test.test1<br />
+(:require [net.cgrand.enlive-html :as html]))</code></p>
+<p>(def urls ["http://www.a-r-d.me" "http://www.frameworkhell.com"])</p>
+<p>(defn fetch-url [url]<br />
+(html/html-resource (java.net.URL. url)))</p>
+<p>(defn all-links-pls [url]<br />
+(map html/text (html/select (fetch-url url) [:a])))</p>
+<p>So now in the repl I can load this and try to run it. I do something like:</p>
+<p><code><br />
+user=&gt; (load "test/test1")<br />
+nil<br />
+user=&gt; (in-ns 'test.test1)<br />
+#<br />
+test.test1=&gt; urls<br />
+["http://www.a-r-d.me" "http://www.frameworkhell.com"]<br />
+</code></p>
+<p>Then I try to walk into that namespace and call a var name to see if it is ok. It works, so now I can try to run some of that code that I put in the file. So first I play around to make sure it is working:</p>
+<p>&nbsp;</p>
+<p>test.test1=&gt; (all-links-pls &#8220;http://a-r-d.me&#8221;)</p>
+<p>(&#8220;me&#8221; &#8220;contact&#8221; &#8220;about&#8221; &#8220;research / publications&#8221; &#8220;blog&#8221; &#8220;\n\t\t\t\t\t\t\t\t\tphoto&#8221; &#8220;github account&#8221; &#8220;youtube account (inorganic chem)&#8221; &#8220;jQuery Plugins&#8221; &#8220;Word Swap&#8221; &#8220;Simple Timer&#8221; &#8220;Numbers Everywhere: numBG.js&#8221; &#8220;Planet Menu&#8221; &#8220;Web Projects&#8221; &#8220;x01 &#8211; a pastebin with comments&#8221; &#8220;trade watch&#8221; &#8220;waanoo&#8221; &#8220;Terminal Buster&#8221; &#8220;rrg climbing spots&#8221;)</p>
+<p>test.test1=&gt; (all-links-pls (first urls))</p>
+<p>(&#8220;me&#8221; &#8220;contact&#8221; &#8220;about&#8221; &#8220;research / publications&#8221; &#8220;blog&#8221; &#8220;\n\t\t\t\t\t\t\t\t\tphoto&#8221; &#8220;github account&#8221; &#8220;youtube account (inorganic chem)&#8221; &#8220;jQuery Plugins&#8221; &#8220;Word Swap&#8221; &#8220;Simple Timer&#8221; &#8220;Numbers Everywhere: numBG.js&#8221; &#8220;Planet Menu&#8221; &#8220;Web Projects&#8221; &#8220;x01 &#8211; a pastebin with comments&#8221; &#8220;trade watch&#8221; &#8220;waanoo&#8221; &#8220;Terminal Buster&#8221; &#8220;rrg climbing spots&#8221;)</p>
+<p>&nbsp;</p>
+<p>(I truncated some of the results so it wasn&#8217;t so large). Now that worked! Cool! So now what do we want to do? Well of course we should actually try to get the &#8216;href&#8217; attribute to the link tags. So lets do that&#8230; next time.</p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/clojure-adventures-part-1/&text=Clojure Adventures Part 1" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/clojure-adventures-part-1/">Clojure Adventures Part 1</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/clojure-adventures-part-1/feed/
+0
+Flash Builder is useless without design view
+http://frameworkhell.com/flash-builder-is-worthless-without-design-view/
+http://frameworkhell.com/flash-builder-is-worthless-without-design-view/#comments
+Sat, 22 Dec 2012 20:03:29 +0000
+admin
+AS3
+flashbuilder
+Flex
+http://frameworkhell.com/?p=157
+<p>Flash Builder is useless without design view. At best. Maybe more like pointless. Don&#8217;t upgrade from 4.6 to 4.7 if you actually use / need it. If you are a programmer that does a lot of little projects using flashbuilder, mostly for in house stuff where there is no designer involved, and thus, no mock-ups [...]</p><p>The post <a href="http://frameworkhell.com/flash-builder-is-worthless-without-design-view/">Flash Builder is useless without design view</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>Flash Builder is useless without design view. At best. Maybe more like pointless. Don&#8217;t upgrade from 4.6 to 4.7 if you actually use / need it.</p>
+<p>If you are a programmer that does a lot of little projects using flashbuilder, mostly for in house stuff where there is no designer involved, and thus, no mock-ups and no design to work off of, then this is really horrible. MXML is not as easy to visually layout as HTML/CSS is for most people. I think most developers have been doing HTML/CSS layout for years and can do it in their sleep. Plus we have things like Bootstrap to help us speed things up. But programmatic layout in something unfamiliar and awkward is a huge burden and waste of time between compiling and checking your progress.</p>
+<p>So what are the alternatives?</p>
+<p><b>Flash Develop:</b><br />
+<a href="http://www.flashdevelop.org/" target="_blank">Flash develop</a> .. they also have a <a href="http://designview.sourceforge.net" target="_blank">design view plugin</a>.<br />
+<a href="http://www.steamed-design.com/post/4861281793/flashdevelop" target="_blank">This looks like a pretty good guide to help.</a></p>
+<p><b>Amethyst</b><br />
+Not sure, but <a href="http://www.sapphiresteel.com/Products/Products-Overview" target="_blank">somebody recommended this on SO.</a></p>
+<p>And it looks like there are several other IDEs with AS3 and/or MXML support but nothing else really has &#8220;design view&#8221;. Soon I&#8217;m going to try to do a youtube video where I try out flash develop.</p>
+<p>It looks like the guy that made chat roulette used flex and is rightly pissed. Check out this thread filled with some <a href="http://forums.adobe.com/message/4685240" target="_blank">justified rage on the adobe forums</a>.</p>
+<p>And really here is big take-home message: Flash develop and flashbuilder almost look like an equal product now. Why pay for flash builder at all?</p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/flash-builder-is-worthless-without-design-view/&text=Flash Builder is useless without design view" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/flash-builder-is-worthless-without-design-view/">Flash Builder is useless without design view</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/flash-builder-is-worthless-without-design-view/feed/
+0
+Panel Manager Class for an Air Desktop App
+http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/
+http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/#comments
+Sat, 22 Dec 2012 06:25:16 +0000
+admin
+AS3
+http://frameworkhell.com/?p=154
+<p>I&#8217;m working on a desktop app that uses a bunch of non-modal panels to view data. To help with this I wrote a panel manager class for an air desktop app. Let me give you a little demo of what I mean. In my main application file I have something like this: &#60;s:SkinnableContainer id=&#34;mainContainer&#34; x=&#34;0&#34; [...]</p><p>The post <a href="http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/">Panel Manager Class for an Air Desktop App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>I&#8217;m working on a desktop app that uses a bunch of non-modal panels to view data. To help with this I wrote a panel manager class for an air desktop app. Let me give you a little demo of what I mean.</p>
+<p>In my main application file I have something like this:</p>
+<pre>
+
+&lt;s:SkinnableContainer id=&quot;mainContainer&quot; x=&quot;0&quot; y=&quot;0&quot; width=&quot;100%&quot; height=&quot;100%&quot;&gt;
+&lt;/s:SkinnableContainer&gt;
+
+</pre>
+<p>To this &#8220;mainContainer&#8221; I am going to add all of my other Panels, SkinnableContainers, BorderContainers and other things. Mostly I am using panels lately because they have a nice title bar and shadow effects. But anyway, you may do something like this.</p>
+<pre>
+
+var mypanel:Panel = new Panel();
+mainContainer.addElement(mypanel);
+
+</pre>
+<p>But when you drill down really far and have panels opening panels you have a problem when it come to management of all of your &#8220;windows&#8221;. This class should help alleviate things:</p>
+<pre>
+
+package me.ard.utils
+{
+    import flash.utils.getDefinitionByName;
+    import flash.utils.getQualifiedClassName;
+    import mx.core.IVisualElement;
+    import spark.components.SkinnableContainer;
+
+    public class MyGUIManager
+    {
+        /*****************************************************
+         *     Window object refs
+         */
+        // This is the reference to the main window container where all windows are managed.
+        public static var window_container:SkinnableContainer = null;
+        public static var menu_bar_height_offset:Number = 30;
+        
+        // holds all windows
+        public static var all_windows_array:Array = [];
+        
+        /********************************************************
+         *     Window manipulation methods.
+         */
+        // move z-index of the windows/ manipulate windows.
+        public static function moveWindowToBottom(elem:Object):void {
+            try {
+                window_container.setElementIndex(IVisualElement(elem), 0);
+            }catch( e:Error ) {
+                trace("Error bringing IVisualElement to bot: " + e.message);
+            }
+        }
+        public static function moveWindowToTop(elem:Object):void {
+            try {
+                window_container.setElementIndex(IVisualElement(elem), window_container.numElements - 1);
+            }catch( e:Error ) {
+                trace("Error bringing IVisualElement to top: " + e.message);
+            }
+        }
+        public static function centerWindow(elem:Object):void {
+            try {
+                var vis:IVisualElement = IVisualElement(elem);
+                vis.x = window_container.width / 2 - vis.width / 2;
+                vis.y = window_container.height / 2 - vis.height / 2;
+            } catch ( e:Error ) {
+                trace("Error centering window (center): " + e.message);
+            }
+        }
+        public static function moveWindowToCorner(elem:Object):void {
+            try {
+                var vis:IVisualElement = IVisualElement(elem);
+                vis.y = menu_bar_height_offset;
+                vis.x = 0;
+            } catch ( e:Error ) {
+                trace("Error moving window (to corner): " + e.message);
+            }
+        }
+        public static function moveWindowSetOnTop(elem:Object):void {
+            try {
+                var vis:IVisualElement = IVisualElement(elem);
+                vis.width = window_container.width;
+                vis.x = 0;
+                vis.y = 0;
+            } catch ( e:Error ) {
+                trace("Error moving window (set on top)s: " + e.message);
+            }
+        }
+        
+        // add to container
+        public static function addWindow(elem:Object):void {
+            try {
+                var vis:IVisualElement = IVisualElement(elem);
+                window_container.addElement(vis);
+                all_windows_array.push(vis);
+            } catch( e:Error ) {
+                trace("Failed to add the window- " + e.message);    
+            }
+        }
+        
+        // manipulate visiblity
+        public static function showWindow(elem:Object):void {
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    if( elem == all_windows_array[i] ) {
+                        all_windows_array[i].visible = true;
+                    }
+                }
+            } catch (e:Error) {
+                trace("Fail to show window: " + e.message);
+            }
+        }
+        public static function showAllHiddenWindows():void {
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    all_windows_array[i].visible = true;
+                }
+            } catch (e:Error) {
+                trace("Fail to show all windows: " + e.message);
+            }
+        }
+        public static function hideWindow(elem:Object):void {
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    if( elem == all_windows_array[i] ) {
+                        all_windows_array[i].visible = false;
+                    }
+                }
+            } catch (e:Error) {
+                trace("Fail to hide window: " + e.message);
+            }
+        }
+        public static function hideAllWindows():void {
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    all_windows_array[i].visible = false;
+                }
+            } catch (e:Error) {
+                trace("Fail to hide all windows: " + e.message);
+            }
+        }
+        
+        // remove from container.
+        public static function closeSingleWindow(obj:Object):void {
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    if(all_windows_array[i] == obj ) {
+                        window_container.removeElement(all_windows_array[i]);
+                        all_windows_array.splice(i, 1);
+                        break;
+                    }
+                }    
+            } catch (e:Error) {
+                trace("Fail to close window-" +  e.message);
+            }
+        }
+        public static function closeAllWindows():void {        
+            try {
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    window_container.removeElement(all_windows_array[i]);
+                }
+                all_windows_array = [];
+            } catch (e:Error) {
+                trace("Fail to close projects: " + e.message);
+            }
+        }
+        public static function closeAllWindowsTyped(type:Object):void {
+            try {
+                var save_arr:Array = [];
+                for (var i:int = 0; i < all_windows_array.length; i++) {
+                    if( all_windows_array[i] is getClass(type)) {
+                        window_container.removeElement(all_windows_array[i]);
+                    } else {
+                        save_arr.push(all_windows_array[i]);
+                    }
+                }
+                all_windows_array = save_arr; // only save not matched.
+            } catch (e:Error) {
+                trace("Fail to close projects: " + e.message);
+            }
+        }
+
+        /******************************************/
+        // internal clean up/ utils
+        /******************************************/
+        private static function getClass(obj:Object):Class {
+            return Class(getDefinitionByName(getQualifiedClassName(obj)));
+        }
+
+        /*****************************************/
+        public function MyGUIManager()
+        {
+        }
+    }
+}
+
+</pre>
+<p>So how do you use this? First thing is you want to assign the main container to MyGUIManager.window_container like:</p>
+<pre>
+
+MyGUIManager.window_container = mainContainer;
+
+</pre>
+<p>Now when you add windows and remove windows you can do it from anywhere in the application without having to worry about bubbling events all the way up the application container level and having to respond to them there. For example you can do this:</p>
+<pre>
+
+var p:Panel = new Panel();
+MyGUIManager.addWindow(p);
+MyGUIManager.centerWindow(p);
+
+// then later on- like in a close button handler inside of the actual panel:
+private function closeThisPanelButton(e:MouseEvent):void {
+    MyGUIManager.closeSingleWindow(this);
+}
+
+</pre>
+<p>Its much easier when you can simple use the 'this' keyword to close the window and remove it from the container- rather than having to bubble events up.</p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/&text=Panel Manager Class for an Air Desktop App" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/">Panel Manager Class for an Air Desktop App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/panel-manager-class-for-an-air-desktop-app/feed/
+0
+Apache Axis 1.4 Tutorial – Making a Java Webservice with Tomcat 6. Part 1.
+http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/
+http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/#comments
+Sat, 22 Dec 2012 05:45:07 +0000
+admin
+Web Services
+http://blog.a-r-d.me/?p=78
+<p>Apache AXIS is a SOAP Web Service that does really cool things like automatically expose existing java classes as web services with no modification. I will take you through the entire install and testing of a simple web service like this. We will even give it a math quiz. First thing we need to is [...]</p><p>The post <a href="http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/">Apache Axis 1.4 Tutorial &#8211; Making a Java Webservice with Tomcat 6. Part 1.</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>Apache AXIS is a SOAP Web Service that does really cool things like automatically expose existing java classes as web services with no modification. I will take you through the entire install and testing of a simple web service like this. We will even give it a math quiz.</p>
+<p>First thing we need to is to set up Tomcat to help with this simple example. On windows, you need to set two environmental variables:</p>
+<p>CATALINA_HOME<br />
+(which is the path to your tomcat directory- eg c:\servers\tomcat)</p>
+<p>and </p>
+<p>JRE_HOME<br />
+(which is the path your JRE install- eg c:\Program Files\java\jre6)</p>
+<p>and </p>
+<p>JAVA_HOME<br />
+(Axis needs this, not Tomcat eg: C:\jdk1.6.0_27 -yes AXIS actually needs the full JDK)</p>
+<p>Check the screenshot below for hints here.</p>
+<p>[screenshot]<br />
+&#8212;</p>
+<p>Now you need to get a copy of AXIS. Get it from here, unzip it, and drop the &#8220;axis&#8221; directory from you download into the tomcat install under &#8220;webapps&#8221;. Second thing is you need the libraries. Go to axis/lib and copy all these .jar files over into the tomcat/lib directory. </p>
+<p>Before you lauch tomcat you should also check some things:</p>
+<p>1. What port are you running on?<br />
+    If there is a conflict go to tomcat/conf/server.xml and change the &#8220;port&#8221; attribute from the first &#8220;connector&#8221; tag to something else. I usually run on something other than 8080 (default).</p>
+<p>2. Do you have any users set up in tomcat-users.xml?<br />
+    If not throw one in there. I usually just run everything with &#8220;test&#8221; in all fields when developing.<br />
+    <tomcat-users><br />
+        <user username="test" password="test" roles="manager,admin,IT"/><br />
+    </tomcat-users></p>
+<p>Now you can run startup.bat out of the tomcat/bin directory.</p>
+<p>Go to http://localhost:8084  (or http://localhost:8080  if you didn&#8217;t change it!).</p>
+<p>If it is working, try to see if axis deployed OK. We dropped axis into the webapps directory so go ahead and navigate to http://localhost:8084/axis/  where you should see something like this:</p>
+<p>[screenshot]</p>
+<p>Now you will likely get some error that looks like this if you try to click &#8220;Call&#8221; on the main AXIS page:</p>
+<pre>
+ No compiler found in your classpath!  (you may need to add 'tools.jar')
+</pre>
+<p>This may be because you don&#8217;t have the full JDK installed. Yes AXIS actually needs to compile stuff. The other possibility is that it is looking the JRE path for tools.jar&#8230; it will not find it! In this case you will have to copy tools.jar from the jdk/lib/tools.jar into tomcat/lib/ to get this working. It is 12 megabytes, you can&#8217;t miss it. This is what I had to do.</p>
+<p>Try it again and you should get something like this:</p>
+<p>[screenshot]</p>
+<p>Okay so now lets try and actually do something. You are very likely here because your boss told you that you need to use AXIS and now you are trying to figure out what it is even for. So let&#8217;s do some examples. The easiest will be a very simple calculator class so here is what you will do:</p>
+<p>Write the following and save it as &#8220;Calc.jws&#8221;:</p>
+<pre>
+
+public class Calc {
+  public int add(int i1, int i2) {
+    return i1 + i2; 
+  }
+
+  public int subtract(int i1, int i2) {
+    return i1 - i2;
+  }
+}
+
+</pre>
+<p>Now copy this file into tomcat/webapps/axis/ yes, right into the root of the axis directory under your Tomcat Webapps. Now visit:</p>
+<pre>
+
+http://localhost:8084/axis/Calc.jws
+
+</pre>
+<p>And visit the link &#8220;click to see WSDL&#8221;. </p>
+<pre>
+ An exceprt we will use:
+ 
+&lt;wsdl:operation name=&quot;add&quot; parameterOrder=&quot;i1 i2&quot;&gt;
+    &lt;wsdl:input message=&quot;impl:addRequest&quot; name=&quot;addRequest&quot;/&gt;
+    &lt;wsdl:output message=&quot;impl:addResponse&quot; name=&quot;addResponse&quot;/&gt;
+&lt;/wsdl:operation&gt;
+
+</pre>
+<p>Alright so there is that worked well right? Just add &#8220;?wsdl&#8221; to the end of the path to the webservice and you get the whole spec printed back. Now how do we communicate with this thing? It looks like we should be able to send it a command with an argument and it should spit stuff out right?</p>
+<p>Can you just call it like this? -</p>
+<pre>
+
+http://localhost:8084/axis/Calc.jws?method=add&#038;i1=3&#038;i2=4
+
+</pre>
+<p>Yes. You should get something like:</p>
+<pre>
+
+&lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+    &lt;soapenv:Body&gt;
+        &lt;addResponse soapenv:encodingStyle=&quot;http://schemas.xmlsoap.org/soap/encoding/&quot;&gt;
+            &lt;addReturn xsi:type=&quot;xsd:int&quot;&gt;7&lt;/addReturn&gt;
+        &lt;/addResponse&gt;
+    &lt;/soapenv:Body&gt;
+&lt;/soapenv:Envelope&gt;
+
+</pre>
+<p>Right, 3 + 4 = 7. The arguments were i1 and i2 for integer one and integer two. You should notice we got back a typed response also. Everything in AXIS is typed. </p>
+<p>More reading:<br />
+Apache&#8217;s install instructions:</p>
+<p>http://axis.apache.org/axis/java/install.html</p>
+<p>Another tutorial:</p>
+<p>http://www.digizol.org/2008/07/web-service-axis-tutorial-client-server.html</p>
+<p>A guy that goes a little more in depth:</p>
+<p>http://www.lucianofiandesio.com/javatales/axant.html</p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/&text=Apache Axis 1.4 Tutorial - Making a Java Webservice with Tomcat 6. Part 1." target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/">Apache Axis 1.4 Tutorial &#8211; Making a Java Webservice with Tomcat 6. Part 1.</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/apache-axis-1-4-tutorial-making-a-java-webservice-with-tomcat-6-part-1/feed/
+1
+How to send data via POST to a PHP script from a Flex App
+http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/
+http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/#comments
+Sun, 02 Sep 2012 23:44:15 +0000
+admin
+Flex
+http://frameworkhell.com/?p=112
+<p>You have to be careful when setting up all of the parameters for an HTTP POST request from Flex. There are a lot of settings that favor XML and can throw you off. To be clear when you are sending parameters via POST, PHP will expect to read something like this: This is how you [...]</p><p>The post <a href="http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/">How to send data via POST to a PHP script from a Flex App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>You have to be careful when setting up all of the parameters for an HTTP POST request from Flex. There are a lot of settings that favor XML and can throw you off. To be clear when you are sending parameters via POST, PHP will expect to read something like this:</p>
+<p><a href="http://frameworkhell.com/wp-content/uploads/2012/09/post-flex.png"><img class="alignnone size-medium wp-image-114" title="post-flex" alt="" src="http://frameworkhell.com/wp-content/uploads/2012/09/post-flex-300x187.png" width="300" height="187" /></a></p>
+<p>This is how you want to format your service to get this type of passing:</p>
+<pre>
+
+&lt;s:HTTPService
+id="scoreSender"
+method="POST"
+result="scoreSender_resultHandler(event)"
+resultFormat="e4x"
+fault="scoreSender_faultHandler(event)"
+&gt;
+
+</pre>
+<p>Make sure NOT to specify a content type. It will end up either base 64 encoding it, or encoding your params in XML format which will not appear in the PHP $_POST array.</p>
+<p>Then you can manually add all of the parameters like so:</p>
+<pre>
+
+scoreSender.url = Constants.postScoreURL;
+var params:Object = new Object();
+params["key"] = keyOut;
+params["enemiesKilled"] = kills;
+params["shotsTaken"] = shots;
+params["feetWalked"] = feet;
+params["itemsGotten"] = powerups;
+params["timeStarted"] = timeStarted;
+params["timeEnded"] = timeEnded;
+params["deaths"] = playDeaths;
+params["points"] = score;
+params["name"] = nameEntry.text.replace("&amp;", "").replace("?", "");
+scoreSender.send(params);
+
+</pre>
+<p>Finally on the PHP end you can pull them out from the $_POST array:</p>
+<pre>
+
+$kills = $_POST['enemiesKilled'];
+$shots = $_POST['shotsTaken'];
+$feet = $_POST['feetWalked'];
+$items = $_POST['itemsGotten'];
+$timestart = $_POST['timeStarted'];
+$timeended = $_POST['timeEnded'];
+$deaths = $_POST['deaths'];
+$points = $_POST['points'];
+$name = $_POST['name'];
+
+</pre>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/&text=How to send data via POST to a PHP script from a Flex App" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/">How to send data via POST to a PHP script from a Flex App</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/how-to-send-data-via-post-to-a-php-script-from-a-flex-app/feed/
+0
+How to pan screen for SoftKeyboard for Flex mobile apps.
+http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/
+http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/#comments
+Sun, 02 Sep 2012 23:15:54 +0000
+admin
+Flex
+http://frameworkhell.com/?p=110
+<p>In a mobile app where you are using the soft keyboard to input text into a textbox or textarea if you have the textbox near the bottom of the screen you will need to scroll the screen to view the text input area while you are typing. Here I will show to pan the screen [...]</p><p>The post <a href="http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/">How to pan screen for SoftKeyboard for Flex mobile apps.</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>In a mobile app where you are using the soft keyboard to input text into a textbox or textarea if you have the textbox near the bottom of the screen you will need to scroll the screen to view the text input area while you are typing. Here I will show to pan the screen for SoftKeyboard in the app settings.</p>
+<p>In the main app MXML file you can change the soft keyboard behavior element. &#8220;pan&#8221; will enable use easiest.</p>
+<pre>
+
+true
+true
+pan
+
+</pre>
+<p>Next in APP level MXML file you will want set the soft keyboard behavior:</p>
+<pre>
+
+xmlns:fx="http://ns.adobe.com/mxml/2009"
+xmlns:s="library://ns.adobe.com/flex/spark" firstView="views.DodgeABroHomeView" applicationDPI="160"
+applicationComplete="tabbedviewnavigatorapplication1_applicationCompleteHandler(event)"
+frameRate="40"
+resizeForSoftKeyboard="true"
+&gt;
+
+</pre>
+<p>Finally in the view where you will have the actual text input control you can use a scroller to specify exactly where you want to scroll too. However with the above settings, it should not be necessary. This is only if you want to override the normal default behavior built into Flex with the above setting.</p>
+<pre>
+
+&nbsp;
+
+</pre>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/&text=How to pan screen for SoftKeyboard for Flex mobile apps." target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/">How to pan screen for SoftKeyboard for Flex mobile apps.</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/how-to-pan-screen-for-softkeyboard-for-flex-mobile-apps/feed/
+0
+Flex ViewNavigator screen resolution reference
+http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/
+http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/#comments
+Sat, 25 Aug 2012 15:53:46 +0000
+admin
+Flex
+http://frameworkhell.com/?p=101
+<p>>In a Flex ViewNavigator application you have a ton of confusing options for getting the current screen dimensions. Because there is a menu bar at the top of the screen- so you will actually get a short height- I found that using: var screenYAxisMax:int = navigator.measuredHeight; var screenXAxisMax:int = navigator.measuredWidth; Will usually get me what [...]</p><p>The post <a href="http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/">Flex ViewNavigator screen resolution reference</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+<p>>In a Flex ViewNavigator application you have a ton of confusing options for getting the current screen dimensions. Because there is a menu bar at the top of the screen- so you will actually get a short height- I found that using:</p>
+<pre>
+
+var screenYAxisMax:int = navigator.measuredHeight;
+var screenXAxisMax:int = navigator.measuredWidth;
+
+</pre>
+<p>Will usually get me what I want on my iPhone 4. I have not yet tried this on an Android device but will update this when I do.</p>
+<p>But for reference here is trace for all of the options I could find while debugging on my device for a Flex ViewNavigator Mobile app:</p>
+<p><a href="http://frameworkhell.com/wp-content/uploads/2012/08/dodge-a-bro-screen-res-USE-THIS.png"><img src="http://frameworkhell.com/wp-content/uploads/2012/08/dodge-a-bro-screen-res-USE-THIS-300x187.png" alt="" title="dodge a bro screen res USE THIS" width="300" height="187" class="alignnone size-medium wp-image-107" /></a></p>
+<div class="twttr_button">
+				<a href="http://twitter.com/share?url=http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/&text=Flex ViewNavigator screen resolution reference" target="_blank" title="Click here if you liked this article.">
+					<img src="http://frameworkhell.com/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+				</a>
+			</div><p>The post <a href="http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/">Flex ViewNavigator screen resolution reference</a> appeared first on <a href="http://frameworkhell.com">Framework Hell</a>.</p>
+http://frameworkhell.com/flex-viewnavigator-screen-resolution-reference/feed/
+0

@@ -1,0 +1,46 @@
+Design View
+body { margin: 0px; overflow:hidden }
+var requiredMajorVersion = 9;
+var requiredMinorVersion = 0;
+var requiredRevision = 28;
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+if ( hasProductInstall && !hasRequestedVersion ) {
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "designview",
+		"quality", "high",
+		"bgcolor", "#869ca7",
+		"name", "designview",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	AC_FL_RunContent(
+			"src", "designview",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"id", "designview",
+			"quality", "high",
+			"bgcolor", "#869ca7",
+			"name", "designview",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {
+    var alternateContent = 'Please install Adobe Flash Player and then come back.<br/>'
+   	+ '<a href=http://www.adobe.com/go/getflash/>Get Flash';
+    document.write(alternateContent);
+  }

@@ -1,0 +1,21 @@
+html
+var yt = yt || {};yt.timing = yt.timing || {};yt.timing.data_ = yt.timing.data_ || {};yt.timing.tick = function(label, opt_time) {var timer = yt.timing.data_['timer'] || {};if(opt_time) {timer[label] = opt_time;}else {timer[label] = new Date().getTime();}yt.timing.data_['timer'] = timer;};yt.timing.info = function(label, value) {var info_args = yt.timing.data_['info_args'] || {};info_args[label] = value;yt.timing.data_['info_args'] = info_args;};yt.timing.info('e', "904429,902543,920704,912806,928001,922403,922405,929901,913605,929104,913546,913556,908496,920201,913302,919009,911116,926403,901451,902556");if (document.webkitVisibilityState == 'prerender') {document.addEventListener('webkitvisibilitychange', function() {yt.timing.tick('start');}, false);}yt.timing.tick('start');yt.timing.info('li','0');try {yt.timing.data_['srt'] = window.gtbExternal && window.gtbExternal.pageT() ||window.external && window.external.pageT;} catch(e) {}if (window.chrome && window.chrome.csi) {yt.timing.data_['srt'] = Math.floor(window.chrome.csi().pageT);}if (window.msPerformance && window.msPerformance.timing) {yt.timing.data_['srt'] = window.msPerformance.timing.responseStart - window.msPerformance.timing.navigationStart;}
+Chemistry Is Sweet - YouTube
+body,#masthead-container,#yt-admin #vm-pageheader-container h1,#vm-video-actions-inner {background: #fbfbfb;}
+#branded-page-body-container {
+      background-color: #CCCCCC;
+      background-image: none;
+  }
+if (window.yt.timing) {yt.timing.tick("ct");}
+machid: nWUxLTF9mYXdnanNpa2I1R3V2WlJhWWNaZXJYZTZUZWdER2xMWDI2Q2hXWDFiSUZCN1pWTlNR
+begin page
+Sign in
+Upload
+Search
+close
+Close
+Close
+Close
+Close
+Close
+Chemistry Is Sweet

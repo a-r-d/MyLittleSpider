@@ -1,0 +1,47 @@
+html
+FlashDevelop.org - Welcome
+Handcrafted with FlashDevelop in HTML, CSS and PHP.
+WRAPPER
+HEADER
+Welcome
+|
+Enterprise Support
+|
+Documentation
+|
+Community
+CONTENT
+FEATURE
+FlashDevelop is a free and open source code editor for every Flash developer
+FlashDevelop offers first class support for ActionScript (2 & 3) and HaXe development. Great completion & code generation, projects compilation & debugging, plenty of project templates, SWF/SWC exploration etc. FlashDevelop is also a great web developer IDE with source-control support (svn, git, mercurial), tasks/todo, snippets, XML/HTML completion and zen-coding for HTML.
+DESCRIPTION
+Open source community feeds FlashDevelop
+FlashDevelop is an open source story; it was created in 2005 by passionate Flash developers, for Flash developers. It is the product of many contributors which created what is today the best open source Flash development environment. We've received numerous features, bug fixes, feature ideas and even full plugins from community members and it just gets bigger. Be part of this great community and help us in whatever way you can. Open C# Express and code features, send us bug fixes, help us improve the documentation, donate or just spread the word.
+Get active and join the community »
+DOWNLOAD
+function getfd(){window.location='http://www.flashdevelop.org/community/viewtopic.php?f=11&t=10351';}
+FlashDevelop 4.2.2 RTM
+EN, JP, DE, EU (∼18Mb, WIN)
+All downloads & release notes »
+SPACER
+FEATURES
+Enjoy a lighter and smarter IDE for your Flash development
+Fast & lightweight
+FlashDevelop was created to be a fast and lightweight IDE and to be fast even on slower computers.
+Completion & generation
+Enjoy an amazing code completion which helps you also generate and document your valuable code.
+Snippets & templates
+Use highly flexible, easy to use snippets and file templates with your own project templates.
+Highly customizable
+FlashDevelop has a lot of settings, third party plugins, syntax color themes and much more.
+QUOTES
+printQuotes();
+FOOTER
+Welcome
+|
+Enterprise Support
+|
+Community
+|
+Documentation
+Copyright © FlashDevelop.org 2005-2012

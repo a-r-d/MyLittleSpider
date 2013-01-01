@@ -1,0 +1,281 @@
+body {
+                font-family: arial, verdana, sans-serif;
+                
+                }
+            
+            #cnavasWrapper {
+                position: relative;
+                margin-left: auto;
+                margin-right: auto;
+                }
+                
+            #wrapperToolbar {
+                position: absolute;
+                }
+/** holds the strokes
+        **/
+        myStrokes = [];
+        /** Below variables holdsstroke data temporarily
+        **/
+        strokeRecorder = new Object();
+        strokeRecorder.strokeColor = "";
+        strokeRecorder.moveToX = 0;
+        strokeRecorder.moveToY = 0;
+        strokeRecorder.lineToX = 0;
+        strokeRecorder.lineToY = 0;
+        strokeRecorder.strokeWidth = 0;
+        
+        /* myStrokes will hold all of our strokes made and everything about them
+        and should be able tocreate them
+           JSON:     { 
+                moveToX: n,
+                moveToY: n,
+                lineToX: n,
+                lineToY: n,
+                strokeColor: hex,
+                strokeWidth: n
+                }
+        */
+        
+        // Drawing: https://developer.mozilla.org/en/Canvas_tutorial/Drawing_shapes
+        $(document).ready( function() {
+            // This is going to be a plugin so lets hide everything in objects.
+            /** A list of starting attributes to our drawing pad
+            **/
+            canvMain = '#canvas1'; // set name of canvas
+            drawing = new Object();
+            drawing.toggle = false;
+            drawing.rectPenSize = 5;
+            drawing.circlePenSize = 5;
+            drawing.lineWidth = $("#lineWidthSlider").slider( "option", "value" );
+            drawing.strokeColor = $('#colorSelector').val();
+            drawing.xOffset = $(canvMain).position().left;
+            drawing.yOffset = $(canvMain).position().top;
+            
+            /** Get canvas height  and width
+            **/
+            var width = $(canvMain).width();
+            var height = $(canvMain).height();
+            
+            /** Set up the location of the toolbar based on canvas
+            **/
+            $('#wrapperToolbar').css({
+                top: String($(canvMain).position().top) + "px",
+                left: String($(canvMain).position().left + width + 10) + "px"
+                });
+            
+            // background fill based on canvas dimensions
+            canv1 = document.getElementById("canvas1");
+            var rect1 = canv1.getContext("2d");
+            rect1.fillStyle="#FFFFFF";
+            rect1.fillRect(0,0,width,height);
+            
+            // start the stroke:
+            strokeTool = canv1.getContext("2d");
+            
+            /** Event handler: mousedown on canvas starts drawing
+                and recording/ showing the stroke immediately.
+            ***/
+            $('#canvas1').bind("mousedown.drawing", function(event) {
+                var mouseX = event.pageX;
+                var mouseY = event.pageY;
+                //console.log("MOUSEDOWN: mouse @ x=" + mouseX + " y=" + mouseY);
+                drawing.toggle = true;
+        
+                // initialize our stroke:
+                drawing.strokeColor = $('#colorSelector').val();
+                drawing.lineWidth = $("#lineWidthSlider").slider( "option", "value" );
+                
+                strokeTool.beginPath();
+                strokeTool.moveTo(mouseX - drawing.xOffset, mouseY - drawing.yOffset);
+                
+                // log this data
+                strokeRecorder.moveToX = mouseX - drawing.xOffset;
+                strokeRecorder.moveToY = mouseY - drawing.yOffset;
+                strokeRecorder.strokeColor = drawing.strokeColor;
+                strokeRecorder.strokeWidth = drawing.lineWidth;
+            });
+
+            /** Event handler: mouse move will call the drawStroke function below
+                sending the mouse position data. But only if drawing is toggled on
+            **/
+            $(document).bind("mousemove.drawing", function(event) {
+                var mouseX = event.pageX;
+                var mouseY = event.pageY;
+                //console.log("MOUSEMOVE: mouse @ x=" + mouseX + " y=" + mouseY);
+                if(drawing.toggle == true) {
+                    // record mouse position and draw on canvas.
+                    //console.log("drawing active");
+                    
+                    drawStroke(mouseX, mouseY);
+                    }
+            });
+            
+            /** Event handler: mouseleave canvas ->
+                if mouse leaves the element set drawing to false
+            **/
+            $('#canvas1').bind("mouseleave.drawing", function(event) {
+                drawing.toggle = false;
+                
+                // end the stroke
+                // strokeTool.strokeStyle = drawing.strokeColor;
+                strokeTool.stroke();
+                recordStroke("break");
+                });
+            
+            /** Event handler:  when mouse goes up stroke the path
+                Also, set the drawing toggle to false.
+            **/
+            $('#canvas1').bind("mouseup.drawing", function(event) {
+                if(drawing.toggle == true) {
+                    // cancel drawing toggle
+                    drawing.toggle = false;
+                    
+                    // end the stroke
+                    // strokeTool.strokeStyle = drawing.strokeColor;
+                    strokeTool.stroke();
+                    recordStroke("break");
+                    }
+            });
+        
+        
+        /** COLOR PICKER 
+        ***/
+        $('#colorpickerHolder').ColorPicker({
+                flat: true,
+                onChange: function (hsb, hex, rgb) {
+                    $('#colorSelector div').css('backgroundColor', '#' + hex);
+                    $('#colorSelector').val('#' + hex);
+                    console.log("color changed");
+                    }
+                });
+        $('#colorSelector').change( function() {
+            //console.log("changing color: " + $('#colorSelector').val());
+            drawing.strokeColor = $('#colorSelector').val();
+        });
+        
+        
+        /** line width 
+        **/
+        $("#lineWidthSlider").slider({ 
+            min: 1,
+            max: 50,
+            value: 10
+            });
+        
+        });// END JQ
+        
+    /***************************************************************/    
+        /** Finishes the stroke off with the LineTo() method 
+            Also records data to the array
+        **/
+        function drawStroke(mouseX, mouseY) {
+            // say where line goes to 
+            strokeTool.lineTo(mouseX - drawing.xOffset, mouseY - drawing.yOffset);
+            //console.log("drew on canvas: " + mouseX + "," + mouseY);
+      
+            // set color/ size data
+            strokeTool.strokeStyle = drawing.strokeColor;
+            strokeTool.lineWidth = drawing.lineWidth;
+            
+            // record data:
+            strokeRecorder.lineToX = mouseX - drawing.xOffset;
+            strokeRecorder.lineToY = mouseY - drawing.yOffset;
+            recordStroke("continue");
+            
+            //end stroke
+            strokeTool.stroke();
+            }
+        
+        /** Records stroke data in a JSON block to the stroke array
+        **/
+        function recordStroke(type) {
+            var strokeJSON = {
+                moveToX: strokeRecorder.moveToX,
+                moveToY: strokeRecorder.moveToY,
+                lineToX: strokeRecorder.lineToX,
+                lineToY: strokeRecorder.lineToY,
+                strokeColor: strokeRecorder.strokeColor,
+                strokeWidth: strokeRecorder.strokeWidth,
+                strokeType: type
+                }
+            myStrokes.push(strokeJSON);
+            }
+            
+        /** Ajax function to send JSON list of strokes
+            PHP will save this to a file
+        **/
+        function exportStrokes() {
+            $('#strokeArea').empty();
+            $('#strokeArea').append("no strokes yet. should be posted to PHP to write to a file");
+            }
+        
+        /** Writes a white rectangle over the canvas
+        **/
+        function clearCanvas() {
+            var width = $(canvMain).width();
+            var height = $(canvMain).height();
+
+            var rect1 = canv1.getContext("2d");
+            rect1.fillStyle="#FFFFFF";
+            rect1.fillRect(0,0,width,height);
+            }
+            
+            /** Re-Writes all of the strokes stored in the array
+                to the canvas.
+                * This still needs some work:
+                    -Having trouble with the st
+            **/
+            function writeStrokeList() {
+                // for now, we use the myStrokes
+                var lastBreak = 0;
+                var len = myStrokes.length;
+                for(var i = 0; i < len; i++){
+                    console.log("stroking:" + myStrokes[i].moveToX + "," + myStrokes[i].moveToY + "," + myStrokes[i].lineToX + "," + myStrokes[i].lineToY);
+                    
+                    var strokeRedraw = canv1.getContext("2d");
+                    strokeRedraw.beginPath();
+                    if(i == 0 || i == 1 || lastBreak < 5) {
+                        strokeRedraw.moveTo(myStrokes[i].moveToX, myStrokes[i].moveToY);
+                        }
+                    else {
+                        strokeRedraw.moveTo(myStrokes[i - 2].lineToX, myStrokes[i - 2].lineToY);
+                        }
+                    strokeRedraw.lineTo(myStrokes[i].lineToX, myStrokes[i].lineToY);
+                    strokeRedraw.strokeStyle = myStrokes[i].strokeColor;
+                    strokeRedraw.lineWidth = myStrokes[i].strokeWidth;
+                    strokeRedraw.stroke();
+                    
+                    if(myStrokes[i].strokeType == "break")
+                        lastBreak = 0;
+                    else
+                        lastBreak++;
+                    }
+                }
+            
+            /** clears the global strokes array
+            **/
+            function clearStrokeList() {
+                myStrokes = [];
+                }
+            
+            function makeImage() {
+                if(canv1.getContext) {
+                    var myImage = canv1.toDataURL("image/png");
+                    }
+                var imageElement = document.getElementById("MyPix");  // Get the img object.
+                imageElement.src = myImage;         // Set the src to data from the canvas.
+                $('#imgSuccess').text("see below, right click to save image");
+                setTimeout( function() {
+                    $('#imgSuccess').text("");
+                    }, 3000);
+                }
+Mini Paint
+If you can read this your browser is an old piece of crap. Upgrade.
+Pick A Color:
+Line Width:
+Clear Canvas
+Draw From Memory
+Clear Memory
+Save Image
+Click to Export Strokes

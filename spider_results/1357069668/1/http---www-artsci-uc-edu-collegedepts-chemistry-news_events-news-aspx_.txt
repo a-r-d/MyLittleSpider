@@ -1,0 +1,164 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+Department News | Chemistry
+[if IE 7]><link href="/collegemain/css/ie7.css" rel="stylesheet" type="text/css" />
+<link href="/collegemain/css/lte_ie7_print.css" rel="stylesheet" type="text/css"  media="print"/>
+<script src="/collegemain/scripts/minmax.js"></script>
+<![endif]
+[if lte IE 6]><link href="/collegemain/css/lte_ie6.css" rel="stylesheet" type="text/css" />
+<link href="/collegemain/css/lte_ie6_print.css" rel="stylesheet" type="text/css"  media="print"/>
+<script src="/collegemain/scripts/minmax.js"></script>
+<![endif]
+[if lte IE 6]><link href="/collegemain/css/lte_ie6.css" rel="stylesheet" type="text/css" />
+<link href="/collegemain/css/departments_lte_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]
+UC Tools:
+Blackboard
+OneStop
+Libraries
+UConnect
+UC Mail
+UCFileSpace
+END UC TOOLS
+<div id="dept_of">Department of</div>
+Department of Chemistry
+About the  Department
+Undergraduate Programs
+Graduate Programs
+Faculty & Staff
+Research & Scholarship
+Core Facilities
+Alumni & Community
+News, Events & Seminars
+Safety
+Resources
+Career Opportunities
+Giving
+You are here:
+McMicken College
+>
+Chemistry
+>
+News, Events & Seminars
+> Department News
+Department News
+Dr. Joel Ira Shulman
+, Adjunct Professor of Chemistry at the University of Cincinnati, has been inducted as an ACS Fellow at the American Chemical Societyâ€™s recent national meeting in Philadelphia.
+Read more here.
+Hans Borner
+visited campus through the Chemistry Department's Zimmer Scholar program and shared his expertise in the science behind new "smart" materials, such as nanotechnology.
+Read more here.
+Cincinnati scientists,
+Robert T. Voorhees and Dan Hassett
+, are engineering special bugs that will clean wastewater and create energy. You can listen to the Podcast that takes you into the lab where this is happening here,
+Focus on Technology: Bugs Cleaning Wastewater
+Tiffany Bell-Horwath
+has been awarded an ACS Women Chemists Committee Travel Award sponsored by Eli Lilly & Company. The grant is in the amount of $1000 to support travel to the ACS 244th National Meeting & Exposition in Philadelphia, PA.
+Edward J. Merino
+is using metabolic "pollution" to target improved anticancer treatments.
+Read more here
+.
+Joseph Caruso
+and
+Vernon Scarborough
+have been chosen as Fellows in the American Association for the Advancement of Science.
+Read more here
+.
+On the evening of January 19th, the Oesper Collections for the History of Chemistry 
+hosted the ACS high-school chemistry teachers group under the leadership of Linda 
+Ford. The teachers gathered in the museum for a tour and to hear a talk by Dr. Jensen 
+titled "The History of the Chemcraft Chemistry Set: The Cincinnati Connection" and to 
+view a special display of early Chemcraft chemistry sets.
+Read more here
+.
+Three undergraduate and two graduate students in the Chemistry Department are working with Professor
+Allan Pinhas
+to make garbage a valuable resource-by turning it into biodiesel fuel. Undergraduate students
+Cody Nubel, Megan McCallister and Zachary Herrmann
+joined Professor Allan Pinhas and graduate students, Amos Doepke and Chau Phung at the Ho Chi Minh City (HCMC) University of Science, in Vietnam, working on a joint research project with Lawrence Pratt of Fisk University.
+Read more here
+.
+Congratulations to
+Joe Caruso
+, who has been elected to the rank of AAAS Fellow.
+Alumnus Dr. Diane Grob Schmidt
+[PhD. 1981, Zimmer] was recently selected an American Chemical Society Fellow.
+David Rogers
+, a former student of
+Thomas Beck
+and a postdoc at Sandia Natl Labs, was an instrumental contributor to a project that recently received an R&D 100 award. This recognition includes a dinner with President Barack Obama in Orlando, FL in the fall.
+Congratulations to
+Joe Caruso
+and
+Bruce Ault
+, who were selected as Fellows of the ACS.
+Congratulations to
+Praveen Bachawala
+, whose research poster won 2nd place at PINO Conference held at Case Western Research University.
+Pictured L to R: Bill Heineman, Ruxandra Dima, Matthias Rief (Zimmer Scholar), Hans Zimmer, George Stan.
+April 15, 2011
+Congratulations to
+Aaron Decker
+, whose application to the 2011 University Research Council Undergraduate Student Research Fellowship program has been chosen for funding.
+Chemistry grad students receive 9 out of the 74 URC awards: Seventy-four students from across the university will have their research efforts supported this summer through the University Research Council Graduate Student Research Fellowship program.
+(more...)
+UC Research Produces Novel Sensor with Improved Detection Selectivity:
+UC research on a novel sensor with improved detection selectivity for use with complex samples will be presented at the next national meeting of the American Chemical Society. Importantly, the research is among a select international set of projects that students said they wanted to hear about during a symposium on electrochemistry.
+(more...)
+Graduate student
+Praveen Bachawala
+has received a research award from GSGA.
+Graduate student
+Sumit Chakraborty
+has been selected for a UC Sigma Xi Chapter 2011 Grant-in-Aid of Research Award.
+Joseph Caruso
+received a $431,750 National Institute of Allergy and Infectious Diseases grant for "Zinc and Histoplasma."
+Peng Zhang
+received a $486,205 Department of the Army Medical Research Acquisition Activity grant for "Silver Nanoparticle-Enhanced Photosensitizers for Antibacterial Applications."
+Graduate student
+Pooja Shrestha
+(Stan group), Physics Dept.,  was awarded the third prize for her poster presentation at the Physics Student Poster Competition 2011.
+Apryll Stalcup
+was recognized as the 2011 Cincinnati Chemist of the Year by the American Chemical Society.
+(more...)
+Professor
+Peng Zhang
+Earns NSF Grant for Cancer Research
+(more...)
+The
+Chemistry Graduate Student Association
+was awarded $1,525 by the Group Grants Committee of the GSGA towards the upcoming 6th Annual Speaker Symposium to be held in February 2011.
+Graduate Student,
+Eme Amba
+(Heineman grp), was selected as a GTA Host Facilitator for the GTA Teaching Seminar organized by the Center for Enhancement of Teaching & Learning at UC.
+BioMolecular Markers
+Fall Seminar Series
+(more...)
+New Digital Collections Site:
+The Oesper Collections in the History of Chemistry
+(more...)
+Graduate student
+Bridgett Coleman
+(Ault grp) was chosn to participate in The Procter & Gample Company Research & Technical Careers in Industry Conference.
+Graduate student
+Karolin Kroening
+(Caruso grp) has been chosen as one of the Society for Applied Spectroscopy's (SAS) Graduate Student Award winner for outstanding research in the field of spectrometry.
+Safety training required for all Chemistry Department members. On-line training is available at the
+EH&S; web site
+.
+END STORY WRAP
+END CONTENT
+END WRAPPER
+Copyright Information
+© University of Cincinnati, 2011 | Department of Chemistry | Cincinnati, OH 45221-0172
+Ph: 513-556-9200 | Fax: 513-556-9239 Email technical questions or comments to
+ucchem.dept@uc.edu
+.
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31639094-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();

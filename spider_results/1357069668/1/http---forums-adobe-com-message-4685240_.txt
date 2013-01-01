@@ -1,0 +1,585 @@
+html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+Adobe Community: Design View Removed?!
+var containerType = 14;
+        var containerID = 4826;
+if (top != self) {
+        var isSafeTopUrl = false;
+        try {
+            var topUrl = top.location.href;
+            var topUrlQsIdx = topUrl.indexOf('?');
+            if (topUrlQsIdx > 0) {
+                topUrl = topUrl.substring(0, topUrlQsIdx);
+            }
+            topUrl = topUrl.toLowerCase();
+
+            var safeTopUrls = new Array(
+                'http://forums.adobe.com/skin-basic.jspa',
+                'http://forums.adobe.com/skin-advanced.jspa',
+                'http://forums.adobe.com/skin-advanced!UploadSkinZip.jspa',
+                'http://forums.adobe.com/skin-palette.jspa',
+                'http://forums.adobe.com/skin-palette!start.jspa'
+            );
+            for (var i = 0; i < safeTopUrls.length; i++) {
+                if (safeTopUrls[i].toLowerCase() == topUrl) {
+                    isSafeTopUrl = true;
+                    break;
+                }
+            }
+        } catch (err) {
+        }
+        if (!isSafeTopUrl) top.location = location;
+    }
+Begin: OpenGraph Metadata
+End: OpenGraph Metadata
+(function() {
+            var prepareUrl = function(url) {
+                if (url.indexOf(";") > 0) {
+                    url = url.substring(0, url.indexOf(";"));
+                }
+                if (url.charAt(url.length - 1) == '/') {
+                    url = url.substring(0, url.length - 1);
+                }
+                return url
+            };
+            if (typeof(window._jive_base_url) == "undefined") {
+                window._jive_base_url = prepareUrl("/")
+            }
+            if (typeof(window._jive_resource_url) == "undefined") {
+                window._jive_resource_url = prepareUrl("/4.5.6/")
+            }
+                if (typeof(window._jive_current_user) == "undefined") {
+                    window._jive_current_user = {
+                        anonymous: true,
+                        username: 'ANONYMOUS',
+                        ID: '-1',
+                        enabled: true,
+                        avatarID: '-1',
+                        displayName: ''
+                    };
+                }
+
+
+
+        })();
+
+        var _jive_effective_user_id = "-1";
+        var _jive_auth_token ="no-user";
+        var _jive_locale = "en_US";
+/* Kongregate Asychronous JavaScript Loader
+
+The MIT License
+
+Copyright (c) 2010 Kongregate Inc.
+*/function KJS(a){this._path=a&&a.path||"",this._d={}}KJS.prototype={require:function(){var a=Array.prototype.slice.call(arguments),b;typeof a[a.length-1]=="function"&&(b=a.pop());for(var c=0;c<a.length;c++)this.sat(a[c]+"--required");b&&this.run(b,a)},_load:function(a,b,c,d,e){var f=this,g=(c||[]).concat(a.split("?")[0]),h=this._path+a,i=this._origin(h)&&d,j=i?function(a){d.call(f,a);var b;while(b=g.shift())f.sat(b)}:function(a){e.call(f,a,function(){var a;while(a=g.shift())f.sat(a)})};this.isSat(g)||(i?this.get(h,function(a){b&&b.length?f.run(function(){j(a)},b):j(a)}):b&&b.length?f.run(function(){j(h)},b):j(h))},load:function(a,b,c){var d=this;this._load(a,b,c,d.embed,d.link)},loadCSS:function(a,b,c){var d=this;d._load(a,b,c,null,d.linkCSS)},run:function(a,b,c){var d=this,e,f=c||[],g=f.length?function(){a();var b;while(b=f.pop())d.sat(b)}:a;if(!d.isSat(f)){if(!b.length)g();else if(1==b.length)e=g;else{var h=b.length;e=function(){--h||g()}}var i;while(i=b.pop())!0===this._d[i]?e():this._d[i]=this._d[i]?function(a,b){return function(){a(),b()}}(this._d[i],e):e}},_css:/css(?:$|\?)/i,get:function(a,b){$j.ajax({url:a,dataType:a.match(this._css)?"text/css":"text/javascript",complete:function(a){b(a.responseText)}})},_firstScript:document.getElementsByTagName("script")[0],_head:document.getElementsByTagName("head")[0],embed:function(a){$j.globalEval(a)},link:function(a,b){var c=this,d=this._firstScript,e=d.parentNode,f=document.createElement("script");f.src=a,f.onreadystatechange=f.onload=function(){if(!f.readyState||f.readyState=="loaded"||f.readyState=="complete")f.onload=f.onreadystatechange=$j.noop,e.removeChild(f),b&&b()},e.insertBefore(f,d)},linkCSS:function(a,b){var c=this,d;document.createStyleSheet?d=document.createStyleSheet(a):(d=document.createElement("link"),d.href=a,d.rel="stylesheet",d.type="text/css",this._head.appendChild(d)),b&&b()},_origin:function(a){var b=location.origin||location.protocol+"//"+location.host,c=this._fullURL(a);return c.slice(0,b.length)===b},_fullURL:function(a){var b=document.createElement("div");b.innerHTML='<a href="'+a+'">x';return b.firstChild.href},sat:function(a){this._d[a]&&!0!==this._d[a]&&this._d[a](),this._d[a]=!0},isSat:function(a){var b=0;for(var c=0;c<a.length;c++)!0===this._d[a[c]]&&b++;return b>0&&b===a.length}};var kjs=new KJS
+window.SPELL_LANGS = "English (Canada)=en_ca,English (United Kingdom)=en_gb,+English (United States)=en_us,French=fr,French (Canada)=fr_ca,German=de,Italian=it,Spanish=es";
+        window.CS_BASE_URL = "";
+        window.CS_RESOURCE_BASE_URL = "/4.5.6";
+        window.tinyMCEPreInit = {
+            suffix : "_src",
+            base : CS_BASE_URL + "/resources/scripts/tiny_mce3"
+        };
+        if (typeof(_jive_project_i18n) == "undefined") {
+            var _jive_project_i18n = new Array();
+            _jive_project_i18n['project.calendar.task'] = "Task";
+            _jive_project_i18n['project.calendar.tasks'] = "Tasks";
+            _jive_project_i18n['project.calendar.checkpoint'] = "Checkpoint";
+            _jive_project_i18n['project.calendar.checkpoints'] = "Checkpoints";
+            _jive_project_i18n['global.edit'] = "Edit";
+            _jive_project_i18n['global.delete'] = "Delete";
+            _jive_project_i18n['project.task.mark.complete'] = "Mark complete";
+            _jive_project_i18n['project.task.assign.to.me'] = "Assign to me";
+            _jive_project_i18n['task.incomplete.link'] = "Incomplete";
+            _jive_project_i18n['project.checkPoint.create.link'] = "Create a checkpoint";
+            _jive_project_i18n['project.task.create.link'] = "Create a task";
+        }
+kjs.run(function() {
+kjs.load('/4.5.6/resources/scripts/gen/4bf781fffb300ed2d0faa2840eee925b.js', [  ]);
+kjs.run(function() {
+        Zapatec.Calendar._TT["DEF_DATE_FORMAT"] = "%m/%d/%Y";
+
+
+}, [ '/4.5.6/resources/scripts/gen/4bf781fffb300ed2d0faa2840eee925b.js' ], [ 'Zapatec.Calendar' ]);
+}, [ 'Zapatec.Calendar--required' ]);
+var profileShortUrl = "/profile-short.jspa";
+        var profileLoadingTooltip = "Loading user profile";
+        var profileErrorTooltip = "There was an error loading that profile information.";
+		var statusBadgeLoadingTooltip = "Loading status info";
+		var statusBadgeErrorTooltip = "Error loading status info";
+		
+		var projectChooserUrl = "/project-chooser!input.jspa";
+
+        var containerShortUrl = "/container-short.jspa";
+        var containerLoadingTooltip = "Loading place information.";
+        var containerErrorTooltip = "There was an error loading that place information.";
+
+        var videoShortUrl = "/view-video-short.jspa";
+        var videoLoadingTooltip = "Loading video information";
+        var videoErrorTooltip = "There was an error loading that video information.";
+        
+        var _jive_video_picker__url = "?container=4826&containerType=14";
+        var followErrorMessage = "An internal error occurred while following the project or forum.";
+
+        (function() {
+            var originalWrite = document.write;
+            document.write = function() {
+                if(typeof $j != 'undefined' && $j.isReady) {
+                    console.warn("document.write called after document was loaded: ", arguments);
+                }
+                else {
+                    // In IE before version 8 `document.write()` does not
+                    // implement Function methods, like `apply()`.
+                    return Function.prototype.apply.call(originalWrite, document, arguments);
+                }
+            }
+        })();
+<link rel="stylesheet" href="/styles/jive-icons-legacy.css" type="text/css" media="all" />
+[if IE 6]>
+    <style type="text/css">
+    /* hack for IE6's lack of alpha PNG support */
+    #jive-wrapper .ie6png {
+        filter: expression(function(e){
+            e.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" +
+                (e.tagName=='IMG' ? e.src : e.currentStyle.backgroundImage.split('\"')[1]) + ")",
+            e.runtimeStyle.backgroundImage = "none",
+            e.src = "/images/transparent.png"
+        }(this));
+    }
+    </style>
+
+    <link rel="stylesheet" href="/4.5.6/styles/jive-icons-ie.css" type="text/css" media="all" />
+    <![endif]
+Begin Adobe-specific
+End Adobe-specific
+// begin list of custom CSS
+        jive.rte.defaultStyles = new Array();
+            jive.rte.defaultStyles.push("/plugins/community-manager-reports/resources/styles/jive-analytics.css");
+            jive.rte.defaultStyles.push("/plugins/facebook-app/resources/styles/facebook-global.css?v=1.0.0");
+            jive.rte.defaultStyles.push("/plugins/facebook-app/resources/styles/idea.css?v=1.0.0");
+            jive.rte.defaultStyles.push("/plugins/video/resources/styles/jive-videomodule.css");
+            jive.rte.defaultStyles.push("/plugins/social-media/resources/styles/socialmedia.css?v=1.0.0");
+        // end list of custom CSS
+
+
+            var jiveControl = new jive.model.Controller();
+            jive.rte.mobileUI = false;
+
+
+if (dwr == null) var dwr = {};
+if (dwr.engine == null) dwr.engine = {};
+if (DWREngine == null) var DWREngine = dwr.engine;
+
+dwr.engine._origScriptSessionId = "C4E623AF547695DFE8B441C29A87E1B1";
+dwr.engine._sessionCookieName = "JSESSIONID"; // JSESSIONID
+dwr.engine._allowGetForSafariButMakeForgeryEasier = "true";
+dwr.engine._scriptTagProtection = "throw 'allowScriptTagRemoting is false.';";
+dwr.engine._defaultPath = "/dwr/interface";
+dwr.engine._pollWithXhr = "false";
+
+
+    (function() {
+        var options = {
+            friendsRange : 20,
+            everyoneRange : 20,
+            youUsername : 'ANONYMOUS',
+            youID : -1,
+            isGuest : true
+        };
+
+        var i18n = {
+            acclaimLikingLike : "Like",
+            acclaimLikingUnlike : "Liked",
+            acclaimLikedNone : "None",
+            acclaimLikingLiked : "Person Liked This",
+            acclaimLikingLikedPlural : "People Liked This",
+            acclaimPeopleLiked : "People who liked this",
+            acclaimLikedYou : "You",
+            acclaimLikedFriends : "Connections",
+            acclaimLikedEveryone : "Everyone Else",
+            globalMore : "More",
+            globalClose : "Close"
+        };
+
+        new jive.Acclaim(options, i18n);
+    })();
+
+
+        var quickuserprofile = new QuickUserProfile("jive-note-user-body", profileShortUrl, profileLoadingTooltip, profileErrorTooltip);
+        var statuslevelbadgeinfo = new StatusLevelBadgeInfo("jive-note-status-body",statusBadgeLoadingTooltip,statusBadgeErrorTooltip);
+        var jiveprojectchooser = new JiveProjectChooser(projectChooserUrl);
+        var quickcontainersummary = new QuickContainerSummary("jive-note-container-body", containerShortUrl,
+                containerLoadingTooltip, containerErrorTooltip);
+        var quickviewvideo = new QuickViewVideo("jive-note-video-body", videoShortUrl, videoLoadingTooltip,
+                videoErrorTooltip);
+
+        var jiveFollow = new jive.Follow(followErrorMessage);
+window.errorHandlerMessage = "An error occurred:";
+
+    window.editorErrorHandler = function(message, exception) {
+        // if the message is something other than a timeout, show the message plus the error code
+        if (message.indexOf('Timeout') == -1) {
+            $j('#dwr-error-text').text(errorHandlerMessage + ' Error Code: ' + message);
+            $j('#dwr-error-table').fadeIn();
+            setTimeout(function() {
+                $j('#dwr-error-table').fadeOut();
+            }, 10000);
+        }
+    };
+
+
+    
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+    if(typeof(tinyMCE) != "undefined"){ // could be Safari 2, which dies with tinyMCE
+        tinyMCE.addI18n('en.jivemacros',{
+                    "unused.jive.key" : "nothing."
+        });
+    }
+
+
+        window.RawHTMLSaveFunction = function(element_id, html, body){
+            var text = $j('#wysiwygtext');
+            if (text.is(':not(:visible)')) {
+                return html;
+            }else{
+                return text.val();
+            }
+        }
+        jive.rte.multiRTE = new Array();
+
+        //Not used by RTEWrap, but we need this for backward compatibility; see CS-23883
+        window.refreshLinks = function() {
+            jive.rte.multiRTE.forEach(function(rteID) {
+                if ($j('#' + rteID + '_parent').length < 1) {
+                    // safari 2, text only
+                    $j('#' + rteID + '_toggle_html').hide();
+                    $j('#jivePreferredEditorModeLinkHREF').hide();
+                    return;
+                }
+
+                if(currentMode == 'rawhtml') {
+                    $j('#' + rteID + '_toggle_html').css('display', 'block');
+                }else{
+                    $j('#' + rteID + '_toggle_html').hide();
+                }
+
+                if (preferredMode == currentMode) {
+                    $j('#jivePreferredEditorModeLinkHREF').hide();
+                } else {
+                    $j('#jivePreferredEditorModeLinkHREF').css('display', 'block');
+                }
+            });
+        }
+
+    window.editor = new jive.ext.y.HashTable();
+
+
+       
+jive.rte.macros.push(new jive.rte.Macro("color","","TEXT", true, false, [], [{name: "0",value: ""},{name: "__default_attr",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("size","","TEXT", true, false, [], [{name: "0",value: ""},{name: "__default_attr",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("font","","TEXT", true, false, [], [{name: "0",value: ""},{name: "__default_attr",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("toc","","IMAGE", true, true, [], [], true,false));
+jive.rte.macros.push(new jive.rte.Macro("code","","TEXT", false, true, [{ name: "sql", deleteAll: true, params: [{ name: "__default_attr", value :"sql"} ]},{ name: "html", deleteAll: true, params: [{ name: "__default_attr", value :"html"} ]},{ name: "xml", deleteAll: true, params: [{ name: "__default_attr", value :"xml"} ]},{ name: "java", deleteAll: true, params: [{ name: "__default_attr", value :"java"} ]},{ name: "plain", deleteAll: true, params: [{ name: "__default_attr", value :"plain"} ]}], [{name: "__default_attr",value: ["sql","html","xml","java","plain"]}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("noformat","","TEXT", true, false, [], [], true,false));
+jive.rte.macros.push(new jive.rte.Macro("thread","thread/","INLINE", true, false, [], [{name: "id",value: ""},{name: "0",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("message","message/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("external-site","bookmarks/","INLINE", false, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("document","docs/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("microblog","status/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("polls","polls/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("blogpost","blogs/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("blog","blogs/","INLINE", true, false, [], [{name: "id",value: ""},{name: "name",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("community","community/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("space","community/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("user","","INLINE", true, false, [], [{name: "id",value: ""},{name: "username",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("project","project/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("task","view-task.jspa?task=","INLINE", true, false, [], [{name: "id",value: ""},{name: "0",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("group","groups/","INLINE", true, false, [], [{name: "id",value: ""},{name: "__default_attr",value: ""},{name: "title",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("quote","","TEXT", false, true, [], [{name: "title",value: ""},{name: "__default_attr",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("vimeo","","IMAGE", false, false, [], [{name: "__default_attr",value: ""},{name: "width",value: ""},{name: "height",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("veoh","","IMAGE", false, false, [], [{name: "__default_attr",value: ""},{name: "width",value: ""},{name: "height",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("dailymotion","","IMAGE", false, false, [], [{name: "__default_attr",value: ""},{name: "width",value: ""},{name: "height",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("google","","IMAGE", false, false, [], [{name: "__default_attr",value: ""},{name: "width",value: ""},{name: "height",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("youtube","","IMAGE", false, false, [], [{name: "__default_attr",value: ""},{name: "width",value: ""},{name: "height",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("idea","","INLINE", true, false, [{ name: "default", deleteAll: true, params: [{ name: "id", value :""} ,{ name: "__default_attr", value :""} ,{ name: "title", value :""} ]}], [{name: "id",value: ""},{name: "title",value: ""},{name: "__default_attr",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("videomacro","","IMAGE", true, true, [{ name: "default", deleteAll: true, params: [{ name: "id", value :""} ,{ name: "__default_attr", value :""} ,{ name: "jivemacro_uid", value :""} ,{ name: "width", value :""} ,{ name: "height", value :""} ,{ name: "imageURL", value :""} ]}], [{name: "id",value: ""},{name: "height",value: ""},{name: "width",value: ""},{name: "jivemacro_uid",value: ""},{name: "__default_attr",value: ""},{name: "imageURL",value: ""}], true,false));
+jive.rte.macros.push(new jive.rte.Macro("videolink","","INLINE", true, false, [{ name: "default", deleteAll: true, params: [{ name: "id", value :""} ,{ name: "__default_attr", value :""} ,{ name: "jivemacro_uid", value :""} ,{ name: "title", value :""} ,{ name: "zero", value :""} ]}], [{name: "id",value: ""},{name: "title",value: ""},{name: "jivemacro_uid",value: ""},{name: "__default_attr",value: ""},{name: "zero",value: ""}], true,false));
+$j(function() {
+			$j('.jive-shared-list-toggle').click(function() {
+				$j('.jive-shared-list-short').toggle();
+				$j('.jive-shared-list-all').toggle();
+                                return false;
+			});
+        });
+
+
+        var _editor_lang = "en";
+        var _jive_video_picker__url = "?container=4826&containerType=14";
+
+
+    
+    function toggleFeatured() {
+
+        ToggleFeatured.toggleFeatured(1, 1056583, 4826, 14, {
+            callback:function(featured) {
+
+                if (featured) {
+                    $j('#featured-toggle-unfeature').show();
+                    $j('#featured-toggle-feature').hide();
+                } else {
+                    $j('#featured-toggle-unfeature').hide();
+                    $j('#featured-toggle-feature').show();
+                }
+
+
+
+                Jive.AlertMessage('content-featured-notify', {
+                    beforeStart:function() {
+                        if (featured) {
+                            $j('#content-featured-notify').html('<div><span class="jive-icon-med jive-icon-info">This item is now featured!');
+                           
+                        } else {
+                            $j('#content-featured-notify').html('<div><span class="jive-icon-med jive-icon-info">You have removed this from featured content.');
+                        }
+                    }
+                });
+            }
+        });
+    }
+
+
+        /*********************************************
+         * autosave settings and initialization for discussion/question replies
+         *********************************************/
+        (function(){
+                window.autoSave = new DummyAutoSave(false);
+        })();
+        /*********************************************
+         * done setting up autosave
+         *********************************************/
+        (function() {
+            var options = {
+                draftExists:        false,
+                isModerated:        false,
+                isThreaded:         'false',
+                resourceType:       1,
+                resourceID:         1056583,
+
+                containerType:      14,
+                containerID:        4826,
+
+                listAction:         "/comment-list.jspa",
+                resourceVersionID:  -1,
+
+                preferredMode:      'advanced',
+                currentMode:        'advanced',
+                rteDisabledBrowser: false,
+                isAnonymous:        true,
+
+                question:           true,
+                imagesEnabled:      false,
+                rteOptions : {
+                    controller    : jiveControl,
+                    preset        : "mini-w-quote",
+                    autoSave      : autoSave,
+                    preferredMode : "advanced",
+                    startMode     : "advanced",
+                    mobileUI      : false,
+                    toggleText    : 'Show Full Editor',
+                    alwaysUseTabText : 'Always use this editor',
+                    postAnAnswerText : 'Post a new answer',
+                    editDisabledText : 'You are using a device that only enables you to add content.',
+                    editDisabledSummary : 'If you access {0} from a computer, you can both add and edit your content.',
+                    communityName : 'Adobe Community',
+                    height        : 300,
+                    _imagePickerUrl : "/post!imagePicker.jspa?containerType=14&container=4826&message=4685240&postedFromGUIEditor=true&reply=true",
+                    _destroyImagePickerUrl : _jive_base_url + "/image-picker!clean.jspa"
+                },
+                i18n: {
+                    postSuccessText:         'Your message was posted successfully.',
+                    postErrorText:           'An error occurred while trying to submit your post. Please try again.',
+                    forumThrdReplyTo:        'Reply to',
+
+                    // Question text for discussions-question.soy
+                    questionNotAnswered:     'This question is {0}Not Answered.{1}',
+                    markQuestionAsAssumedAnswered: '{0}{1}Mark as assumed answered{2}{3}',
+                    questionAssumedAnswered: 'This question is {0}Assumed Answered.{1}',
+                    questionAnswered: 'This question has been {0}Answered.{1}',
+                    correctAnswer: 'Correct',
+                    helpful: 'Helpful',
+                    helpfulAnswer: 'Helpful Answer',
+                    helpfulAnswers: 'Helpful Answers',
+                    byWord: 'by&nbsp;',
+                    onWord: '&nbsp;on&nbsp;',
+                    leftParen: '(',
+                    rightParen: ')',
+                    unmarkAsCorrectAnswer: 'Unmark as Correct',
+                    unmarkAsHelpfulAnswer: 'Unmark as Helpful',
+                    seeAnswerInContext: 'See the answer in context',
+                    seeThisAnswer: 'See this answer',
+                    allHelpfulAnswersAwarded: 'You\'ve awarded all available Helpful Answers',
+                    oneHelpfulAnswerLeft: 'You have {0} more Helpful answer to award.',
+                    someHelpfulAnswersLeft: 'You have {0} more Helpful answers to award.',
+                    postUserWroteLabel: '{0} wrote',
+                    postGuestWroteLabel: 'Guest wrote',
+                    formSubmitPleaseWait:'Please Wait ...',
+                    postReplyMustBeApprvdText:'Please note, your reply will need to be approved by a moderator before it is posted in the forum.',
+                    globalLoginRequired:'You are no longer logged in. Please {0}log in{1} to continue.',
+                    advEditor:'Use advanced editor'
+                }
+            };
+
+            // Create DiscusssionApp
+            var discussisons = new jive.DiscussionApp.Main(options);
+        })();
+
+
+        new jive.MoreLikeThisApp.Main({
+            objectType: 2,
+            objectID: 4653176,
+            containerID: "jive-more-like-this-2-4653176",
+            numResults: 5,
+            noContentMessage: "No similar content found",
+            errorMessage: "Unable to retrieve content from the server:"
+        });
+
+
+        $j(function() {
+            $j("#jive-view-picker").change();
+        });
+
+        $j(function() {
+            var tooltipUrl = "/view-favorite-tooltip.jspa";
+            $j("#jive-bookmark-sidebar .jive-avatar").livequery(function() {
+                var favoriteId = $j(this).parents("li").attr("id").slice("favorite-".length);
+                $j(this).tooltip("bookmark", tooltipUrl + "?favorite=" + favoriteId);
+            });
+        });
+function updateMessageFromDraft(draft) {
+            // dwr can't deserialize Image so just send along the image ID's
+            draft.imageIDs = [];
+            for (var i = 0; i < draft.images.length; i++) {
+                draft.imageIDs[i] = draft.images[i].ID;
+            }
+            draft.images = [];
+
+            MessageCreate.updateImagesFromDraft(draft,
+            {
+                timeout: DWRTimeout, // 20 seconds
+                errorHandler: editorErrorHandler
+            });
+        }
+BEGIN action bar
+END action bar
+[if IE 6]>
+        <style type="text/css">
+            .jive-modal-scrollto-container
+            {
+                width: 500px;
+            }
+        </style>
+        <script type="text/javascript">
+            $j(document).ready(function() {
+                if ($j.browser.msie && $j.browser.version < 7) {
+                    $j('.jive-modal-scrollto-container').removeClass('jive-modal-scrollto-container');
+                }
+            });
+        </script>
+    <![endif]
+try{
+			Typekit.load();
+		} catch(e) {
+		}
+[if IE]>
+    	<link rel="stylesheet" href="http://forums.adobe.com/themes/adobe_forums_global/styles/custom-css-ie.css" type="text/css" media="all" />
+    <![endif]
+Begin Adobe-specific
+$j('#adobe-forum-search-form').submit(function() {
+            var query = $j('#adobe-query').val();
+            var isWildcard = query.charAt(query.length-1) == '*';
+            if (query && !isWildcard) {
+                $j('#adobe-forum-search-form input[name=spotlight]').val("true");
+            }
+        });
+End Adobe-specific
+Begin Adobe-specific 
+    <style type="text/css">/* custom-css */
+
+
+/* Moved to themes/adobe_forums_global/styles/custom-css.css */
+</style>
+    <style type="text/css">/* custom-css-container */
+</style>
+Madhur: Added to remove Right Rail from main forums page
+$j(document).ready(function(){
+		
+			var bodyElement = document.getElementById("id-jive-body");
+			var bodyClass = bodyElement.className;
+			if(bodyClass == "jive-body-home"){
+				if( document.getElementById("breadcrumbFloatRight") )
+					document.getElementById("breadcrumbFloatRight").className="remove_right_rail";
+				if( document.getElementById("id-rightRail-footer") )
+					document.getElementById("id-rightRail-footer").className="remove_right_rail";
+				if( document.getElementById("id-rightRail-footer-above") )
+					document.getElementById("id-rightRail-footer-above").className="remove_right_rail";
+			}
+		});
+Skip navigation

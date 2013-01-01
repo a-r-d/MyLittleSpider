@@ -1,0 +1,165 @@
+html
+ARD Home
+body {
+				font-family: 'Lato', sans-serif;
+			}
+			
+			#headerMenu {
+				margin-top: 5px;
+				margin-bottom: 5px;
+				font-size: 200%;
+				display: inline-block;
+				float: left;
+			}
+			#headerMenu li {
+				display: inline-block;
+				float: left;
+			}
+$(document).ready(function(){
+				$("#menuCanvas").sunMenu();
+				
+				$.fn.scrollView = function () {
+				    return this.each(function () {
+				        $('html, body').animate({
+				            scrollTop: $(this).offset().top
+				        }, 1000);
+				    });
+				}
+				
+				$('.showAbout').click(function(){
+					hideMenu();
+					$('#aboutMe').show();
+					$('#aboutMe').scrollView();
+				});
+				
+				$('.showContact').click(function(){
+					hideMenu();
+					$('#contactMe').show();
+					$('#contactMe').scrollView();
+				});
+				
+				$('.showResearch').click(function(){
+					hideMenu();
+					$('#research').show();
+					$('#research').scrollView();
+				});
+			});
+			
+			function hideMenu() {
+				$('#aboutMe').hide();
+				$('#contactMe').hide();
+				$('#research').hide();
+			}
+a-r-d.me ->
+who?
+what?
+me
+contact
+about
+research / publications
+blog
+photo gallery
+github account
+youtube account (inorganic chem)
+jQuery Plugins
+(lol) skyscraper menu
+Planet Menu (see below)
+Word Swap
+Simple Timer
+Numbers Everywhere: numBG.js
+Web Projects
+autogenerating gallery
+x01 - a pastebin with comments
+trade watch
+waanoo
+Terminal Buster
+rrg climbing spots
+stufffinder
+Stock Sifter
+random
+more random
+canavas paint
+Mobile Projects
+Gravity Escape (WIP starling app, 2mb)
+Dodge A Bro (scores)
+Dodge A Bro (download)
+Client Portfolio
+The Zone (site)
+The Zone (iOS app)
+karentutors.com
+contact
+about
+github
+Blog
+terminals
+research
+stocks
+paste
+random
+<div>
+								<a href='dragndropgallery/gallery.php'>
+									photo</a> 
+							</div>
+I do a lot of web and mobile development.
+Frameworks and tools I use:
+Bootstrap
+jQuery
+Django
+Flex
+LAMP Stack
+Struts 2
+Hibernate
+Axis 2
+If you have a project that may require something I am familiar with get in touch.
+:)
+contact
+You can get in touch by emailing me at:
+me@a-r-d.me
+about
+Papers:
+"
+1
+H,
+13
+C and
+15
+N resonance assignment of the N-terminal Domain of Human Lysyl Aminoacyl tRNA Synthetase"
+Sheng Liu, Aaron Decker, Mike Howell, Carol Caperelli and Pearl Tsang, Biomolecular NMR Assignments
+Status:
+published
+-
+pubmed
+,
+springerlink
+Poster Presentations:
+Undergraduate Research Conference, University Of Cincinnati
+"Structure and RNA binding properties of the N-terminal domain of human LysRS enzyme."
+Aaron Decker, Amaleah Hartman, Sheng Liu, Mike Howell and Pearl Tsang (06/01/2012).
+Rustbelt RNA Meeting Fall 2011, Dayton.
+"Segmental isotopic protein labeling approach to study Protein-RNA interactions via NMR."
+Aaron Decker, Sheng Liu, Mary Anne Refaei, Mike Howell, Pearl Tsang.
+Oesper Symposium Fall 2011. University of Cincinnati.
+"Segmental isotopic
+								protein labeling approach to study Protein-RNA interactions via NMR."
+Aaron Decker, Sheng Liu, Mary Anne Refaei, Mike Howell, Pearl Tsang.
+Oesper Symposium Fall 2010. University of Cincinnati.
+"Functional and
+	RNA-binding properties of the various domains of Human LysRS"
+Fellowships:
+URC summer 2011
+"Novel use of Segmentally Labeled protein to Study RNA-Protein Binding via NMR Spectroscopy"
+Advisor: Pearl Tsang
+URC summer 2010
+"Elucidating structure of the n-terminal of hKRS protein using NMR techniques"
+Advisor: Pearl Tsang
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36488553-1']);
+_gaq.push(['_setDomainName', 'a-r-d.me']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+© Aaron Decker 2012   |   email me: me@a-r-d.me

@@ -1,0 +1,101 @@
+html
+paste - ctrl+C ctrl+V
+all tags
+load CSS
+link rel="stylesheet" type="text/css" href="http://s.x01.cc/paste/static/css/bootstrap.min.css"/
+link rel="stylesheet" type="text/css" href="http://s.x01.cc/paste/static/css/bootstrap.cosmo.min.css"/
+Load JS
+=>$
+./x01
+.
+cc
+<span style="color:gray;font-size:50%;">[just paste]</span>
+[just paste]
+ctrl
++
+c
+, ctrl
++
+v
+paste
+view / find
+revisions
+li>
+					<a class="btn" href="/p/find/"><i class="icon-search"></i>find</a>
+				</li
+<li>
+					<a class="btn" href="/admin/"><i class="icon-wrench"></i> admin</a>
+				</li>
+name
+contact
+highlighting
+Plain Text
+Visual Basic
+Python
+Java
+XML / HTML
+Ruby
+Actionscript 3
+JavaScript
+CSS
+C#
+PHP
+C++
+Bash
+Diff
+Perl
+SQL
+Erlang
+Groovy
+Sass
+Delphi
+Clojure
+Latex
+Mathematica
+Matlab
+Lua
+extra options
+Expiration Date
+Password (will not be searchable)
+Listed, searchable:
+yes
+Latest
+Drago_Dikl
+7:47 p.m.
+#include <
+7:47 p.m.
+anonymouse
+7:46 p.m.
+Haier Jc 8
+7:45 p.m.
+var text1=
+7:44 p.m.
+30.12.2012
+7:43 p.m.
+Mythbuster
+7:42 p.m.
+因为
+7:42 p.m.
+2012-12-31
+7:41 p.m.
+john
+Adam
+7:40 p.m.
+Support/ Contact/ DMCA:
+					 
+					support@x01.cc
+					
+					
+					|
+legal notice
+|
+about
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36745077-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();

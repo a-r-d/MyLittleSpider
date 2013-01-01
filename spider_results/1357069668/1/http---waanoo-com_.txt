@@ -1,0 +1,554 @@
+html
+Waanoo
+The main css
+jQuery UI CSS
+SEE FOR FONTS: http://www.google.com/webfonts#ChoosePlace:select
+need for all
+calling asynch, dont need here
+NOT USING: <script src="js/gomap.min.js"></script>
+anytime plugin by Andrew M. Andrews III
+custom jQ ui
+jQuery cookies plugin. Latest from github 5/20/12
+custom scripts
+THIS ONE HAS ALL OF THE ready() wrapped jQuery stuff
+Below are all libraries of discreet functions
+not in-house scripts
+FB LIKE button
+(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  		if (d.getElementById(id)) return;
+  		js = d.createElement(s); js.id = id;
+  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+ 		 fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+the following occurs entirely within this wrapper
+<img src='./images/buttons/btns_content/btn_signup_inactive.png' />
+sign up!
+<span id='facebookBtn'>
+                                    <b>Facebook Login</b></span>
+DISABLED TEMPORARILY                
+                                    <div id='fb-root'></div>                
+                                    <script src='fb/fbauth.js'></script>
+    
+                                    <div class='fb-login-button'>Login with Facebook</div>
+                                    <div id='loader' style='display:none'>
+                                    <img src='images/ajax-loader-transp-arrows.gif' alt='loading' />
+                                    </div>
+<div class='fb-registration' data-fields="[{'name':'name'}, {'name':'email'}, {'name':'favorite_car','description':'What is your favorite car?','type':'text'}]" 
+                                    data-redirect-uri="http://waanoo.com" >
+                                    </div>
+end #login-logout-wrapper
+misc promo stuff
+#mainPostItNote {
+					position: absolute;
+					top: 40px;
+					right: 1%;
+					
+				}
+end #header
+Your location:
+search bar
+<a href='#' >go</a>
+<span style='font-size:50%;'>
+        Order By:</span>
+<img src='images/buttons/btns_headline/btn_location_inactive.png' />
+LOCATION
+<img src='images/buttons/btns_headline/btn_location_inactive.png' />
+POPULAR
+<img src='images/buttons/btns_headline/btn_date_inactive.png' />
+DATE
+|
+<img src='images/buttons/btns_headline/btn_post_inactive.png' />
+POST
+<img src='images/buttons/btns_headline/btn_myevents_inactive.png' />
+MY EVENTS
+<img src='images/buttons/btns_headline/btn_fixlocation_inactive.png' />
+FIX LOCATION
+Miss Afri College
+Date:
+04.14.2012
+                     
+                    |
+Time:
+8:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Located in TUC.
+
+Presented by University of Cincinnati African 
+Student Ass ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+0
+Views:
+1
+UC Book Club: The Girl With the Dragon T ...
+Date:
+04.24.2012
+                     
+                    |
+Time:
+7:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+April's book is The Girl With the Dragon Tatoo, by Stieg Larsson
+
+Pick up a ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+1
+Views:
+0
+H2O Thirst No more
+Date:
+04.15.2012
+                     
+                    |
+Time:
+12:20 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Whether you are thirsting for a college Church or searching for answers to  ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+3
+Views:
+0
+Become a Gotcha Covered Volunteer!
+Date:
+04.16.2012
+                     
+                    |
+Time:
+5:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Want to increase condom access to UC students and join the fight against ST ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+2
+Views:
+1
+Cultural Connections
+Date:
+05.18.2012
+                     
+                    |
+Time:
+8:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Meetings Every Wednesday @ 6:00pm
+645 baldwin
+
+Group dinners last wed of ev ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+0
+Views:
+0
+Finding Nemo
+Date:
+04.13.2012
+                     
+                    |
+Time:
+7:30 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Com and enjoy a FREE movie and snacks with your family!
+
+Located at the Mai ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+0
+Views:
+0
+Game Night
+Date:
+04.20.2012
+                     
+                    |
+Time:
+11:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Join us for a pool tournament, open arcade, & board/card games. Great Prize ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+0
+Views:
+0
+PAC@NITE
+Date:
+04.30.2012
+                     
+                    |
+Time:
+8:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Located in the Bearcat Plaza (between TUC and the football field)
+
+Make the ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+1
+Views:
+2
+Cloud Computing and Security Policy
+Date:
+04.11.2012
+                     
+                    |
+Time:
+4:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Located at 500 Swift
+
+In this lecture, Timothy Grance will talk about Cloud ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+1
+Views:
+1
+CRU
+Date:
+04.18.2012
+                     
+                    |
+Time:
+10:00 pm
+                     
+                    |
+Distance:
+0.1 miles.
+Description:
+Cru is an interdenominatinoal Christian student movement. We offer many opp ...
+HOLD OFF ON THIS:
+<b>Distance: </b>0.1 miles. <br />
+                <b>Location: </b>Bearcat Way, University of Cincinnati, Cincinnati, OH 45219, USA
+                 <br />
+NOPE
+        <div class='eventEditBtnContainer'>
+            <br />
+            
+            <br />
+            
+            <br />
+        </div>
+RSVP'd:
+1
+Views:
+0
+POPUPS FOR SITE
+Fix location
+	see location_detection.js
+	we are manipulating map called "map_canvas"
+Go To
+DONE
+Signup.
+	See signup.js
+Email:
+Password:
+Password again:
+First Name:
+Last Name:
+Sex:
+male
+female
+Submit!
+Post event
+	see postevent.js
+Post an Event!
+Cancel
+acoridion start
+Basic Information
+(required)
+Title:
+Describe your event:
+0
+/ 500
+Date and Time
+(required)
+When will it be?:
+When will it end?:
+Pick a location
+(required)
+Where will it be?
+Check on map ->
+note: drag and drop enabled on map
+Contact Info
+Event Homepage URL:
+Allow Users to Contact you?
+email
+phone
+Contact Info:
+Add a photo
+Upload Image:
+upload!
+Add some tags
+food
+free food
+BYOB
+drinks
+educational
+music
+dancing
+University of Cincinnati
+DAAP
+Arts
+Theater
+jobs
+career fair
+Outdoor event:
+Event cost:
+free -
+| 
+                    not free -
+Event price:
+$-USA
+$-Canadian
+Pounds-British
+hidden stuff for scripts to work
+Submit!
+Your Event:
+Close
+Get Directions
+I'm Done!
+Close!
+Event Posted Successfully!
+Close!
+<span class='closer'  id='singleEventCloser'>            
+                <a href='#' class='closeButton noclick' onClick='closeSingleEvent()'>
+                    <img src='./images/buttons/ps-x-button-50-inv.png'/>
+                </a>
+        </span>
+() 
+ 		<div id='eventCommentWrapper'>
+		<br />
+	    <div>
+	    	<span class="backgroundTextLowOP">
+	        Post A Comment!
+	        </span>
+	        <form class="inline">
+	            <input id='eventIdMsg' value='0' type='hidden' />
+	            <textarea id='eventMsgComment' rows="3" cols="35" maxlength="500" placeholder="Say Something!"></textarea> 
+	            
+	            &nbsp;&nbsp;
+	            <a href='#' class='testBlackBtn noclick' onClick='postEventComment()'>
+	                post
+	            </a>
+	        </form>
+	          
+	    </div>
+	    
+	        <br />
+	        
+	    <div id='eventMsgContainer'>
+	    </div>  
+	    <br />
+	            <br />
+	            <br />
+	</div>
+Close
+<div id='rsvpMapWrapper'>
+    <div class='closer'  id='singleEventCloser' onClick='closeRSVPMap()'>
+        <a href='#' class='testBlackBtn noclick'>
+            Close
+        </a>
+    </div>
+    
+    <div id='pageviewMap'>
+        </div>
+</div>
+© Waanoo, All rights Reserved
+About
+Contact
+Advertising
+Help
+Tools
+Hi.  Welcome to
+Waanoo
+.
+Waanoo
+is a portal for
+sharing
+and
+posting
+events.   
+        	No matter what your interests are, you can be sure to
+find events
+that are suited for 
+        	you within the
+Waanoo community
+.  
+        	From
+musical concerts
+and
+sporting events
+to clubs and student organizations
+meetings
+you can be sure to find them on
+Waanoo
+.
+At
+Waanoo
+we believe
+finding
+and
+sharing
+your events should be made
+simple and easy
+.  
+        	You get the benefit of simple display of contents
+without
+the annoying informations.  So, have
+fun
+already.
+<img src="./images/footer_images/about_image_city.png"/>
+Get in
+touch
+with us.
+At Waanoo, we strive to deliver an event sharing portal that is suitable for all interests.
+            If you have suggestions on how to improve the site, and would like share your experiences with Waanoo,
+             please don't hesitate to get in touch with us.
+Please direct general inquiries and report abuse to:
+admin@waanoo.com
+To promote your event, or for general advertising and marketing inquiries, email Jason Dinh at:
+jason.dinh@waanoo.com
+To report bugs, or request features on Mobile or web platforms email Aaron Decker at:
+aaron.decker@waanoo.com
+The site was designed by Jake Mercuri:
+jake.mercuri@waanoo.com
+For media questions, email Mike Dinh at:
+mike.dinh@waanoo.com
+- close footer
+close epic wrap
